@@ -1,9 +1,19 @@
 /* change font for title */
 /* add colorscheme to a variables */
+:root {
+    --dark-blue: #00171f;
+    --blue: #003459;
+    --sea-blue: #00a7e1;
+    --dark-grey: #444140;
 
 
+}
+section {
+    height: 250px;
+
+}
 
 
 .section-title {
-    color: red;
+    color:var(--dark-blue);
 }
