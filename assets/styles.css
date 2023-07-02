@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* change font for title */
 :root {
     --dark-blue: #00171f;
@@ -7,13 +11,26 @@
     /*  */
 
 }
-
 section {
     height: 300px;
-
 }
 
-
+/* NAV */
+header {
+    background-color: var(--sea-blue);
+    border-bottom:  1px solid var(--dark-grey);
+    padding-bottom: 20px;
+}
+.sub-nav {
+    margin-bottom: 2px;
+}
+.nav-link {
+    color: #fff;
+}
+/* WELCOME PAGE */
+.welcome-page{
+    background-color: var(--blue);
+}
 .section-title {
     color:var(--dark-blue);
 }
