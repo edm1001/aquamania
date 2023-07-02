@@ -12,7 +12,7 @@
 
 }
 section {
-    height: 300px;
+    height: 500px;
 }
 
 /* NAV */
@@ -33,4 +33,13 @@ header {
 }
 .section-title {
     color:var(--dark-blue);
+}
+
+/* PRODUCTS */
+.prod-sec2{
+    display: flex;
+    height:200px
+}
+#prod-button {
+    width: 100%;
 }
