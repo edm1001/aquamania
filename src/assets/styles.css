@@ -30,12 +30,16 @@ header {
 /* WELCOME PAGE */
 .welcome-page{
     background-color: var(--blue);
+    height: 700px;
 }
 .section-title {
     color:var(--dark-blue);
 }
 
 /* PRODUCTS */
+.products {
+    background-color: var(--blue);
+}
 .prod-sec2{
     display: flex;
     height:200px
