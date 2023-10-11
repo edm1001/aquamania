@@ -6,7 +6,7 @@ import Logo from '../assets/aquamania-logo.gif';
 
 const Header = () => {
     return (
-      <Navbar  sticky="top" bg="light" data-bs-theme="light" expand="lg" >
+      <Navbar  sticky="top" bg="white" data-bs-theme="light" expand="md" >
         <Container>
         <Navbar.Brand>
           <img 
@@ -20,9 +20,18 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse>
         <Nav>
-        <Nav.Link>Fresnwater</Nav.Link>
-        <Nav.Link>Saltwater</Nav.Link>
-        <Nav.Link>Searchbar</Nav.Link>
+        <NavDropdown title='Freshwater' bg='light'  >
+        <NavDropdown.Item>Aggressive</NavDropdown.Item>
+          <NavDropdown.Item>Semi-Aggresive</NavDropdown.Item>
+          <NavDropdown.Item>Peaceful</NavDropdown.Item>
+          </NavDropdown>
+
+        <NavDropdown title='Saltwater'  >
+          <NavDropdown.Item>Aggressive</NavDropdown.Item>
+          <NavDropdown.Item>Semi-Aggresive</NavDropdown.Item>
+          <NavDropdown.Item>Peaceful</NavDropdown.Item>
+          </NavDropdown>
+        <Nav.Link>About Us</Nav.Link>
         </Nav>
         </Navbar.Collapse>
         </Container>
