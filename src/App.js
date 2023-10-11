@@ -9,8 +9,8 @@ function App() {
   return (
     <>
     <Header/>
-    <About/>
     <Welcome/>
+    <About/>
     <Footer/>
     </>
   );
