@@ -1,8 +1,10 @@
-import { Container, Row, Col, Button, Form, } from "react-bootstrap";
+import { Container, Row, Col, Button, Form, Carousel, Image } from "react-bootstrap";
+import Placeholder from '../assets/photos/placeholder.png';
+
 const Welcome = () => {
     return (
-        <Container fluid >
-        <Row 
+    <Container fluid >
+      <Row 
             className="
             bg-info 
             ">
@@ -26,9 +28,37 @@ const Welcome = () => {
           </Col>
             </Row>
         </Col>
-        </Row>
+    </Row>
 
-        </Container>
+      <Row>
+        <Carousel>
+      <Carousel.Item>
+        <img src={Placeholder} text="First slide" alt="welcome-img" className="d-block w-100 h-100"/>
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+      <img src={Placeholder} text="First slide" alt="welcome-img" className="d-block w-100 h-100"/>
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src={Placeholder} text="First slide" alt="welcome-img" className="d-block w-100 h-100"/>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  </Row>  
+  </Container>
     )
 }
 

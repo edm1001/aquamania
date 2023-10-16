@@ -21,7 +21,7 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse>
         <Nav
-        className='ps-5'
+        className='ms-5 ps-5'
         >
         <NavDropdown title='Freshwater' className=''  >
         <NavDropdown.Item>Aggressive</NavDropdown.Item>
