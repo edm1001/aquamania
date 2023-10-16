@@ -1,23 +1,33 @@
-import { Container, Row, Col, Button, Form} from "react-bootstrap";
+import { Container, Row, Col, Button, Form, } from "react-bootstrap";
 const Welcome = () => {
     return (
         <Container fluid >
-            <Row>
-            <Col>Search Topics:  </Col>
-                
+        <Row 
+            className="
+            bg-info 
+            ">
             <Col>
-            <Col xs={8}>
+            <h4 className="justify-content-center align-center fw-bold pt-1">
+            Search Topics:
+            </h4>
+              </Col>
+                
+        <Col>
+        <Row>
+            <Col className="px-0" lg={8} md={8} sm={8} xs={8}>
             <Form.Control
               type="text"
               placeholder="Search"
-              className=" mr-sm-2"
-            />
+              className=""
+              />
           </Col>
-          <Col xs={2}>
+          <Col className='ps-0 'lg={4} md={4} sm={4} xs={4} >
             <Button type="submit">Submit</Button>
           </Col>
-                </Col>
             </Row>
+        </Col>
+        </Row>
+
         </Container>
     )
 }
