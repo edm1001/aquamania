@@ -16,17 +16,7 @@ section {
 }
 
 /* NAV */
-header {
-    background-color: var(--sea-blue);
-    border-bottom:  1px solid var(--dark-grey);
-    padding-bottom: 20px;
-}
-.sub-nav {
-    margin-bottom: 2px;
-}
-.nav-link {
-    color: black;
-}
+
 /* WELCOME PAGE */
 .welcome-page{
     background-color: var(--blue);
@@ -48,14 +38,4 @@ header {
     width: 100%;
 }
 
-@media (min-width: 992px) {
-    .navbar-collapse {
-      transition: transform 0.3s;
-      transform: translateX(-100%);
-    }
-  
-    .navbar-toggler[aria-expanded="true"] + .navbar-collapse {
-      transform: translateX(0);
-    }
-  }
   
