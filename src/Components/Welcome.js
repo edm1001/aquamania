@@ -1,11 +1,17 @@
-import { Container, Row, Col, Button, Form, Carousel, Card } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import Row from 'react-bootstrap/row';
+import Col from 'react-bootstrap/col';
+import Button from 'react-bootstrap/button';
+import Form from 'react-bootstrap/form';
+import Carousel from 'react-bootstrap/carousel';
 import Placeholder from '../assets/photos/placeholder.png';
+
 
 const Welcome = () => {
   const searchTopics = [
     {
       label: "Freshwater",
-      description: "Explore freshwater aquariums with a variety of fish and plants. Get maintenance tips."
+      description: "Explore freshwater aquariums with a variety of fish and plants."
   },
   {
       label: "Saltwater",
@@ -19,7 +25,7 @@ const Welcome = () => {
 
   return (
     <Container fluid>
-        <Row className="bg-info">
+        <Row className="bg-info py-2">
             <Col>
                 <h4 className="justify-content-center align-center fw-bold pt-1">
                     Search Topics:
@@ -28,14 +34,14 @@ const Welcome = () => {
 
             <Col>
                 <Row>
-                    <Col className="px-0" lg={8} md={8} sm={8} xs={8}>
+                    <Col className="pe-0" lg={8} md={8} sm={8} xs={8}>
                         <Form.Control
                             type="text"
                             placeholder="Search"
                             className=""
                         />
                     </Col>
-                    <Col className='ps-0 ' lg={4} md={4} sm={4} xs={4}>
+                    <Col className='ps-0' lg={4} md={4} sm={4} xs={4}>
                         <Button type="submit">Submit</Button>
                     </Col>
                 </Row>
