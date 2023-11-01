@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Logo from '../assets/aquamania-logo.gif';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -18,9 +19,11 @@ const Header = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse>
-        <Nav className='mr-auto'>
+        <Nav className=''>
         <NavDropdown title="Freshwater">
-              <NavDropdown.Item>By Species</NavDropdown.Item>
+        <Link to="/category" className="dropdown-item">
+        By Species
+      </Link>
               <NavDropdown.Item>Aggressive</NavDropdown.Item>
               <NavDropdown.Item>Semi-Aggressive</NavDropdown.Item>
               <NavDropdown.Item>Peaceful</NavDropdown.Item>
