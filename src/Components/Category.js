@@ -8,11 +8,14 @@ const Category =() => {
     <Container className="py-5">
     <div className="text-center">
     <Button className="mx-4">
-      <Link to='/freshpage'>
-      Freshwater
+      <Link title='freshwater'to='/freshpage'>
       </Link>
+        Freshwater
       </Button>
-    <Button className="mx-4">Saltwater</Button>
+    <Button className="mx-4">
+      <Link title='saltwater' to='/saltwater' />
+      Saltwater
+      </Button>
     </div>
   </Container>
   )
