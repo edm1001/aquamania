@@ -25,7 +25,17 @@ section {
 .section-title {
     color:var(--dark-blue);
 }
-
+/* F-CAT-Page */
+.clickable-item {
+    cursor: pointer;
+    background-color: #f7f7f7;
+    transition: background-color 0.2s;
+  }
+  
+  .clickable-item:hover {
+    background-color: #e0e0e0;
+  }
+  
 /* PRODUCTS */
 .products {
     background-color: var(--blue);

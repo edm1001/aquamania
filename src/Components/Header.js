@@ -20,7 +20,7 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse>
         <Nav className=''>
-        <NavDropdown title="Freshwater">
+        <NavDropdown title="Freshwater" className='text-center'>
         <Link to="/category" className="dropdown-item">
         By Species
       </Link>
@@ -28,7 +28,7 @@ const Header = () => {
               <NavDropdown.Item>Semi-Aggressive</NavDropdown.Item>
               <NavDropdown.Item>Peaceful</NavDropdown.Item>
             </NavDropdown>
-        <NavDropdown title="Saltwater">
+        <NavDropdown title="Saltwater" className='text-center'>
               <NavDropdown.Item>By Species</NavDropdown.Item>
               <NavDropdown.Item>Aggressive</NavDropdown.Item>
               <NavDropdown.Item>Semi-Aggressive</NavDropdown.Item>
