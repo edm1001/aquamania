@@ -13,21 +13,14 @@ function FreshCategory() {
 
   return (
     <Container>
-      <Row>
-        <Col md={4}>
-          {items.slice(0, 3).map((item) => (
+      <Row className="text-center">      
+          {items.slice(0, 6).map((item) => (
+            <Col lg={4} md={4} sm={6} xs={6}>
             <Card key={item.id} className="my-2 clickable-item">
               <Card.Body>{item.text}</Card.Body>
             </Card>
+            </Col>
           ))}
-        </Col>
-        <Col md={4}>
-          {items.slice(3, 6).map((item) => (
-            <Card key={item.id} className="my-2 clickable-item">
-              <Card.Body>{item.text}</Card.Body>
-            </Card>
-          ))}
-        </Col>
       </Row>
     </Container>
   );
