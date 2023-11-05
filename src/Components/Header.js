@@ -9,7 +9,9 @@ const Header = () => {
     return (
       <Navbar className="" sticky="top" bg="light" data-bs-theme="light" expand="lg" >
         <Container>
-        <Navbar.Brand>
+        <Navbar.Brand
+        href='/'
+        >
           <img 
           src={Logo}
           width="80"
