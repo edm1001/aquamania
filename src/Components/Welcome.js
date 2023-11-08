@@ -6,7 +6,7 @@ import Form from 'react-bootstrap/form';
 import Carousel from 'react-bootstrap/carousel';
 import Freshwater from '../assets/videos/fresh/koi.mp4';
 import Saltwater from '../assets/videos/salt/clownfish1.mp4';
-import Care from '../assets/videos/fresh/african-cichlids.mp4';
+import Care from '../assets/videos/fresh/fresh-sm-community.mp4';
 // import Placeholder from '../assets/photos/placeholder.png'
 
 const Welcome = () => {
