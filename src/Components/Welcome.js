@@ -5,22 +5,26 @@ import Button from 'react-bootstrap/button';
 import Form from 'react-bootstrap/form';
 import Carousel from 'react-bootstrap/carousel';
 import Freshwater from '../assets/videos/fresh/koi.mp4';
-
+import Saltwater from '../assets/videos/salt/clownfish1.mp4';
+import Care from '../assets/videos/fresh/african-cichlids.mp4';
+// import Placeholder from '../assets/photos/placeholder.png'
 
 const Welcome = () => {
   const searchTopics = [
     {
       label: "Freshwater",
       description: "Explore freshwater aquariums with a variety of fish and plants.",
-      image: Freshwater
+      background: Freshwater
   },
   {
       label: "Saltwater",
-      description: "Dive into stunning saltwater aquariums, coral reefs, and exotic fish."
+      description: "Dive into stunning saltwater aquariums, coral reefs, and exotic fish.",
+      background: Saltwater
   },
   {
       label: "Fish Care",
-      description: "Learn essential fish care, from feeding to health."
+      description: "Learn essential fish care, from feeding to health.",
+      background: Care
       }
   ];
 
@@ -53,8 +57,9 @@ const Welcome = () => {
             <Carousel>
                 {searchTopics.map((topic, index) => (
                     <Carousel.Item key={index}>
-                        <video src={topic.image} 
+                        <video src={topic.background} 
                         autoPlay
+                        loop
                         text="First slide" alt="welcome-img" className="d-block w-100 h-100" />
                         <Carousel.Caption>
                             <h3>{topic.label}</h3>
