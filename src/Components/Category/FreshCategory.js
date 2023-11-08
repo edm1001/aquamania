@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-// import semiVideo from '../../assets/videos/fresh/fresh-md-aggressive.mp4';
+import semiVideo from '../../assets/videos/fresh/fresh-md-aggressive.mp4';
 
 function FreshCategory() {
   const items = [
@@ -15,7 +15,7 @@ function FreshCategory() {
     {
       id: 2,
       text: "Semi-Aggressive",
-      videoUrl: "your_video_url_2.mp4",
+      videoUrl:semiVideo,
     },
     {
       id: 3,
@@ -52,7 +52,7 @@ function FreshCategory() {
                   loop
                   muted
                   playsInline
-                  className="embed-responsive-item"
+                  className=" w-100 h-100 embed-responsive-item"
                 />
               </div>
               <Card.Body>{item.text}</Card.Body>
