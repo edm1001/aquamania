@@ -4,14 +4,15 @@ import Col from 'react-bootstrap/col';
 import Button from 'react-bootstrap/button';
 import Form from 'react-bootstrap/form';
 import Carousel from 'react-bootstrap/carousel';
-import Placeholder from '../assets/photos/placeholder.png';
+import Freshwater from '../assets/videos/fresh/koi.mp4';
 
 
 const Welcome = () => {
   const searchTopics = [
     {
       label: "Freshwater",
-      description: "Explore freshwater aquariums with a variety of fish and plants."
+      description: "Explore freshwater aquariums with a variety of fish and plants.",
+      image: Freshwater
   },
   {
       label: "Saltwater",
@@ -52,7 +53,9 @@ const Welcome = () => {
             <Carousel>
                 {searchTopics.map((topic, index) => (
                     <Carousel.Item key={index}>
-                        <img src={Placeholder} text="First slide" alt="welcome-img" className="d-block w-100 h-100" />
+                        <video src={topic.image} 
+                        autoPlay
+                        text="First slide" alt="welcome-img" className="d-block w-100 h-100" />
                         <Carousel.Caption>
                             <h3>{topic.label}</h3>
                             <p>{topic.description}</p>
