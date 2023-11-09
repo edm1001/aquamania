@@ -60,6 +60,7 @@ const Welcome = () => {
                         <video src={topic.background} 
                         autoPlay
                         loop
+                        muted
                         text="First slide" alt="welcome-img" className="d-block w-100 h-100" />
                         <Carousel.Caption>
                             <h3>{topic.label}</h3>
