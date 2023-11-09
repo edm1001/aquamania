@@ -8,7 +8,7 @@ import freshwaterFishSpecies from '../../db/FeshwaterFishData.js';
 
 function FreshCategory() {
   const [selectedFilter, setSelectedFilter] = useState(null);
-  
+
     const items = [
       {
         id: 1,
@@ -72,18 +72,19 @@ function FreshCategory() {
         </Row>
         <Container>
           <div>
-            <ul>
               {freshwaterFishSpecies.map((species, index) => (
-                (selectedFilter === null || selectedFilter === species.temperament) && (
-                  <li key={index}>
+                (selectedFilter === null || selectedFilter === species.temperament || selectedFilter === species.size ) && (
+                  <div key={index}>
                     <h2>{species.name}</h2>
+                    <img alt="" className="h-100 w-100 " src={species.img}> 
+                    </img>
                     <p>{species.description}</p>
                     <p>Temperament: {species.temperament}</p>
                     <p>Max Growth Size: {species.maxGrowthSize}</p>
-                  </li>
+                  </div>
                 )
-              ))}
-            </ul>
+                // have just the name and it leads to the single page
+              ))}  
           </div>
         </Container>
       </Container>

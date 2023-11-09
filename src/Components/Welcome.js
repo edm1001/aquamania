@@ -30,9 +30,9 @@ const Welcome = () => {
 
   return (
     <Container fluid>
-        <Row className="bg-info py-2">
+        <Row className="bg-info py-2 text-white">
             <Col>
-                <h4 className="justify-content-center align-center fw-bold pt-1">
+                <h4 className="justify-content-center align-center fw-bold  pt-1 mx-5">
                     Search Topics:
                 </h4>
             </Col>
@@ -54,6 +54,8 @@ const Welcome = () => {
         </Row>
 
         <Row>
+            <div className="">
+
             <Carousel>
                 {searchTopics.map((topic, index) => (
                     <Carousel.Item key={index}>
@@ -61,14 +63,16 @@ const Welcome = () => {
                         autoPlay
                         loop
                         muted
-                        text="First slide" alt="welcome-img" className="d-block w-100 h-100" />
-                        <Carousel.Caption>
+                        text="First slide" alt="welcome-img"  className="d-block w-100"
+                        style={{ height: '70%' }}  />
+                        <Carousel.Caption className='text-center align-center'>
                             <h3>{topic.label}</h3>
                             <p>{topic.description}</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 ))}
             </Carousel>
+                </div>
         </Row>
     </Container>
 )

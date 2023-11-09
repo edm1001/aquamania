@@ -24,10 +24,10 @@ const Header = () => {
         <Nav className=''>
         <NavDropdown title="Freshwater" className='text-center'>
         <Link to="/category" className="dropdown-item">
-        By Species
+        By Temperament
       </Link>
-              <NavDropdown.Item>Aggressive</NavDropdown.Item>
-              <NavDropdown.Item>Semi-Aggressive</NavDropdown.Item>
+              <NavDropdown.Item>By Size</NavDropdown.Item>
+              <NavDropdown.Item>Care</NavDropdown.Item>
               <NavDropdown.Item>Peaceful</NavDropdown.Item>
             </NavDropdown>
         <NavDropdown title="Saltwater" className='text-center'>
