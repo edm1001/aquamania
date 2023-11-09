@@ -21,10 +21,9 @@ const About = () => {
                 className='py-2'
             >
 
-            <p>Welcome to Aquamania - Your Ultimate Hobbyist Hub for Aquatic Enthusiasts!</p>
-            <p>At Aquamania, we're your go-to source for everything related to aquatic hobbies. Whether you're into freshwater or marine aquariums, pond keeping, or aquascaping, we're dedicated to providing you with the best information, tips, and community support.</p>
-            <p>Dive into the world of aquatic wonders with fellow hobbyists. Whether you're just starting out or a seasoned pro, we're here to share the excitement and knowledge with you.</p>
-            <p>Feel free to get in touch with us to learn more about how we can support your aquatic hobby needs.</p>
+            <p>Welcome to Aquamania - Your Ultimate Hobbyist Hub for Aquatic Enthusiasts!<br/>
+            As a Fish hobbyist I created this site as a go-to source for our aquatic hobby. Whether you're into freshwater or marine aquariums, pond keeping, or aquascaping, we're dedicated to providing you with the best information, tips, and community support.<br/>
+            Dive into the world of aquatic wonders with fellow hobbyists. Whether you're just starting out or a seasoned pro, we're here to share the excitement and knowledge with you. Get in touch with us to learn more!</p>
             </motion.div>
         </motion.div>
     );
