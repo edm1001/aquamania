@@ -1,4 +1,5 @@
 // FreshwaterFishData.js
+// add molly, cichlid, platy, swordtail, catfish, oddballs
 const freshwaterFishSpecies = [
   {
     name: 'Neon Tetra',
