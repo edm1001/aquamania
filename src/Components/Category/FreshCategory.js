@@ -75,15 +75,16 @@ function FreshCategory() {
               {freshwaterFishSpecies.map((species, index) => (
                 (selectedFilter === null || selectedFilter === species.temperament || selectedFilter === species.size ) && (
                   <div key={index}>
-                    <h2>{species.name}</h2>
-                    <img alt="" className="h-100 w-100 " src={species.img}> 
+                    <h2>{species.family}</h2>
+                    {/* <img alt="" className="h-100 w-100 " src={species.img}> 
                     </img>
                     <p>{species.description}</p>
                     <p>Temperament: {species.temperament}</p>
-                    <p>Max Growth Size: {species.maxGrowthSize}</p>
+                    <p>Max Growth Size: {species.maxGrowthSize}</p> */}
                   </div>
                 )
                 // have just the name and it leads to the single page
+                // make the family clickable to species page to the single fish page
               ))}  
           </div>
         </Container>

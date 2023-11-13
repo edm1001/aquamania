@@ -1,6 +1,7 @@
 // FreshwaterFishData.js
 // add cichlid, platy, swordtail, catfish, oddballs
 const freshwaterFishSpecies = [
+  // Tetra
   {
     name: 'Neon Tetra',
     description: 'Neon Tetras are among the most popular tetras due to their striking iridescent blue and red colors.',
@@ -180,9 +181,12 @@ const freshwaterFishSpecies = [
     img: 'https://example.com/common-black-molly-image.jpg',
     size: 'Small to Medium',
     species: 'Poecilia sphenops',
-    family: 'Molly'
-},
-{
+    family: 'Molly',
+    experienceLevel: 'Beginner',
+    waterPHRange: '6.7 - 8.5',
+    temperatureRange: '75°F - 82°F (24°C - 28°C)'
+  },
+  {
     name: 'Dalmatian Molly',
     description: 'Dalmatian Mollies are recognized by their spotted black and white patterns, reminiscent of Dalmatian dogs.',
     temperament: 'Peaceful',
@@ -190,9 +194,12 @@ const freshwaterFishSpecies = [
     img: 'https://example.com/dalmatian-molly-image.jpg',
     size: 'Small to Medium',
     species: 'Poecilia latipinna',
-    family: 'Molly'
-},
-{
+    family: 'Molly',
+    experienceLevel: 'Beginner',
+    waterPHRange: '7.0 - 8.5',
+    temperatureRange: '72°F - 78°F (22°C - 26°C)'
+  },
+  {
     name: 'Lyretail Molly',
     description: 'Lyretail Mollies are known for their distinct lyre-shaped tails, adding elegance to aquariums.',
     temperament: 'Peaceful',
@@ -200,9 +207,12 @@ const freshwaterFishSpecies = [
     img: 'https://example.com/lyretail-molly-image.jpg',
     size: 'Small to Medium',
     species: 'Poecilia reticulata',
-    family: 'Molly'
-},
-{
+    family: 'Molly',
+    experienceLevel: 'Intermediate',
+    waterPHRange: '7.0 - 8.5',
+    temperatureRange: '75°F - 82°F (24°C - 28°C)'
+  },
+  {
     name: 'Sailfin Molly',
     description: 'Sailfin Mollies have an impressive sail-like dorsal fin, making them stand out in aquariums.',
     temperament: 'Peaceful',
@@ -210,9 +220,12 @@ const freshwaterFishSpecies = [
     img: 'https://example.com/sailfin-molly-image.jpg',
     size: 'Medium',
     species: 'Poecilia latipinna',
-    family: 'Molly'
-},
-{
+    family: 'Molly',
+    experienceLevel: 'Intermediate',
+    waterPHRange: '7.0 - 8.5',
+    temperatureRange: '72°F - 78°F (22°C - 26°C)'
+  },
+  {
     name: 'Gold Dust Molly',
     description: 'Gold Dust Mollies feature a sparkling, gold-like dusting on their scales, creating a visually appealing effect.',
     temperament: 'Peaceful',
@@ -220,9 +233,12 @@ const freshwaterFishSpecies = [
     img: 'https://example.com/gold-dust-molly-image.jpg',
     size: 'Small to Medium',
     species: 'Poecilia sphenops',
-    family: 'Molly'
-},
-{
+    family: 'Molly',
+    experienceLevel: 'Beginner',
+    waterPHRange: '6.7 - 8.5',
+    temperatureRange: '75°F - 82°F (24°C - 28°C)'
+  },
+  {
     name: 'Balloon Molly',
     description: 'Balloon Mollies are characterized by their inflated, balloon-like appearance, especially in the abdominal region.',
     temperament: 'Peaceful',
@@ -230,9 +246,12 @@ const freshwaterFishSpecies = [
     img: 'https://example.com/balloon-molly-image.jpg',
     size: 'Small to Medium',
     species: 'Poecilia sphenops',
-    family: 'Molly'
-},
-{
+    family: 'Molly',
+    experienceLevel: 'Beginner',
+    waterPHRange: '6.7 - 8.5',
+    temperatureRange: '75°F - 82°F (24°C - 28°C)'
+  },
+  {
     name: 'Sunset Molly',
     description: 'Sunset Mollies exhibit vibrant and warm coloration, resembling the hues of a sunset.',
     temperament: 'Peaceful',
@@ -240,9 +259,12 @@ const freshwaterFishSpecies = [
     img: 'https://example.com/sunset-molly-image.jpg',
     size: 'Small to Medium',
     species: 'Poecilia sphenops',
-    family: 'Molly'
-},
-{
+    family: 'Molly',
+    experienceLevel: 'Intermediate',
+    waterPHRange: '7.0 - 8.5',
+    temperatureRange: '72°F - 78°F (22°C - 26°C)'
+  },
+  {
     name: 'Wild Molly Fish',
     description: 'Wild Mollies showcase the natural and diverse color patterns found in their wild counterparts.',
     temperament: 'Peaceful',
@@ -250,10 +272,91 @@ const freshwaterFishSpecies = [
     img: 'https://example.com/wild-molly-fish-image.jpg',
     size: 'Small to Medium',
     species: 'Various',
-    family: 'Molly'
-},
-
+    family: 'Molly',
+    experienceLevel: 'Intermediate',
+    waterPHRange: '6.5 - 8.0',
+    temperatureRange: '72°F - 78°F (22°C - 26°C)'
+  },
+  // Swordtails
+  {
+    name: 'Green Swordtail',
+    description: 'The Green Swordtail is a vibrant freshwater fish known for its green coloration and distinctive sword-like tail.',
+    temperament: 'Peaceful',
+    maxGrowthSize: 'Around 4 inches (10 cm)',
+    img: 'https://example.com/green-swordtail-image.jpg',
+    size: 'Small to Medium',
+    species: 'Xiphophorus hellerii',
+    family: 'Swordtail',
+    experienceLevel: 'Beginner',
+    waterPHRange: '7.0 - 8.5',
+    temperatureRange: '72°F - 82°F (22°C - 28°C)'
+  },
+  {
+    name: 'Yellow Swordtail',
+    description: 'The Yellow Swordtail is a brightly colored fish with a distinct sword-like tail, adding vibrancy to aquariums.',
+    temperament: 'Peaceful',
+    maxGrowthSize: 'Around 4 inches (10 cm)',
+    img: 'https://example.com/yellow-swordtail-image.jpg',
+    size: 'Small to Medium',
+    species: 'Xiphophorus hellerii',
+    family: 'Swordtail',
+    experienceLevel: 'Beginner',
+    waterPHRange: '7.0 - 8.5',
+    temperatureRange: '72°F - 82°F (22°C - 28°C)'
+  },
+  {
+    name: 'Red Swordtail',
+    description: 'The Red Swordtail is a striking fish with vibrant red coloration and a distinctive sword-like tail.',
+    temperament: 'Peaceful',
+    maxGrowthSize: 'Around 4 inches (10 cm)',
+    img: 'https://example.com/red-swordtail-image.jpg',
+    size: 'Small to Medium',
+    species: 'Xiphophorus hellerii',
+    family: 'Swordtail',
+    experienceLevel: 'Beginner',
+    waterPHRange: '7.0 - 8.5',
+    temperatureRange: '72°F - 82°F (22°C - 28°C)'
+  },
+  {
+    name: 'Kohaku Swordtail',
+    description: 'The Kohaku Swordtail features a beautiful pattern of red and white colors, reminiscent of traditional Japanese aesthetics.',
+    temperament: 'Peaceful',
+    maxGrowthSize: 'Around 4 inches (10 cm)',
+    img: 'https://example.com/kohaku-swordtail-image.jpg',
+    size: 'Small to Medium',
+    species: 'Xiphophorus hellerii',
+    family: 'Swordtail',
+    experienceLevel: 'Intermediate',
+    waterPHRange: '7.0 - 8.5',
+    temperatureRange: '72°F - 78°F (22°C - 26°C)'
+  },
+  {
+    name: 'Pygmy Swordtail',
+    description: 'The Pygmy Swordtail is a smaller species with a distinct sword-like tail, suitable for smaller aquariums.',
+    temperament: 'Peaceful',
+    maxGrowthSize: 'Around 2 inches (5 cm)',
+    img: 'https://example.com/pygmy-swordtail-image.jpg',
+    size: 'Small',
+    species: 'Xiphophorus pygmaeus',
+    family: 'Swordtail',
+    experienceLevel: 'Intermediate',
+    waterPHRange: '7.0 - 8.5',
+    temperatureRange: '72°F - 78°F (22°C - 26°C)'
+  },
+  {
+    name: 'Mickey Mouse Swordtail',
+    description: 'The Mickey Mouse Swordtail is recognized for its unique coloration and markings, resembling Mickey Mouse ears.',
+    temperament: 'Peaceful',
+    maxGrowthSize: 'Around 3 inches (7.5 cm)',
+    img: 'https://example.com/mickey-mouse-swordtail-image.jpg',
+    size: 'Small to Medium',
+    species: 'Xiphophorus maculatus',
+    family: 'Swordtail',
+    experienceLevel: 'Beginner',
+    waterPHRange: '7.0 - 8.5',
+    temperatureRange: '72°F - 78°F (22°C - 26°C)'
+  },
 ];
-  
+
   export default freshwaterFishSpecies;
   
