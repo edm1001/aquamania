@@ -512,17 +512,72 @@ const freshwaterFishSpecies = [
     experienceLevel: "Intermediate",
     waterPHRange: "6.5 - 7.5",
     temperatureRange: "68°F - 74°F (20°C - 23°C)"
+  },
+  {
+    name: "Wakin Goldfish",
+    description: "The Wakin Goldfish is known for its long, double tail and vibrant coloration, combining characteristics of the common goldfish and the fantail.",
+    temperament: "Peaceful",
+    maxGrowthSize: "Up to 10 inches (25 cm)",
+    img: "https://example.com/wakin-goldfish-image.jpg",
+    size: "Medium",
+    species: "Carassius auratus",
+    family: "Goldfish",
+    experienceLevel: "Intermediate",
+    waterPHRange: "6.0 - 8.0",
+    temperatureRange: "65°F - 75°F (18°C - 24°C)"
+  },
+  {
+    name: "Fantail Goldfish",
+    description: "The Fantail Goldfish is characterized by its double tail and rounded body, creating an elegant and graceful appearance.",
+    temperament: "Peaceful",
+    maxGrowthSize: "Up to 8 inches (20 cm)",
+    img: "https://example.com/fantail-goldfish-image.jpg",
+    size: "Small to Medium",
+    species: "Carassius auratus",
+    family: "Goldfish",
+    experienceLevel: "Beginner",
+    waterPHRange: "6.5 - 7.5",
+    temperatureRange: "68°F - 74°F (20°C - 23°C)"
+  },
+  {
+    name: "Butterfly Tail Goldfish",
+    description: "The Butterfly Tail Goldfish has telescope eyes and a butterfly-like tail, creating a unique and graceful swimming appearance.",
+    temperament: "Peaceful",
+    maxGrowthSize: "Up to 8 inches (20 cm)",
+    img: "https://example.com/butterfly-tail-goldfish-image.jpg",
+    size: "Small to Medium",
+    species: "Carassius auratus",
+    family: "Goldfish",
+    experienceLevel: "Intermediate",
+    waterPHRange: "6.5 - 7.5",
+    temperatureRange: "68°F - 74°F (20°C - 23°C)"
+  },
+  {
+    name: "Tosakin Goldfish",
+    description: "The Tosakin Goldfish is recognized for its unique tail structure, which spreads out horizontally like a fan, creating a distinctive appearance.",
+    temperament: "Peaceful",
+    maxGrowthSize: "Up to 6 inches (15 cm)",
+    img: "https://example.com/tosakin-goldfish-image.jpg",
+    size: "Small",
+    species: "Carassius auratus",
+    family: "Goldfish",
+    experienceLevel: "Intermediate",
+    waterPHRange: "6.5 - 7.5",
+    temperatureRange: "68°F - 74°F (20°C - 23°C)"
+  },
+  {
+    name: "Pearlscale Goldfish",
+    description: "The Pearlscale Goldfish is known for its round body and scales that resemble pearls, giving it a unique and decorative appearance.",
+    temperament: "Peaceful",
+    maxGrowthSize: "Up to 6 inches (15 cm)",
+    img: "https://example.com/pearlscale-goldfish-image.jpg",
+    size: "Small",
+    species: "Carassius auratus",
+    family: "Goldfish",
+    experienceLevel: "Beginner",
+    waterPHRange: "6.5 - 7.5",
+    temperatureRange: "68°F - 74°F (20°C - 23°C)"
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 ];
 
   export default freshwaterFishSpecies;
