@@ -1,10 +1,11 @@
 import React, {useState} from "react";
+import {Link} from 'react-router-dom';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import semiVideo from '../../assets/videos/fresh/fresh-md-aggressive.mp4';
-import freshwaterFishSpecies from '../../db/FeshwaterFishData.js';
+import freshwaterFishSpecies from '../../db/Fresh/FeshwaterFishData.js';
 
 function FreshCategory() {
   const [selectedFilter, setSelectedFilter] = useState(null);
@@ -45,6 +46,7 @@ function FreshCategory() {
     const filterFishSpecies = (filter) => {
       setSelectedFilter(filter);
     };
+    let lastFamily = null;
   
     return (
       <Container>
@@ -71,22 +73,37 @@ function FreshCategory() {
           ))}
         </Row>
         <Container>
-          <div>
-              {freshwaterFishSpecies.map((species, index) => (
-                (selectedFilter === null || selectedFilter === species.temperament || selectedFilter === species.size ) && (
-                  <div key={index}>
-                    <h2>{species.family}</h2>
-                    {/* <img alt="" className="h-100 w-100 " src={species.img}> 
-                    </img>
-                    <p>{species.description}</p>
-                    <p>Temperament: {species.temperament}</p>
-                    <p>Max Growth Size: {species.maxGrowthSize}</p> */}
-                  </div>
-                )
-                // have just the name and it leads to the single page
-                // make the family clickable to species page to the single fish page
-              ))}  
-          </div>
+        <div>
+      {freshwaterFishSpecies.map((species, index) => {
+        if (
+          (selectedFilter === null ||
+            selectedFilter === species.temperament ||
+            selectedFilter === species.size) &&
+          lastFamily !== species.family
+        ) {
+          // Render the family header only if it's different from the last family
+          lastFamily = species.family;
+
+          return (
+            <div key={index}>
+              <h2>{species.family}</h2>
+              <Link to={`/species/${encodeURIComponent(species.name)}`}>
+              <p>{species.name}</p>
+              </Link>
+              {/* Add other details as needed */}
+            </div>
+          );
+        } else {
+          return (
+            <div key={index}>
+                <Link to={`/species/${encodeURIComponent(species.name)}`}>
+                <p>{species.name}</p>
+              </Link>
+            </div>
+          );
+        }
+      })}
+    </div>
         </Container>
       </Container>
     );
