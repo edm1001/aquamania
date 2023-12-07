@@ -1,5 +1,5 @@
 // FreshwaterFishData.js
-// add cichlid, platy, catfish, oddballs
+// add cichlid, platy, pleco, arrowanna, gar, koi,  catfish, oddballs
 const freshwaterFishSpecies = [
   // Tetra
   {
@@ -577,7 +577,203 @@ const freshwaterFishSpecies = [
     experienceLevel: "Beginner",
     waterPHRange: "6.5 - 7.5",
     temperatureRange: "68°F - 74°F (20°C - 23°C)"
-  }
+  },
+  // Pleco
+  {
+  name: "Gold Nugget Pleco",
+  description: "The Gold Nugget Pleco, scientifically known as Baryancistrus xanthellus, is admired for its vibrant golden-yellow coloration and unique patterns. It adds a touch of elegance to freshwater aquariums.",
+  temperament: "Peaceful",
+  maxGrowthSize: "Up to 7 inches (18 cm)",
+  img: "https://example.com/gold-nugget-pleco-image.jpg",
+  size: "Medium",
+  species: "Baryancistrus xanthellus",
+  family: "Loricariidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 7.5",
+  temperatureRange: "75°F - 82°F (24°C - 28°C)"
+},
+{
+  name: "Zebra Pleco",
+  description: "The Zebra Pleco, scientifically known as Hypancistrus zebra, is highly prized for its striking black and white zebra-like stripes. It is a captivating and sought-after species among aquarium enthusiasts.",
+  temperament: "Peaceful",
+  maxGrowthSize: "Up to 4 inches (10 cm)",
+  img: "https://example.com/zebra-pleco-image.jpg",
+  size: "Small",
+  species: "Hypancistrus zebra",
+  family: "Loricariidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 7.5",
+  temperatureRange: "78°F - 86°F (25°C - 30°C)"
+},
+{
+  name: "Bristlenose Pleco",
+  description: "The Bristlenose Pleco, also known as Ancistrus, is characterized by its distinctive bristle-like appendages on its snout. It is a popular and beneficial addition to aquariums.",
+  temperament: "Peaceful",
+  maxGrowthSize: "Up to 5 inches (12.7 cm)",
+  img: "https://example.com/bristlenose-pleco-image.jpg",
+  size: "Small",
+  species: "Ancistrus",
+  family: "Loricariidae",
+  experienceLevel: "Beginner",
+  waterPHRange: "6.5 - 7.5",
+  temperatureRange: "72°F - 78°F (22°C - 26°C)"
+},
+{
+  name: "Common Pleco",
+  description: "The Common Pleco, or Hypostomus plecostomus, is a widely recognized and often large catfish species. It is known for its ability to help control algae in aquariums.",
+  temperament: "Peaceful",
+  maxGrowthSize: "Up to 24 inches (60 cm) or more",
+  img: "https://example.com/common-pleco-image.jpg",
+  size: "Large",
+  species: "Hypostomus plecostomus",
+  family: "Loricariidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.5 - 7.5",
+  temperatureRange: "73°F - 82°F (23°C - 28°C)"
+},
+{
+  name: "Sailfin Pleco",
+  description: "The Sailfin Pleco, scientifically known as Pterygoplichthys gibbiceps, is named for its large sail-like dorsal fin. It is a robust and adaptable species with distinctive markings.",
+  temperament: "Peaceful",
+  maxGrowthSize: "Up to 18 inches (45 cm)",
+  img: "https://example.com/sailfin-pleco-image.jpg",
+  size: "Large",
+  species: "Pterygoplichthys gibbiceps",
+  family: "Loricariidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.5 - 7.5",
+  temperatureRange: "75°F - 82°F (24°C - 28°C)"
+},
+{
+  name: "Royal Pleco",
+  description: "The Royal Pleco, or Panaque nigrolineatus, is known for its striking appearance, featuring a black body with white or yellowish spots. It is a captivating and sought-after species.",
+  temperament: "Peaceful",
+  maxGrowthSize: "Up to 15 inches (38 cm)",
+  img: "https://example.com/royal-pleco-image.jpg",
+  size: "Medium",
+  species: "Panaque nigrolineatus",
+  family: "Loricariidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 7.5",
+  temperatureRange: "76°F - 86°F (24°C - 30°C)"
+},
+{
+  name: "Snowball Pleco",
+  description: "The Snowball Pleco, scientifically known as Hypancistrus inspector, is prized for its unique appearance with a white or light-colored body covered in small dark spots.",
+  temperament: "Peaceful",
+  maxGrowthSize: "Up to 5 inches (12.7 cm)",
+  img: "https://example.com/snowball-pleco-image.jpg",
+  size: "Small",
+  species: "Hypancistrus inspector",
+  family: "Loricariidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 7.5",
+  temperatureRange: "78°F - 86°F (25°C - 30°C)"
+},
+{
+  name: "Rubber Lip Pleco",
+  description: "The Rubber Lip Pleco, or Chaetostoma milesi, is known for its rubbery lips and its ability to consume algae. It is a smaller and peaceful pleco species suitable for community tanks.",
+  temperament: "Peaceful",
+  maxGrowthSize: "Up to 4 inches (10 cm)",
+  img: "https://example.com/rubber-lip-pleco-image.jpg",
+  size: "Small",
+  species: "Chaetostoma milesi",
+  family: "Loricariidae",
+  experienceLevel: "Beginner",
+  waterPHRange: "6.5 - 7.5",
+  temperatureRange: "72°F - 78°F (22°C - 26°C)"
+},
+{
+  name: "Leopard Frog Pleco",
+  description: "The Leopard Frog Pleco, scientifically known as Peckoltia compta, features a distinctive spotted pattern resembling a leopard. It is a smaller and attractive pleco species.",
+  temperament: "Peaceful",
+  maxGrowthSize: "Up to 4 inches (10 cm)",
+  img: "https://example.com/leopard-frog-pleco-image.jpg",
+  size: "Small",
+  species: "Peckoltia compta",
+  family: "Loricariidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 7.5",
+  temperatureRange: "76°F - 82°F (24°C - 28°C)"
+},
+{
+  name: "Peppermint Pleco",
+  description: "The Peppermint Pleco, or Parancistrus nudiventris, is known for its attractive peppermint-like coloration, with alternating light and dark bands. It is a visually appealing species.",
+  temperament: "Peaceful",
+  maxGrowthSize: "Up to 4 inches (10 cm)",
+  img: "https://example.com/peppermint-pleco-image.jpg",
+  size: "Small",
+  species: "Parancistrus nudiventris",
+  family: "Loricariidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 7.5",
+  temperatureRange: "78°F - 86°F (25°C - 30°C)"
+},
+{
+  name: "Vampire Pleco",
+  description: "The Vampire Pleco, scientifically known as Leporacanthicus heterodon, is named for its fang-like teeth. It is a unique and captivating pleco species, particularly appreciated by enthusiasts.",
+  temperament: "Peaceful",
+  maxGrowthSize: "Up to 10 inches (25 cm)",
+  img: "https://example.com/vampire-pleco-image.jpg",
+  size: "Medium",
+  species: "Leporacanthicus heterodon",
+  family: "Loricariidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 7.5",
+  temperatureRange: "78°F - 86°F (25°C - 30°C)"
+},
+{
+  name: "Sunshine Pleco",
+  description: "The Sunshine Pleco, or Scobinancistrus aureatus, is known for its vibrant yellow-gold coloration. It is a striking and sought-after pleco species, adding a splash of color to aquariums.",
+  temperament: "Peaceful",
+  maxGrowthSize: "Up to 14 inches (35 cm)",
+  img: "https://example.com/sunshine-pleco-image.jpg",
+  size: "Medium",
+  species: "Scobinancistrus aureatus",
+  family: "Loricariidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 7.5",
+  temperatureRange: "76°F - 86°F (24°C - 30°C)"
+},
+{
+  name: "Blue-Eyed Pleco",
+  description: "The Blue-Eyed Pleco, scientifically known as Panaqolus albivermis, features distinctive blue eyes and an attractive spotted pattern on its body. It is a visually appealing pleco species.",
+  temperament: "Peaceful",
+  maxGrowthSize: "Up to 4 inches (10 cm)",
+  img: "https://example.com/blue-eyed-pleco-image.jpg",
+  size: "Small",
+  species: "Panaqolus albivermis",
+  family: "Loricariidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 7.5",
+  temperatureRange: "78°F - 86°F (25°C - 30°C)"
+},
+{
+  name: "Blue/Green Phantom Pleco",
+  description: "The Blue or Green Phantom Pleco, scientifically known as Hemiancistrus sp. L128, is admired for its stunning blue or green coloration and distinctive markings. It is a captivating and sought-after species.",
+  temperament: "Peaceful",
+  maxGrowthSize: "Up to 6 inches (15 cm)",
+  img: "https://example.com/blue-green-phantom-pleco-image.jpg",
+  size: "Small",
+  species: "Hemiancistrus sp. L128",
+  family: "Loricariidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 7.5",
+  temperatureRange: "78°F - 86°F (25°C - 30°C)"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 ];
 
   export default freshwaterFishSpecies;
