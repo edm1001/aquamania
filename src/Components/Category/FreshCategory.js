@@ -72,9 +72,10 @@ function FreshCategory() {
             </Col>
           ))}
         </Row>
+
         <Container>
         <div>
-      {freshwaterFishSpecies.map((species, index) => {
+        {freshwaterFishSpecies.map((species, index, category) => {
         if (
           (selectedFilter === null ||
             selectedFilter === species.temperament ||
@@ -83,14 +84,12 @@ function FreshCategory() {
         ) {
           // Render the family header only if it's different from the last family
           lastFamily = species.family;
-
           return (
             <div key={index}>
               <h2>{species.family}</h2>
-              <Link to={`/species/${encodeURIComponent(species.name)}`}>
+              <Link to={`/species/${encodeURIComponent(species.name)}`}> 
               <p>{species.name}</p>
               </Link>
-              {/* Add other details as needed */}
             </div>
           );
         } else {
