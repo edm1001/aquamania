@@ -762,18 +762,6 @@ const freshwaterFishSpecies = [
   temperatureRange: "78°F - 86°F (25°C - 30°C)"
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 ];
 
   export default freshwaterFishSpecies;
