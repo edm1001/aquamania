@@ -3,7 +3,6 @@ import freshwaterFishSpecies from '../db/Fresh/FeshwaterFishData';
 
 const SpeciesDetail = () => {
     const { name } = useParams();
-    // Fetch and display details for the species with the given name
     const selectedSpecies = freshwaterFishSpecies.find(species => species.name === decodeURIComponent(name));
 
   if (!selectedSpecies) {
