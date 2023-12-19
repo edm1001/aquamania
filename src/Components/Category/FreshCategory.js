@@ -9,6 +9,9 @@ import freshwaterFishSpecies from '../../db/Fresh/FeshwaterFishData.js';
 
 function FreshCategory() {
   const [selectedFilter, setSelectedFilter] = useState(null);
+  const [filteredFishSpecies, setFilteredFishSpecies] = useState([]);
+  const [renderedFamilies, setRenderedFamilies]  = useState([]);
+  let lastFamily = null;
 
     const items = [
       {
@@ -45,8 +48,17 @@ function FreshCategory() {
   
     const filterFishSpecies = (filter) => {
       setSelectedFilter(filter);
+
+      const filteredSpecies = freshwaterFishSpecies.filter((species) => {
+        return (
+          filter === null ||
+          filter === species.temperament ||
+          filter === species.size
+        );
+      });
+      setFilteredFishSpecies(filteredSpecies);
+      setRenderedFamilies([]);
     };
-    let lastFamily = null;
   
     return (
       <Container>
@@ -75,34 +87,15 @@ function FreshCategory() {
 
         <Container>
         <div>
-        { freshwaterFishSpecies.map((species, index) => {
-        if (
-          (selectedFilter === null ||
-            selectedFilter === species.temperament ||
-            selectedFilter === species.size) &&
-          lastFamily !== species.family
-        ) {
-          // Render the family header only if it's different from the last family
-          lastFamily = species.family;
-          return (
+          {filteredFishSpecies.map((species, index) => (
             <div key={index}>
               <h2>{species.family}</h2>
-              <Link to={`/species/${encodeURIComponent(species.name)}`}> 
-              <p>{species.name}</p>
-              </Link>
-            </div>
-          );
-        } else {
-          return (
-            <div key={index}>
-                <Link to={`/species/${encodeURIComponent(species.name)}`}>
+              <Link to={`/species/${encodeURIComponent(species.name)}`}>
                 <p>{species.name}</p>
               </Link>
             </div>
-          );
-        }
-      })}
-    </div>
+          ))} 
+        </div>
         </Container>
       </Container>
       );
