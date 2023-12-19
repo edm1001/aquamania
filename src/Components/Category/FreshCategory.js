@@ -75,7 +75,7 @@ function FreshCategory() {
 
         <Container>
         <div>
-        {freshwaterFishSpecies.map((species, index, category) => {
+        { freshwaterFishSpecies.map((species, index) => {
         if (
           (selectedFilter === null ||
             selectedFilter === species.temperament ||
@@ -105,7 +105,7 @@ function FreshCategory() {
     </div>
         </Container>
       </Container>
-    );
-}
+      );
+    };
 
 export default FreshCategory;
