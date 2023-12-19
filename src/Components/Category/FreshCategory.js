@@ -10,8 +10,6 @@ import freshwaterFishSpecies from '../../db/Fresh/FeshwaterFishData.js';
 function FreshCategory() {
   const [selectedFilter, setSelectedFilter] = useState(null);
   const [filteredFishSpecies, setFilteredFishSpecies] = useState([]);
-  const [renderedFamilies, setRenderedFamilies]  = useState([]);
-  let lastFamily = null;
 
     const items = [
       {
@@ -54,12 +52,11 @@ function FreshCategory() {
           filter === null ||
           filter === species.temperament ||
           filter === species.size
-        );
+        )
       });
       setFilteredFishSpecies(filteredSpecies);
-      setRenderedFamilies([]);
     };
-  
+
     return (
       <Container>
         <Row className="text-center">      
@@ -87,18 +84,35 @@ function FreshCategory() {
 
         <Container>
         <div>
-          {filteredFishSpecies.map((species, index) => (
-            <div key={index}>
-              <h2>{species.family}</h2>
-              <Link to={`/species/${encodeURIComponent(species.name)}`}>
-                <p>{species.name}</p>
-              </Link>
-            </div>
-          ))} 
+          {filteredFishSpecies.map((species, index) => {
+            const isSameAsNext =
+              index < filteredFishSpecies.length - 1 &&
+              species.family === filteredFishSpecies[index + 1].family;
+
+            if (!isSameAsNext) {
+              return (
+                <div key={index}>
+                  <h2>{species.family}</h2>
+                  <Link to={`/species/${encodeURIComponent(species.name)}`}>
+                    <p>{species.name}</p>
+                  </Link>
+                </div>
+              );
+            } else {
+              return (
+                <div key={index}>
+                  <Link to={`/species/${encodeURIComponent(species.name)}`}>
+                    <p>{species.name}</p>
+                  </Link>
+                </div>
+              );
+            }
+          })}
         </div>
-        </Container>
+
       </Container>
-      );
-    };
+    </Container>
+  );
+}
 
 export default FreshCategory;
