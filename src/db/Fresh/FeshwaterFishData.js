@@ -760,6 +760,59 @@ const freshwaterFishSpecies = [
   experienceLevel: "Intermediate",
   waterPHRange: "6.0 - 7.5",
   temperatureRange: "78°F - 86°F (25°C - 30°C)"
+},
+// Arowana
+{
+  name: "Silver Arowana",
+  description: "The Silver Arowana, scientifically known as Osteoglossum bicirrhosum, is a majestic fish known for its sleek silver body and distinctive elongated shape. It is a popular choice among aquarium enthusiasts.",
+  temperament: "Aggressive",
+  maxGrowthSize: "Up to 36 inches (91 cm)",
+  img: "https://example.com/silver-arowana-image.jpg",
+  size: "Extra Large",
+  species: "Osteoglossum bicirrhosum",
+  family: "Osteoglossidae",
+  experienceLevel: "Advanced",
+  waterPHRange: "6.0 - 7.5",
+  temperatureRange: "75°F - 82°F (24°C - 28°C)"
+},
+{
+  name: "Black Arowana",
+  description: "The Black Arowana, also known as the Black Dragonfish, is a rare and captivating species prized for its deep black coloration. It is a unique and sought-after addition to advanced aquariums.",
+  temperament: "Aggressive",
+  maxGrowthSize: "Up to 36 inches (91 cm)",
+  img: "https://example.com/black-arowana-image.jpg",
+  size: "Extra Large",
+  species: "Osteoglossum ferreirai",
+  family: "Osteoglossidae",
+  experienceLevel: "Advanced",
+  waterPHRange: "6.0 - 7.5",
+  temperatureRange: "75°F - 82°F (24°C - 28°C)"
+},
+{
+  name: "Jardini Arowana",
+  description: "The Jardini Arowana, scientifically known as Scleropages jardini, is a stunning and lively species appreciated for its unique color patterns and active behavior. It is a captivating choice for experienced aquarists.",
+  temperament: "Aggressive",
+  maxGrowthSize: "Up to 30 inches (76 cm)",
+  img: "https://example.com/jardini-arowana-image.jpg",
+  size: "Large",
+  species: "Scleropages jardini",
+  family: "Osteoglossidae",
+  experienceLevel: "Advanced",
+  waterPHRange: "6.0 - 7.5",
+  temperatureRange: "78°F - 86°F (25°C - 30°C)"
+},
+{
+  name: "African Arowana",
+  description: "The African Arowana, scientifically known as Heterotis niloticus, is a unique freshwater fish native to Africa. It is recognized for its distinctive appearance and is well-suited for large aquariums.",
+  temperament: "Peaceful",
+  maxGrowthSize: "Up to 24 inches (61 cm)",
+  img: "https://example.com/african-arowana-image.jpg",
+  size: "Large",
+  species: "Heterotis niloticus",
+  family: "Osteoglossidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 8.0",
+  temperatureRange: "74°F - 82°F (23°C - 28°C)"
 }
 
 ];
