@@ -768,7 +768,7 @@ const freshwaterFishSpecies = [
   temperament: "Aggressive",
   maxGrowthSize: "Up to 36 inches (91 cm)",
   img: "https://example.com/silver-arowana-image.jpg",
-  size: "Extra Large",
+  size: "Large",
   species: "Osteoglossum bicirrhosum",
   family: "Osteoglossidae",
   experienceLevel: "Advanced",
@@ -781,7 +781,7 @@ const freshwaterFishSpecies = [
   temperament: "Aggressive",
   maxGrowthSize: "Up to 36 inches (91 cm)",
   img: "https://example.com/black-arowana-image.jpg",
-  size: "Extra Large",
+  size: "Large",
   species: "Osteoglossum ferreirai",
   family: "Osteoglossidae",
   experienceLevel: "Advanced",
@@ -804,8 +804,8 @@ const freshwaterFishSpecies = [
 {
   name: "African Arowana",
   description: "The African Arowana, scientifically known as Heterotis niloticus, is a unique freshwater fish native to Africa. It is recognized for its distinctive appearance and is well-suited for large aquariums.",
-  temperament: "Peaceful",
-  maxGrowthSize: "Up to 24 inches (61 cm)",
+  temperament: "Aggressive",
+  maxGrowthSize: "Up to 30 inches (76 cm)",
   img: "https://example.com/african-arowana-image.jpg",
   size: "Large",
   species: "Heterotis niloticus",
@@ -813,8 +813,100 @@ const freshwaterFishSpecies = [
   experienceLevel: "Intermediate",
   waterPHRange: "6.0 - 8.0",
   temperatureRange: "74°F - 82°F (23°C - 28°C)"
-}
+},
 
+// Gar 
+{
+  name: "Longnose Gar",
+  description: "The Longnose Gar, scientifically known as Lepisosteus osseus, is a slender and elongated freshwater fish with a distinctive long snout. It is known for its hardiness and adaptability to various aquarium conditions.",
+  temperament: "Semi-aggressive",
+  maxGrowthSize: "Up to 36 inches (91 cm)",
+  img: "https://example.com/longnose-gar-image.jpg",
+  size: "Large",
+  species: "Lepisosteus osseus",
+  family: "Lepisosteidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 8.0",
+  temperatureRange: "65°F - 80°F (18°C - 27°C)"
+},
+{
+  name: "Spotted Gar",
+  description: "The Spotted Gar, scientifically known as Lepisosteus oculatus, is a visually striking freshwater fish with dark spots on its body. It is known for its unique appearance and adaptability to aquarium life.",
+  temperament: "Semi-aggressive",
+  maxGrowthSize: "Up to 30 inches (76 cm)",
+  img: "https://example.com/spotted-gar-image.jpg",
+  size: "Large",
+  species: "Lepisosteus oculatus",
+  family: "Lepisosteidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 8.0",
+  temperatureRange: "70°F - 82°F (21°C - 28°C)"
+},
+{
+  name: "Shortnose Gar",
+  description: "The Shortnose Gar, scientifically known as Lepisosteus platostomus, is a smaller species with a short, broad snout. It is recognized for its aggressive feeding behavior and adaptability to aquarium conditions.",
+  temperament: "Aggressive",
+  maxGrowthSize: "Up to 24 inches (61 cm)",
+  img: "https://example.com/shortnose-gar-image.jpg",
+  size: "Medium",
+  species: "Lepisosteus platostomus",
+  family: "Lepisosteidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 8.0",
+  temperatureRange: "65°F - 80°F (18°C - 27°C)"
+},
+{
+  name: "Florida Gar",
+  description: "The Florida Gar, scientifically known as Lepisosteus platyrhincus, is a smaller gar species with a slender body and attractive greenish coloration. It is suitable for aquariums and adapts well to captivity.",
+  temperament: "Semi-aggressive",
+  maxGrowthSize: "Up to 36 inches (91 cm)",
+  img: "https://example.com/florida-gar-image.jpg",
+  size: "Large",
+  species: "Lepisosteus platyrhincus",
+  family: "Lepisosteidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 8.0",
+  temperatureRange: "70°F - 82°F (21°C - 28°C)"
+},
+{
+  name: "Tropical Gar",
+  description: "The Tropical Gar, belonging to the genus Atractosteus, is known for its tropical habitat and distinctive appearance. It is a fascinating species suitable for larger aquariums with appropriate conditions.",
+  temperament: "Semi-aggressive",
+  maxGrowthSize: "Up to 30 inches (76 cm)",
+  img: "https://example.com/tropical-gar-image.jpg",
+  size: "Large",
+  species: "Atractosteus sp.",
+  family: "Lepisosteidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 8.0",
+  temperatureRange: "72°F - 80°F (22°C - 27°C)"
+},
+{
+  name: "Alligator Gar",
+  description: "The Alligator Gar, scientifically known as Atractosteus spatula, is one of the largest freshwater fish known for its alligator-like appearance. It requires a spacious aquarium due to its size and predatory nature.",
+  temperament: "Aggressive",
+  maxGrowthSize: "Up to 120 inches (305 cm)",
+  img: "https://example.com/alligator-gar-image.jpg",
+  size: "Extra Large",
+  species: "Atractosteus spatula",
+  family: "Lepisosteidae",
+  experienceLevel: "Advanced",
+  waterPHRange: "6.0 - 8.0",
+  temperatureRange: "72°F - 82°F (22°C - 28°C)"
+},
+{
+  name: "Cuban Gar",
+  description: "The Cuban Gar, scientifically known as Atractosteus tristoechus, is a tropical gar species found in Cuba. It is recognized for its unique appearance and is suitable for larger aquariums with appropriate conditions.",
+  temperament: "Semi-aggressive",
+  maxGrowthSize: "Up to 36 inches (91 cm)",
+  img: "https://example.com/cuban-gar-image.jpg",
+  size: "Large",
+  species: "Atractosteus tristoechus",
+  family: "Lepisosteidae",
+  experienceLevel: "Intermediate",
+  waterPHRange: "6.0 - 8.0",
+  temperatureRange: "72°F - 80°F (22°C - 27°C)"
+}
 ];
 
   export default freshwaterFishSpecies;
