@@ -1,13 +1,19 @@
+import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Logo from '../assets/aquamania-logo.gif';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
+import { motion} from 'framer-motion';
 
 const Header = () => {
+
     return (
-      <Navbar className="" sticky="top" bg="light" data-bs-theme="light" expand="lg" >
+      <motion.div
+        initial={{opacity:1}}
+      >
+      <Navbar className='mb-5' fixed='top' bg="white" data-bs-theme="light" expand="lg" >
         <Container>
         <Navbar.Brand
         href='/'
@@ -16,32 +22,24 @@ const Header = () => {
           src={Logo}
           width="80"
           height="80"
-          alt='brnd-logo'
+          alt='brand-logo'
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse>
         <Nav className=''>
-        <NavDropdown title="Freshwater" className='text-center'>
-        <Link to="/category" className="dropdown-item">
-        By Temperament
-      </Link>
-              <NavDropdown.Item>By Size</NavDropdown.Item>
-              <NavDropdown.Item>Care</NavDropdown.Item>
-              <NavDropdown.Item>Peaceful</NavDropdown.Item>
-            </NavDropdown>
-        <NavDropdown title="Saltwater" className='text-center'>
-              <NavDropdown.Item>By Species</NavDropdown.Item>
-              <NavDropdown.Item>Aggressive</NavDropdown.Item>
-              <NavDropdown.Item>Semi-Aggressive</NavDropdown.Item>
-              <NavDropdown.Item>Peaceful</NavDropdown.Item>
-            </NavDropdown> 
+        <NavDropdown title="Fish" className='text-center'>
+          <Link to="/freshpage" className="dropdown-item">Freshwater Fish</Link>
+          <Link to="/category" className="dropdown-item">Saltwater Fish</Link>
+        </NavDropdown>
+        <Nav.Link className='text-center'>Shop Page</Nav.Link>
         <Nav.Link className='text-center'>About Us</Nav.Link>
-        <Nav.Link className='text-center'>Products</Nav.Link>
+        <Nav.Link className='text-center'>Blogs</Nav.Link>
         </Nav>
         </Navbar.Collapse>
         </Container>
       </Navbar>
+      </motion.div>
     )
 }
 
