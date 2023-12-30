@@ -5,32 +5,32 @@ function SaltCategory() {
   const items = [
     {
       id: 1,
-      text: "Item 1",
+      text: "Aggressive",
       videoUrl: "your_video_url_1.mp4",
     },
     {
       id: 2,
-      text: "Item 2",
+      text: "Semi-Aggressive",
       videoUrl: "your_video_url_2.mp4",
     },
     {
       id: 3,
-      text: "Item 3",
+      text: "Peaceful",
       videoUrl: "your_video_url_3.mp4",
     },
     {
       id: 4,
-      text: "Item 4",
+      text: "Large",
       videoUrl: "your_video_url_4.mp4",
     },
     {
       id: 5,
-      text: "Item 5",
+      text: "Medium",
       videoUrl: "your_video_url_5.mp4",
     },
     {
       id: 6,
-      text: "Item 6",
+      text: "Small",
       videoUrl: "your_video_url_6.mp4",
     },
   ];

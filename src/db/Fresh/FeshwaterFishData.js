@@ -56,7 +56,7 @@ const freshwaterFishSpecies = [
   },
   {
     name: 'Vampire Tetra',
-    description: 'Vampire Tetras are known for their sharp teeth and predatory behavior, requiring a larger tank.',
+    description: 'Vampire Tetras are known for their iconic sharp teeth and predatory behavior, requiring a larger tank.',
     temperament: 'Aggressive',
     maxGrowthSize: 'Around 14 inches (35 cm)',
     img: 'https://example.com/vampire-tetra-image.jpg',
