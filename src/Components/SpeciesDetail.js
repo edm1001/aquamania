@@ -16,7 +16,6 @@ const SpeciesDetail = () => {
       <p>{selectedSpecies.description}</p>
       <p>Temperament: {selectedSpecies.temperament}</p>
       <p>Max Growth Size: {selectedSpecies.maxGrowthSize}</p>
-      {/* Add more details as needed */}
     </div>
   );
   };

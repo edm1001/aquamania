@@ -13,7 +13,7 @@ const Header = () => {
       <motion.div
         initial={{opacity:1}}
       >
-      <Navbar className='mb-5' fixed='top' bg="white" data-bs-theme="light" expand="lg" >
+      <Navbar className='mb-5' sticky='top' bg="white" data-bs-theme="light" expand="lg" >
         <Container>
         <Navbar.Brand
         href='/'
