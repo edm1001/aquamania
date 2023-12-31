@@ -33,8 +33,8 @@ const Header = () => {
           <Link to="/category" className="dropdown-item">Saltwater Fish</Link>
         </NavDropdown>
         <Nav.Link className='text-center'>Shop Page</Nav.Link>
-        <Nav.Link className='text-center'>About Us</Nav.Link>
-        <Nav.Link className='text-center'>Blogs</Nav.Link>
+        <Nav.Link to='/about' className='text-center'>About Us</Nav.Link>
+        <Nav.Link to='/blog' className='text-center'>Blogs</Nav.Link>
         </Nav>
         </Navbar.Collapse>
         </Container>

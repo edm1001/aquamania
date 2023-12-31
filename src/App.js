@@ -7,6 +7,8 @@ import FreshPage from './Pages/FreshwaterPage.js';
 import SaltPage from './Pages/SaltwaterPage.js'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import SpeciesDetail from './Components/SpeciesDetail.js';
+import About from './Pages/About.js';
+import Blog from './Pages/Blog.js';
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
           <Route path="/saltpage" element={<SaltPage/>} /> 
           <Route path="/care" element={<Care/>}/>
           <Route path="/products" element={<Products/>}/>
-        <Route path="/species/:name" element={<SpeciesDetail/>} />
+          <Route path="/about" element={<About/>}/>
+          <Route path="/blog" element={<Blog/>}/>
+          <Route path="/species/:name" element={<SpeciesDetail/>} />
 
         </Routes>
         <Footer />
