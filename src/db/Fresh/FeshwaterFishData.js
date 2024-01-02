@@ -1,5 +1,5 @@
 // FreshwaterFishData.js
-// add cichlid, platy, pleco, arrowanna, gar, koi,  catfish, oddballs
+// add betta,cichlid, platy, pleco, arrowanna, gar, koi, catfish, danio
 const freshwaterFishSpecies = [
   // Tetra
   {
@@ -906,7 +906,23 @@ const freshwaterFishSpecies = [
   experienceLevel: "Intermediate",
   waterPHRange: "6.0 - 8.0",
   temperatureRange: "72°F - 80°F (22°C - 27°C)"
-}
+},
+// danio
+// following the previous data structure, make one for giant danio
+{
+  name: "Giant Danio",
+  description: "The Giant Danio, scientifically known as Devario aequipinnatus, is a popular freshwater fish species known for its vibrant colors and active nature. It is a schooling fish that requires a spacious aquarium with plenty of swimming space.",
+  temperament: "Peaceful",
+  maxGrowthSize: "Up to 4 inches (10 cm)",
+  img: "https://example.com/giant-danio-image.jpg",
+  size: "Small",
+  species: "Devario aequipinnatus",
+  family: "Cyprinidae",
+  experienceLevel: "Beginner",
+  waterPHRange: "6.5 - 7.5",
+  temperatureRange: "72°F - 79°F (22°C - 26°C)"
+},
+
 ];
 
   export default freshwaterFishSpecies;
