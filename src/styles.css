@@ -49,3 +49,10 @@ section {
 }
 
   
+/* Blog Page */
+.subject-list {
+    list-style-type: none;
+}
+.subject-list a {
+    text-decoration: none;
+}
