@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import {motion} from 'framer-motion';
+import { Col, Row } from "react-bootstrap";
 
 const Category =() => {
   const buttonVariants = {
@@ -16,7 +17,9 @@ const Category =() => {
   };
   return (
     <Container className="py-5">
-    <div className="text-center">
+    <Row className="text-center">
+    <Col className="text-start"><h4>Select Your Region:</h4></Col>
+    <Col>
     <motion.button 
        className="3d-button mx-4 btn btn-success"
        variants={buttonVariants}
@@ -33,7 +36,8 @@ const Category =() => {
        >
           <Link to="/saltpage" className="text-white" style={{textDecoration:'none'}}>Saltwater</Link>
         </motion.button>
-    </div>
+       </Col>
+    </Row>
   </Container>
   )
 } 
