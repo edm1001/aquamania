@@ -4,9 +4,10 @@ import Col from 'react-bootstrap/col';
 import Button from 'react-bootstrap/button';
 import Form from 'react-bootstrap/form';
 import Carousel from 'react-bootstrap/carousel';
-import Freshwater from '../assets/videos/fresh/koi.mp4';
-import Saltwater from '../assets/videos/salt/clownfish1.mp4';
-import Care from '../assets/videos/fresh/fresh-sm-community.mp4';
+
+// import Freshwater from '../assets/videos/fresh/koi.mp4';
+// import Saltwater from '../assets/videos/salt/clownfish1.mp4';
+// import Care from '../assets/videos/fresh/fresh-sm-community.mp4';
 // import Placeholder from '../assets/photos/placeholder.png'
 
 const Welcome = () => {
@@ -14,17 +15,17 @@ const Welcome = () => {
     {
       label: "Freshwater",
       description: "Explore freshwater aquariums with a variety of fish and plants.",
-      background: Freshwater
+      background: "Freshwater"
   },
   {
       label: "Saltwater",
       description: "Dive into stunning saltwater aquariums, coral reefs, and exotic fish.",
-      background: Saltwater
+      background: "Saltwater"
   },
   {
       label: "Fish Care",
       description: "Learn essential fish care, from feeding to health.",
-      background: Care
+      background: "Care"
       }
   ];
 

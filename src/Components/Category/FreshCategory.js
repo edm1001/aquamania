@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import semiVideo from '../../assets/videos/fresh/fresh-md-aggressive.mp4';
+// import semiVideo from '../../assets/videos/fresh/fresh-md-aggressive.mp4';
 import freshwaterFishSpecies from '../../db/Fresh/FeshwaterFishData.js';
 
 function FreshCategory() {
@@ -35,7 +35,7 @@ function FreshCategory() {
       {
         id: 5,
         text: "Medium",
-        videoUrl: semiVideo
+        videoUrl: "semiVideo"
       },
       {
         id: 6,
