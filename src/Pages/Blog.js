@@ -12,8 +12,10 @@ const posts = [
   { id: 1, topic: 'tank', title: 'Water Changes' },
   { id: 1, topic: 'tank', title: 'Tips for Clean Tanks' },
   { id: 2, topic: 'care', title: 'Feeding Fish' },
-  { id: 2, topic: 'care', title: 'Feeding Fish' },
-  // Add more posts as needed
+  { id: 2, topic: 'care', title: 'Common Diseases'},
+  { id: 3, topic: 'freshwater', title: 'Basic Care for Plants' },
+  { id: 4, topic: 'saltwater', title: 'Basic Guide to start Saltwater' },
+  { id: 4, topic: 'saltwater', title: 'Coral'},
 ];
 
 export default function Blog() {
@@ -36,35 +38,31 @@ export default function Blog() {
             <ul className='subject-list'>
               {topics.map(topic => (
                 <li key={topic.id}><a href={`#${topic.id}`} onClick={() => handleTopicClick(topic.id)}>{topic.name}</a></li>
-              ))}
-            </ul>
-          </Col>
-          <Col as='div'>
-            <h3>By Post:</h3>
-            <ul>
-              {posts
-                .filter(post => !selectedTopic || post.topic === selectedTopic)
-                .map(post => (
-                  <li key={post.id}>{post.title}</li>
                 ))}
             </ul>
           </Col>
+          
+          <Col as='div'>
+            {/* Render posts based on selected topic */}
+          {selectedTopic && (
+            <div id={selectedTopic}>
+              <h3>{topics.find(topic => topic.id === selectedTopic)?.name}</h3>
+              <ul>
+                {posts
+                  .filter(post => post.topic === selectedTopic)
+                  .map(filteredPost => (
+                    <li key={filteredPost.id}>{filteredPost.title}</li>
+                  ))}
+              </ul>
+            </div>
+            )}
+          </Col>
         </Row>
+        {/* make another row to have the topic and comments under it */}
+        {/* the post will have comment and likes functionality */}
       </Container>
 
-      {/* Render posts based on selected topic */}
-      {selectedTopic && (
-        <Container id={selectedTopic}>
-          <h3>{topics.find(topic => topic.id === selectedTopic)?.name}</h3>
-          <ul>
-            {posts
-              .filter(post => post.topic === selectedTopic)
-              .map(filteredPost => (
-                <li key={filteredPost.id}>{filteredPost.title}</li>
-              ))}
-          </ul>
-        </Container>
-      )}
+      
     </>
   );
 }
