@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const topics = [
@@ -9,12 +9,19 @@ const topics = [
 ];
 
 const posts = [
+  { id: 1, topic: 'tank', title: 'Water Changes' },
   { id: 1, topic: 'tank', title: 'Tips for Clean Tanks' },
-  { id: 2, topic: 'care', title: 'Feeding Your Fish Properly' },
+  { id: 2, topic: 'care', title: 'Feeding Fish' },
+  { id: 2, topic: 'care', title: 'Feeding Fish' },
   // Add more posts as needed
 ];
 
 export default function Blog() {
+  const [selectedTopic, setSelectedTopic] = useState(null);
+
+  const handleTopicClick = (topicId) => {
+    setSelectedTopic(topicId);
+  };
   return (
     <>
       <Container className="text-center">
@@ -28,37 +35,36 @@ export default function Blog() {
             <h3>Topics:</h3>
             <ul className='subject-list'>
               {topics.map(topic => (
-                <li key={topic.id}><a href={`#${topic.id}`}>{topic.name}</a></li>
+                <li key={topic.id}><a href={`#${topic.id}`} onClick={() => handleTopicClick(topic.id)}>{topic.name}</a></li>
               ))}
             </ul>
           </Col>
           <Col as='div'>
             <h3>By Post:</h3>
             <ul>
-              {posts.map(post => (
-                <li key={post.id}>{post.title}</li>
-              ))}
+              {posts
+                .filter(post => !selectedTopic || post.topic === selectedTopic)
+                .map(post => (
+                  <li key={post.id}>{post.title}</li>
+                ))}
             </ul>
           </Col>
         </Row>
       </Container>
 
       {/* Render posts based on selected topic */}
-      {topics.map(topic => (
-        <Container key={topic.id} id={topic.id}>
-          <h3>{topic.name}</h3>
+      {selectedTopic && (
+        <Container id={selectedTopic}>
+          <h3>{topics.find(topic => topic.id === selectedTopic)?.name}</h3>
           <ul>
             {posts
-              .filter(post => post.topic === topic.id)
+              .filter(post => post.topic === selectedTopic)
               .map(filteredPost => (
                 <li key={filteredPost.id}>{filteredPost.title}</li>
               ))}
           </ul>
         </Container>
-      ))}
+      )}
     </>
   );
 }
-
-{ /* post the topics here ; these will be the links that come from the db */}
- {/* links will lead to single Topic page */}
