@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+// import { Link } from 'react-router-dom';
+import Topic from '../Components/Topic';
 
 const topics = [
   { id: 'tank', name: 'Tank Maintenance' },
@@ -51,13 +53,21 @@ export default function Blog() {
                   .filter(post => post.topic === selectedTopic)
                   .map(filteredPost  => (
                     // fix
-                    <li key={filteredPost.id}>{filteredPost.title}</li> 
+                    <li key={filteredPost.id}>
+                      <a href={`/topic/${filteredPost.topic}/${encodeURIComponent(filteredPost.id)}`}>
+                        {filteredPost.title}
+                      </a>  
+                    </li> 
                     ))}
               </ul>
             </div>
           )}
         </Col>
       </Row>
+          {/* Row will have Posts */}
+          <Row>
+            <Topic/>
+          </Row>
       </Container>
   );
 }
