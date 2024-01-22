@@ -8,6 +8,7 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import SpeciesDetail from './Components/SpeciesDetail.js';
 import About from './Pages/About.js';
 import Blog from './Pages/Blog.js';
+import Post from './Components/Blog/Post.js';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/blog" element={<Blog/>}/>
           <Route path="/species/:name" element={<SpeciesDetail/>} />
+          <Route path="/blog/topic/:post" element={Post} />
         </Routes>
         <Footer />
       </Router>
