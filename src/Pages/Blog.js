@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 // import { Link } from 'react-router-dom';
-import Topic from '../Components/Topic';
+import Topic from '../Components/Blog/Topic.js';
 
 const topics = [
   { id: 'tank', name: 'Tank Maintenance' },
@@ -65,8 +65,8 @@ export default function Blog() {
         </Col>
       </Row>
           {/* Row will have Posts */}
-          <Row>
-            <Topic/>
+          <Row> 
+            <Topic selectedTopic={selectedTopic} posts={posts} />
           </Row>
       </Container>
   );
