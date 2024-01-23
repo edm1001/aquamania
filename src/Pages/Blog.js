@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row} from 'react-bootstrap';
 import Topic from '../Components/Blog/Topic.js';
 import Post from '../Components/Blog/Post.js';
-// import { Link } from 'react-router-dom';
+
 
 export default function Blog() {
 

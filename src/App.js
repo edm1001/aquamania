@@ -23,7 +23,7 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/blog" element={<Blog/>}/>
           <Route path="/species/:name" element={<SpeciesDetail/>} />
-          <Route path="/blog/topic/:post" element={Post} />
+          <Route path="/blog/topic/:post/:id" element={<Post/>} />
         </Routes>
         <Footer />
       </Router>
