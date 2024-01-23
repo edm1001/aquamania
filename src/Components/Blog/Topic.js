@@ -1,5 +1,6 @@
 import { Row, Col } from 'react-bootstrap';
 import React, {useState} from 'react';
+// import { Link } from 'react-router-dom'; //use links
 
 const topics = [
   { id: 'tank', name: 'Tank Maintenance' },
@@ -16,6 +17,7 @@ const posts = [
   { id: 3, topic: 'freshwater', title: 'Basic Care for Plants' },
   { id: 4, topic: 'saltwater', title: 'Basic Guide to start Saltwater' },
   { id: 4, topic: 'saltwater', title: 'Coral'},
+  // find way to connect posts to comments and have a post paragraph 
 ];
 
 
@@ -30,6 +32,10 @@ export default function Topic() {
               <Row>
         <Col as='div' className='w-100'>
           <h3>Topics:</h3>
+              {/* 
+               have a add topic btn
+               modal form to log in or log in btn in navbar
+                */}
           <ul className='subject-list'>
             {topics.map(topic => (
               <li key={topic.id}>
