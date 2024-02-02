@@ -1,13 +1,13 @@
 import Header from './Components/Header.js';
-import Home from './Pages/Home.js'
-import Products from './Pages/Products.js';
+import Home from './Pages/Home.jsx'
+import Products from './Pages/Products.jsx';
 import Footer from './Components/Footer.js'
-import FreshPage from './Pages/FreshwaterPage.js';
-import SaltPage from './Pages/SaltwaterPage.js'
+import FreshPage from './Pages/FreshwaterPage.jsx';
+import SaltPage from './Pages/SaltwaterPage.jsx'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import SpeciesDetail from './Components/SpeciesDetail.js';
-import About from './Pages/About.js';
-import Blog from './Pages/Blog.js';
+import SpeciesDetail from './Pages/SpeciesDetail.jsx';
+import About from './Pages/About.jsx';
+import Blog from './Pages/Blog.jsx';
 import Post from './Components/Blog/Post.js';
 
 function App() {
