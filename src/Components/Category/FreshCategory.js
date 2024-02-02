@@ -4,8 +4,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
+import freshwaterFishSpecies from '../../db/Fresh/FeshwaterFishData.json';
 // import semiVideo from '../../assets/videos/fresh/fresh-md-aggressive.mp4';
-import freshwaterFishSpecies from '../../db/Fresh/FeshwaterFishData.js';
 
 function FreshCategory() {
   const [selectedFilter, setSelectedFilter] = useState(null);

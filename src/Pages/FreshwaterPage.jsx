@@ -4,7 +4,7 @@ import Category from '../Components/Category';
 import Container from 'react-bootstrap/Container';
 
 function FreshPage() {
-    
+    // add betta,cichlid, platy, pleco, arrowanna, gar, koi, catfish, danio
   return (
     <Container>
     <h2>Freshwater</h2>
