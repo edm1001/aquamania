@@ -93,45 +93,21 @@ function FreshCategory() {
       </Row>
 
       <Container>
-        <div>
-          {filteredFishSpecies.map((species, index) => {
-            const isSameAsNext =
-              index < filteredFishSpecies.length - 1 &&
-              species.family === filteredFishSpecies[index + 1].family;
-
-            if (!isSameAsNext) {
-              const renderedSpecies = new Set();
-
-              return (
-                <div>
-                  {Object.keys(groupedSpecies).map((family) => (
-                    <div key={family}>
-                      <h2>{family}</h2>
-                      {groupedSpecies[family].map((species) => {
-                        // Check if species has already been rendered
-                        if (!renderedSpecies.has(species.name)) {
-                          renderedSpecies.add(species.name); // Add species to rendered set
-                          return (
-                            <div key={species.name}>
-                              <Link to={`/species/${encodeURIComponent(species.name)}`}>
-                                <p>{species.name}</p>
-                              </Link>
-                            </div>
-                          );
-                        } else {
-                          return null; // If species has already been rendered, return null
-                        }
-                      })}
-                    </div>
-                  ))}
-                </div>
-              );
-            } else {
-              return null; // If same family as next species, skip rendering
-            }
-          })}
-        </div>
-      </Container>
+  <div>
+    {Object.keys(groupedSpecies).map((family) => (
+      <div key={family}>
+        <h2>{family}</h2>
+        {groupedSpecies[family].map((species) => (
+          <div key={species.name}>
+            <Link to={`/species/${encodeURIComponent(species.name)}`}>
+              <p>{species.name}</p>
+            </Link>
+          </div>
+        ))}
+      </div>
+    ))}
+  </div>
+</Container>
     </Container>
   );
 }
