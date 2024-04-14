@@ -7,6 +7,33 @@ import Card from "react-bootstrap/Card";
 import freshwaterFishSpecies from "../../db/Fresh/FeshwaterFishData.json";
 // import semiVideo from '../../assets/videos/fresh/fresh-md-aggressive.mp4';
 
+
+const FamilyDropdown = ({ family, species }) => {
+  const [selectedSpecies, setSelectedSpecies] = useState(null);
+
+  const handleSpeciesSelect = (species) => {
+    setSelectedSpecies(species);
+  };
+// make the dropdown item clickable, links it to the single page
+  return (
+    <div>
+      <h2>{family}</h2>
+      <select className="form-control mb-3" onChange={(e) => handleSpeciesSelect(JSON.parse(e.target.value))}>
+        <option value="">Select Species</option>
+        {species.map((species) => (
+          <option key={species.name} value={JSON.stringify(species)}>{species.name}</option>
+        ))}
+      </select>
+      {selectedSpecies && (
+        <div>
+          <Link to={`/species/${encodeURIComponent(selectedSpecies.name)}`} className="btn btn-primary">View Details</Link>
+        </div>
+      )}
+    </div>
+  );
+};
+
+
 function FreshCategory() {
   const [selectedFilter, setSelectedFilter] = useState(null);
   const [filteredFishSpecies, setFilteredFishSpecies] = useState([]);
@@ -43,7 +70,7 @@ function FreshCategory() {
       videoUrl: "your_video_url_6.mp4",
     },
   ];
-// turn this into modal
+  // turn this into modal
   const filterFishSpecies = (filter) => {
     setSelectedFilter(filter);
 
@@ -64,52 +91,44 @@ function FreshCategory() {
     }
     groupedSpecies[species.family].push(species);
   });
-
-  return (
-    <Container className="mb-5">
-      <Row className="text-center">
-        {items.map((item) => (
-          <Col lg={4} md={4} sm={6} xs={6} key={item.id}>
-            <Card
-              className={`my-2 clickable-item ${
-                selectedFilter === item.text ? "selected" : ""
-              }`}
-              onClick={() => filterFishSpecies(item.text)}
-            >
-              <div className="embed-responsive embed-responsive-16by9">
-                <video
-                  src={item.videoUrl}
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  className="w-100 h-100 embed-responsive-item"
-                />
-              </div>
-              <Card.Body>{item.text}</Card.Body>
-            </Card>
-          </Col>
-        ))}
-      </Row>
-
-      <Container>
-  <div>
-    {Object.keys(groupedSpecies).map((family) => (
-      <div key={family}>
-        <h2>{family}</h2>
-        {groupedSpecies[family].map((species) => (
-          <div key={species.name}>
-            <Link to={`/species/${encodeURIComponent(species.name)}`}>
-              <p>{species.name}</p>
-            </Link>
+return (
+  <Container className="mb-5">
+  {/* category options */}
+  <Row className="text-center">
+    {items.map((item) => (
+      <Col lg={4} md={4} sm={6} xs={6} key={item.id}>
+        <Card
+          className={`my-2 clickable-item ${
+            selectedFilter === item.text ? "selected" : ""
+          }`}
+          onClick={() => filterFishSpecies(item.text)}
+        >
+          <div className="embed-responsive embed-responsive-16by9">
+            <video
+              src={item.videoUrl}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-100 h-100 embed-responsive-item"
+            />
           </div>
-        ))}
-      </div>
+          <Card.Body>{item.text}</Card.Body>
+        </Card>
+      </Col>
     ))}
-  </div>
+  </Row>
+
+  {/* category results */}
+  <Row>
+    {Object.keys(groupedSpecies).map((family) => (
+      <Col xl={3} lg={3} md={4} sm={6} xs={6} key={family}>
+        <FamilyDropdown family={family} species={groupedSpecies[family]} />
+      </Col>
+    ))}
+  </Row>
 </Container>
-    </Container>
-  );
+);
 }
 
 export default FreshCategory;
