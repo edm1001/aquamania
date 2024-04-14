@@ -16,6 +16,10 @@ section {
 }
 
 /* NAV */
+.dropdown-menu {
+  border:none;
+  box-shadow: none;
+}
 
 /* WELCOME PAGE */
 .welcome-page{
@@ -23,9 +27,9 @@ section {
     height: 700px;
 }
 .section-title {
-    color:var(--dark-blue);
+    color: var(--dark-blue);
 }
-/* F-CAT-Page */
+/* Fresh-CAT-Page */
 .clickable-item {
     cursor: pointer;
     background-color: #f7f7f7;
