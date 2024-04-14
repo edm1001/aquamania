@@ -18,29 +18,45 @@ const products = [
     id: 2,
     name: "Product 2",
     price: "$29.99",
-    description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    description:
+      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     imageUrl: image2,
   },
   // Add more products
 ];
 
-const Products = () => {
+const ProductCard = ({ product }) => {
+  return (
+    <Card className="mb-4">
+    <div className="card-image-container">
+      <Card.Img className="card-image" variant="top" src={product.imageUrl}></Card.Img>
+      <div className="card-details">
+        <Card.Body>
+          <Card.Title>{product.name}</Card.Title>
+          <Card.Text className="text-small">{product.description}</Card.Text>
+          <Card.Text className="font-weight-bold">{product.price}</Card.Text>
+          <button className="btn btn-primary">Add to Cart</button>
+        </Card.Body>
+      </div>
+    </div>
+  </Card>
+  );
+};
+
+const ProductsPage = () => {
   return (
     <Container>
-      <h1 className="mt-5 mb-4 text-center">Featured Products</h1>
-      <p>These are hobbyist trusted products that sponser the maintence of the website</p>
+      <div className="">
+      <h1 className="mt-5 mb-2 text-center">Featured Products</h1>
+      <p className="text-sm text-center">
+        These are hobbyist trusted products that sponser the maintenance of the
+        website.
+      </p>
+      </div>
       <Row>
-        {products.map((product) => (
-          <Col lg={3} md={4}sm={6} xs={6}key={product.id}>
-            <Card className="mb-4">
-              <Card.Img variant="top" src={product.imageUrl} ></Card.Img>
-              <Card.Body>
-                <Card.Title>{product.name}</Card.Title>
-                <Card.Text>{product.description}</Card.Text>
-                <Card.Text className="font-weight-bold">{product.price}</Card.Text>
-                <button className="btn btn-primary">Add to Cart</button>
-              </Card.Body>
-            </Card>
+      {products.map((product) => (
+          <Col lg={3} md={3} sm={4} xs={4} key={product.id}>
+            <ProductCard product={product} />
           </Col>
         ))}
       </Row>
@@ -48,4 +64,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default ProductsPage;

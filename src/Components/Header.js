@@ -32,7 +32,7 @@ const Header = () => {
           <Link to="/freshpage" className="dropdown-item">Freshwater Fish</Link>
           <Link to="/category" className="dropdown-item">Saltwater Fish</Link>
         </NavDropdown>
-        <Link to="/products" className='text-center'>Shop Page</Link>
+        <Nav.Link to="/products" className='text-center'>Shop Page</Nav.Link>
         <Nav.Link href='/about' className='text-center'>About Us</Nav.Link>
         <Nav.Link href='/blog' className='text-center'>Blogs</Nav.Link>
         </Nav>
