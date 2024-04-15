@@ -111,7 +111,7 @@ const FreshCategory = () => {
                   className="w-100 h-100 embed-responsive-item"
                 />
               </div>
-              <Card.Body>{item.text}</Card.Body>
+              <Card.Body className="fs-6">{item.text}</Card.Body>
             </Card>
           </Col>
         ))}
