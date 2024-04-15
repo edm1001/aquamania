@@ -9,8 +9,7 @@ const About = () => {
         visible: { opacity: 1 }
     };
 
-    return (
-        
+    return (      
         <motion.div
             variants={fadeIn}
             initial="hidden"
@@ -24,7 +23,7 @@ const About = () => {
             className='py-2'
         >
             <p>
-            I created Aquamania as a go-to source for most fish aquatic hobby with basic needs. in the hobby whether you're into freshwater or marine aquariums, this site is dedicated to provide the best information & tips.<br/>
+            I created Aquamania as a go-to source for most fishz aquatic hobby with basic needs. in the hobby whether you're into freshwater or marine aquariums, this site is dedicated to provide the best information & tips.<br/>
             Whether starting out or a seasoned pro, we're here to share the passion and knowledge with all. </p>
             <Badge pill bg="info">Get in touch with us to be featured!</Badge>
         </motion.div>
