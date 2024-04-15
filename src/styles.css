@@ -83,3 +83,10 @@ section {
 .subject-list a {
     text-decoration: none;
 }
+
+/* mobile query for tablets and phones */
+@media (max-width: 720px) {
+.ctgry-img {
+  display:none;
+}
+}
