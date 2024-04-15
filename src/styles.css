@@ -39,7 +39,12 @@ section {
   .clickable-item:hover {
     background-color: #e0e0e0;
   }
-  
+
+/* Species Detail  */
+.species-info {
+  font-size: 12px;
+}
+
 /* PRODUCTS */
 .card-image-container {
     position: relative;

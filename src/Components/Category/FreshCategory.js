@@ -90,11 +90,11 @@ const FreshCategory = () => {
   });
 
   return (
-    <Container className="mb-5">
+    <Container className="my-5">
       {/* category options */}
       <Row className="text-center">
         {items.map((item) => (
-          <Col lg={4} md={4} sm={6} xs={6} key={item.id}>
+          <Col lg={2} md={3} sm={4} xs={4} key={item.id}>
             <Card
               className={`my-2 clickable-item ${
                 selectedFilter === item.text ? "selected" : ""
