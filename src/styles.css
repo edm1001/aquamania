@@ -89,4 +89,10 @@ section {
 .ctgry-img {
   display:none;
 }
+.about-page-info {
+  font-size: 12px;
+}
+.about-img {
+  display:none;
+}
 }
