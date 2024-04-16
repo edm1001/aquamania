@@ -16,10 +16,12 @@ section {
 }
 
 /* NAV */
-.dropdown-menu {
-  border:none;
-  box-shadow: none;
+.custom-menu  {
+  border: 0;  
+  background-color: transparent; /* Background color */
+  outline: none;
 }
+
 
 /* WELCOME PAGE */
 .welcome-page{
