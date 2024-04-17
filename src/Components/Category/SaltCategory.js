@@ -110,14 +110,14 @@ const SaltCategory =() => {
                   className="w-100 h-100 embed-responsive-item"
                 />
               </div>
-              <Card.Body className="fs-6">{item.text}</Card.Body>
+              <Card.Body className="category-text">{item.text}</Card.Body>
             </Card>
           </Col>
         ))}
       </Row>
 
       {/* category results */}
-      <Row>
+      <Row className="mt-5">
         {Object.keys(groupedSpecies).map((family) => (
           <Col xl={3} lg={3} md={4} sm={6} xs={6} key={family}>
             <FamilyDropdown family={family} species={groupedSpecies[family]} />
