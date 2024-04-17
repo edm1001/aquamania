@@ -38,9 +38,13 @@ section {
     transition: background-color 0.2s;
   }
   
-  .clickable-item:hover {
+.clickable-item:hover {
     background-color: #e0e0e0;
   }
+
+.category-text {
+  font-size: small;
+}
 
 /* Species Detail  */
 .species-info {
