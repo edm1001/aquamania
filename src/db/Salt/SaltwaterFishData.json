@@ -7,7 +7,7 @@
       "img": "https://example.com/ocellaris-clownfish-image.jpg",
       "size": "Small",
       "species": "Amphiprion ocellaris",
-      "family": "Pomacentridae",
+      "family": "Clownfish",
       "experienceLevel": "Beginner",
       "waterPHRange": "8.1 - 8.4",
       "temperatureRange": "72°F - 78°F (22°C - 26°C)"
@@ -20,7 +20,7 @@
       "img": "https://example.com/maroon-clownfish-image.jpg",
       "size": "Medium",
       "species": "Premnas biaculeatus",
-      "family": "Pomacentridae",
+      "family": "Clownfish",
       "experienceLevel": "Intermediate",
       "waterPHRange": "8.1 - 8.4",
       "temperatureRange": "74°F - 79°F (23°C - 26°C)"
@@ -33,7 +33,7 @@
       "img": "https://example.com/tomato-clownfish-image.jpg",
       "size": "Small",
       "species": "Amphiprion frenatus",
-      "family": "Pomacentridae",
+      "family": "Clownfish",
       "experienceLevel": "Intermediate",
       "waterPHRange": "8.1 - 8.4",
       "temperatureRange": "74°F - 79°F (23°C - 26°C)"
@@ -46,7 +46,7 @@
       "img": "https://example.com/picasso-clownfish-image.jpg",
       "size": "Small",
       "species": "Amphiprion percula 'Picasso'",
-      "family": "Pomacentridae",
+      "family": "Clownfish",
       "experienceLevel": "Intermediate",
       "waterPHRange": "8.1 - 8.4",
       "temperatureRange": "74°F - 79°F (23°C - 26°C)"
@@ -59,7 +59,7 @@
       "img": "https://example.com/true-percula-clownfish-image.jpg",
       "size": "Small",
       "species": "Amphiprion percula",
-      "family": "Pomacentridae",
+      "family": "Clownfish",
       "experienceLevel": "Intermediate",
       "waterPHRange": "8.1 - 8.4",
       "temperatureRange": "74°F - 79°F (23°C - 26°C)"
@@ -72,7 +72,7 @@
       "img": "https://example.com/clarkii-clownfish-image.jpg",
       "size": "Medium",
       "species": "Amphiprion clarkii",
-      "family": "Pomacentridae",
+      "family": "Clownfish",
       "experienceLevel": "Intermediate",
       "waterPHRange": "8.1 - 8.4",
       "temperatureRange": "74°F - 79°F (23°C - 26°C)"
@@ -85,7 +85,7 @@
       "img": "https://example.com/cinnamon-clownfish-image.jpg",
       "size": "Small",
       "species": "Amphiprion melanopus",
-      "family": "Pomacentridae",
+      "family": "Clownfish",
       "experienceLevel": "Intermediate",
       "waterPHRange": "8.1 - 8.4",
       "temperatureRange": "74°F - 79°F (23°C - 26°C)"
@@ -98,7 +98,7 @@
       "img": "https://example.com/skunk-clownfish-image.jpg",
       "size": "Small",
       "species": "Amphiprion akallopisos",
-      "family": "Pomacentridae",
+      "family": "Clownfish",
       "experienceLevel": "Intermediate",
       "waterPHRange": "8.1 - 8.4",
       "temperatureRange": "74°F - 79°F (23°C - 26°C)"
@@ -111,7 +111,7 @@
       "img": "https://example.com/mcculochi-clownfish-image.jpg",
       "size": "Small",
       "species": "Amphiprion mccullochi",
-      "family": "Pomacentridae",
+      "family": "Clownfish",
       "experienceLevel": "Intermediate",
       "waterPHRange": "8.1 - 8.4",
       "temperatureRange": "74°F - 79°F (23°C - 26°C)"
@@ -124,7 +124,7 @@
       "img": "https://example.com/sebae-clownfish-image.jpg",
       "size": "Medium",
       "species": "Amphiprion sebae",
-      "family": "Pomacentridae",
+      "family": "Clownfish",
       "experienceLevel": "Intermediate",
       "waterPHRange": "8.1 - 8.4",
       "temperatureRange": "74°F - 79°F (23°C - 26°C)"
@@ -137,7 +137,7 @@
       "img": "https://example.com/oman-clownfish-image.jpg",
       "size": "Small",
       "species": "Amphiprion omanensis",
-      "family": "Pomacentridae",
+      "family": "Clownfish",
       "experienceLevel": "Intermediate",
       "waterPHRange": "8.1 - 8.4",
       "temperatureRange": "74°F - 79°F (23°C - 26°C)"

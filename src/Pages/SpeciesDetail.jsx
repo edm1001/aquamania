@@ -1,10 +1,12 @@
 import { useParams } from "react-router-dom";
-import freshwaterFishSpecies from "../db/Fresh/FeshwaterFishData.json";
 import { Col, Row, Container } from "react-bootstrap";
+import freshwaterFishSpecies from "../db/Fresh/FeshwaterFishData.json";
+import saltwaterFishSpecies from "../db/Salt/SaltwaterFishData.json";
 
 const SpeciesDetail = () => {
   const { name } = useParams();
-  const selectedSpecies = freshwaterFishSpecies.find(
+  const allFishSpecies = freshwaterFishSpecies.concat(saltwaterFishSpecies);
+  const selectedSpecies = allFishSpecies.find(
     (species) => species.name === decodeURIComponent(name)
   );
 
