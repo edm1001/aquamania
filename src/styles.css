@@ -90,6 +90,33 @@ section {
     text-decoration: none;
 }
 
+/* Footer */
+
+.logo {
+  max-width: 100px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer-links > div {
+  margin-right: 20px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #333; 
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+
 /* mobile query for tablets and phones */
 @media (max-width: 720px) {
 .ctgry-img {
