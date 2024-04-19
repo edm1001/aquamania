@@ -4,24 +4,30 @@ import Logo from "../assets/aquamania-logo.gif";
 const Footer = () => {
   return (
     <Row className="footer-row">
-      <Col xl={6} lg={6} md={6} sm={6} xs={6}>
+      <Col xl={4} lg={4} md={4} sm={4} xs={4}>
         <img src={Logo} alt="logo" className="img-fluid"></img>
       </Col>
-      <Col xl={6} lg={6} md={6} sm={6} xs={6} className="footer-links">
-        <div className="px-2">
+      <Col xl={8} lg={8} md={8} sm={8} xs={8} className="footer-links d-flex flex-row">
+        <div className="fish-footer">
           <h6>Fish</h6>
-          <a href="/freshpage" className="footer-link">
+          <div className="flex-link-column">
+          <a href="/freshpage" className="footer-link text-secondary">
             Freshwater
           </a>
-          <a href="/saltpage" className="footer-link">
+          <a href="/saltpage" className="footer-link text-secondary">
             Saltwater
           </a>
+          </div>
         </div>
-        <div className="px-2">
+        <div className="">
           <h6>Products</h6>
+          <p>Recommended Products</p>
+          <p>Featured Products</p>
         </div>
-        <div className="px-2">
-          <h6>Products</h6>
+        <div className="">
+          <h6>About Us</h6>
+          <p>About Aquamania</p>
+          <p>Basic Fish Care</p>
         </div>
       </Col>
     </Row>
