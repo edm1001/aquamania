@@ -7,6 +7,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { IoFish, IoFishOutline } from "react-icons/io5";
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -45,7 +46,7 @@ const Header = () => {
                 </Link>
               </NavDropdown>
               <Nav.Link href="/products" className="text-center">
-                Shop Page
+                Products
               </Nav.Link>
               <Nav.Link href="/about" className="text-center">
                 About Us
