@@ -267,7 +267,7 @@
     "img": "https://example.com/black-ruby-barb-image.jpg",
     "size": "Small",
     "species": "Pethia nigrofasciata",
-    "family": "Cyprinidae",
+    "family": "Barb",
     "experienceLevel": "Beginner",
     "waterPHRange": "6.0 - 7.5",
     "temperatureRange": "72°F - 79°F (22°C - 26°C)"
@@ -280,7 +280,7 @@
     "img": "https://example.com/checker-barb-image.jpg",
     "size": "Small",
     "species": "Oliotius oligolepis",
-    "family": "Cyprinidae",
+    "family": "Barb",
     "experienceLevel": "Beginner",
     "waterPHRange": "6.0 - 7.5",
     "temperatureRange": "72°F - 79°F (22°C - 26°C)"
@@ -293,7 +293,7 @@
     "img": "https://example.com/spanner-barb-image.jpg",
     "size": "Small",
     "species": "Barbus lateristriga",
-    "family": "Cyprinidae",
+    "family": "Barb",
     "experienceLevel": "Beginner",
     "waterPHRange": "6.0 - 7.5",
     "temperatureRange": "72°F - 79°F (22°C - 26°C)"
@@ -306,7 +306,7 @@
     "img": "https://example.com/filament-barb-image.jpg",
     "size": "Small",
     "species": "Dawkinsia filamentosus",
-    "family": "Cyprinidae",
+    "family": "Barb",
     "experienceLevel": "Beginner",
     "waterPHRange": "6.0 - 7.5",
     "temperatureRange": "72°F - 79°F (22°C - 26°C)"
@@ -384,7 +384,7 @@
     "img": "https://example.com/kissing-gourami-image.jpg",
     "size": "Medium",
     "species": "Helostoma temminckii",
-    "family": "Helostomatidae",
+    "family": "Gourami",
     "experienceLevel": "Intermediate",
     "waterPHRange": "6.0 - 7.5",
     "temperatureRange": "75°F - 82°F (24°C - 28°C)"
@@ -442,6 +442,19 @@
     "temperatureRange": "72°F - 82°F (22°C - 28°C)"
   },
   {
+    "name": "Giant Gourami",
+    "description": "The Giant Gourami, scientifically known as Osphronemus goramy, is one of the largest freshwater fish species in the gourami family. Native to Southeast Asia, it is named for its impressive size and robust appearance. Giant Gouramis are known for their aggresive temperament, making them suitable for solo or large community aquariums with other sizeable fish species. They require spacious tanks with plenty of hiding spots and vegetation. While juveniles may exhibit some territorial behavior, adults are generally docile. Like other gouramis, they possess labyrinth organs, enabling them to breathe atmospheric air.",
+    "temperament": "Aggressive",
+    "maxGrowthSize": "Up to 24 inches (60 cm)",
+    "img": "https://example.com/giant-gourami-image.jpg",
+    "size": "Extra Large",
+    "species": "Osphronemus goramy",
+    "family": "Gourami",
+    "experienceLevel": "Intermediate to Advanced",
+    "waterPHRange": "6.0 - 7.5",
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+  },
+  {
     "name": "Golden Dwarf Barb",
     "description": "The Golden Dwarf Barb, scientifically known as Pethia gelius, is a small and peaceful freshwater fish species. It is prized for its golden coloration and is suitable for smaller aquarium setups.",
     "temperament": "Peaceful",
@@ -449,7 +462,7 @@
     "img": "https://example.com/golden-dwarf-barb-image.jpg",
     "size": "Small",
     "species": "Pethia gelius",
-    "family": "Cyprinidae",
+    "family": "Barb",
     "experienceLevel": "Beginner",
     "waterPHRange": "6.0 - 7.5",
     "temperatureRange": "72°F - 79°F (22°C - 26°C)"
@@ -462,7 +475,7 @@
     "img": "https://example.com/three-spot-barb-image.jpg",
     "size": "Small",
     "species": "Puntius trifasciatus",
-    "family": "Cyprinidae",
+    "family": "Barb",
     "experienceLevel": "Beginner",
     "waterPHRange": "6.0 - 7.5",
     "temperatureRange": "72°F - 79°F (22°C - 26°C)"
@@ -475,9 +488,61 @@
     "img": "https://example.com/five-banded-barb-image.jpg",
     "size": "Small",
     "species": "Puntius pentazona",
-    "family": "Cyprinidae",
+    "family": "Barb",
     "experienceLevel": "Beginner",
     "waterPHRange": "6.0 - 7.5",
+    "temperatureRange": "72°F - 79°F (22°C - 26°C)"
+  },
+  {
+    "name": "Bala Shark",
+    "description": "The Bala Shark, scientifically known as Balantiocheilos melanopterus, is a sleek and active freshwater fish species native to Southeast Asia. It features a silver body with black margins on its fins, resembling a miniature shark. Although often mistaken for a shark, it is a peaceful schooling fish suitable for larger community aquariums.",
+    "temperament": "Peaceful",
+    "maxGrowthSize": "Up to 14 inches (35 cm)",
+    "img": "https://example.com/bala-shark-image.jpg",
+    "size": "Large",
+    "species": "Balantiocheilos melanopterus",
+    "family": "Shark",
+    "experienceLevel": "Intermediate",
+    "waterPHRange": "6.0 - 8.0",
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+  },
+  {
+    "name": "Redtail Shark",
+    "description": "The Redtail Shark, scientifically known as Epalzeorhynchos bicolor, is a striking freshwater fish species with a vibrant red tail fin contrasting against its black body. It is territorial and may exhibit aggression towards similar-looking species, making it suitable for semi-aggressive community tanks.",
+    "temperament": "Semi-aggressive",
+    "maxGrowthSize": "Up to 6 inches (15 cm)",
+    "img": "https://example.com/redtail-shark-image.jpg",
+    "size": "Medium",
+    "species": "Epalzeorhynchos bicolor",
+    "family": "Shark",
+    "experienceLevel": "Intermediate",
+    "waterPHRange": "6.5 - 7.5",
+    "temperatureRange": "72°F - 79°F (22°C - 26°C)"
+  },
+  {
+    "name": "Siamese Algae Eater",
+    "description": "The Siamese Algae Eater, scientifically known as Crossocheilus siamensis, is a popular freshwater fish species valued for its algae-eating habits. It has a slender, elongated body with a distinctive black stripe running from its head to tail. This peaceful and hardy fish is an excellent addition to community aquariums for controlling algae growth.",
+    "temperament": "Peaceful",
+    "maxGrowthSize": "Up to 6 inches (15 cm)",
+    "img": "https://example.com/siamese-algae-eater-image.jpg",
+    "size": "Medium",
+    "species": "Crossocheilus siamensis",
+    "family": "Shark",
+    "experienceLevel": "Beginner",
+    "waterPHRange": "6.5 - 7.5",
+    "temperatureRange": "75°F - 79°F (24°C - 26°C)"
+  },
+  {
+    "name": "Rainbow Shark",
+    "description": "The Rainbow Shark, scientifically known as Epalzeorhynchos frenatum, is a colorful and territorial freshwater fish species. It exhibits a striking red or orange coloration on its fins and a dark body. Despite its name, it is not a true shark but belongs to the Cyprinidae family. Due to its territorial nature, it should be kept in larger aquariums with ample hiding spots.",
+    "temperament": "Semi-aggressive",
+    "maxGrowthSize": "Up to 6 inches (15 cm)",
+    "img": "https://example.com/rainbow-shark-image.jpg",
+    "size": "Medium",
+    "species": "Epalzeorhynchos frenatum",
+    "family": "Cyprinidae",
+    "experienceLevel": "Intermediate",
+    "waterPHRange": "6.5 - 7.5",
     "temperatureRange": "72°F - 79°F (22°C - 26°C)"
   },
   {
@@ -488,7 +553,7 @@
     "img": "https://example.com/six-banded-barb-image.jpg",
     "size": "Small",
     "species": "Puntius hexazona",
-    "family": "Cyprinidae",
+    "family": "Barb",
     "experienceLevel": "Beginner",
     "waterPHRange": "6.0 - 7.5",
     "temperatureRange": "72°F - 79°F (22°C - 26°C)"

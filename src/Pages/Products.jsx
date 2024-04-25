@@ -24,6 +24,7 @@ const products = [
   },
   // Add more products
 ];
+// add tank, filter, substrate, heater, lighting, decor, water meds, test kits, fish food, maintenance equipment, protein skimmer, hydrometer, salt, RO systems, calcium reactor or supplements, sump systems
 
 const ProductCard = ({ product }) => {
   return (
