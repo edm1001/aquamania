@@ -808,6 +808,45 @@
     "temperatureRange": "74°F - 79°F (23°C - 26°C)"
   },
   {
+    "name": "Orbicular Batfish",
+    "description": "The Orbicular Batfish, also known as the Orbic Batfish, is a fascinating marine fish species belonging to the Batfish family. Scientifically named Platax orbicularis, it is recognized for its distinctive round body shape and graceful swimming movements. Orbicular Batfish are found in tropical Indo-Pacific waters, often inhabiting coral reefs and lagoons. They are peaceful and sociable creatures that thrive in groups. However, they require a large tank with plenty of swimming space and hiding spots. Due to their delicate nature, they are best suited for experienced aquarists.",
+    "temperament": "Peaceful",
+    "maxGrowthSize": "Up to 20 inches (40 cm)",
+    "img": "https://example.com/orbicular-batfish-image.jpg",
+    "size": "Large",
+    "species": "Platax orbicularis",
+    "family": "Batfish",
+    "experienceLevel": "Difficult",
+    "waterPHRange": "8.1 - 8.4",
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+  },
+  {
+    "name": "Pinnate Batfish",
+    "description": "The Pinnate Batfish, scientifically known as Platax pinnatus, is an elegant marine fish species belonging to the Batfish family. It is admired for its striking appearance, characterized by long fins and a disc-shaped body. Pinnate Batfish are native to the Indo-Pacific region, where they inhabit shallow coastal waters and coral reefs. They are peaceful by nature but require a large aquarium with plenty of space to swim and explore. These fish can be challenging to care for due to their specific dietary needs and susceptibility to diseases.",
+    "temperament": "Peaceful",
+    "maxGrowthSize": "Up to 18 inches (45 cm)",
+    "img": "https://example.com/pinnate-batfish-image.jpg",
+    "size": "Large",
+    "species": "Platax pinnatus",
+    "family": "Batfish",
+    "experienceLevel": "Difficult",
+    "waterPHRange": "8.1 - 8.4",
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+  },
+  {
+    "name": "Teira Batfish",
+    "description": "The Teira Batfish, scientifically known as Platax teira, is a captivating marine fish species belonging to the Batfish family. It is characterized by its circular body shape, elongated fins, and vibrant coloration. Teira Batfish are found in the Indo-Pacific region, often inhabiting shallow coastal areas and coral reefs. They are peaceful creatures that prefer to swim in schools, adding beauty to any aquarium setting. However, they require a spacious tank with plenty of hiding spots and a well-balanced diet. Due to their size and care requirements, they are best suited for experienced aquarists.",
+    "temperament": "Peaceful",
+    "maxGrowthSize": "Up to 24 inches (45 cm)",
+    "img": "https://example.com/teira-batfish-image.jpg",
+    "size": "Large",
+    "species": "Platax teira",
+    "family": "Batfish",
+    "experienceLevel": "Difficult",
+    "waterPHRange": "8.1 - 8.4",
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+  },
+  {
     "name": "Picasso Clownfish",
     "description": "The Picasso Clownfish, also known as the Black Ice Clownfish, is a unique and visually striking marine fish species. It is known for its distinctive black and white coloration, resembling the patterns of a Picasso painting.",
     "temperament": "Semi-aggressive",
