@@ -155,7 +155,6 @@
     "waterPHRange": "8.1 - 8.4",
     "temperatureRange": "72°F - 78°F (22°C - 26°C)"
   },
-
   {
     "name": "Ocellaris Clownfish",
     "description": "The Ocellaris Clownfish, also known as the False Percula Clownfish or Clown Anemonefish, is one of the most popular and recognizable marine fish species. It is known for its vibrant orange coloration with white stripes.",
@@ -263,7 +262,7 @@
   {
     "name": "Emperor Angelfish",
     "description": "The Emperor Angelfish, also known as Pomacanthus imperator, is a stunning marine fish species prized for its vibrant coloration and graceful swimming behavior. Native to the Indo-Pacific region, this species is relatively peaceful and suitable for larger reef aquariums.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 15 inches (38 cm)",
     "img": "https://example.com/emperor-angelfish-image.jpg",
     "size": "Large",
@@ -302,7 +301,7 @@
   {
     "name": "French Angelfish",
     "description": "The French Angelfish, scientifically known as Pomacanthus frenatus, is a stunning marine fish species prized for its vibrant coloration and unique patterns. Native to the Western Atlantic Ocean, this species is relatively peaceful and suitable for larger reef aquariums.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 14 inches (36 cm)",
     "img": "https://example.com/french-angelfish-image.jpg",
     "size": "Large",
@@ -315,7 +314,7 @@
   {
     "name": "Goldflake Angelfish",
     "description": "The Goldflake Angelfish, scientifically known as Apolemichthys xanthopunctatus, is a striking marine fish species prized for its bright yellow coloration and intricate patterning. Native to the Indo-Pacific region, this species is often found in coral-rich environments and is best suited for large reef aquariums.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 8 inches (20 cm)",
     "img": "https://example.com",
     "size": "Medium",
@@ -325,11 +324,10 @@
     "waterPHRange": "8.1 - 8.4",
     "temperatureRange": "72°F - 78°F (22°C - 26°C)"
   },
-  
   {
     "name": "Black Angelfish",
     "description": "The Black Angelfish, scientifically known as Centropyge eibli, is a striking marine fish species prized for its contrasting black and yellow coloration. Native to the Indo-Pacific region, this species is suitable for reef aquariums with appropriate tank mates.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 5 inches (13 cm)",
     "img": "https://example.com/black-angelfish-image.jpg",
     "size": "Medium",
@@ -342,7 +340,7 @@
   {
     "name": "Koran Angelfish",
     "description": "The Koran Angelfish, also known as Pomacanthus semicirculatus, is a stunning marine fish species prized for its vibrant coloration and elegant appearance. Native to the Indo-Pacific region, this species is suitable for large reef aquariums with ample swimming space.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 15 inches (38 cm)",
     "img": "https://example.com/koran-angelfish-image.jpg",
     "size": "Large",
@@ -355,7 +353,7 @@
   {
     "name": "Regal Angelfish",
     "description": "The Regal Angelfish, also known as Apolemichthys regalis, is a majestic marine fish species prized for its vibrant coloration and elegant appearance. Native to the Indo-Pacific region, this species is suitable for large reef aquariums with ample swimming space.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 10 inches (25 cm)",
     "img": "https://example.com/regal-angelfish-image.jpg",
     "size": "Medium",
@@ -368,7 +366,7 @@
   {
     "name": "Queen Angelfish",
     "description": "The Queen Angelfish, also known as Holacanthus ciliaris, is a majestic marine fish species prized for its vibrant coloration and elegant appearance. Native to the Western Atlantic Ocean, this species is suitable for large reef aquariums with ample swimming space.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 18 inches (45 cm)",
     "img": "https://example.com/queen-angelfish-image.jpg",
     "size": "Large",
@@ -381,7 +379,7 @@
   {
     "name": "Maculosus Angelfish",
     "description": "The Maculosus Angelfish, scientifically known as Pomacanthus maculosus, is a stunning marine fish species prized for its vibrant coloration and unique patterning. Native to the Indo-Pacific region, this species is suitable for large reef aquariums with ample swimming space.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 14 inches (36 cm)",
     "img": "https://upload.wikimedia.org/",
     "size": "Large",
@@ -394,7 +392,7 @@
   {
     "name": "Barlett's Anthias",
     "description": "Barlett's Anthias, scientifically known as Pseudanthias bartlettorum, is a vibrant and social marine fish species belonging to the Anthias family. It is characterized by its stunning coloration, with shades of pink, orange, and yellow accentuated by iridescent scales. Barlett's Anthias are found in the waters of the Western Pacific Ocean, particularly around Indonesia and the Philippines. They are typically found in large schools, adding a dazzling display of color to coral reef environments. These fish require a well-established aquarium with plenty of hiding spots and open swimming areas.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 4 inches (10 cm)",
     "img": "https://example.com/barletts-anthias-image.jpg",
     "size": "Small",
@@ -407,7 +405,7 @@
   {
     "name": "Bimaculatus Anthias",
     "description": "Bimaculatus Anthias, scientifically known as Pseudanthias bimaculatus, is a captivating marine fish species belonging to the Anthias family. It is characterized by its vibrant coloration, with shades of orange, pink, and purple. Bimaculatus Anthias are native to the Indo-Pacific region, where they inhabit coral reef environments. They are typically found in large aggregations, adding beauty and movement to underwater landscapes. These fish require a well-maintained aquarium with plenty of live rock formations and hiding spots.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 5 inches (10 cm)",
     "img": "https://example.com/bimaculatus-anthias-image.jpg",
     "size": "Medium",
@@ -420,7 +418,7 @@
   {
     "name": "Blotched Anthias",
     "description": "Blotched Anthias, scientifically known as Pseudanthias pleurotaenia, is a captivating marine fish species belonging to the Anthias family. It is named for the blotched pattern on its body, which consists of vibrant hues of pink, orange, and yellow. Blotched Anthias are found in the waters of the Western Pacific Ocean, particularly around coral reefs and rocky outcrops. They are typically found in large schools, adding movement and color to the underwater landscape. These fish require a well-established aquarium with plenty of swimming space and hiding spots.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 6 inches (12.5 cm)",
     "img": "https://example.com/blotched-anthias-image.jpg",
     "size": "Medium",
@@ -433,7 +431,7 @@
   {
     "name": "Blood Spot Anthias",
     "description": "Blood Spot Anthias, scientifically known as Pseudanthias parvirostris, is a striking marine fish species belonging to the Anthias family. It is named for the distinctive red spot on its head, which contrasts with its vibrant pink and orange coloration. Blood Spot Anthias are native to the Indo-Pacific region, where they inhabit coral reef environments. They are typically found in large schools, adding movement and color to underwater landscapes. These fish require a well-maintained aquarium with plenty of live rock formations and hiding spots.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 5 inches (12.5 cm)",
     "img": "https://example.com/blood-spot-anthias-image.jpg",
     "size": "Medium",
@@ -446,7 +444,7 @@
   {
     "name": "Carberryi Anthias",
     "description": "Carberryi Anthias, scientifically known as Pseudanthias carberryi, is a colorful marine fish species belonging to the Anthias family. It is characterized by its vibrant pink and yellow coloration, with subtle orange accents on the fins. Carberryi Anthias are native to the Western Pacific Ocean, where they inhabit coral reef environments. They are typically found in large schools, adding movement and color to underwater landscapes. These fish require a well-maintained aquarium with plenty of live rock formations and hiding spots.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 4 inches (10 cm)",
     "img": "https://example.com/carberryi-anthias-image.jpg",
     "size": "Small",
@@ -498,7 +496,7 @@
   {
     "name": "Huchtii Anthias",
     "description": "Huchtii Anthias, scientifically known as Pseudanthias huchtii, is a colorful marine fish species belonging to the Anthias family. It is characterized by its vibrant pink and yellow coloration, with subtle orange accents on the fins. Huchtii Anthias are native to the Western Pacific Ocean, where they inhabit coral reef environments. They are typically found in large schools, adding movement and color to underwater landscapes. These fish require a well-maintained aquarium with plenty of live rock formations and hiding spots.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 5 inches (10 cm)",
     "img": "https://example.com/huchtii-anthias-image.jpg",
     "size": "Medium",
@@ -511,7 +509,7 @@
   {
     "name": "Indian Ocean Lyretail Anthias",
     "description": "Indian Ocean Lyretail Anthias, scientifically known as Pseudanthias squamipinnis, is a striking marine fish species belonging to the Anthias family. It is characterized by its elongated fins and vibrant coloration, with shades of pink, orange, and yellow. Indian Ocean Lyretail Anthias are native to the Indian Ocean, where they inhabit coral reef environments. They are typically found in large schools, adding movement and color to underwater landscapes. These fish require a well-maintained aquarium with plenty of live rock formations and hiding spots.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 5 inches (12.5 cm)",
     "img": "https://example.com/indian-ocean-lyretail-anthias-image.jpg",
     "size": "Medium",
@@ -524,7 +522,7 @@
   {
     "name": "Lyretail Anthias",
     "description": "Lyretail Anthias, scientifically known as Pseudanthias squamipinnis, is a vibrant marine fish species belonging to the Anthias family. It is characterized by its elongated fins and stunning coloration, with shades of pink, orange, and yellow. Lyretail Anthias are native to the Indo-Pacific region, where they inhabit coral reef environments. They are typically found in large schools, adding beauty and movement to underwater landscapes. These fish require a well-maintained aquarium with plenty of live rock formations and hiding spots.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 5 inches (12.5 cm)",
     "img": "https://example.com/lyretail-anthias-image.jpg",
     "size": "Medium",
@@ -602,7 +600,7 @@
   {
     "name": "Red Belted Anthias",
     "description": "Red Belted Anthias, scientifically known as Pseudanthias rubrizonatus, is a captivating marine fish species belonging to the Anthias family. It is characterized by its vibrant coloration, with shades of pink, orange, and yellow. Red Belted Anthias are native to the Indo-Pacific region, where they inhabit coral reef environments. They are typically found in large schools, adding beauty and movement to underwater landscapes. These fish require a well-maintained aquarium with plenty of live rock formations and hiding spots.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 5 inches (10 cm)",
     "img": "https://example.com/red-belted-anthias-image.jpg",
     "size": "Medium",
@@ -615,7 +613,7 @@
   {
     "name": "Squareback Anthias",
     "description": "Squareback Anthias, scientifically known as Pseudanthias pleurotaenia, is a colorful marine fish species belonging to the Anthias family. It is characterized by its vibrant coloration, with shades of pink, orange, and yellow. Squareback Anthias are native to the Indo-Pacific region, where they inhabit coral reef environments. They are typically found in large schools, adding beauty and movement to underwater landscapes. These fish require a well-maintained aquarium with plenty of live rock formations and hiding spots.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 8 inches (12.5 cm)",
     "img": "https://example.com/squareback-anthias-image.jpg",
     "size": "Medium",
@@ -628,7 +626,7 @@
   {
     "name": "Stocky Anthias",
     "description": "Stocky Anthias, scientifically known as Pseudanthias hypselosoma, is a captivating marine fish species belonging to the Anthias family. It is characterized by its vibrant coloration, with shades of pink, orange, and yellow. Stocky Anthias are native to the Indo-Pacific region, where they inhabit coral reef environments. They are typically found in large schools, adding beauty and movement to underwater landscapes. These fish require a well-maintained aquarium with plenty of live rock formations and hiding spots.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 7 inches (10 cm)",
     "img": "https://example.com/stocky-anthias-image.jpg",
     "size": "Medium",
@@ -667,7 +665,7 @@
   {
     "name": "Black Cap Basslet",
     "description": "The Black Cap Basslet, scientifically known as Gramma melacara, is a captivating marine fish species belonging to the Basslet family. It is characterized by its striking coloration, featuring a purple body with a distinctive black cap on its head. This fish is native to the Caribbean Sea and is often found inhabiting coral reefs and rocky crevices. Black Cap Basslets are relatively peaceful but can be territorial, especially towards similar-looking species. They thrive in well-established aquariums with plenty of live rock structures for hiding and grazing.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 4 inches (7.6 cm)",
     "img": "https://example.com/black-cap-basslet-image.jpg",
     "size": "Small",
@@ -693,7 +691,7 @@
   {
     "name": "Chalk Bass",
     "description": "The Chalk Bass, scientifically known as Serranus tortugarum, is a charming marine fish species belonging to the Basslet family. It is named for its pale white or chalky coloration, with subtle hints of pink or orange. Chalk Bass are native to the western Atlantic Ocean, where they inhabit coral reefs and rocky outcrops. They are peaceful and can be kept in small groups or pairs in aquariums with appropriate tankmates. These fish require a well-aerated tank with plenty of hiding spots and live rock structures.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 3 inches (7.6 cm)",
     "img": "https://example.com/chalk-bass-image.jpg",
     "size": "Small",
@@ -706,7 +704,7 @@
   {
     "name": "Harlequin Bass",
     "description": "The Harlequin Bass, scientifically known as Serranus tigrinus, is a striking marine fish species belonging to the Basslet family. It is admired for its vibrant coloration, featuring a mix of yellow, orange, and black markings. Harlequin Bass are native to the western Atlantic Ocean, where they inhabit rocky reefs and ledges. They are relatively peaceful but can be territorial towards similar species. These fish require a well-established aquarium with plenty of hiding spots and live rock formations.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 12 inches (7.6 cm)",
     "img": "https://example.com/harlequin-bass-image.jpg",
     "size": "Large",
@@ -719,7 +717,7 @@
   {
     "name": "Lantern Bass",
     "description": "The Lantern Bass, scientifically known as Serranus baldwini, is an attractive marine fish species belonging to the Basslet family. It is named for its lantern-like appearance, with bright orange and yellow coloration. Lantern Bass are native to the western Atlantic Ocean, where they inhabit coral reefs and rocky areas. They are relatively peaceful and can be kept in small groups in aquariums with appropriate tankmates. These fish require a well-oxygenated tank with plenty of hiding spots and live rock structures.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 5 inches (10 cm)",
     "img": "https://example.com/lantern-bass-image.jpg",
     "size": "Medium",
@@ -732,7 +730,7 @@
   {
     "name": "Randall's Assessor Basslet",
     "description": "Randall's Assessor Basslet, scientifically known as Assessor randalli, is a colorful marine fish species belonging to the Basslet family. It is characterized by its vibrant blue and yellow coloration, with intricate markings on its body. Randall's Assessor Basslets are native to the Indo-Pacific region, where they inhabit coral reef environments. They are relatively peaceful and can be kept in small groups in suitable aquarium setups. These fish require a well-established tank with plenty of hiding spots and live rock formations.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 3 inches (5 cm)",
     "img": "https://example.com/randalls-assessor-basslet-image.jpg",
     "size": "Small",
@@ -758,7 +756,7 @@
   {
     "name": "Swissguard Basslet",
     "description": "The Swissguard Basslet, scientifically known as Liopropoma rubre, is a captivating marine fish species belonging to the Basslet family. It is prized for its striking coloration, which includes shades of red, purple, and yellow. Swissguard Basslets are native to the Caribbean Sea and are commonly found in coral reef environments. They are relatively peaceful and can be kept in small groups in suitable aquarium setups. These fish require a well-established tank with plenty of hiding spots and live rock formations.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 3 inches (7.6 cm)",
     "img": "https://example.com/swissguard-basslet-image.jpg",
     "size": "Small",
@@ -780,32 +778,6 @@
     "experienceLevel": "Beginner",
     "waterPHRange": "8.0 - 8.4",
     "temperatureRange": "75°F - 80°F (24°C - 27°C)"
-  },
-  {
-    "name": "Maroon Clownfish",
-    "description": "The Maroon Clownfish, also known as the Spine-Cheeked Anemonefish, is a striking fish species with bold red or maroon coloration. It is known for its aggressive behavior and should be housed with caution.",
-    "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 6 inches (15 cm)",
-    "img": "https://example.com/maroon-clownfish-image.jpg",
-    "size": "Medium",
-    "species": "Premnas biaculeatus",
-    "family": "Clownfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 79°F (23°C - 26°C)"
-  },
-  {
-    "name": "Tomato Clownfish",
-    "description": "The Tomato Clownfish, also known as the Bridled Clownfish or Red Clownfish, is a bold and colorful marine fish species. It is characterized by its vibrant orange-red coloration and three distinctive white stripes.",
-    "temperament": "Semi-aggressive",
-    "maxGrowthSize": "Up to 5 inches (12.5 cm)",
-    "img": "https://example.com/tomato-clownfish-image.jpg",
-    "size": "Small",
-    "species": "Amphiprion frenatus",
-    "family": "Clownfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 79°F (23°C - 26°C)"
   },
   {
     "name": "Orbicular Batfish",
@@ -1042,9 +1014,87 @@
     "temperatureRange": "75°F - 82°F (24°C - 28°C)"
   },
   {
+    "name": "Blue Spot Cowfish",
+    "description": "The Blue Spot Cowfish, scientifically known as Lactoria cornuta, is a unique and fascinating marine fish species. It is characterized by its boxy body shape, prominent horns, and striking blue spots scattered across its yellowish-green skin. Blue Spot Cowfish are typically found in tropical coral reef environments, where they forage for small invertebrates and algae. They have a peaceful temperament but may release toxins when stressed, making them incompatible with some tankmates. Due to their potential size and specialized care requirements, Blue Spot Cowfish are best suited for experienced aquarists with large, well-established aquariums.",
+    "temperament": "Peaceful",
+    "maxGrowthSize": "Up to 20 inches (50 cm)",
+    "img": "https://example.com/blue-spot-cowfish-image.jpg",
+    "size": "Large",
+    "species": "Lactoria cornuta",
+    "family": "Boxfish",
+    "experienceLevel": "Advanced",
+    "waterPHRange": "8.1 - 8.4",
+    "temperatureRange": "72°F - 78°F (22°C - 25°C)"
+  },
+  {
+    "name": "Cubicus Boxfish",
+    "description": "The Cubicus Boxfish, scientifically known as Ostracion cubicus, is a unique marine fish species belonging to the Boxfish family. It is native to the Indo-Pacific region, where it inhabits coral reefs and rocky substrates. The Cubicus Boxfish is characterized by its distinctive box-shaped body and vibrant yellow coloration with black spots. It is a semi-aggressive fish but may release toxins if stressed, making it incompatible with some tankmates. This boxfish requires a well-established aquarium with ample swimming space and live rock to thrive.",
+    "temperament": "Semi-Aggressive",
+    "maxGrowthSize": "Up to 17 inches (43 cm)",
+    "img": "https://example.com/cubicus-boxfish-image.jpg",
+    "size": "Large",
+    "species": "Ostracion cubicus",
+    "family": "Boxfish",
+    "experienceLevel": "Intermediate",
+    "waterPHRange": "8.0 - 8.4",
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+  },
+  {
+    "name": "Island Cowfish",
+    "description": "The Island Cowfish, scientifically known as Lactoria koh, is an intriguing marine fish species belonging to the Boxfish family. It is native to the Indo-Pacific region, where it can be found in coral reefs and coastal areas. The Island Cowfish is characterized by its unique appearance, featuring a box-shaped body and horn-like projections. It is a peaceful and hardy fish but may release toxins if stressed, making it incompatible with some tankmates. This boxfish requires a well-established aquarium with ample swimming space and live rock to thrive.",
+    "temperament": "Semi-Aggressive",
+    "maxGrowthSize": "Up to 20 inches (50 cm)",
+    "img": "https://example.com/island-cowfish-image.jpg",
+    "size": "Large",
+    "species": "Lactoria koh",
+    "family": "Boxfish",
+    "experienceLevel": "Advanced",
+    "waterPHRange": "8.0 - 8.4",
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+  },
+  {
+    "name": "Longhorn Cowfish",
+    "description": "The Longhorn Cowfish, scientifically known as Lactoria cornuta, is a fascinating marine fish species belonging to the Boxfish family. It is native to the Indo-Pacific region, where it inhabits coral reefs and rocky areas. The Longhorn Cowfish is named for its elongated horns, which are used for defense and territorial display. It is a peaceful but territorial fish and may release toxins if stressed, making it incompatible with some tankmates. This boxfish requires a well-established aquarium with ample swimming space and live rock to thrive.",
+    "temperament": "Peaceful",
+    "maxGrowthSize": "Up to 20 inches",
+    "img": "https://example.com/longhorn-cowfish-image.jpg",
+    "size": "Large",
+    "species": "Lactoria cornuta",
+    "family": "Boxfish",
+    "experienceLevel": "Advanced",
+    "waterPHRange": "8.0 - 8.4",
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+  },
+  {
+    "name": "Maroon Clownfish",
+    "description": "The Maroon Clownfish, also known as the Spine-Cheeked Anemonefish, is a striking fish species with bold red or maroon coloration. It is known for its aggressive behavior and should be housed with caution.",
+    "temperament": "Aggressive",
+    "maxGrowthSize": "Up to 6 inches (15 cm)",
+    "img": "https://example.com/maroon-clownfish-image.jpg",
+    "size": "Medium",
+    "species": "Premnas biaculeatus",
+    "family": "Clownfish",
+    "experienceLevel": "Intermediate",
+    "waterPHRange": "8.1 - 8.4",
+    "temperatureRange": "74°F - 79°F (23°C - 26°C)"
+  },
+  {
+    "name": "Tomato Clownfish",
+    "description": "The Tomato Clownfish, also known as the Bridled Clownfish or Red Clownfish, is a bold and colorful marine fish species. It is characterized by its vibrant orange-red coloration and three distinctive white stripes.",
+    "temperament": "Semi-Aggressive",
+    "maxGrowthSize": "Up to 5 inches (12.5 cm)",
+    "img": "https://example.com/tomato-clownfish-image.jpg",
+    "size": "Small",
+    "species": "Amphiprion frenatus",
+    "family": "Clownfish",
+    "experienceLevel": "Intermediate",
+    "waterPHRange": "8.1 - 8.4",
+    "temperatureRange": "74°F - 79°F (23°C - 26°C)"
+  },
+  {
     "name": "Picasso Clownfish",
     "description": "The Picasso Clownfish, also known as the Black Ice Clownfish, is a unique and visually striking marine fish species. It is known for its distinctive black and white coloration, resembling the patterns of a Picasso painting.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 4 inches (10 cm)",
     "img": "https://example.com/picasso-clownfish-image.jpg",
     "size": "Small",
@@ -1057,7 +1107,7 @@
   {
     "name": "True Percula Clownfish",
     "description": "The True Percula Clownfish, also known as the Clown Anemonefish, is a vibrant and popular marine fish species. It is known for its bright orange coloration with three distinctive white stripes.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 4 inches (10 cm)",
     "img": "https://example.com/true-percula-clownfish-image.jpg",
     "size": "Small",
@@ -1109,7 +1159,7 @@
   {
     "name": "Mcculochi Clownfish",
     "description": "The Mcculochi Clownfish, also known as the Red Clownfish or Tomato Anemonefish, is a beautiful and vibrant marine fish species. It is characterized by its bright red coloration with white stripes.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 4 inches (10 cm)",
     "img": "https://example.com/mcculochi-clownfish-image.jpg",
     "size": "Small",
@@ -1161,7 +1211,7 @@
   {
     "name": "Zebra Lionfish",
     "description": "The Zebra Lionfish, scientifically known as Dendrochirus zebra, is a striking marine fish species characterized by its zebra-like black and white stripes. Native to the Indo-Pacific region, this species is popular among marine aquarium enthusiasts for its unique appearance and relatively peaceful temperament.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 7 inches (18 cm)",
     "img": "https://example.com/zebra-lionfish-image.jpg",
     "size": "Medium",
@@ -1174,7 +1224,7 @@
   {
     "name": "Dwarf Lionfish",
     "description": "The Dwarf Lionfish, scientifically known as Dendrochirus brachypterus, is a smaller species of lionfish with vibrant coloration and unique appendages. Native to the Indo-Pacific region, this species is well-suited for moderately sized aquariums and is popular among marine fish enthusiasts.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 5 inches (13 cm)",
     "img": "https://example.com/dwarf-lionfish-image.jpg",
     "size": "Small",
@@ -1200,7 +1250,7 @@
   {
     "name": "Antennata Lionfish",
     "description": "The Antennata Lionfish, also known as Pterois antennata, is a mesmerizing marine fish species characterized by its long, filamentous dorsal fins and striking coloration. Native to the Indo-Pacific region, this species is a popular choice for marine aquarium enthusiasts who appreciate its unique appearance and relatively peaceful temperament.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 8 inches (20 cm)",
     "img": "https://example.com/antennata-lionfish-image.jpg",
     "size": "Medium",
