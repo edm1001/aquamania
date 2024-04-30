@@ -13,28 +13,35 @@ const SpeciesDetail = () => {
   if (!selectedSpecies) {
     return <div>Species not found</div>;
   }
-
   return (
     <Container>
       <Row>
         <div className="d-flex">
-        <h1>{selectedSpecies.name}</h1>
-        <p className="ms-3 species-info">{selectedSpecies.species}</p>
+          <h1>{selectedSpecies.name}</h1>
+          <p className="ms-3 species-info">{selectedSpecies.species}</p>
         </div>
-        <Col xl={6} lg={6} md={6} sm={12} xs={12}>
+        <Col xl={6} lg={6} md={6} sm={12} xs={12} className="">
           <img
             src={selectedSpecies.img}
             alt={selectedSpecies.name}
-            className="img-fluid"
-            style={{ maxWidth: '100%', height: 'auto' }}
+            className="img-fluid align-center"
+            style={{ maxWidth: "100%", height: "auto" }}
           />
         </Col>
         <Col xl={6} lg={6} md={6} sm={12} xs={12} className=" pt-3">
           <Row>
-          <p className="col-6 fw-semibold species-info">Temperament: {selectedSpecies.temperament}</p>
-          <p className="col-6 fw-semibold species-info">Max Growth Size: {selectedSpecies.maxGrowthSize}</p>
-          <p className="col-6 fw-semibold species-info">Temperature Range: {selectedSpecies.temperatureRange}</p>
-          <p className="col-6 fw-semibold species-info">pH Range: {selectedSpecies.waterPHRange}</p>
+            <p className="col-6 fw-semibold species-info">
+              Temperament: {selectedSpecies.temperament}
+            </p>
+            <p className="col-6 fw-semibold species-info">
+              Max Growth Size: {selectedSpecies.maxGrowthSize}
+            </p>
+            <p className="col-6 fw-semibold species-info">
+              Temperature Range: {selectedSpecies.temperatureRange}
+            </p>
+            <p className="col-6 fw-semibold species-info">
+              pH Range: {selectedSpecies.waterPHRange}
+            </p>
           </Row>
           <p className="mt-1 fs-6 text-start">{selectedSpecies.description}</p>
         </Col>
