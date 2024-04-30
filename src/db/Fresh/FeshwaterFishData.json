@@ -340,7 +340,7 @@
   {
     "name": "Brichardi Cichlid",
     "description": "The Brichardi Cichlid, scientifically known as Neolamprologus brichardi, is a captivating freshwater fish species native to Lake Tanganyika in Africa. It features a striking coloration with vertical black stripes on a white or yellow body. Brichardi Cichlids are known for their fascinating breeding behaviors, forming monogamous pairs and guarding their offspring fiercely. They are relatively peaceful but may exhibit aggression during breeding periods. These cichlids prefer rocky aquarium setups with plenty of caves and crevices for spawning and hiding.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 4 inches (10 cm)",
     "img": "https://example.com/brichardi-cichlid-image.jpg",
     "size": "Small",
@@ -418,7 +418,7 @@
   {
     "name": "Demasoni Cichlid",
     "description": "The Demasoni Cichlid, scientifically known as Pseudotropheus demasoni, is a striking freshwater fish species native to Lake Malawi in Africa. It is named after Ad Konings, who discovered and introduced it to the aquarium hobby. Demasoni Cichlids are known for their striking blue coloration and distinctive black vertical bars, making them a popular choice among cichlid enthusiasts. They are relatively peaceful but can be territorial, especially during breeding. Demasoni Cichlids require aquariums with plenty of rockwork and hiding spots to establish territories and reduce aggression.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 4 inches (10 cm)",
     "img": "https://example.com/demasoni-cichlid-image.jpg",
     "size": "Small",
@@ -470,7 +470,7 @@
   {
     "name": "Kenyi Cichlid",
     "description": "The Kenyi Cichlid, scientifically known as Metriaclima lombardoi, is a vibrant freshwater fish species native to Lake Malawi in Africa. It is prized for its striking blue and yellow coloration, which intensifies as the fish matures. Kenyi Cichlids are relatively peaceful but can be territorial, especially during breeding. They require spacious tanks with plenty of rockwork and caves to establish territories and reduce aggression. These cichlids are omnivores and should be fed a varied diet consisting of quality cichlid pellets, live, and frozen foods.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 5 inches (12.5 cm)",
     "img": "https://example.com/kenyi-cichlid-image.jpg",
     "size": "Medium",
@@ -574,7 +574,7 @@
   {
     "name": "Gold Ocellatus Cichlid",
     "description": "The Gold Ocellatus Cichlid, also known as Neolamprologus leleupi, is a striking African cichlid hailing from Lake Tanganyika. It is named for the ocellus-like spots on its fins and is prized for its brilliant yellow coloration. Gold Ocellatus Cichlids are relatively peaceful but can be territorial, especially during breeding periods. They prefer a rocky aquarium setup with plenty of caves and crevices for shelter. Maintaining stable water parameters and providing a balanced diet are essential for their well-being. These cichlids are mouthbrooders, with females incubating their eggs in their mouths until they hatch.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 5 inches (12.5 cm)",
     "img": "https://example.com/gold-ocellatus-cichlid-image.jpg",
     "size": "Small",
@@ -600,7 +600,7 @@
   {
     "name": "Zebra Obliquidens",
     "description": "The Zebra Obliquidens, scientifically known as Metriaclima sp. 'Zebra Gold', is an attractive African cichlid found in Lake Malawi. It is named for the zebra-like striping pattern that adorns its body, making it a visually striking addition to any aquarium. Zebra Obliquidens are relatively peaceful but can display aggression towards similar-looking species, especially during breeding periods. They thrive in aquariums with plenty of rockwork and caves to establish territories and seek shelter. Offering a varied diet consisting of high-quality flakes, pellets, and occasional live or frozen foods is crucial for their health and coloration.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/zebra-obliquidens-image.jpg",
     "size": "Medium",
@@ -1203,7 +1203,7 @@
     "img": "https://example.com/reticulated-hillstream-loach-image.jpg",
     "size": "Small",
     "species": "Sewellia lineolata",
-    "family": "Balitoridae",
+    "family": "Loach",
     "experienceLevel": "Intermediate",
     "waterPHRange": "6.5 - 7.5",
     "temperatureRange": "68°F - 76°F (20°C - 24°C)"
@@ -1301,8 +1301,8 @@
   },
   {
     "name": "Bala Shark",
-    "description": "The Bala Shark, scientifically known as Balantiocheilos melanopterus, is a sleek and active freshwater fish species native to Southeast Asia. It features a silver body with black margins on its fins, resembling a miniature shark. Although often mistaken for a shark, it is a peaceful schooling fish suitable for larger community aquariums.",
-    "temperament": "Peaceful",
+    "description": "The Bala Shark, scientifically known as Balantiocheilos melanopterus, is a sleek and active freshwater fish species native to Southeast Asia. It features a silver body with black margins on its fins, resembling a miniature shark. Although often mistaken for a shark, it is a schooling fish suitable for larger community aquariums.",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 14 inches (35 cm)",
     "img": "https://example.com/bala-shark-image.jpg",
     "size": "Large",
@@ -1315,7 +1315,7 @@
   {
     "name": "Redtail Shark",
     "description": "The Redtail Shark, scientifically known as Epalzeorhynchos bicolor, is a striking freshwater fish species with a vibrant red tail fin contrasting against its black body. It is territorial and may exhibit aggression towards similar-looking species, making it suitable for semi-aggressive community tanks.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/redtail-shark-image.jpg",
     "size": "Medium",
@@ -1341,7 +1341,7 @@
   {
     "name": "Rainbow Shark",
     "description": "The Rainbow Shark, scientifically known as Epalzeorhynchos frenatum, is a colorful and territorial freshwater fish species. It exhibits a striking red or orange coloration on its fins and a dark body. Despite its name, it is not a true shark but belongs to the Cyprinidae family. Due to its territorial nature, it should be kept in larger aquariums with ample hiding spots.",
-    "temperament": "Semi-aggressive",
+    "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/rainbow-shark-image.jpg",
     "size": "Medium",
