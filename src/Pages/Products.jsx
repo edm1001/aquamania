@@ -1,62 +1,106 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import image from "../assets/photos/placeholder.png";
-import image2 from "../assets/photos/placeholder.png";
-
-const products = [
-  {
-    id: 1,
-    name: "Product 1",
-    price: "$19.99",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl: image,
-  },
-  {
-    id: 2,
-    name: "Product 2",
-    price: "$29.99",
-    description:
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    imageUrl: image2,
-  },
-  // Add more products
-];
-// add tank, filter, substrate, heater, lighting, decor, water meds, test kits, fish food, maintenance equipment, protein skimmer, hydrometer, salt, RO systems, calcium reactor or supplements, sump systems
-
-const ProductCard = ({ product }) => {
-  return (
-    <Card className="mb-4">
-    <div className="card-image-container">
-      <Card.Img className="card-image" variant="top" src={product.imageUrl}></Card.Img>
-      <div className="card-details">
-        <Card.Body>
-          <Card.Title>{product.name}</Card.Title>
-          <Card.Text className="text-small">{product.description}</Card.Text>
-          <Card.Text className="font-weight-bold">{product.price}</Card.Text>
-          <button className="btn btn-primary">Add to Cart</button>
-        </Card.Body>
-      </div>
-    </div>
-  </Card>
-  );
-};
+import productsData from "../db/Products/Products.json";
 
 const ProductsPage = () => {
+  const [products, setProducts] = useState(productsData);
+  const [selectedCategory, setSelectedCategory] = useState("");
+
+  useEffect(() => {
+    fetchProducts();
+  }, []);
+
+  const fetchProducts = async () => {
+    try {
+      const response = await fetch("/db/Products/Products.json");
+      const data = await response.json();
+      setProducts(data);
+    } catch (error) {
+      console.error("Trouble fetching products:", error);
+    }
+  };
+  const categories = [
+    "Filters",
+    "Tanks",
+    "Heaters",
+    "Lights",
+    "Skimmers",
+    "Accessories",
+  ];
+
+  const handleCategoryChange = (category) => {
+    setSelectedCategory(category);
+  };
+
+  const filteredProducts = selectedCategory
+    ? products.filter((product) => product.category === selectedCategory)
+    : products;
+
+  // add tank, filter, substrate, heater, lighting, decor, water meds, test kits, fish food, maintenance equipment, protein skimmer, hydrometer, salt, RO systems, calcium reactor or supplements, sump systems
+
+  const ProductCard = ({ product }) => {
+    return (
+      <Card className="mb-4">
+        <div className="card-image-container">
+          <Card.Img
+            className="card-image"
+            variant="top"
+            src={product.imageUrl}
+          ></Card.Img>
+          <div className="card-details">
+            <Card.Body>
+              <Card.Title>{product.name}</Card.Title>
+              <Card.Text className="text-small">
+                {product.description}
+              </Card.Text>
+              <Card.Text className="font-weight-bold">
+                {product.price}
+              </Card.Text>
+              <a href={product.affiliateLink} className="btn btn-primary">
+                Add to Cart
+              </a>
+            </Card.Body>
+          </div>
+        </div>
+      </Card>
+    );
+  };
+
   return (
     <Container>
       <div className="">
-      <h1 className="mt-5 mb-2 text-center">Featured Products</h1>
-      <p className="text-sm text-center">
-        These are hobbyist trusted products that sponser the maintenance of the
-        website.
-      </p>
+        <h1 className="mt-5 mb-2 text-center">Featured Products</h1>
+        <p className="text-sm text-center">
+          These are hobbyist trusted products that sponsor the maintenance of
+          the website.
+        </p>
+        <div className="text-center mb-4 product-category">
+          {/* Render category buttons */}
+          {categories.map((category) => (
+            <button
+              key={category}
+              className={
+                selectedCategory === category ? "btn btn-link" : "btn btn-link text-decoration-none"
+              }
+              onClick={() => handleCategoryChange(category)}
+            >
+              {category}
+            </button>
+          ))}
+          <button
+            className={ selectedCategory ? "btn btn-link" : "btn btn-link text-decoration-none"}
+            onClick={() => setSelectedCategory("")}
+          >
+            Show All
+          </button>
+        </div>
       </div>
       <Row>
-      {products.map((product) => (
-          <Col lg={3} md={3} sm={4} xs={4} key={product.id}>
+        {filteredProducts.map((product) => (
+          <Col lg={4} md={4} sm={6} xs={6} key={product.id}>
             <ProductCard product={product} />
           </Col>
         ))}
