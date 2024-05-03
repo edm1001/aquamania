@@ -52,7 +52,6 @@ section {
 /* PRODUCTS */
 .card-image-container {
   position: relative;
-  overflow: hidden;
 }
 
 .card-details {
@@ -77,6 +76,14 @@ section {
 
 .card-image-container:hover .card-image {
   transform: scale(1.1);
+}
+.product-category > a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.product-category > a :hover {
+  text-decoration: underline;
 }
 
 /* Blog Page */
