@@ -6,17 +6,13 @@ import Card from "react-bootstrap/Card";
 import Modal from "react-bootstrap/Modal";
 import ProductRating from "../Components/ProductRating";
 import productsData from "../db/Products/Products.json";
-import { FaCartPlus } from "react-icons/fa";
+import { FaCartPlus, FaLink } from "react-icons/fa6";
 
 
 
 const ProductsPage = () => {
   const [products, setProducts] = useState(productsData);
   const [selectedCategory, setSelectedCategory] = useState("");
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
 
   useEffect(() => {
     fetchProducts();
@@ -51,21 +47,26 @@ const ProductsPage = () => {
   // add tank, filter, substrate, heater, lighting, decor, water meds, test kits, fish food, maintenance equipment, protein skimmer, hydrometer, salt, RO systems, calcium reactor or supplements, sump systems
  
   const ProductCard = ({ product }) => {
+    const [show, setShow] = useState(false);
+
+    const handleShow = () => setShow(true);
+    const handleClose = () => setShow(false);
     return (
       // turn to modal with direct link or add to cart option, description, brand name rating
       // card will have image, name, price,rating, cart icon
-      <Container>
-        <Card className="mb-4" onClick={handleShow}>
+      <Container className="product-section">
+        <Card className="mb-4" style={{ cursor: 'pointer' }} onClick={handleShow}>
           <div className="card-image-container">
             <Card.Img
               className="card-image"
               variant="top"
               src={product.imageUrl}
+              style={{ maxHeight: '100px', objectFit: 'cover' }} 
             ></Card.Img>
             <div className="card-details">
-              <Card.Body>
+              <Card.Body className="p-3">
                 <Card.Title>{product.name}</Card.Title>
-                <Card.Text className="font-weight-bold">
+                <Card.Text className="font-weight-bold mb-0">
                   <p><ProductRating rating={product.rating || 0} /></p>
                   <p>{product.price}</p>
                 </Card.Text>
@@ -85,13 +86,15 @@ const ProductsPage = () => {
                   src={product.imageUrl}
                   alt={product.name}
                   className="img-fluid"
+                  style={{ maxHeight: '400px', width: '100%', objectFit: 'cover' }}
                 />
                 <p>{product.price}</p>
                 <p><ProductRating rating={product.rating || 0} /></p>
                 <p>{product.description}</p>
               </div>
-              <div className="col-md-3 d-flex justify-content-end align-items-center">
-                <FaCartPlus style={{color:'red', cursor: 'pointer'}} size={30} onClick={handleClose} />
+              <div className="col-md-3 d-flex justify-content-end align-items-center mx-auto">
+                <FaLink style={{color:"#4caf50", cursor: "pointer"}} size={30} className="me-2"/>
+                <FaCartPlus style={{color:'#007ea7', cursor: 'pointer'}} size={30} onClick={handleClose} />
               </div>
             </div>
           </Modal.Body>
@@ -101,7 +104,7 @@ const ProductsPage = () => {
   };
 
   return (
-    <div className="mx-1">
+    <div className="mx-1 product-section pt-3 pb-5">
       <div className="">
         <h1 className="mt-5 mb-2 text-center">Featured Products</h1>
         <p className="text-sm text-center">
