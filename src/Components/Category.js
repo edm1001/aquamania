@@ -24,7 +24,7 @@ const Category = () => {
           </div>
           <div className="">
             <motion.button
-              className="3d-button btn btn-success me-3"
+              className="3d-button btn btn-success mx-1 p-2"
               variants={buttonVariants}
               whileHover="hover"
               whileTap="rest"
@@ -38,7 +38,7 @@ const Category = () => {
               </Link>
             </motion.button>
             <motion.button
-              className="3d-button btn btn-info"
+              className="3d-button btn btn-primary mx-1 p-2"
               variants={buttonVariants}
               whileHover="hover"
               whileTap="rest"
