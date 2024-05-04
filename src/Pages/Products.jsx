@@ -3,11 +3,18 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
 import productsData from "../db/Products/Products.json";
+import { FaCartPlus } from "react-icons/fa6";
 
 const ProductsPage = () => {
   const [products, setProducts] = useState(productsData);
   const [selectedCategory, setSelectedCategory] = useState("");
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   useEffect(() => {
     fetchProducts();
@@ -43,10 +50,10 @@ const ProductsPage = () => {
 
   const ProductCard = ({ product }) => {
     return (
-      // turn to modal with direct link or add to cart option
-      // card will have image, name, price cart icon
+      // turn to modal with direct link or add to cart option, description, brand name rating
+      // card will have image, name, price,rating, cart icon
       <Container>
-        <Card className="mb-4">
+        <Card className="mb-4" onClick={handleShow}>
           <div className="card-image-container">
             <Card.Img
               className="card-image"
@@ -56,19 +63,35 @@ const ProductsPage = () => {
             <div className="card-details">
               <Card.Body>
                 <Card.Title>{product.name}</Card.Title>
-                <Card.Text className="text-small">
-                  {product.description}
-                </Card.Text>
                 <Card.Text className="font-weight-bold">
                   {product.price}
                 </Card.Text>
-                <a href={product.affiliateLink} className="btn btn-primary">
-                  Add to Cart
-                </a>
               </Card.Body>
             </div>
           </div>
         </Card>
+
+        <Modal show={show} onHide={handleClose}>
+          <Modal.Header closeButton>
+            <Modal.Title>{product.name}</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <div className="row">
+              <div className="col-md-9">
+                <img
+                  src={product.imageUrl}
+                  alt={product.name}
+                  className="img-fluid"
+                />
+                <p>{product.description}</p>
+                {/* add rating */}
+              </div>
+              <div className="col-md-3 d-flex justify-content-end align-items-center">
+                <FaCartPlus style={{color:'red', cursor: 'pointer'}} size={30} onClick={handleClose} />
+              </div>
+            </div>
+          </Modal.Body>
+        </Modal>
       </Container>
     );
   };
