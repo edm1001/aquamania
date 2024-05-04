@@ -43,34 +43,37 @@ const ProductsPage = () => {
 
   const ProductCard = ({ product }) => {
     return (
-      <Card className="mb-4">
-        <div className="card-image-container">
-          <Card.Img
-            className="card-image"
-            variant="top"
-            src={product.imageUrl}
-          ></Card.Img>
-          <div className="card-details">
-            <Card.Body>
-              <Card.Title>{product.name}</Card.Title>
-              <Card.Text className="text-small">
-                {product.description}
-              </Card.Text>
-              <Card.Text className="font-weight-bold">
-                {product.price}
-              </Card.Text>
-              <a href={product.affiliateLink} className="btn btn-primary">
-                Add to Cart
-              </a>
-            </Card.Body>
+      // turn to modal with direct link or add to card option
+      <Container>
+        <Card className="mb-4">
+          <div className="card-image-container">
+            <Card.Img
+              className="card-image"
+              variant="top"
+              src={product.imageUrl}
+            ></Card.Img>
+            <div className="card-details">
+              <Card.Body>
+                <Card.Title>{product.name}</Card.Title>
+                <Card.Text className="text-small">
+                  {product.description}
+                </Card.Text>
+                <Card.Text className="font-weight-bold">
+                  {product.price}
+                </Card.Text>
+                <a href={product.affiliateLink} className="btn btn-primary">
+                  Add to Cart
+                </a>
+              </Card.Body>
+            </div>
           </div>
-        </div>
-      </Card>
+        </Card>
+      </Container>
     );
   };
 
   return (
-    <Container>
+    <div className="mx-1">
       <div className="">
         <h1 className="mt-5 mb-2 text-center">Featured Products</h1>
         <p className="text-sm text-center">
@@ -83,7 +86,9 @@ const ProductsPage = () => {
             <button
               key={category}
               className={
-                selectedCategory === category ? "btn btn-link" : "btn btn-link text-decoration-none"
+                selectedCategory === category
+                  ? "btn btn-link"
+                  : "btn btn-link text-decoration-none"
               }
               onClick={() => handleCategoryChange(category)}
             >
@@ -91,7 +96,11 @@ const ProductsPage = () => {
             </button>
           ))}
           <button
-            className={ selectedCategory ? "btn btn-link" : "btn btn-link text-decoration-none"}
+            className={
+              selectedCategory
+                ? "btn btn-link text-decoration-none"
+                : "btn btn-link"
+            }
             onClick={() => setSelectedCategory("")}
           >
             Show All
@@ -105,7 +114,7 @@ const ProductsPage = () => {
           </Col>
         ))}
       </Row>
-    </Container>
+    </div>
   );
 };
 
