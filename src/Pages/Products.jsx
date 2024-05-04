@@ -4,9 +4,11 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Modal from "react-bootstrap/Modal";
-import Button from "react-bootstrap/Button";
+import ProductRating from "../Components/ProductRating";
 import productsData from "../db/Products/Products.json";
-import { FaCartPlus } from "react-icons/fa6";
+import { FaCartPlus } from "react-icons/fa";
+
+
 
 const ProductsPage = () => {
   const [products, setProducts] = useState(productsData);
@@ -47,7 +49,7 @@ const ProductsPage = () => {
     : products;
 
   // add tank, filter, substrate, heater, lighting, decor, water meds, test kits, fish food, maintenance equipment, protein skimmer, hydrometer, salt, RO systems, calcium reactor or supplements, sump systems
-
+ 
   const ProductCard = ({ product }) => {
     return (
       // turn to modal with direct link or add to cart option, description, brand name rating
@@ -64,7 +66,8 @@ const ProductsPage = () => {
               <Card.Body>
                 <Card.Title>{product.name}</Card.Title>
                 <Card.Text className="font-weight-bold">
-                  {product.price}
+                  <p><ProductRating rating={product.rating || 0} /></p>
+                  <p>{product.price}</p>
                 </Card.Text>
               </Card.Body>
             </div>
@@ -83,8 +86,9 @@ const ProductsPage = () => {
                   alt={product.name}
                   className="img-fluid"
                 />
+                <p>{product.price}</p>
+                <p><ProductRating rating={product.rating || 0} /></p>
                 <p>{product.description}</p>
-                {/* add rating */}
               </div>
               <div className="col-md-3 d-flex justify-content-end align-items-center">
                 <FaCartPlus style={{color:'red', cursor: 'pointer'}} size={30} onClick={handleClose} />

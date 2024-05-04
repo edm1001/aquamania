@@ -6,7 +6,8 @@
       "price": "$19.99",
       "category": "Filters",
       "affiliateLink": "https://www.amazon.com/example-product-1-affiliate-link",
-      "imageUrl": "../../assets/photos/placeholder.png"
+      "imageUrl": "https://m.media-amazon.com/images/I/71wwS8hYKCL.__AC_SY445_SX342_QL70_FMwebp_.jpg",
+      "rating": 3.5
     },
     {
       "id": 2,
@@ -15,7 +16,7 @@
       "price": "$29.99",
       "category": "Heaters",
       "affiliateLink": "https://www.amazon.com/example-product-2-affiliate-link",
-      "imageUrl": ""
+      "imageUrl": "./assets/photos/placeholder.png"
     },
     {
       "id": 3,
@@ -24,6 +25,6 @@
       "price": "$39.99",
       "category": "Tanks",
       "affiliateLink": "https://www.amazon.com/example-product-3-affiliate-link",
-      "imageUrl": "../../assets/photos/placeholder.png"
+      "imageUrl": "../assets/photos/placeholder.png"
     }
   ]
