@@ -6,8 +6,8 @@ import { Container } from "react-bootstrap";
 function SaltPage() {
   return (
     <Container>
-      <h1 className="text-center">Saltwater</h1>
       <Category />
+      <h1 className="text-center">Saltwater</h1>
       <SaltCategory />
     </Container>
   );

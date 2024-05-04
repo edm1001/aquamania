@@ -7,8 +7,8 @@ function FreshPage() {
     // add betta,cichlid, platy, pleco, arrowanna, gar, koi, catfish, danio
   return (
     <Container>
-    <h1 className='text-center'>Freshwater</h1>
     <Category/>
+    <h1 className='text-center'>Freshwater</h1>
     <FreshCategory/>
     </Container>
     );

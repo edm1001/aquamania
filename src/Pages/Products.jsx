@@ -43,7 +43,8 @@ const ProductsPage = () => {
 
   const ProductCard = ({ product }) => {
     return (
-      // turn to modal with direct link or add to card option
+      // turn to modal with direct link or add to cart option
+      // card will have image, name, price cart icon
       <Container>
         <Card className="mb-4">
           <div className="card-image-container">

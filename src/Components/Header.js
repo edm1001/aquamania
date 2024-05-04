@@ -33,7 +33,7 @@ const Header = () => {
             aria-controls="responsive-navbar-nav"
             onClick={handleToggleClick}
           >
-            {isMenuOpen ? <IoFishOutline size={36} /> : <IoFish size={30} />}
+            {isMenuOpen ? <IoFishOutline size={38} /> : <IoFish size={30} />}
           </Navbar.Toggle>
           <Navbar.Collapse>
             <Nav className="">
@@ -50,9 +50,6 @@ const Header = () => {
               </Nav.Link>
               <Nav.Link href="/about" className="text-center">
                 About Us
-              </Nav.Link>
-              <Nav.Link href="/blog" className="text-center">
-                Blogs
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

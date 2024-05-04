@@ -13,8 +13,8 @@ function About() {
             className="img-fluid h-75 about-img"
           />
         </Col>
-        <Col className="text-center p-5">
-          <h2 className="mb-3">About Aquamania</h2>
+        <Col className="text-center p-5 abt-section">
+          <h2 className="mb-3 abt-title">About Aquamania</h2>
           <p className="px-1 about-page-info">
             Welcome to Aquamania! We're all about sharing our love for fish and
             ensuring you have reliable info for their care. From newbies to
@@ -37,8 +37,8 @@ function About() {
             />
           </div>
         </Col>
-        <Col className="text-center mx-1 bg-success text-white p-5">
-          <h2>Basic Care</h2>
+        <Col className="text-center mx-1 p-5 care-section">
+          <h2 className="care-title">Basic Care</h2>
           <p className="about-page-info">
             We're all about aquarium fish care! Our mission is to educate and
             improve the lives of our finned friends. Aquariums aren't just

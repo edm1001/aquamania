@@ -18,14 +18,10 @@
 section {
   height: 500px;
 }
-.abt-title {
-  color: var(--yellow);
-}
-.abt-section {
-  background-color: var(--deep-blue)
-}
-.abt-badge {
-  background-color: var(--highlight);
+
+.search-btn {
+  color: #007ea7; 
+  cursor: pointer;
 }
 
 /* NAV */
@@ -43,6 +39,24 @@ section {
 .section-title {
   color: var(--dark-blue);
 }
+
+/* About Page */
+.abt-title {
+  color: var(--grey);
+}
+.abt-section {
+  background-color: var(--deep-blue)
+}
+.abt-badge {
+  background-color: var(--highlight);
+}
+.care-section {
+  background-color: var(--button-color);
+}
+.care-title {
+  color: var(--yellow);
+}
+
 /* Fresh-CAT-Page */
 .clickable-item {
   cursor: pointer;
@@ -98,14 +112,6 @@ section {
 
 .product-category > a :hover {
   text-decoration: underline;
-}
-
-/* Blog Page */
-.subject-list {
-  list-style-type: none;
-}
-.subject-list a {
-  text-decoration: none;
 }
 
 /* Footer */

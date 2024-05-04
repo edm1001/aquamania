@@ -1,7 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Badge  from 'react-bootstrap/Badge';
-
 
 const About = () => {
     const fadeIn = {
