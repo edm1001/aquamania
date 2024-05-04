@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
-  color: var(--textcolor);
 }
 /* change font for title */
 :root {
@@ -78,11 +76,11 @@ section {
 }
 
 /* PRODUCTS */
-.card-image-container {
+/* .card-image-container {
   overflow: hidden;
-}
+} */
 
-.card-details {
+/* .card-details {
   position: absolute;
   top: 0;
   left: 0;
@@ -92,7 +90,7 @@ section {
   color: white;
   opacity: 0;
   transition: opacity 0.3s ease;
-}
+} */
 
 .card-image-container:hover .card-details {
   opacity: 1;
