@@ -38,7 +38,7 @@ const Category = () => {
               </Link>
             </motion.button>
             <motion.button
-              className="3d-button btn btn-primary mx-1 p-2"
+              className="3d-button btn btn-primary mx-1 py-2 px-3"
               variants={buttonVariants}
               whileHover="hover"
               whileTap="rest"
