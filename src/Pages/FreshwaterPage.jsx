@@ -10,8 +10,8 @@ function FreshPage() {
     <Container>
       <Category />
       <h1 className="text-center">Freshwater</h1>
-      <FreshCategory />
       <Searchbar />
+      <FreshCategory />
     </Container>
   );
 }
