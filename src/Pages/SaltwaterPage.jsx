@@ -7,8 +7,8 @@ import { Container } from "react-bootstrap";
 function SaltPage() {
   return (
     <Container>
-      <Searchbar/>
       <h1 className="text-center">Saltwater</h1>
+      <Searchbar/>
       <SaltCategory />
       <Category />
     </Container>
