@@ -58,16 +58,17 @@ section {
 /* Fresh-CAT-Page */
 .clickable-item {
   cursor: pointer;
-  background-color: #f7f7f7;
-  transition: background-color 0.2s;
+  transition: var(--grey) 0.1s;
 }
 
-.clickable-item:hover {
-  background-color: #e0e0e0;
-}
+
 
 .category-text {
-  font-size: small;
+  font-size: xx-small;
+}
+.category-selected {
+  background-color: var(--deep-blue);
+  color: var(--grey);
 }
 
 /* Species Detail  */

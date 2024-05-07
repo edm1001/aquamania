@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -50,7 +50,7 @@ const SaltCategory =() => {
     {
       id: 3,
       text: "Peaceful",
-      videoUrl: "your_video_url_3.mp4",
+      videoUrl: "https://www.hdwallpapers.in/download/clownfishes_in_aquarium_4k-1920x1080.jpg",
     },
     {
       id: 4,
@@ -68,6 +68,7 @@ const SaltCategory =() => {
       videoUrl: "your_video_url_6.mp4",
     },
   ];
+  
   const filterFishSpecies = (filter) => {
     setSelectedFilter(filter);
     const filteredSpecies = saltwaterFishSpecies.filter((species) => {

@@ -93,8 +93,8 @@ const ProductsPage = () => {
                 <p>{product.description}</p>
               </div>
               <div className="col-md-3 d-flex justify-content-end align-items-center mx-auto">
-                <FaLink style={{color:"#4caf50", cursor: "pointer"}} size={30} className="me-2"/>
-                <FaCartPlus style={{color:'#007ea7', cursor: 'pointer'}} size={30} onClick={handleClose} />
+                <FaLink title="Buy Now" style={{color:"#4caf50", cursor: "pointer"}} size={30} className="me-2"/>
+                <FaCartPlus title="Add to Cart" style={{color:'#007ea7', cursor: 'pointer'}} size={30} onClick={handleClose} />
               </div>
             </div>
           </Modal.Body>

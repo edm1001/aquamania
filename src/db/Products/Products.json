@@ -16,7 +16,8 @@
       "price": "$29.99",
       "category": "Heaters",
       "affiliateLink": "https://www.amazon.com/example-product-2-affiliate-link",
-      "imageUrl": "./assets/photos/placeholder.png"
+      "imageUrl": "./assets/photos/placeholder.png",
+      "rating": 4
     },
     {
       "id": 3,
@@ -25,6 +26,28 @@
       "price": "$39.99",
       "category": "Tanks",
       "affiliateLink": "https://www.amazon.com/example-product-3-affiliate-link",
-      "imageUrl": "../assets/photos/placeholder.png"
+      "imageUrl": "../assets/photos/placeholder.png",
+      "rating": 3
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "description": "Description of Product 4",
+      "price": "$49.99",
+      "category": "Filters",
+      "affiliateLink": "https://www.amazon.com/example-product-4-affiliate-link",
+      "imageUrl": "../assets/photos/placeholder.png",
+      "rating": 5
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "description": "Description of Product 5",
+      "price": "$59.99",
+      "category": "Heaters",
+      "affiliateLink": "https://www.amazon.com/example-product-5-affiliate-link",
+      "imageUrl": "../assets/photos/placeholder.png",
+      "rating": 2
     }
+    
   ]
