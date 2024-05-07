@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 import freshwaterFishSpecies from "../../db/Fresh/FeshwaterFishData.json";
 // import semiVideo from '../../assets/videos/fresh/fresh-md-aggressive.mp4';
 
@@ -37,7 +37,8 @@ const FreshCategory = () => {
   const [selectedFilter, setSelectedFilter] = useState(null);
   const [filteredFishSpecies, setFilteredFishSpecies] = useState([]);
 
-  const items = [
+  
+  const categoryOptions = [
     {
       id: 1,
       text: "Aggressive",
@@ -69,6 +70,7 @@ const FreshCategory = () => {
       videoUrl: "your_video_url_6.mp4",
     },
   ];
+
   const filterFishSpecies = (filter) => {
     setSelectedFilter(filter);
     const filteredSpecies = freshwaterFishSpecies.filter((species) => {
@@ -92,27 +94,18 @@ const FreshCategory = () => {
   return (
     <Container className="my-5">
       {/* category options */}
-      <Row className="text-center">
-        {items.map((item) => (
-          <Col lg={2} md={3} sm={4} xs={4} key={item.id}>
-            <Card
-              className={`my-2 clickable-item ${
-                selectedFilter === item.text ? "selected" : ""
+      <Row className="justify-content-center text-center">
+        {categoryOptions.map((item) => (
+          <Col xl={2} lg={2} md={2} sm={2} xs={2} key={item.id} className="my-2">
+            {/* make a button that transforms to the card when clicked */}
+            <Button
+              className={`btn btn-success clickable-item text-white category-text h-100 font-weight-bold ${
+                selectedFilter === item.text ? "category-selected" : ""
               }`}
               onClick={() => filterFishSpecies(item.text)}
             >
-              <div className="embed-responsive embed-responsive-16by9">
-                <video
-                  src={item.videoUrl}
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  className="w-100 h-100 embed-responsive-item"
-                />
-              </div>
-              <Card.Body className="category-text">{item.text}</Card.Body>
-            </Card>
+              {item.text}
+            </Button>
           </Col>
         ))}
       </Row>

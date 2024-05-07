@@ -1,11 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/row";
-import Col from "react-bootstrap/col";
-import Form from "react-bootstrap/form";
 import Carousel from "react-bootstrap/carousel";
-import { IoSearchCircleSharp } from "react-icons/io5";
-
-
 // import Freshwater from '../assets/videos/fresh/koi.mp4';
 // import Saltwater from '../assets/videos/salt/clownfish1.mp4';
 // import Care from '../assets/videos/fresh/fresh-sm-community.mp4';
@@ -34,28 +29,6 @@ const Welcome = () => {
 // add buttons to link to page
   return (
     <Container fluid>
-      <Row className="py-2 text-white">
-        <Col>
-          <h4 className="justify-content-center align-center fw-bold pt-1 mx-5">
-            Search Topics:
-          </h4>
-        </Col>
-            <Col>
-                <Row>
-                    <Col className="pe-0" lg={8} md={8} sm={8} xs={8}>
-                        <Form.Control
-                            type="text"
-                            placeholder="Search"
-                            className=""
-                        />
-                    </Col>
-                    <Col className='ps-0' lg={4} md={4} sm={4} xs={4}>
-                        <IoSearchCircleSharp size={40} className="d-flex justify-content-center align-items-center search-btn" />
-                    </Col>
-                </Row>
-            </Col>
-        </Row>
-
       <Row>
         <div className="">
           <Carousel>
