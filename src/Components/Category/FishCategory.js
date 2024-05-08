@@ -1,10 +1,11 @@
-import React, {useState} from "react";
+import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import freshwaterFishSpecies from "../../db/Fresh/FeshwaterFishData.json";
-// import semiVideo from '../../assets/videos/fresh/fresh-md-aggressive.mp4';
+import FreshwaterFishSpecies from "../../db/Fresh/FeshwaterFishData.json";
+import SaltwaterFishSpecies from "../../db/Salt/SaltwaterFishData.json";
+
 
 const FamilyDropdown = ({ family, species }) => {
   const [selectedSpecies, setSelectedSpecies] = useState(null);
@@ -17,6 +18,7 @@ const FamilyDropdown = ({ family, species }) => {
       selectedSpecies.name
     )}`;
   };
+
   return (
     <div>
       <h2>{family}</h2>
@@ -32,11 +34,12 @@ const FamilyDropdown = ({ family, species }) => {
   );
 };
 
-const FreshCategory = () => {
+const FishCategory = ({ isFreshwater }) => {
   const [selectedFilter, setSelectedFilter] = useState(null);
   const [filteredFishSpecies, setFilteredFishSpecies] = useState([]);
 
-  
+  const fishData = isFreshwater ? FreshwaterFishSpecies : SaltwaterFishSpecies;
+
   const categoryOptions = [
     {
       id: 1,
@@ -72,7 +75,7 @@ const FreshCategory = () => {
 
   const filterFishSpecies = (filter) => {
     setSelectedFilter(filter);
-    const filteredSpecies = freshwaterFishSpecies.filter((species) => {
+    const filteredSpecies = fishData.filter((species) => {
       return (
         filter === null ||
         filter === species.temperament ||
@@ -81,6 +84,10 @@ const FreshCategory = () => {
     });
     setFilteredFishSpecies(filteredSpecies);
   };
+
+  useEffect(() => {
+    filterFishSpecies(null);
+  }, []);
 
   const groupedSpecies = {};
   filteredFishSpecies.forEach((species) => {
@@ -95,10 +102,18 @@ const FreshCategory = () => {
       {/* category options */}
       <Row className="justify-content-center text-center">
         {categoryOptions.map((item) => (
-          <Col xl={2} lg={2} md={2} sm={2} xs={2} key={item.id} className="my-2">
-            {/* make a button that transforms to the card when clicked */}
+          <Col
+            xl={2}
+            lg={2}
+            md={2}
+            sm={2}
+            xs={2}
+            key={item.id}
+            className="my-2"
+          >
+            {/* make a button that transforms when clicked so user knows the current category */}
             <Button
-              className={`btn btn-success clickable-item text-white category-text h-100 font-weight-bold ${
+              className={`btn clickable-item text-white category-text h-100 font-weight-bold ${
                 selectedFilter === item.text ? "category-selected" : ""
               }`}
               onClick={() => filterFishSpecies(item.text)}
@@ -118,8 +133,7 @@ const FreshCategory = () => {
         ))}
       </Row>
     </Container>
-    
   );
 };
 
-export default FreshCategory;
+export default FishCategory;

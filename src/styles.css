@@ -58,28 +58,28 @@ section {
 .search-icon {
   display:none;
 }
+.search-result {
+  font-size: x-small;
+}
 .search-result:hover {
-  color: var(--deep-blue);
-  text-decoration: underline;
+  text-decoration: underline;;
 }
 .search-icon:hover .search-icon{
   display: block;
 }
 
-/* Fresh-CAT-Page */
+/* CAT-Page */
 .clickable-item {
   cursor: pointer;
   transition: var(--grey) 0.1s;
 }
-
-
 
 .category-text {
   font-size: xx-small;
 }
 .category-selected {
   background-color: var(--deep-blue);
-  color: var(--grey);
+  color: var(--deep-blue);
 }
 
 /* Species Detail  */
