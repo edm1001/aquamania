@@ -17,7 +17,6 @@ const FamilyDropdown = ({ family, species }) => {
       selectedSpecies.name
     )}`;
   };
-  // make the dropdown item clickable, links it to the single page
   return (
     <div>
       <h2>{family}</h2>

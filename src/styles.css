@@ -54,6 +54,17 @@ section {
 .care-title {
   color: var(--yellow);
 }
+/* Search Bar */
+.search-icon {
+  display:none;
+}
+.search-result:hover {
+  color: var(--deep-blue);
+  text-decoration: underline;
+}
+.search-icon:hover .search-icon{
+  display: block;
+}
 
 /* Fresh-CAT-Page */
 .clickable-item {
