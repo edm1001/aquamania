@@ -118,6 +118,7 @@ const FreshCategory = () => {
         ))}
       </Row>
     </Container>
+    
   );
 };
 
