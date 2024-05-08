@@ -43,9 +43,9 @@ export default function Searchbar({ isFreshwaterPage }) {
         onChange={handleSearch}
       />
       {showList && (
-        <ul className="position-absolute start-0 bg-white opacity-100">
+        <ul className="position-absolute bg-white opacity-100">
           {filteredFish.map((fish, index) => (
-            <li className="list-unstyled search-result " key={index}>
+            <li className="list-unstyled search-result" key={index}>
               <Link
                 className="text-decoration-none"
                 to={`/species/${encodeURIComponent(fish.name)}`}

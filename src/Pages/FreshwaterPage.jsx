@@ -1,13 +1,13 @@
 import React from "react";
-import FreshCategory from "../Components/Category/FreshCategory";
+// import FreshCategory from "../Components/Category/FreshCategory";
 import Category from "../Components/Category";
 import Searchbar from "../Components/Searchbar";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import FishCategory from "../Components/Category/FishCategory";
 
 function FreshPage() {
-  // add betta, platy, pleco,  koi,
   return (
     <Container>
       <Category />
@@ -16,10 +16,10 @@ function FreshPage() {
           <h1 className="text-center">Freshwater</h1>
         </Col>
         <Col>
-          <Searchbar />
+          <Searchbar isFreshwaterPage={true} />
         </Col>
       </Row>
-      <FreshCategory />
+      <FishCategory isFreshwater={true} />
     </Container>
   );
 }

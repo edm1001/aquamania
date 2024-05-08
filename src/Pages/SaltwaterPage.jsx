@@ -1,10 +1,11 @@
 import React from "react";
-import SaltCategory from "../Components/Category/SaltCategory";
+import FishCategory from "../Components/Category/FishCategory";
 import Category from "../Components/Category";
 import Searchbar from "../Components/Searchbar";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+
 function SaltPage() {
   return (
     <Container>
@@ -16,8 +17,8 @@ function SaltPage() {
           <Searchbar isFreshwaterPage={false} />
         </Col>
       </Row>
-      <SaltCategory />
       <Category />
+      <FishCategory isFreshwater={false} />
     </Container>
   );
 }
