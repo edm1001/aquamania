@@ -6,7 +6,7 @@
       "price": "$19.99",
       "category": "Filters",
       "affiliateLink": "https://www.amazon.com/example-product-1-affiliate-link",
-      "imageUrl": "https://m.media-amazon.com/images/I/71wwS8hYKCL.__AC_SY445_SX342_QL70_FMwebp_.jpg",
+      "imageUrl": "../../assets/photos/placeholder.png",
       "rating": 3.5
     },
     {
@@ -36,7 +36,7 @@
       "price": "$49.99",
       "category": "Filters",
       "affiliateLink": "https://www.amazon.com/example-product-4-affiliate-link",
-      "imageUrl": "../assets/photos/placeholder.png",
+      "imageUrl": "../",
       "rating": 5
     },
     {

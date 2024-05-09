@@ -7,6 +7,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { IoFish, IoFishOutline } from "react-icons/io5";
+import { IoIosCart } from "react-icons/io";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,6 +54,7 @@ const Header = () => {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
+          <Link to='/cartpage'><IoIosCart size={30} /></Link>
         </Container>
       </Navbar>
     </motion.div>
