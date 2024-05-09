@@ -9,6 +9,7 @@ import Col from "react-bootstrap/Col";
 function SaltPage() {
   return (
     <Container>
+      <Category />
       <Row>
         <Col className="">
           <h1 className="text-center">Saltwater</h1>
@@ -17,7 +18,6 @@ function SaltPage() {
           <Searchbar isFreshwaterPage={false} />
         </Col>
       </Row>
-      <Category />
       <FishCategory isFreshwater={false} />
     </Container>
   );
