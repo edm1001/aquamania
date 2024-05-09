@@ -18,6 +18,10 @@ const ProductsPage = () => {
     fetchProducts();
   }, []);
 
+  const addToCart = (product) => {
+    console.log("Added to Cart", product);
+  };
+
   const fetchProducts = async () => {
     try {
       const response = await fetch("/db/Products/Products.json");
@@ -46,69 +50,6 @@ const ProductsPage = () => {
     : products;
 
   // add tank, filter, substrate, heater, lighting, decor, water meds, test kits, fish food, maintenance equipment, protein skimmer, hydrometer, salt, RO systems, calcium reactor or supplements, sump systems
- 
-  const ProductCard = ({ product, addToCart}) => {
-    const [show, setShow] = useState(false);
-
-    const handleShow = () => setShow(true);
-    const handleClose = () => setShow(false);
-
-    const handleAddToCart = () => {
-      addToCart(product);
-      handleClose();
-    }
-
-    return (
-      // turn to modal with direct link or add to cart option, description, brand name rating
-      // card will have image, name, price,rating, cart icon
-      <Container className="product-section">
-        <Card className="mb-4" style={{ cursor: 'pointer' }} onClick={handleShow}>
-          <div className="card-image-container">
-            <Card.Img
-              className="card-image"
-              variant="top"
-              src={product.imageUrl}
-              style={{ maxHeight: '100px', objectFit: 'cover' }} 
-            ></Card.Img>
-            <div className="card-details">
-              <Card.Body className="p-3">
-                <Card.Title>{product.name}</Card.Title>
-                <Card.Text className="font-weight-bold mb-0">
-                  <p><ProductRating rating={product.rating || 0} /></p>
-                  <p>{product.price}</p>
-                </Card.Text>
-              </Card.Body>
-            </div>
-          </div>
-        </Card>
-
-        <Modal show={show} onHide={handleClose}>
-          <Modal.Header closeButton>
-            <Modal.Title>{product.name}</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <div className="row">
-              <div className="col-md-9">
-                <img
-                  src={product.imageUrl}
-                  alt={product.name}
-                  className="img-fluid"
-                  style={{ maxHeight: '400px', width: '100%', objectFit: 'cover' }}
-                />
-                <p>{product.price}</p>
-                <p><ProductRating rating={product.rating || 0} /></p>
-                <p>{product.description}</p>
-              </div>
-              <div className="col-md-3 d-flex justify-content-end align-items-center mx-auto">
-                <FaLink title="Buy Now" style={{color:"#4caf50", cursor: "pointer"}} size={30} className="me-2"/>
-                <FaCartPlus title="Add to Cart" style={{color:'#007ea7', cursor: 'pointer'}} size={30} onClick={handleAddToCart} />
-              </div>
-            </div>
-          </Modal.Body>
-        </Modal>
-      </Container>
-    );
-  };
 
   return (
     <div className="mx-1 product-section pt-3 pb-5">
@@ -146,13 +87,97 @@ const ProductsPage = () => {
         </div>
       </div>
       <Row>
-        {filteredProducts.map((product, addToCart) => (
+        {filteredProducts.map((product) => (
           <Col lg={4} md={4} sm={6} xs={6} key={product.id}>
             <ProductCard product={product} addToCart={addToCart} />
           </Col>
         ))}
       </Row>
     </div>
+  );
+};
+const ProductCard = ({ product, addToCart }) => {
+  const [show, setShow] = useState(false);
+
+  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
+
+  const handleAddToCart = () => {
+    addToCart(product);
+    handleClose();
+  };
+
+  return (
+    // turn to modal with direct link or add to cart option, description, brand name rating
+    // card will have image, name, price,rating, cart icon
+    <Container className="product-section">
+      <Card
+        className="mb-4"
+        style={{ cursor: "pointer" }}
+        onClick={handleShow}
+      >
+        <div className="card-image-container">
+          <Card.Img
+            className="card-image"
+            variant="top"
+            src={product.imageUrl}
+            style={{ maxHeight: "100px", objectFit: "cover" }}
+          ></Card.Img>
+          <div className="card-details">
+            <Card.Body className="p-3">
+              <Card.Title>{product.name}</Card.Title>
+              <Card.Text className="font-weight-bold mb-0">
+                <p>
+                  <ProductRating rating={product.rating || 0} />
+                </p>
+                <p>{product.price}</p>
+              </Card.Text>
+            </Card.Body>
+          </div>
+        </div>
+      </Card>
+
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>{product.name}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <div className="row">
+            <div className="col-md-9">
+              <img
+                src={product.imageUrl}
+                alt={product.name}
+                className="img-fluid"
+                style={{
+                  maxHeight: "400px",
+                  width: "100%",
+                  objectFit: "cover",
+                }}
+              />
+              <p>{product.price}</p>
+              <p>
+                <ProductRating rating={product.rating || 0} />
+              </p>
+              <p>{product.description}</p>
+            </div>
+            <div className="col-md-3 d-flex justify-content-end align-items-center mx-auto">
+              <FaLink
+                title="Buy Now"
+                style={{ color: "#4caf50", cursor: "pointer" }}
+                size={30}
+                className="me-2"
+              />
+              <FaCartPlus
+                title="Add to Cart"
+                style={{ color: "#007ea7", cursor: "pointer" }}
+                size={30}
+                onClick={handleAddToCart}
+              />
+            </div>
+          </div>
+        </Modal.Body>
+      </Modal>
+    </Container>
   );
 };
 
