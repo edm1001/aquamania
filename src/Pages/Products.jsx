@@ -8,7 +8,7 @@ import ProductRating from "../Components/ProductRating";
 import productsData from "../db/Products/Products.json";
 import { FaCartPlus, FaLink } from "react-icons/fa6";
 
-
+// create cart page
 
 const ProductsPage = () => {
   const [products, setProducts] = useState(productsData);
@@ -27,6 +27,7 @@ const ProductsPage = () => {
       console.error("Trouble fetching products:", error);
     }
   };
+
   const categories = [
     "Filters",
     "Tanks",
@@ -46,11 +47,17 @@ const ProductsPage = () => {
 
   // add tank, filter, substrate, heater, lighting, decor, water meds, test kits, fish food, maintenance equipment, protein skimmer, hydrometer, salt, RO systems, calcium reactor or supplements, sump systems
  
-  const ProductCard = ({ product }) => {
+  const ProductCard = ({ product, addToCart}) => {
     const [show, setShow] = useState(false);
 
     const handleShow = () => setShow(true);
     const handleClose = () => setShow(false);
+
+    const handleAddToCart = () => {
+      addToCart(product);
+      handleClose();
+    }
+
     return (
       // turn to modal with direct link or add to cart option, description, brand name rating
       // card will have image, name, price,rating, cart icon
@@ -94,7 +101,7 @@ const ProductsPage = () => {
               </div>
               <div className="col-md-3 d-flex justify-content-end align-items-center mx-auto">
                 <FaLink title="Buy Now" style={{color:"#4caf50", cursor: "pointer"}} size={30} className="me-2"/>
-                <FaCartPlus title="Add to Cart" style={{color:'#007ea7', cursor: 'pointer'}} size={30} onClick={handleClose} />
+                <FaCartPlus title="Add to Cart" style={{color:'#007ea7', cursor: 'pointer'}} size={30} onClick={handleAddToCart} />
               </div>
             </div>
           </Modal.Body>
@@ -139,9 +146,9 @@ const ProductsPage = () => {
         </div>
       </div>
       <Row>
-        {filteredProducts.map((product) => (
+        {filteredProducts.map((product, addToCart) => (
           <Col lg={4} md={4} sm={6} xs={6} key={product.id}>
-            <ProductCard product={product} />
+            <ProductCard product={product} addToCart={addToCart} />
           </Col>
         ))}
       </Row>
