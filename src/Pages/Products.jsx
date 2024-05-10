@@ -13,14 +13,11 @@ import { FaCartPlus, FaLink } from "react-icons/fa6";
 const ProductsPage = () => {
   const [products, setProducts] = useState(productsData);
   const [selectedCategory, setSelectedCategory] = useState("");
+  const [cartItems, setCartItems] = useState([]);
 
   useEffect(() => {
     fetchProducts();
   }, []);
-
-  const addToCart = (product) => {
-    console.log("Added to Cart", product);
-  };
 
   const fetchProducts = async () => {
     try {
@@ -32,6 +29,17 @@ const ProductsPage = () => {
     }
   };
 
+  const addToCart = (product) => {
+    setCartItems([...cartItems, product]);
+    console.log("Added to Cart", product);
+  };
+
+
+ 
+  const handleCategoryChange = (category) => {
+    setSelectedCategory(category);
+  };
+
   const categories = [
     "Filters",
     "Tanks",
@@ -41,15 +49,11 @@ const ProductsPage = () => {
     "Accessories",
   ];
 
-  const handleCategoryChange = (category) => {
-    setSelectedCategory(category);
-  };
+
 
   const filteredProducts = selectedCategory
     ? products.filter((product) => product.category === selectedCategory)
     : products;
-
-  // add tank, filter, substrate, heater, lighting, decor, water meds, test kits, fish food, maintenance equipment, protein skimmer, hydrometer, salt, RO systems, calcium reactor or supplements, sump systems
 
   return (
     <div className="mx-1 product-section pt-3 pb-5">
@@ -96,6 +100,7 @@ const ProductsPage = () => {
     </div>
   );
 };
+
 const ProductCard = ({ product, addToCart }) => {
   const [show, setShow] = useState(false);
 
@@ -127,10 +132,8 @@ const ProductCard = ({ product, addToCart }) => {
             <Card.Body className="p-3">
               <Card.Title>{product.name}</Card.Title>
               <Card.Text className="font-weight-bold mb-0">
-                <p>
-                  <ProductRating rating={product.rating || 0} />
-                </p>
-                <p>{product.price}</p>
+              <ProductRating rating={product.rating || 0} /> 
+               {product.price}
               </Card.Text>
             </Card.Body>
           </div>
@@ -155,12 +158,11 @@ const ProductCard = ({ product, addToCart }) => {
                 }}
               />
               <p>{product.price}</p>
-              <p>
-                <ProductRating rating={product.rating || 0} />
-              </p>
+              <p><ProductRating rating={product.rating || 0}/></p>
               <p>{product.description}</p>
             </div>
             <div className="col-md-3 d-flex justify-content-end align-items-center mx-auto">
+
               <FaLink
                 title="Buy Now"
                 style={{ color: "#4caf50", cursor: "pointer" }}

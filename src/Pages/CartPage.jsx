@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 
-const CartPage = () => {
-  const [cartItems, setCartItems] = useState([]);
+const CartPage = ({cartItems, setCartItems}) => {
 
   // Function to remove an item from the cart
   const removeFromCart = (productId) => {

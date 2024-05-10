@@ -10,6 +10,7 @@ import About from "./Pages/About.jsx";
 import CartPage from "./Pages/CartPage.jsx";
 
 function App() {
+
   return (
     <>
       <Router>
@@ -21,7 +22,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/about" element={<About />} />
           <Route path="/species/:name" element={<SpeciesDetail />} />
-          <Route path="/cartpage" element ={<CartPage/>} />
+          <Route path="/cartpage" element ={<CartPage />} />
         </Routes>
         <Footer />
       </Router>
