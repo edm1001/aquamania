@@ -1,6 +1,6 @@
 import Header from "./Components/Header.js";
 import Home from "./Pages/Home.jsx";
-import Products from "./Pages/Products.jsx";
+import ProductsPage from "./Pages/ProductsPage.jsx";
 import Footer from "./Components/Footer.js";
 import FreshPage from "./Pages/FreshwaterPage.jsx";
 import SaltPage from "./Pages/SaltwaterPage.jsx";
@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/freshpage" element={<FreshPage />} />
           <Route path="/saltpage" element={<SaltPage />} />
-          <Route path="/products" element={<Products />} />
+          <Route path="/products" element={<ProductsPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/species/:name" element={<SpeciesDetail />} />
           <Route path="/cartpage" element ={<CartPage />} />
