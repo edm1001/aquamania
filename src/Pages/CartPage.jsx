@@ -3,34 +3,32 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-
+// create link to make
 const CartPage = ({cartItems, setCartItems}) => {
-
   // Function to remove an item from the cart
   const removeFromCart = (productId) => {
     setCartItems(cartItems.filter((item) => item.id !== productId));
   };
-
-  // Calculate total price
-  const totalPrice = cartItems.reduce((acc, item) => acc + item.price, 0);
+  // Calculate total price IF theres a product in cart
+  const totalPrice =cartItems && cartItems.length > 0 ? cartItems.reduce((acc, item) => acc + item.price, 0) : 0;
 
   return (
     <Container className="mt-5">
       <h1 className="mb-4">Your Cart</h1>
-      {cartItems.length === 0 ? (
+      {cartItems && cartItems.length === 0 ? (
         <p>Your cart is empty.</p>
       ) : (
         <div>
-          {cartItems.map((item) => (
+          {cartItems && cartItems.map((item) => (
             <div key={item.id} className="mb-3">
               <Row className="align-items-center">
                 <Col md={6}>
-                  <img
+                  {/* <img
                     src={item.imageUrl}
                     alt={item.name}
                     className="img-fluid"
                     style={{ maxWidth: "100px" }}
-                  />
+                  /> */}
                 </Col>
                 <Col md={4}>
                   <p className="mb-0">{item.name}</p>
