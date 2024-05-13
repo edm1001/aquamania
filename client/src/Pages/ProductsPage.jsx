@@ -7,7 +7,7 @@ import productsData from '../db/Products/Products.json';
 const ProductsPage = () => {
   const [products, setProducts] = useState(productsData);
   const [selectedCategory, setSelectedCategory] = useState("");
-  const [cartItems, setCartItems] = useState([]);
+  // const [cartItems, setCartItems] = useState([]);
 
   useEffect(() => {
     fetchProducts();
@@ -15,7 +15,7 @@ const ProductsPage = () => {
 
   const fetchProducts = async () => {
     try {
-      const response = await fetch("/db/Products/Products.json");
+      const response = await fetch("/api/products");
       const data = await response.json();
       setProducts(data);
     } catch (error) {
@@ -23,10 +23,10 @@ const ProductsPage = () => {
     }
   };
 
-  const addToCart = (product) => {
-    setCartItems([...cartItems, product]);
-    console.log("Added to Cart", product);
-  };
+  // const addToCart = (product) => {
+  //   setCartItems([...cartItems, product]);
+  //   console.log("Added to Cart", product);
+  // };
 
 
  
@@ -87,7 +87,7 @@ const ProductsPage = () => {
       <Row>
         {filteredProducts.map((product) => (
           <Col lg={4} md={4} sm={6} xs={6} key={product.id}>
-            <ProductCard product={product} addToCart={addToCart} />
+            <ProductCard product={product} />
           </Col>
         ))}
       </Row>

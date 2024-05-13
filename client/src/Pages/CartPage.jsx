@@ -1,13 +1,35 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-// create link to make
-const CartPage = ({cartItems, setCartItems}) => {
+
+const CartPage = () => {
+  const [cartItems, setCartItems] = useState([]);
+  
+  useEffect(() => {
+    fetchCartItems();
+  }, [])
+
+  const fetchCartItems = async () => {
+    try{
+      const response = await fetch("/api/cart");
+      const data = await response.json();
+      setCartItems(data);
+    } catch (err) {
+      console.log("trouble fetching cart items", err);
+    }
+  }
   // Function to remove an item from the cart
-  const removeFromCart = (productId) => {
-    setCartItems(cartItems.filter((item) => item.id !== productId));
+  const removeFromCart = async (productId) => {
+    try {
+      await fetch (`/api/cart/${productId}`, {
+        method: "DELETE",
+      });
+        setCartItems(cartItems.filter((item) => item.id !== productId));
+    }catch (error) {
+      console.error("Trouble removing item from cart:", error);
+    }
   };
   // Calculate total price IF theres a product in cart
   const totalPrice =cartItems && cartItems.length > 0 ? cartItems.reduce((acc, item) => acc + item.price, 0) : 0;
