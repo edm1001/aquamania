@@ -43,6 +43,8 @@ const CartPage = ({cartItems, setCartItems}) => {
           <hr />
           <p className="text-end mb-4">Total: ${totalPrice.toFixed(2)}</p>
           <Button variant="primary" className="float-end">Checkout</Button>
+          {/*creates a wishlist or cart automatically on amazon*/}
+          {/* FP: do for other sites, seperated by rows so users have options */}
         </div>
       )}
     </Container>
