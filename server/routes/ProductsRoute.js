@@ -20,4 +20,13 @@ router.get ('/:id', (req,res) => {
     }
 })
 
+// post product to cartPage
+let cartItems = {};
+router.post('/', (req, res) => {
+    // Assuming the product data is sent in the request body
+    const product = req.body;
+    cartItems.push(product);
+    res.status(200).json({ message: 'Product added to cart successfully', cartItems });
+});
+
 module.exports = router;

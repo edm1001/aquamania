@@ -24,7 +24,7 @@ const CartPage = () => {
   // Function to remove an item from the cart
   const removeFromCart = async (productId) => {
     try {
-      await fetch (`/api/cart/${productId}`, {
+      await fetch (`/api/product/${productId}`, {
         method: "DELETE",
       });
         setCartItems(cartItems.filter((item) => item.id !== productId));
