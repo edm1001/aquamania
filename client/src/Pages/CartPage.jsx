@@ -13,13 +13,14 @@ const CartPage = () => {
 
   const fetchCartItems = async () => {
     try{
-      const response = await fetch("/api/cart");
+      const response = await fetch("/products");
       const data = await response.json();
       setCartItems(data);
     } catch (err) {
       console.log("trouble fetching cart items", err);
     }
   }
+
   // Function to remove an item from the cart
   const removeFromCart = async (productId) => {
     try {

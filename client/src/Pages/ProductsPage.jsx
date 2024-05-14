@@ -7,26 +7,21 @@ import productsData from '../db/Products/Products.json';
 const ProductsPage = () => {
   const [products, setProducts] = useState(productsData);
   const [selectedCategory, setSelectedCategory] = useState("");
-  // const [cartItems, setCartItems] = useState([]);
 
-  useEffect(() => {
-    fetchProducts();
-  }, []);
+  // useEffect(() => {
+  //   fetchProducts();
+  // }, []);
 
-  const fetchProducts = async () => {
-    try {
-      const response = await fetch("/api/products");
-      const data = await response.json();
-      setProducts(data);
-    } catch (error) {
-      console.error("Trouble fetching products:", error);
-    }
-  };
-
-  // const addToCart = (product) => {
-  //   setCartItems([...cartItems, product]);
-  //   console.log("Added to Cart", product);
+  // const fetchProducts = async () => {
+  //   try {
+  //     const response = await fetch("/products");
+  //     const data = await response.json();
+  //     setProducts(data);
+  //   } catch (error) {
+  //     console.error("Trouble fetching products:", error);
+  //   }
   // };
+
 
 
  

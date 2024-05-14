@@ -5,11 +5,18 @@ import Modal from 'react-bootstrap/Modal';
 import { FaCartPlus, FaAmazon } from 'react-icons/fa';
 import ProductRating from './ProductRating';
 
-const ProductCard = ({ product, addToCart }) => {
+const ProductCard = ({ product}) => {
   const [show, setShow] = useState(false);
+  const [cartItems, setCartItems] = useState([]);
+
 
   const handleShow = () => setShow(true);
   const handleClose = () => setShow(false);
+
+  const addToCart = (product) => {
+    setCartItems([...cartItems, product]);
+    console.log("Added to Cart", product);
+  };
 
   const handleAddToCart = () => {
     addToCart(product);
@@ -17,7 +24,6 @@ const ProductCard = ({ product, addToCart }) => {
   };
 
   return (
-    // turn to modal with direct link or add to cart option, description, brand name rating
     // card will have image, name, price,rating, cart icon
     <Container className="product-section">
       <Card

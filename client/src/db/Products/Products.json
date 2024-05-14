@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "name": "Product 1",
+      "name": "Filter",
       "description": "Description of Product 1",
       "price": "$19.99",
       "category": "Filters",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "name": "Product 2",
+      "name": "Heaters",
       "description": "Description of Product 2",
       "price": "$29.99",
       "category": "Heaters",
@@ -21,7 +21,7 @@
     },
     {
       "id": 3,
-      "name": "Product 3",
+      "name": "Tanks",
       "description": "Description of Product 3",
       "price": "$39.99",
       "category": "Tanks",
@@ -31,7 +31,7 @@
     },
     {
       "id": 4,
-      "name": "Product 4",
+      "name": "Filters",
       "description": "Description of Product 4",
       "price": "$49.99",
       "category": "Filters",
@@ -41,13 +41,43 @@
     },
     {
       "id": 5,
-      "name": "Product 5",
+      "name": "Heaters",
       "description": "Description of Product 5",
       "price": "$59.99",
       "category": "Heaters",
       "affiliateLink": "https://www.amazon.com/example-product-5-affiliate-link",
       "imageUrl": "../assets/photos/placeholder.png",
       "rating": 2
+    },
+    {
+      "id": 6,
+      "name": "Lights",
+      "description": "Description of Product 6",
+      "price": "$69.99",
+      "category": "Lights",
+      "affiliateLink": "https://www.amazon.com/example-product-6-affiliate-link",
+      "imageUrl": "../assets/photos/placeholder.png",
+      "rating": 4
+    },
+    {
+      "id": 7,
+      "name": "Skimmers",
+      "description": "Description of Product 7",
+      "price": "$79.99",
+      "category": "Skimmers",
+      "affiliateLink": "https://www.amazon.com/example-product-7-affiliate-link",
+      "imageUrl": "../assets/photos/placeholder.png",
+      "rating": 3
+    },
+    {
+      "id": 8,
+      "name": "Acessories",
+      "description": "Description of Product 8",
+      "price": "$9.99",
+      "category": "Accessories",
+      "affiliateLink": "https://www.amazon.com/example-product-8-affiliate-link",
+      "imageUrl": "../assets/photos/placeholder.png",
+      "rating": 5
     }
     
   ]
