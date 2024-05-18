@@ -12,19 +12,22 @@ const CartPage = () => {
   }, [])
 
   const fetchCartItems = async () => {
-    try{
-      const response = await fetch("/products");
+    try {
+      const response = await fetch("/api/cart");
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
       const data = await response.json();
       setCartItems(data);
     } catch (err) {
       console.log("trouble fetching cart items", err);
     }
-  }
+  };
 
   // Function to remove an item from the cart
   const removeFromCart = async (productId) => {
     try {
-      await fetch (`/api/product/${productId}`, {
+      await fetch (`/api/cart/${productId}`, {
         method: "DELETE",
       });
         setCartItems(cartItems.filter((item) => item.id !== productId));
@@ -32,6 +35,7 @@ const CartPage = () => {
       console.error("Trouble removing item from cart:", error);
     }
   };
+
   // Calculate total price IF theres a product in cart
   const totalPrice =cartItems && cartItems.length > 0 ? cartItems.reduce((acc, item) => acc + item.price, 0) : 0;
 

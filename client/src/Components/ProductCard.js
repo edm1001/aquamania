@@ -7,20 +7,29 @@ import ProductRating from './ProductRating';
 
 const ProductCard = ({ product}) => {
   const [show, setShow] = useState(false);
-  const [cartItems, setCartItems] = useState([]);
+  // const [cartItems, setCartItems] = useState([]);
 
 
   const handleShow = () => setShow(true);
   const handleClose = () => setShow(false);
 
-  const addToCart = (product) => {
-    setCartItems([...cartItems, product]);
-    console.log("Added to Cart", product);
-  };
-
-  const handleAddToCart = () => {
-    addToCart(product);
-    handleClose();
+  const handleAddToCart = async () => {
+    try {
+      const response = await fetch('/api/cart', {
+        method : 'POST',
+        headers : {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(product),
+      });
+      if (!response.ok) {
+        throw new Error('Failed to add product to cart');
+      }
+      handleClose();
+      console.log('Product added to cart', product);
+    } catch (error) {
+      console.error('Trouble adding product to cart:', error);
+    }
   };
 
   return (
