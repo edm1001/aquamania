@@ -21,10 +21,6 @@ const ProductsPage = () => {
   //     console.error("Trouble fetching products:", error);
   //   }
   // };
-
-
-
- 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
   };
@@ -37,8 +33,6 @@ const ProductsPage = () => {
     "Skimmers",
     "Accessories",
   ];
-
-
 
   const filteredProducts = selectedCategory
     ? products.filter((product) => product.category === selectedCategory)
