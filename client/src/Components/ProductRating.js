@@ -14,7 +14,7 @@ const ProductRating = ({ rating }) => {
 
     return stars;
   };
-  return <div className="rating">{renderStars()}</div>;
+  return <span className="rating">{renderStars()}</span>;
 };
 
 export default ProductRating;
