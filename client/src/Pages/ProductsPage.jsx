@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import ProductCard from '../Components/ProductCard';
-import productsData from '../db/Products/Products.json';
+import React, { useState, useEffect } from "react";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import ProductCard from "../Components/ProductCard";
+import productsData from "../db/Products/Products.json";
 
 const ProductsPage = () => {
   const [products, setProducts] = useState(productsData);
@@ -41,11 +41,13 @@ const ProductsPage = () => {
   return (
     <div className="mx-1 product-section pt-3 pb-5">
       <div className="">
-        <h1 className="mt-5 mb-2 text-center">Featured Products</h1>
-        <p className="text-sm text-center">
-          These are hobbyist trusted products that sponsor the maintenance of
-          the website.
-        </p>
+        <div className="">
+          <h1 className="mt-5 mb-2 text-center">Featured Products</h1>
+          <p className="text-sm text-center">
+            These are hobbyist trusted products that sponsor the maintenance of
+            the website.
+          </p>
+        </div>
         <div className="text-center mb-4 product-category">
           {/* Render category buttons */}
           {categories.map((category) => (

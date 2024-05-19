@@ -1,60 +1,54 @@
-import React, { useState } from 'react';
-import Container from 'react-bootstrap/Container';
-import Card from 'react-bootstrap/Card';
-import Modal from 'react-bootstrap/Modal';
-import { FaCartPlus, FaAmazon } from 'react-icons/fa';
-import ProductRating from './ProductRating';
+import React, { useState } from "react";
+import Container from "react-bootstrap/Container";
+import Card from "react-bootstrap/Card";
+import Modal from "react-bootstrap/Modal";
+import { FaCartPlus, FaAmazon } from "react-icons/fa";
+import ProductRating from "./ProductRating";
 
-const ProductCard = ({ product}) => {
+const ProductCard = ({ product }) => {
   const [show, setShow] = useState(false);
   // const [cartItems, setCartItems] = useState([]);
-
 
   const handleShow = () => setShow(true);
   const handleClose = () => setShow(false);
 
   const handleAddToCart = async () => {
     try {
-      const response = await fetch('/api/cart', {
-        method : 'POST',
-        headers : {
-          'Content-Type': 'application/json',
+      const response = await fetch("http:localhost:5000/api/cart", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(product),
       });
       if (!response.ok) {
-        throw new Error('Failed to add product to cart');
+        const error = await response.json();
+        throw new Error(`Failed to add product to cart : ${error}`);
       }
+      console.log("Product added to cart", product);
       handleClose();
-      console.log('Product added to cart', product);
     } catch (error) {
-      console.error('Trouble adding product to cart:', error);
+      console.error("Trouble adding product to cart:", error);
     }
   };
 
   return (
     // card will have image, name, price,rating, cart icon
     <Container className="product-section">
-      <Card
-        className="mb-4"
-        style={{ cursor: "pointer" }}
-        onClick={handleShow}
-      >
+      <Card className="mb-4" style={{ cursor: "pointer" }} onClick={handleShow}>
         <div className="card-image-container">
           <Card.Img
             className="card-image"
             variant="top"
             src={product.imageUrl}
             style={{ maxHeight: "100px", objectFit: "cover" }}
-          ></Card.Img>
+          />
           <div className="card-details">
             <Card.Body className="p-3">
               <Card.Title>{product.name}</Card.Title>
               <Card.Text className="font-weight-bold mb-0">
-                <p>
-                  <ProductRating rating={product.rating || 0} />
-                </p>
-                <p>{product.price}</p>
+                <ProductRating rating={product.rating || 0} />
+                <span>{product.price}</span>
               </Card.Text>
             </Card.Body>
           </div>
@@ -79,9 +73,7 @@ const ProductCard = ({ product}) => {
                 }}
               />
               <p>{product.price}</p>
-              <p>
-                <ProductRating rating={product.rating || 0} />
-              </p>
+              <ProductRating rating={product.rating || 0} />
               <p>{product.description}</p>
             </div>
             <div className="col-md-3 d-flex justify-content-end align-items-center mx-auto">

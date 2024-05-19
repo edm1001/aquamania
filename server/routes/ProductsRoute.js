@@ -10,14 +10,23 @@ router.get('/', (req, res) => {
 
 // get a single product by ID
 router.get ('/:id', (req,res) => {
-    const productId = req.params.id;
-    const product = productData.find(product => product.id === parseInt(productId, 10));
+    const productId = parseInt(req.params.id, 10);
+    const product = productData.find(product => product.id === productId);
 
-    if(product) {
+    if (product) {
         res.json(product);
     }else {
         res.status(404).send('Product not found');
     }
 })
+
+// post product to cartPage
+let cartItems = [];
+
+router.post('/', (req, res) => {
+  const product = req.body;
+  cartItems.push(product);
+  res.status(200).json({ message: 'Product added to cart successfully', cartItems });
+});
 
 module.exports = router;

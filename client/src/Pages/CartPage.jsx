@@ -13,21 +13,18 @@ const CartPage = () => {
 
   const fetchCartItems = async () => {
     try {
-      const response = await fetch("/api/cart");
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
+      const response = await fetch("http://localhost:5000/api/cart");
       const data = await response.json();
       setCartItems(data);
     } catch (err) {
-      console.log("trouble fetching cart items", err);
+      console.log("Trouble fetching cart items", err);
     }
   };
 
   // Function to remove an item from the cart
   const removeFromCart = async (productId) => {
     try {
-      await fetch (`/api/cart/${productId}`, {
+      await fetch (`http://localhost:5000/api/cart/${productId}`, {
         method: "DELETE",
       });
         setCartItems(cartItems.filter((item) => item.id !== productId));
@@ -37,7 +34,7 @@ const CartPage = () => {
   };
 
   // Calculate total price IF theres a product in cart
-  const totalPrice =cartItems && cartItems.length > 0 ? cartItems.reduce((acc, item) => acc + item.price, 0) : 0;
+  const totalPrice = cartItems && cartItems.length > 0 ? cartItems.reduce((acc, item) => acc + item.price, 0) : 0;
 
   return (
     <Container className="mt-5">
