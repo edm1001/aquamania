@@ -3,6 +3,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ProductCard from "../Components/ProductCard";
 import productsData from "../db/Products/Products.json";
+import { FaCartPlus, FaLink } from "react-icons/fa";
+import Container from "react-bootstrap/esm/Container";
 
 const ProductsPage = () => {
   const [products, setProducts] = useState(productsData);
@@ -39,14 +41,16 @@ const ProductsPage = () => {
     : products;
 
   return (
-    <div className="mx-1 product-section pt-3 pb-5">
+    <Container className="mx-1 product-section pt-3 pb-5">
       <div className="">
-        <div className="">
-          <h1 className="mt-5 mb-2 text-center">Featured Products</h1>
-          <p className="text-sm text-center">
+        <div className="text-center">
+          <h1 className="mt-5 mb-2 ">Featured Products</h1>
+          <p className="text-sm ">
             These are hobbyist trusted products that sponsor the maintenance of
             the website.
           </p>
+          <p style={{ fontSize: "0.60rem" }} ><FaCartPlus color="#007ea7" size={16}/> - Add to cart to make a wishlist on Amazon!</p>
+          <p style={{ fontSize: "0.6rem" }}><FaLink color="#007ea7" size={16}/>- Buy Now</p>
         </div>
         <div className="text-center mb-4 product-category">
           {/* Render category buttons */}
@@ -82,7 +86,7 @@ const ProductsPage = () => {
           </Col>
         ))}
       </Row>
-    </div>
+    </Container>
   );
 };
 
