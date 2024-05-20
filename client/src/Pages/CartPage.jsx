@@ -34,16 +34,20 @@ const CartPage = () => {
   };
 
   // Calculate total price IF theres a product in cart
-  const totalPrice = cartItems && cartItems.length > 0 ? cartItems.reduce((acc, item) => acc + item.price, 0) : 0;
+  // const totalPrice = cartItems.reduce((acc, item) => acc + item.price, 0);
+  const totalPrice = cartItems.reduce((acc, item) => {
+    const price = parseFloat(item.price);
+    return !isNaN(price) ? acc + price : acc;
+  }, 0);
 
   return (
     <Container className="mt-5">
       <h1 className="mb-4">Your Cart</h1>
-      {cartItems && cartItems.length === 0 ? (
+      {cartItems.length === 0 ? (
         <p>Your cart is empty.</p>
       ) : (
         <div>
-          {cartItems && cartItems.map((item) => (
+          {cartItems.map((item) => (
             <div key={item.id} className="mb-3">
               <Row className="align-items-center">
                 <Col md={6}>
@@ -56,7 +60,7 @@ const CartPage = () => {
                 </Col>
                 <Col md={4}>
                   <p className="mb-0">{item.name}</p>
-                  <p className="text-muted">${item.price}</p>
+                  <p className="text-muted">{item.price}</p>
                 </Col>
                 <Col md={2}>
                   <Button variant="danger" onClick={() => removeFromCart(item.id)}>Remove</Button>
