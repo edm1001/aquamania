@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+import { BsFillTrash3Fill } from "react-icons/bs";
 
 const CartPage = () => {
   const [cartItems, setCartItems] = useState([]);
@@ -15,9 +16,11 @@ const CartPage = () => {
     try {
       const response = await fetch("http://localhost:5000/api/cart");
       const data = await response.json();
-      setCartItems(data);
+      console.log("Cart Items:", data); // Log cartItems to inspect its content
+      setCartItems(Array.isArray(data) ? data : []);
     } catch (err) {
       console.log("Trouble fetching cart items", err);
+      setCartItems([]);
     }
   };
 
@@ -51,19 +54,19 @@ const CartPage = () => {
             <div key={item.id} className="mb-3">
               <Row className="align-items-center">
                 <Col md={6}>
-                  {/* <img
+                  <img
                     src={item.imageUrl}
                     alt={item.name}
                     className="img-fluid"
                     style={{ maxWidth: "100px" }}
-                  /> */}
+                  />
                 </Col>
                 <Col md={4}>
                   <p className="mb-0">{item.name}</p>
                   <p className="text-muted">{item.price}</p>
                 </Col>
                 <Col md={2}>
-                  <Button variant="danger" onClick={() => removeFromCart(item.id)}>Remove</Button>
+                  <Button variant="danger" onClick={() => removeFromCart(item.id)}><BsFillTrash3Fill /></Button>
                 </Col>
               </Row>
             </div>

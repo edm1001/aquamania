@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import Modal from "react-bootstrap/Modal";
-import { FaCartPlus, FaAmazon } from "react-icons/fa";
+import { FaCartPlus, FaLink } from "react-icons/fa";
 import ProductRating from "./ProductRating";
 
 const ProductCard = ({ product }) => {
@@ -77,14 +77,14 @@ const ProductCard = ({ product }) => {
               <p>{product.description}</p>
             </div>
             <div className="col-md-3 d-flex justify-content-end align-items-center mx-auto">
-              <FaAmazon
-                title="Buy Now"
-                style={{ color: "#4caf50", cursor: "pointer" }}
+              <FaLink
+                title="Link to Product"
+                style={{ color: "#007ea7", cursor: "pointer" }}
                 size={30}
                 className="me-2"
               />
               <FaCartPlus
-                title="Add to Cart"
+                title="Make a Wishlist on Amazon!"
                 style={{ color: "#007ea7", cursor: "pointer" }}
                 size={30}
                 onClick={handleAddToCart}
