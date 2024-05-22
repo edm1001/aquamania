@@ -28,13 +28,12 @@ function App() {
     }
   };
 
-  const totalQuantity = cartItems.reduce((total, item) => total + item.quantity, 0);
 
 
   return (
     <>
       <Router>
-        <Header cartItemsCount={totalQuantity} />
+        <Header cartItems={cartItems} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/freshpage" element={<FreshPage />} />
