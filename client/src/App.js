@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import Header from "./Components/Header.js";
 import Home from "./Pages/Home.jsx";
 import ProductsPage from "./Pages/ProductsPage.jsx";
@@ -10,11 +11,30 @@ import About from "./Pages/About.jsx";
 import CartPage from "./Pages/CartPage.jsx";
 
 function App() {
+  const [cartItems, setCartItems] = useState([]);
+
+  useEffect(() => {
+    fetchCartItems();
+  }, []);
+
+  const fetchCartItems = async () => {
+    try {
+      const response = await fetch("http://localhost:5000/api/cart");
+      const data = await response.json();
+      setCartItems(Array.isArray(data) ? data : []);
+    } catch (err) {
+      console.log("Trouble fetching cart items", err);
+      setCartItems([]);
+    }
+  };
+
+  const totalQuantity = cartItems.reduce((total, item) => total + item.quantity, 0);
+
 
   return (
     <>
       <Router>
-        <Header />
+        <Header cartItemsCount={totalQuantity} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/freshpage" element={<FreshPage />} />

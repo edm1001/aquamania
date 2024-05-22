@@ -7,9 +7,9 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { IoFish, IoFishOutline } from "react-icons/io5";
-import { IoIosCart } from "react-icons/io";
+import CartIcon from "./CartIcon";
 
-const Header = () => {
+const Header = ({cartItemsCount}) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleToggleClick = () => {
@@ -54,7 +54,9 @@ const Header = () => {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <Link to='/cartpage'><IoIosCart size={30} /></Link>
+          <div>
+          <CartIcon cartItemsCount={cartItemsCount} />
+          </div>
         </Container>
       </Navbar>
     </motion.div>

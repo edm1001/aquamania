@@ -66,7 +66,7 @@ const CartPage = () => {
       ) : (
         <div>
           {cartItems.map((item) => (
-            <div key={item.id} className="mb-3">
+            <div key={item.id} className="mb-3 h-100 w-100">
               <Row className="align-items-center">
                 <Col md={6}>
                   <img
