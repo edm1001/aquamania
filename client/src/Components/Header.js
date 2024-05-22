@@ -4,13 +4,18 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Logo from "../assets/aquamania-logo.gif";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Badge from "react-bootstrap/Badge";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { IoFish, IoFishOutline } from "react-icons/io5";
-import CartIcon from "./CartIcon";
+import { IoIosCart } from "react-icons/io";
 
-const Header = ({cartItemsCount}) => {
+const Header = ({ cartItems }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const totalQuantity = cartItems.reduce(
+    (total, item) => total + item.quantity,
+    0
+  );
 
   const handleToggleClick = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -54,9 +59,18 @@ const Header = ({cartItemsCount}) => {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <div>
-          <CartIcon cartItemsCount={cartItemsCount} />
-          </div>
+          <Link to="/cartpage" className="position-relative">
+            <IoIosCart size={30} />
+            {totalQuantity > 0 && (
+              <Badge
+                bg="success"
+                pill
+                className="position-absolute top-0 start-100 translate-middle"
+              >
+                {totalQuantity}
+              </Badge>
+            )}
+          </Link>
         </Container>
       </Navbar>
     </motion.div>
