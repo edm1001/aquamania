@@ -41,7 +41,7 @@ function App() {
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/species/:name" element={<SpeciesDetail />} />
-          <Route path="/cartpage" element ={<CartPage />} />
+          <Route path="/cartpage" element ={<CartPage cartItems={cartItems} setCartItems={setCartItems} />} />
         </Routes>
         <Footer />
       </Router>

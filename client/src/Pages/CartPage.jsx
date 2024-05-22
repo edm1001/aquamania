@@ -80,7 +80,7 @@ const CartPage = () => {
           {cartItems.map((item) => (
             <div key={item.id} className="mb-3 h-100 w-100">
               <Row className="align-items-center">
-                <Col md={6}>
+                <Col xs={3} className="text-center">
                   <img
                     src={item.imageUrl}
                     alt={item.name}
@@ -88,11 +88,12 @@ const CartPage = () => {
                     style={{ maxWidth: "100px" }}
                   />
                 </Col>
-                <Col md={4}>
-                  <span className="mb-0">{item.name}</span>
+                <Col xs={3}>
+                  <span className="d-block font-weight-bold">{item.name}</span>
                   <span className="text-muted">{item.price}</span>
+                  </Col>
+                  <Col xs={3}>
                   <div className="d-flex align-items-center">
-                    {/* cart icon  */}
                     <Button
                       variant="outline-secondary"
                       onClick={() => updateCartItemQuantity(item.id, Math.max(1, item.quantity - 1))}
@@ -108,7 +109,7 @@ const CartPage = () => {
                     </Button>
                   </div>
                 </Col>
-                <Col md={2}>
+                <Col xs={3} className="text-center">
                   <Button variant="danger" onClick={() => removeFromCart(item.id)}><BsFillTrash3Fill /></Button>
                 </Col>
               </Row>
