@@ -26,8 +26,8 @@ router.delete('/:id', (req, res) => {
 router.put('/:productId', (req, res) => {
   const productId = parseInt(req.params.productId);
   const { quantity } = req.body;
-  
   const item = cartItems.find(item => item.id === productId);
+  
   if (item) {
     item.quantity = quantity;
     res.status(200).json({ message: 'Product quantity updated successfully', item });

@@ -12,10 +12,7 @@ import { IoIosCart } from "react-icons/io";
 
 const Header = ({ cartItems }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const totalQuantity = cartItems.reduce(
-    (total, item) => total + item.quantity,
-    0
-  );
+  const totalQuantity = cartItems.reduce((acc, item) => acc + item.quantity,0);
 
   const handleToggleClick = () => {
     setIsMenuOpen(!isMenuOpen);
