@@ -7,10 +7,15 @@ import { BsFillTrash3Fill } from "react-icons/bs";
 
 const CartPage = () => {
   const [cartItems, setCartItems] = useState([]);
+  const [totalPrice, setTotalPrice] = useState(0);
   
   useEffect(() => {
     fetchCartItems();
-  }, [])
+  }, []);
+
+  useEffect(() => {
+    calculateTotalPrice();
+  }, [cartItems]);
 
   const fetchCartItems = async () => {
     try {
@@ -36,14 +41,22 @@ const CartPage = () => {
     }
   };
 
+  // Function to update the quantity of an item in the cart
+  const handleQuantityChange = (productId, newQuantity) => {
+    setCartItems(cartItems.map(item => 
+      item.id === productId ? { ...item, quantity: newQuantity } : item
+    ));
+  };
+
   // Calculate total price IF theres a product in cart
-  // const totalPrice = cartItems.reduce((acc, item) => acc + item.price, 0);
-  const totalPrice = cartItems.reduce((acc, item) => {
-    const priceString = item.price.replace(/[$,]/g, ''); //remove symbols from price string 
-    const price = parseFloat(priceString);
-    console.log(`Item ID: ${item.id}, Price: ${item.price}, Parsed Price: ${price}, Accumulator: ${acc}`);
-    return !isNaN(price) ? acc + price : acc;
-  }, 0);
+  const calculateTotalPrice = () => {
+    const total = cartItems.reduce((acc, item) => {
+      const priceString = item.price.replace(/[$,]/g, '');
+      const price = parseFloat(priceString) * item.quantity;
+      return !isNaN(price) ? acc + price : acc;
+    }, 0);
+    setTotalPrice(total);
+  };
 
   return (
     <Container className="mt-5">
@@ -66,6 +79,21 @@ const CartPage = () => {
                 <Col md={4}>
                   <p className="mb-0">{item.name}</p>
                   <p className="text-muted">{item.price}</p>
+                  <div className="d-flex align-items-center">
+                    <Button
+                      variant="outline-secondary"
+                      onClick={() => handleQuantityChange(item.id, Math.max(1, item.quantity - 1))}
+                    >
+                      -
+                    </Button>
+                    <span className="mx-2">{item.quantity}</span>
+                    <Button
+                      variant="outline-secondary"
+                      onClick={() => handleQuantityChange(item.id, item.quantity + 1)}
+                    >
+                      +
+                    </Button>
+                  </div>
                 </Col>
                 <Col md={2}>
                   <Button variant="danger" onClick={() => removeFromCart(item.id)}><BsFillTrash3Fill /></Button>
