@@ -39,7 +39,9 @@ const CartPage = () => {
   // Calculate total price IF theres a product in cart
   // const totalPrice = cartItems.reduce((acc, item) => acc + item.price, 0);
   const totalPrice = cartItems.reduce((acc, item) => {
-    const price = parseFloat(item.price);
+    const priceString = item.price.replace(/[$,]/g, ''); //remove symbols from price string 
+    const price = parseFloat(priceString);
+    console.log(`Item ID: ${item.id}, Price: ${item.price}, Parsed Price: ${price}, Accumulator: ${acc}`);
     return !isNaN(price) ? acc + price : acc;
   }, 0);
 
