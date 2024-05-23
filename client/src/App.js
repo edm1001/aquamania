@@ -34,6 +34,7 @@ function App() {
     <>
       <Router>
         <Header cartItems={cartItems} />
+        <div className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/freshpage" element={<FreshPage />} />
@@ -43,7 +44,8 @@ function App() {
           <Route path="/species/:name" element={<SpeciesDetail />} />
           <Route path="/cartpage" element ={<CartPage cartItems={cartItems} setCartItems={setCartItems} />} />
         </Routes>
-        <Footer />
+        </div>
+        <Footer className="footer" />
       </Router>
     </>
   );
