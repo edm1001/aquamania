@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -8,7 +8,7 @@ import { BsFillTrash3Fill } from "react-icons/bs";
 const CartPage = () => {
   const [cartItems, setCartItems] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
-  
+
   useEffect(() => {
     fetchCartItems();
   }, []);
@@ -32,11 +32,11 @@ const CartPage = () => {
   // Function to remove an item from the cart
   const removeFromCart = async (productId) => {
     try {
-      await fetch (`http://localhost:5000/api/cart/${productId}`, {
+      await fetch(`http://localhost:5000/api/cart/${productId}`, {
         method: "DELETE",
       });
-        setCartItems(cartItems.filter((item) => item.id !== productId));
-    }catch (error) {
+      setCartItems(cartItems.filter((item) => item.id !== productId));
+    } catch (error) {
       console.error("Trouble removing item from cart:", error);
     }
   };
@@ -51,9 +51,11 @@ const CartPage = () => {
         },
         body: JSON.stringify({ quantity: newQuantity }),
       });
-      setCartItems(cartItems.map(item => 
-        item.id === productId ? { ...item, quantity: newQuantity } : item
-      ));
+      setCartItems(
+        cartItems.map((item) =>
+          item.id === productId ? { ...item, quantity: newQuantity } : item
+        )
+      );
     } catch (error) {
       console.error("Trouble updating item quantity:", error);
     }
@@ -63,7 +65,7 @@ const CartPage = () => {
   // Calculate total price IF theres a product in cart
   const calculateTotalPrice = () => {
     const total = cartItems.reduce((acc, item) => {
-      const priceString = item.price.replace(/[$,]/g, '');
+      const priceString = item.price.replace(/[$,]/g, "");
       const price = parseFloat(priceString) * item.quantity;
       return !isNaN(price) ? acc + price : acc;
     }, 0);
@@ -76,7 +78,7 @@ const CartPage = () => {
       {cartItems.length === 0 ? (
         <p>Your cart is empty.</p>
       ) : (
-        <div>
+        <div className="my-4">
           {cartItems.map((item) => (
             <div key={item.id} className="mb-3 h-100 w-100">
               <Row className="align-items-center">
@@ -91,34 +93,53 @@ const CartPage = () => {
                 <Col xs={3}>
                   <span className="d-block font-weight-bold">{item.name}</span>
                   <span className="text-muted">{item.price}</span>
-                  </Col>
-                  <Col xs={3}>
+                </Col>
+                <Col xs={3}>
                   <div className="d-flex align-items-center">
                     <Button
                       variant="outline-secondary"
-                      onClick={() => updateCartItemQuantity(item.id, Math.max(1, item.quantity - 1))}
+                      onClick={() =>
+                        updateCartItemQuantity(
+                          item.id,
+                          Math.max(1, item.quantity - 1)
+                        )
+                      }
                     >
                       -
                     </Button>
                     <span className="mx-2">{item.quantity}</span>
                     <Button
                       variant="outline-secondary"
-                      onClick={() => updateCartItemQuantity(item.id, item.quantity + 1)}
+                      onClick={() =>
+                        updateCartItemQuantity(item.id, item.quantity + 1)
+                      }
                     >
                       +
                     </Button>
                   </div>
                 </Col>
                 <Col xs={3} className="text-center">
-                  <Button variant="danger" onClick={() => removeFromCart(item.id)}><BsFillTrash3Fill /></Button>
+                  <Button
+                    variant="danger"
+                    onClick={() => removeFromCart(item.id)}
+                  >
+                    <BsFillTrash3Fill />
+                  </Button>
                 </Col>
               </Row>
             </div>
           ))}
           <hr />
-          <p className="text-end mb-4">Total: ${totalPrice.toFixed(2)}</p>
-          <Button variant="primary" className="float-end">Checkout</Button>
-          {/*creates a wishlist or cart automatically on amazon*/}
+          <Row className="align-items-center">
+            <Col className="text-end">
+              <p className="font-weight-bold">
+                Total: ${totalPrice.toFixed(2)}
+              </p>
+              <Button variant="primary" className="float-end">
+                Checkout
+              </Button>
+            </Col>
+          </Row>
           {/* FP: do for other sites, seperated by rows so users have options */}
         </div>
       )}

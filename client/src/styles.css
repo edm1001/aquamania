@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+html, body {
+  height:100%;
+}
 /* change font for title */
 :root {
   --deep-blue: #007ea7;
@@ -10,7 +13,9 @@
   --grey: #f5f5f5;
   --textcolor: #333333;
   --highlight: #ff5722;
-  /*  */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 section {
   height: 500px;
@@ -127,14 +132,13 @@ section {
 }
 
 /* Footer */
-
 .footer-row {
   background-color: #f8f9fa;
   padding: 20px;
 }
-
 .logo {
   max-width: 100px;
+
 }
 
 .footer-links {
