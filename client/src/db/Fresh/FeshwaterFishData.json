@@ -1,7 +1,7 @@
 [
   {
     "name": "Albino Angelfish",
-    "description": "The Albino Angelfish, a variant of Pterophyllum scalare, is a unique and eye-catching freshwater fish species known for its lack of melanin pigment, resulting in a pale white or pinkish coloration. This variety of angelfish shares the same elegant body shape and graceful movements as its wild-type counterparts. Albino Angelfish are peaceful and can be kept in community aquariums with other non-aggressive species of similar size.",
+    "description": "The Albino Angelfish, a variant of Pterophyllum scalare, is a unique and eye-catching freshwater fish species known for its lack of melanin pigment, resulting in a pale white or pinkish coloration. This variety of angelfish shares the same elegant body shape and graceful movements as its wild-type counterparts. Albino Angelfish are peaceful and can be kept in community aquariums with other non-aggressive species of similar size.\n\nIn addition to their striking appearance, Albino Angelfish are relatively easy to care for, making them a popular choice for beginner aquarists. They thrive in well-planted aquariums with plenty of hiding spots and prefer a water temperature range of 75°F to 82°F. These fish can grow up to 6 inches in length and are known to be good parents, often taking care of their fry.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/albino-angelfish-image.jpg",
@@ -14,9 +14,9 @@
   },
   {
     "name": "Altum Angelfish",
-    "description": "The Altum Angelfish, scientifically known as Pterophyllum altum, is a majestic and highly sought-after species of angelfish native to the blackwater rivers of South America. Known for their tall, laterally compressed bodies and elongated fins, Altum Angelfish are prized for their elegant appearance and graceful swimming behavior. Keeping Altum Angelfish requires specific water conditions, including soft, acidic water with low lighting, mimicking their natural habitat.",
+    "description": "The Altum Angelfish, scientifically known as Pterophyllum altum, is a majestic and highly sought-after species of angelfish native to the blackwater rivers of South America. Known for their tall, laterally compressed bodies and elongated fins, Altum Angelfish are prized for their elegant appearance and graceful swimming behavior. Keeping Altum Angelfish requires specific water conditions, including soft, acidic water with low lighting, mimicking their natural habitat.\n\nAltum Angelfish are known to reach up to 12 inches in height, making them one of the largest species of angelfish. They are also recognized for their vertical stripes that run along their bodies, which can vary in intensity based on their mood and environment. Due to their specific care requirements, they are recommended for advanced aquarists who have experience maintaining stable water conditions.",
     "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 12 inches (30cm) ",
+    "maxGrowthSize": "Up to 12 inches (30 cm)",
     "img": "https://example.com/altum-angelfish-image.jpg",
     "size": "Large",
     "species": "Pterophyllum altum",
@@ -27,7 +27,7 @@
   },
   {
     "name": "Blushing Angelfish",
-    "description": "The Blushing Angelfish, a color variant of Pterophyllum scalare, is known for its distinctive blush or rosy hue across its body, especially on the cheeks. This coloration is often more pronounced during periods of excitement or aggression. Blushing Angelfish possess the same graceful swimming behavior and peaceful temperament as other varieties of angelfish, making them suitable for community aquariums.",
+    "description": "The Blushing Angelfish, a color variant of Pterophyllum scalare, is known for its distinctive blush or rosy hue across its body, especially on the cheeks. This coloration is often more pronounced during periods of excitement or aggression. Blushing Angelfish possess the same graceful swimming behavior and peaceful temperament as other varieties of angelfish, making them suitable for community aquariums.\n\nThese angelfish are relatively hardy and can adapt to a range of water conditions, but they thrive best in a stable environment with a pH between 6.5 and 7.5. They enjoy swimming in schools and appreciate aquariums that provide plenty of vertical space due to their tall bodies. Blushing Angelfish can grow up to 6 inches and are known to breed readily in captivity under the right conditions.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/blushing-angelfish-image.jpg",
@@ -40,7 +40,7 @@
   },
   {
     "name": "Bulgarian Seal Point Angelfish",
-    "description": "The Bulgarian Seal Point Angelfish is a unique and visually striking variant of Pterophyllum scalare, characterized by its distinctive black coloration around the gill plates, dorsal fin, and anal fin, resembling the appearance of a seal's markings. This variety of angelfish shares the same graceful swimming behavior and peaceful temperament as its wild-type counterparts.",
+    "description": "The Bulgarian Seal Point Angelfish is a unique and visually striking variant of Pterophyllum scalare, characterized by its distinctive black coloration around the gill plates, dorsal fin, and anal fin, resembling the appearance of a seal's markings. This variety of angelfish shares the same graceful swimming behavior and peaceful temperament as its wild-type counterparts.\n\nBulgarian Seal Point Angelfish are favored by aquarists for their striking contrast in coloration, which makes them stand out in any aquarium. They are peaceful and can be housed with other non-aggressive fish. These angelfish thrive in a water temperature range of 75°F to 82°F and prefer slightly acidic to neutral pH levels. They grow up to 6 inches in length and require a well-maintained tank with regular water changes.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/bulgarian-seal-point-angelfish-image.jpg",
@@ -53,7 +53,7 @@
   },
   {
     "name": "Koi Angelfish",
-    "description": "The Koi Angelfish, a variant of Pterophyllum scalare, is known for its stunning and intricate color patterns resembling those of traditional Japanese koi fish. This variety of angelfish possesses the same graceful swimming behavior and peaceful temperament as its wild-type counterparts, making it a popular choice for community aquariums.",
+    "description": "The Koi Angelfish, a variant of Pterophyllum scalare, is known for its stunning and intricate color patterns resembling those of traditional Japanese koi fish. This variety of angelfish possesses the same graceful swimming behavior and peaceful temperament as its wild-type counterparts, making it a popular choice for community aquariums.\n\nKoi Angelfish are admired for their vibrant and varied colorations, which can include shades of orange, white, and black. They thrive in aquariums with a temperature range of 75°F to 82°F and a pH between 6.5 and 7.5. These fish are relatively easy to care for and can grow up to 6 inches in length. They enjoy a planted tank environment with plenty of hiding spaces and a stable water quality.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/koi-angelfish-image.jpg",
@@ -66,7 +66,7 @@
   },
   {
     "name": "Marble Angelfish",
-    "description": "The Marble Angelfish, a variant of Pterophyllum scalare, is known for its stunning and intricate marbled patterns, featuring a combination of dark and light colors resembling marble stone. This variety of angelfish exhibits the same graceful swimming behavior and peaceful temperament as its wild-type counterparts, making it a popular choice for community aquariums.",
+    "description": "The Marble Angelfish, a variant of Pterophyllum scalare, is known for its stunning and intricate marbled patterns, featuring a combination of dark and light colors resembling marble stone. This variety of angelfish exhibits the same graceful swimming behavior and peaceful temperament as its wild-type counterparts, making it a popular choice for community aquariums.\n\nMarble Angelfish are known for their striking appearance and can be a centerpiece in any aquarium. They thrive in water temperatures between 75°F and 82°F with a pH range of 6.5 to 7.5. These angelfish can grow up to 6 inches in length and prefer a tank environment that mimics their natural habitat, including plenty of plants and hiding spots. They are easy to breed and can coexist peacefully with other community fish.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/marble-angelfish-image.jpg",
@@ -79,7 +79,7 @@
   },
   {
     "name": "Pinoy Angelfish",
-    "description": "The Pinoy Angelfish, a variant of Pterophyllum scalare, is named for its striking appearance, characterized by its blue coloration with a contrasting black pattern. The name Pinoy is based from the country Philiipines because the origin breeder of this fish was Filipino. This variety of angelfish shares the same graceful swimming behavior and peaceful temperament as its wild-type counterparts.",
+    "description": "The Pinoy Angelfish, a variant of Pterophyllum scalare, is named for its striking appearance, characterized by its blue coloration with a contrasting black pattern. The name Pinoy is derived from the Philippines, as the origin breeder of this fish was Filipino. This variety of angelfish shares the same graceful swimming behavior and peaceful temperament as its wild-type counterparts.\n\nPinoy Angelfish are a favorite among aquarists for their unique and beautiful coloration. They thrive in water temperatures ranging from 75°F to 82°F and a pH level of 6.5 to 7.5. These angelfish can grow up to 6 inches in length and prefer an aquarium environment with ample vegetation and hiding places. They are known for their peaceful nature, making them suitable for community tanks.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/pinoy-angelfish-image.jpg",
@@ -92,7 +92,7 @@
   },
   {
     "name": "Red Devil Angelfish",
-    "description": "The Red Devil Angelfish, a variant of Pterophyllum scalare, is named for its fiery red coloration, which contrasts with its black markings. This variety of angelfish shares the same graceful swimming behavior and peaceful temperament as its wild-type counterparts.",
+    "description": "The Red Devil Angelfish, a variant of Pterophyllum scalare, is named for its fiery red coloration, which contrasts with its black markings. This variety of angelfish shares the same graceful swimming behavior and peaceful temperament as its wild-type counterparts.\n\nRed Devil Angelfish are known for their vibrant and striking appearance, making them a standout in any aquarium. They thrive in water temperatures between 75°F and 82°F with a pH range of 6.5 to 7.5. These angelfish can grow up to 6 inches in length and prefer a tank environment with plenty of plants and hiding spots. They are relatively easy to care for and are suitable for both novice and experienced aquarists.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/red-devil-angelfish-image.jpg",
@@ -105,7 +105,7 @@
   },
   {
     "name": "Silver Angelfish",
-    "description": "The Silver Angelfish, scientifically known as Pterophyllum scalare, is a classic and popular freshwater fish species native to South America, particularly the Amazon Basin. It is characterized by its graceful swimming behavior, elongated fins, and silver or metallic coloration. Silver Angelfish are peaceful and can be kept in community aquariums with other non-aggressive species of similar size.",
+    "description": "The Silver Angelfish, scientifically known as Pterophyllum scalare, is a classic and popular freshwater fish species native to South America, particularly the Amazon Basin. It is characterized by its graceful swimming behavior, elongated fins, and silver or metallic coloration. Silver Angelfish are peaceful and can be kept in community aquariums with other non-aggressive species of similar size.\n\nSilver Angelfish are a staple in the aquarium hobby due to their elegant appearance and ease of care. They thrive in water temperatures between 75°F and 82°F with a pH range of 6.5 to 7.5. These angelfish can grow up to 6 inches in length and prefer a well-planted tank with plenty of hiding spots. They are known to be good parents, often taking care of their fry, and can adapt to a variety of tank conditions.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/silver-angelfish-image.jpg",
@@ -118,7 +118,7 @@
   },
   {
     "name": "Smokey Angelfish",
-    "description": "The Smokey Angelfish, a variant of Pterophyllum scalare, is known for its distinctively smoky or grayish coloration, which gives it a unique and mysterious appearance. This variety of angelfish exhibits the same graceful swimming behavior and peaceful temperament as its wild-type counterparts, making it suitable for community aquariums.",
+    "description": "The Smokey Angelfish, a variant of Pterophyllum scalare, is known for its distinctively smoky or grayish coloration, which gives it a unique and mysterious appearance. This variety of angelfish exhibits the same graceful swimming behavior and peaceful temperament as its wild-type counterparts, making it suitable for community aquariums.\n\nSmokey Angelfish are favored for their unique and subdued coloration, which adds a different aesthetic to any aquarium. They thrive in water temperatures between 75°F and 82°F with a pH range of 6.5 to 7.5. These angelfish can grow up to 6 inches in length and prefer a well-maintained tank with regular water changes and plenty of hiding spots. They are easy to care for and make a great addition to any peaceful community tank.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/smokey-angelfish-image.jpg",
@@ -131,7 +131,7 @@
   },
   {
     "name": "Veiltail Angelfish",
-    "description": "The Veiltail Angelfish, a variant of Pterophyllum scalare, is known for its distinctive long and flowing fins, resembling the appearance of a veil. This variety of angelfish shares the same graceful swimming behavior and peaceful temperament as its wild-type counterparts, making it a popular choice for community aquariums.",
+    "description": "The Veiltail Angelfish, a variant of Pterophyllum scalare, is known for its distinctive long and flowing fins, resembling the appearance of a veil. This variety of angelfish shares the same graceful swimming behavior and peaceful temperament as its wild-type counterparts, making it a popular choice for community aquariums.\n\nVeiltail Angelfish are admired for their elegant and flowing fins, which add a touch of beauty and grace to any aquarium. They thrive in water temperatures between 75°F and 82°F with a pH range of 6.5 to 7.5. These angelfish can grow up to 6 inches in length and prefer a tank environment with plenty of plants and hiding spots. They are easy to care for and can be housed with other peaceful fish, making them suitable for both novice and experienced aquarists.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/veiltail-angelfish-image.jpg",
@@ -144,7 +144,7 @@
   },
   {
     "name": "Silver Arowana",
-    "description": "The Silver Arowana, scientifically known as Osteoglossum bicirrhosum, is a majestic fish known for its sleek silver body and distinctive elongated shape. It is a popular choice among aquarium enthusiasts.",
+    "description": "The Silver Arowana, scientifically known as Osteoglossum bicirrhosum, is a majestic fish known for its sleek silver body and distinctive elongated shape. It is a popular choice among aquarium enthusiasts.\n\nSilver Arowanas are iconic freshwater predators, known for their impressive size and striking appearance. They are native to the Amazon Basin and prefer large, spacious aquariums with plenty of swimming room. These fish are highly territorial and can be aggressive towards tankmates, so they are best kept alone or with large, robust species. Silver Arowanas require a diet rich in protein, consisting of live or frozen foods such as fish, shrimp, and insects. Due to their large size and predatory nature, they are recommended for advanced aquarists with experience in maintaining large aquariums.",
     "temperament": "Aggressive",
     "maxGrowthSize": "Up to 36 inches (91 cm)",
     "img": "https://example.com/silver-arowana-image.jpg",
@@ -157,7 +157,7 @@
   },
   {
     "name": "Black Arowana",
-    "description": "The Black Arowana, also known as the Black Dragonfish, is a rare and captivating species prized for its deep black coloration. It is a unique and sought-after addition to advanced aquariums.",
+    "description": "The Black Arowana, also known as the Black Dragonfish, is a rare and captivating species prized for its deep black coloration. It is a unique and sought-after addition to advanced aquariums.\n\nBlack Arowanas are renowned for their striking appearance and commanding presence in any aquarium. They originate from the tropical rainforests of South America and require large tanks with plenty of open swimming space. These fish can be territorial and aggressive, especially towards smaller tankmates, so careful consideration must be taken when choosing tankmates. Black Arowanas thrive on a diet of live foods such as feeder fish, insects, and crustaceans. Due to their size and temperament, they are recommended for experienced aquarists with large, well-maintained aquarium setups.",
     "temperament": "Aggressive",
     "maxGrowthSize": "Up to 36 inches (91 cm)",
     "img": "https://example.com/black-arowana-image.jpg",
@@ -170,7 +170,7 @@
   },
   {
     "name": "Jardini Arowana",
-    "description": "The Jardini Arowana, scientifically known as Scleropages jardini, is a stunning and lively species appreciated for its unique color patterns and active behavior. It is a captivating choice for experienced aquarists.",
+    "description": "The Jardini Arowana, scientifically known as Scleropages jardini, is a stunning and lively species appreciated for its unique color patterns and active behavior. It is a captivating choice for experienced aquarists.\n\nJardini Arowanas are prized for their vibrant coloration and active swimming behavior. They are native to freshwater habitats in Northern Australia and New Guinea and require large aquariums with plenty of space to swim. These fish can be territorial and may exhibit aggression towards smaller tankmates, so careful consideration must be given to tankmate selection. Jardini Arowanas have a voracious appetite and will readily consume a variety of live and prepared foods. Due to their size and territorial nature, they are best suited for experienced aquarists with large aquarium setups.",
     "temperament": "Aggressive",
     "maxGrowthSize": "Up to 30 inches (76 cm)",
     "img": "https://example.com/jardini-arowana-image.jpg",
@@ -183,7 +183,7 @@
   },
   {
     "name": "African Arowana",
-    "description": "The African Arowana, scientifically known as Heterotis niloticus, is a unique freshwater fish native to Africa. It is recognized for its distinctive appearance and is well-suited for large aquariums.",
+    "description": "The African Arowana, scientifically known as Heterotis niloticus, is a unique freshwater fish native to Africa. It is recognized for its distinctive appearance and is well-suited for large aquariums.\n\nAfrican Arowanas are characterized by their elongated bodies and unique coloration, making them a standout in any aquarium. They are native to the rivers and lakes of West and Central Africa and require large tanks with plenty of swimming space. These fish can be territorial and may exhibit aggression towards smaller tankmates, so careful consideration must be given to tankmate selection. African Arowanas are omnivorous and will accept a variety of live and prepared foods. Due to their size and territorial nature, they are best suited for intermediate to experienced aquarists with large aquarium setups.",
     "temperament": "Aggressive",
     "maxGrowthSize": "Up to 30 inches (76 cm)",
     "img": "https://example.com/african-arowana-image.jpg",
