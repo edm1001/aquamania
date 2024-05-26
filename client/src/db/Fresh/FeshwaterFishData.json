@@ -284,7 +284,7 @@
     "experienceLevel": "Beginner",
     "waterPHRange": "6.0 - 7.5",
     "temperatureRange": "64°F - 75°F (18°C - 24°C)"
-  },  
+  },
   {
     "name": "Golden Dwarf Barb",
     "description": "The Golden Dwarf Barb, scientifically known as Pethia gelius, is a small and peaceful freshwater fish species. It is prized for its golden coloration and is suitable for smaller aquarium setups.\n\nGolden Dwarf Barbs are small, peaceful fish that are perfect for nano or small community tanks. They originate from the slow-moving waters of South Asia and prefer densely planted aquariums with plenty of hiding spots. These fish are social and should be kept in groups to ensure they feel secure. Golden Dwarf Barbs have an omnivorous diet and will accept a variety of small live, frozen, and prepared foods. Their small size and peaceful nature make them an excellent choice for beginner aquarists.",
@@ -428,64 +428,9 @@
     "waterPHRange": "6.0 - 7.5",
     "temperatureRange": "72°F - 79°F (22°C - 26°C)"
   },
-
-  {
-    "name": "Gold Barb",
-    "description": "The Gold Barb, scientifically known as Puntius semifasciolatus, is a peaceful and attractive freshwater fish species. It is prized for its golden-yellow coloration.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 2 inches (5 cm)",
-    "img": "https://example.com/gold-barb-image.jpg",
-    "size": "Small",
-    "species": "Puntius semifasciolatus",
-    "family": "Barb",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "64°F - 75°F (18°C - 24°C)"
-  },
-  {
-    "name": "Rosy Barb",
-    "description": "The Rosy Barb, scientifically known as Pethia conchonius, is a peaceful and colorful freshwater fish species. It is named for its rosy-pink coloration.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 6 inches (15 cm)",
-    "img": "https://example.com/rosy-barb-image.jpg",
-    "size": "Medium",
-    "species": "Pethia conchonius",
-    "family": "Barb",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "64°F - 75°F (18°C - 24°C)"
-  },
-
-  {
-    "name": "Spanner Barb",
-    "description": "The Spanner Barb, scientifically known as Barbus lateristriga, is a lively and social freshwater fish species. It is characterized by its distinctive markings and makes a delightful addition to community aquariums.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 4 inches (10 cm)",
-    "img": "https://example.com/spanner-barb-image.jpg",
-    "size": "Small",
-    "species": "Barbus lateristriga",
-    "family": "Barb",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "72°F - 79°F (22°C - 26°C)"
-  },
-
-  {
-    "name": "Three Spot Barb",
-    "description": "The Three Spot Barb, scientifically known as Puntius trifasciatus, is a peaceful and hardy freshwater fish species. It is named for the prominent black spots on its body and is suitable for community aquariums.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 2.5 inches (6.4 cm)",
-    "img": "https://example.com/three-spot-barb-image.jpg",
-    "size": "Small",
-    "species": "Puntius trifasciatus",
-    "family": "Barb",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "72°F - 79°F (22°C - 26°C)"
-  },
   {
     "name": "Adolfoi Corydoras",
-    "description": "The Adolfoi Corydoras, scientifically known as Corydoras adolfoi, is a charming freshwater catfish species native to the Amazon basin in South America. It is prized for its striking appearance, featuring a bright orange body with black markings. Adolfoi Corydoras are peaceful and social fish, making them excellent additions to community aquariums.",
+    "description": "The Adolfoi Corydoras, scientifically known as Corydoras adolfoi, is a charming freshwater catfish species native to the Amazon basin in South America. It is prized for its striking appearance, featuring a bright orange body with black markings. Adolfoi Corydoras are peaceful and social fish, making them excellent additions to community aquariums.\n\nThese fish thrive in well-planted tanks with plenty of hiding spots and soft substrate. They are schooling fish and should be kept in groups of at least five to exhibit natural behavior and reduce stress. Adolfoi Corydoras are bottom dwellers that enjoy scavenging for food, and their diet should include high-quality sinking pellets, flakes, and occasional live or frozen foods. Their peaceful temperament makes them compatible with a wide variety of tankmates.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2.5 inches (6 cm)",
     "img": "https://example.com/adolfoi-corydoras-image.jpg",
@@ -498,7 +443,7 @@
   },
   {
     "name": "Ellis Corydoras",
-    "description": "The Ellis Corydoras, scientifically known as Corydoras ellisae, is a small and peaceful freshwater catfish species native to the Amazon River basin in South America. It is appreciated for its distinctive black and white striped pattern and its compatibility with various tankmates. Ellis Corydoras are ideal for community aquariums.",
+    "description": "The Ellis Corydoras, scientifically known as Corydoras ellisae, is a small and peaceful freshwater catfish species native to the Amazon River basin in South America. It is appreciated for its distinctive black and white striped pattern and its compatibility with various tankmates. Ellis Corydoras are ideal for community aquariums.\n\nThese fish prefer a well-decorated tank with a soft substrate and plenty of hiding places. They are social creatures that should be kept in groups of at least five to ensure they feel secure and exhibit natural behaviors. Ellis Corydoras are bottom feeders and enjoy a diet of sinking pellets, flakes, and occasional live or frozen foods. Their peaceful nature makes them suitable for tanks with other non-aggressive fish.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2 inches (5 cm)",
     "img": "https://example.com/ellis-corydoras-image.jpg",
@@ -511,7 +456,7 @@
   },
   {
     "name": "Emerald Green Corydoras",
-    "description": "The Emerald Green Corydoras, scientifically known as Corydoras splendens, is a vibrant freshwater catfish species native to the Amazon River basin in South America. It is named for its beautiful emerald green coloration, which adds visual appeal to any aquarium. Emerald Green Corydoras are peaceful and can thrive in community setups.",
+    "description": "The Emerald Green Corydoras, scientifically known as Corydoras splendens, is a vibrant freshwater catfish species native to the Amazon River basin in South America. It is named for its beautiful emerald green coloration, which adds visual appeal to any aquarium. Emerald Green Corydoras are peaceful and can thrive in community setups.\n\nThese fish prefer a tank with soft substrate and plenty of plants or decorations to provide hiding spots. Emerald Green Corydoras are schooling fish and should be kept in groups of at least five to reduce stress and promote natural behavior. They are bottom dwellers that feed on sinking pellets, flakes, and occasional live or frozen foods. Their peaceful temperament makes them suitable for community aquariums with other non-aggressive species.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2.5 inches (6 cm)",
     "img": "https://example.com/emerald-green-corydoras-image.jpg",
@@ -524,7 +469,7 @@
   },
   {
     "name": "False Julii Corydoras",
-    "description": "The False Julii Corydoras, scientifically known as Corydoras trilineatus, is a popular freshwater catfish species native to South America. It is known for its striking appearance, featuring a pattern of black spots and lines on a silver body. False Julii Corydoras are peaceful and can be kept in community aquariums.",
+    "description": "The False Julii Corydoras, scientifically known as Corydoras trilineatus, is a popular freshwater catfish species native to South America. It is known for its striking appearance, featuring a pattern of black spots and lines on a silver body. \n\nFalse Julii Corydoras are peaceful and can be kept in community aquariums. They thrive in tanks with a soft substrate and plenty of hiding places. These social fish prefer to be kept in groups, which helps reduce stress and promotes natural behavior. Their distinctive markings and calm temperament make them a delightful addition to any aquarium.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2.5 inches (6 cm)",
     "img": "https://example.com/false-julii-corydoras-image.jpg",
@@ -537,7 +482,7 @@
   },
   {
     "name": "Julii Corydoras",
-    "description": "The Julii Corydoras, scientifically known as Corydoras julii, is a charming freshwater catfish species native to South America. It is distinguished by its intricate spotted pattern, which resembles hieroglyphs. Julii Corydoras are peaceful and social fish, making them excellent additions to community aquariums.",
+    "description": "The Julii Corydoras, scientifically known as Corydoras julii, is a charming freshwater catfish species native to South America. It is distinguished by its intricate spotted pattern, which resembles hieroglyphs. \n\nJulii Corydoras are peaceful and social fish, making them excellent additions to community aquariums. These fish prefer a soft substrate and a well-planted tank with plenty of hiding spots. As schooling fish, they should be kept in groups to feel secure and display natural behaviors. Their unique pattern and gentle nature make them a favorite among aquarists.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2.5 inches (6 cm)",
     "img": "https://example.com/julii-corydoras-image.jpg",
@@ -550,7 +495,7 @@
   },
   {
     "name": "Leopard Corydoras",
-    "description": "The Leopard Corydoras, scientifically known as Corydoras leopardus, is a small and peaceful freshwater catfish species native to South America. It is characterized by its beautiful spotted pattern, reminiscent of a leopard's coat. Leopard Corydoras are ideal for community aquariums.",
+    "description": "The Leopard Corydoras, scientifically known as Corydoras leopardus, is a small and peaceful freshwater catfish species native to South America. It is characterized by its beautiful spotted pattern, reminiscent of a leopard's coat. \n\nLeopard Corydoras are ideal for community aquariums. They thrive in environments with a soft substrate and ample hiding spots. As social fish, they should be kept in groups to promote natural schooling behavior and reduce stress. Their striking appearance and gentle demeanor make them a popular choice for aquarists.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2.5 inches (6 cm)",
     "img": "https://example.com/leopard-corydoras-image.jpg",
@@ -563,7 +508,7 @@
   },
   {
     "name": "Panda Corydoras",
-    "description": "The Panda Corydoras, scientifically known as Corydoras panda, is a beloved freshwater catfish species native to South America. It is named for its striking black and white coloration, reminiscent of a panda bear. Panda Corydoras are peaceful and can thrive in community aquariums.",
+    "description": "The Panda Corydoras, scientifically known as Corydoras panda, is a beloved freshwater catfish species native to South America. It is named for its striking black and white coloration, reminiscent of a panda bear. \n\nPanda Corydoras are peaceful and can thrive in community aquariums. They prefer a soft substrate and a well-planted tank with plenty of hiding spots. Being social creatures, they should be kept in groups to exhibit natural schooling behavior. Their distinctive color pattern and calm temperament make them a favorite among aquarists.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2.5 inches (6 cm)",
     "img": "https://example.com/panda-corydoras-image.jpg",
@@ -576,7 +521,7 @@
   },
   {
     "name": "Peppered Cory Catfish",
-    "description": "The Peppered Cory Catfish, scientifically known as Corydoras paleatus, is a popular freshwater catfish species native to South America. It is named for the pepper-like speckles covering its body. Peppered Cory Catfish are peaceful and social fish, making them great additions to community aquariums.",
+    "description": "The Peppered Cory Catfish, scientifically known as Corydoras paleatus, is a popular freshwater catfish species native to South America. It is named for the pepper-like speckles covering its body. \n\nPeppered Cory Catfish are peaceful and social fish, making them great additions to community aquariums. They thrive in tanks with a soft substrate and plenty of hiding spots. As schooling fish, they should be kept in groups to feel secure and display natural behaviors. Their unique pattern and gentle nature make them a favorite among aquarists.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2.5 inches (6 cm)",
     "img": "https://example.com/peppered-cory-catfish-image.jpg",
@@ -589,7 +534,7 @@
   },
   {
     "name": "Skunk Corydoras",
-    "description": "The Skunk Corydoras, scientifically known as Corydoras arcuatus, is a small and peaceful freshwater catfish species native to South America. It is characterized by its black stripe running along its body, resembling a skunk's stripe. Skunk Corydoras are ideal for community aquariums.",
+    "description": "The Skunk Corydoras, scientifically known as Corydoras arcuatus, is a small and peaceful freshwater catfish species native to South America. It is characterized by its black stripe running along its body, resembling a skunk's stripe. Skunk Corydoras are ideal for community aquariums. \n\nThese fish prefer a soft substrate and plenty of hiding spots in the tank. As peaceful creatures, they can coexist with a variety of tankmates. Skunk Corydoras are well-suited for beginners due to their easy-going nature and low care requirements.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2.5 inches (6 cm)",
     "img": "https://example.com/skunk-corydoras-image.jpg",
@@ -602,7 +547,7 @@
   },
   {
     "name": "Sterbai Corydoras",
-    "description": "The Sterbai Corydoras, scientifically known as Corydoras sterbai, is a beloved freshwater catfish species native to South America. It is named for its discoverer, Günther Sterba, and is admired for its striking orange and black coloration. Sterbai Corydoras are peaceful and can thrive in community aquariums.",
+    "description": "The Sterbai Corydoras, scientifically known as Corydoras sterbai, is a beloved freshwater catfish species native to South America. It is named for its discoverer, Günther Sterba, and is admired for its striking orange and black coloration. \n\nSterbai Corydoras are peaceful and can thrive in community aquariums. These fish prefer a well-maintained tank with soft substrate and plenty of hiding spots. They should be kept in groups to feel secure and exhibit natural behavior. Sterbai Corydoras are suitable for beginner aquarists due to their hardiness and adaptability to various water conditions.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2.5 inches (6 cm)",
     "img": "https://example.com/sterbai-corydoras-image.jpg",
@@ -1525,7 +1470,7 @@
   },
   {
     "name": "Giant Danio",
-    "description":"The Giant Danio, scientifically known as Devario aequipinnatus, is a popular freshwater fish species known for its vibrant colors and active nature. It is a schooling fish that requires a spacious aquarium with plenty of swimming space. Giant Danios are best kept in groups and are compatible with a wide range of tankmates. They are relatively hardy and can adapt to various water conditions, making them suitable for beginner aquarists.",
+    "description": "The Giant Danio, scientifically known as Devario aequipinnatus, is a popular freshwater fish species known for its vibrant colors and active nature. It is a schooling fish that requires a spacious aquarium with plenty of swimming space. Giant Danios are best kept in groups and are compatible with a wide range of tankmates. They are relatively hardy and can adapt to various water conditions, making them suitable for beginner aquarists.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 4 inches (10 cm)",
     "img": "https://example.com/giant-danio-image.jpg",
