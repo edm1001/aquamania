@@ -20,8 +20,22 @@ const Header = ({ cartItems }) => {
 
   return (
     <motion.div initial={{ opacity: 1 }}>
+      <div className="cart-banner">
+        <Link to="/cartpage" className="position-relative me-2">
+          <IoIosCart size={20} />
+          {totalQuantity > 0 && (
+            <Badge
+              bg="danger"
+              pill
+              className="position-absolute top-0 start-100 translate-middle cart-badge"
+            >
+              {totalQuantity}
+            </Badge>
+          )}
+        </Link>
+      </div>
       <Navbar
-        className="mb-5"
+        className="mb-5 mt-3"
         sticky="top"
         bg="white"
         data-bs-theme="light"
@@ -32,14 +46,14 @@ const Header = ({ cartItems }) => {
             <img src={Logo} width="80" height="80" alt="brand-logo" />
           </Navbar.Brand>
           <Navbar.Toggle
-            className={`custom-menu ${isMenuOpen ? "menu-open" : ""} me-2`}
+            className={`custom-menu ${isMenuOpen ? "menu-open" : ""} ms-auto`}
             aria-controls="responsive-navbar-nav"
             onClick={handleToggleClick}
           >
             {isMenuOpen ? <IoFishOutline size={38} /> : <IoFish size={30} />}
           </Navbar.Toggle>
-          <Navbar.Collapse>
-            <Nav className="">
+          <Navbar.Collapse className="justify-content-center">
+            <Nav>
               <NavDropdown title="Fish" className="text-center">
                 <Link to="/freshpage" className="dropdown-item text-center">
                   Freshwater Fish
@@ -56,18 +70,6 @@ const Header = ({ cartItems }) => {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <Link to="/cartpage" className="position-relative">
-            <IoIosCart size={30} />
-            {totalQuantity > 0 && (
-              <Badge
-                bg="success"
-                pill
-                className="position-absolute top-0 start-100 translate-middle"
-              >
-                {totalQuantity}
-              </Badge>
-            )}
-          </Link>
         </Container>
       </Navbar>
     </motion.div>

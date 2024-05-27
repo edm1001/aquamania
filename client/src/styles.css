@@ -25,27 +25,38 @@ section {
   cursor: pointer;
 }
 
-/* NAV */
+/* Header */
+.cart-banner {
+  width: 100%;
+  background-color:var(--grey); 
+  text-align: right;
+  padding: 5px 10px;
+}
+
+.cart-banner a {
+  color:var(--deep-blue);
+  font-size: 1.2rem; 
+}
+.navbar-nav {
+  flex: 1;
+  justify-content: center;
+}
+.navbar-brand {
+  position: absolute;
+  left: 20px; 
+}
+.navbar-toggler {
+  position: absolute;
+  right: 20px; 
+}
 .custom-menu {
   border: 0;
   background-color: transparent;
   outline: none;
 }
-
-/* Cart Icon */
-.cart-icon-container {
-  position: relative;
-  display: inline-block;
-}
 .cart-badge {
-  position: absolute;
-  top: -5px;
-  right: -10px;
-  background-color: red;
-  color: white;
-  border-radius: 50%;
-  padding: 0.25em 0.5em;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.4rem;
 }
 
 /* WELCOME PAGE */
