@@ -4,7 +4,6 @@ import freshwaterFishSpecies from "../db/Fresh/FeshwaterFishData.json";
 import saltwaterFishSpecies from "../db/Salt/SaltwaterFishData.json";
 import { FaArrowLeft } from "react-icons/fa";
 
-
 const SpeciesDetail = () => {
   const { name } = useParams();
   const allFishSpecies = freshwaterFishSpecies.concat(saltwaterFishSpecies);
@@ -19,7 +18,13 @@ const SpeciesDetail = () => {
     <Container className="p-5 my-5">
       <Row>
         <div className="d-flex">
-          <button className="btn btn-success rounded-circle me-2" style={{ height: '50px', width: '50px' }} onClick={() => window.history.back()}><FaArrowLeft /></button>
+          <button
+            className="btn btn-success rounded-circle me-2"
+            style={{ height: "50px", width: "50px" }}
+            onClick={() => window.history.back()}
+          >
+            <FaArrowLeft />
+          </button>
           <h1>{selectedSpecies.name}</h1>
           <p className="ms-3 species-info">{selectedSpecies.species}</p>
         </div>
@@ -46,7 +51,9 @@ const SpeciesDetail = () => {
               pH Range: {selectedSpecies.waterPHRange}
             </p>
           </Row>
-          <p className="mt-1 fs-6 text-start">{selectedSpecies.description}</p>
+          <p className="mt-1 text-start text-sm">
+            {selectedSpecies.description}
+          </p>
         </Col>
       </Row>
     </Container>

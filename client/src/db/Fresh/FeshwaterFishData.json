@@ -143,21 +143,21 @@
     "temperatureRange": "75°F - 82°F (24°C - 28°C)"
   },
   {
-    "name": "Silver Arowana",
-    "description": "The Silver Arowana, scientifically known as Osteoglossum bicirrhosum, is a majestic fish known for its sleek silver body and distinctive elongated shape. It is a popular choice among aquarium enthusiasts.\n\nSilver Arowanas are iconic freshwater predators, known for their impressive size and striking appearance. They are native to the Amazon Basin and prefer large, spacious aquariums with plenty of swimming room. These fish are highly territorial and can be aggressive towards tankmates, so they are best kept alone or with large, robust species. Silver Arowanas require a diet rich in protein, consisting of live or frozen foods such as fish, shrimp, and insects. Due to their large size and predatory nature, they are recommended for advanced aquarists with experience in maintaining large aquariums.",
+    "name": "African Arowana",
+    "description": "The African Arowana, scientifically known as Heterotis niloticus, is a unique freshwater fish native to Africa. It is recognized for its distinctive appearance and is well-suited for large aquariums.\n\nAfrican Arowanas are characterized by their elongated bodies and unique coloration, making them a standout in any aquarium. They are native to the rivers and lakes of West and Central Africa and require large tanks with plenty of swimming space. These fish can be territorial and may exhibit aggression towards smaller tankmates, so careful consideration must be given to tankmate selection. African Arowanas are omnivorous and will accept a variety of live and prepared foods. Due to their size and territorial nature, they are best suited for intermediate to experienced aquarists with large aquarium setups.",
     "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 36 inches (91 cm)",
-    "img": "https://example.com/silver-arowana-image.jpg",
+    "maxGrowthSize": "Up to 30 inches (76 cm)",
+    "img": "https://example.com/african-arowana-image.jpg",
     "size": "Large",
-    "species": "Osteoglossum bicirrhosum",
+    "species": "Heterotis niloticus",
     "family": "Arowana",
-    "experienceLevel": "Advanced",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "experienceLevel": "Intermediate",
+    "waterPHRange": "6.0 - 8.0",
+    "temperatureRange": "74°F - 82°F (23°C - 28°C)"
   },
   {
     "name": "Black Arowana",
-    "description": "The Black Arowana, also known as the Black Dragonfish, is a rare and captivating species prized for its deep black coloration. It is a unique and sought-after addition to advanced aquariums.\n\nBlack Arowanas are renowned for their striking appearance and commanding presence in any aquarium. They originate from the tropical rainforests of South America and require large tanks with plenty of open swimming space. These fish can be territorial and aggressive, especially towards smaller tankmates, so careful consideration must be taken when choosing tankmates. Black Arowanas thrive on a diet of live foods such as feeder fish, insects, and crustaceans. Due to their size and temperament, they are recommended for experienced aquarists with large, well-maintained aquarium setups.",
+    "description": "The Black Arowana, also known as the Black Dragonfish, is a rare and captivating species prized for its deep black coloration. It is a unique and sought-after addition to advanced aquariums. Black Arowanas are renowned for their striking appearance and commanding presence in any aquarium. They originate from the tropical rainforests of South America and require large tanks with plenty of open swimming space.\n\nThese fish can be territorial and aggressive, especially towards smaller tankmates, so careful consideration must be taken when choosing tankmates. Black Arowanas thrive on a diet of live foods such as feeder fish, insects, and crustaceans. Due to their size and temperament, they are recommended for experienced aquarists with large, well-maintained aquarium setups.",
     "temperament": "Aggressive",
     "maxGrowthSize": "Up to 36 inches (91 cm)",
     "img": "https://example.com/black-arowana-image.jpg",
@@ -182,17 +182,17 @@
     "temperatureRange": "78°F - 86°F (25°C - 30°C)"
   },
   {
-    "name": "African Arowana",
-    "description": "The African Arowana, scientifically known as Heterotis niloticus, is a unique freshwater fish native to Africa. It is recognized for its distinctive appearance and is well-suited for large aquariums.\n\nAfrican Arowanas are characterized by their elongated bodies and unique coloration, making them a standout in any aquarium. They are native to the rivers and lakes of West and Central Africa and require large tanks with plenty of swimming space. These fish can be territorial and may exhibit aggression towards smaller tankmates, so careful consideration must be given to tankmate selection. African Arowanas are omnivorous and will accept a variety of live and prepared foods. Due to their size and territorial nature, they are best suited for intermediate to experienced aquarists with large aquarium setups.",
+    "name": "Silver Arowana",
+    "description": "The Silver Arowana, scientifically known as Osteoglossum bicirrhosum, is a majestic fish known for its sleek silver body and distinctive elongated shape. It is a popular choice among aquarium enthusiasts. Silver Arowanas are iconic freshwater predators, known for their impressive size and striking appearance. They are native to the Amazon Basin and prefer large, spacious aquariums with plenty of swimming room.\n\nThese fish are highly territorial and can be aggressive towards tankmates, so they are best kept alone or with large, robust species. Silver Arowanas require a diet rich in protein, consisting of live or frozen foods such as fish, shrimp, and insects. Due to their large size and predatory nature, they are recommended for advanced aquarists with experience in maintaining large aquariums.",
     "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 30 inches (76 cm)",
-    "img": "https://example.com/african-arowana-image.jpg",
+    "maxGrowthSize": "Up to 36 inches (91 cm)",
+    "img": "https://example.com/silver-arowana-image.jpg",
     "size": "Large",
-    "species": "Heterotis niloticus",
+    "species": "Osteoglossum bicirrhosum",
     "family": "Arowana",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "6.0 - 8.0",
-    "temperatureRange": "74°F - 82°F (23°C - 28°C)"
+    "experienceLevel": "Advanced",
+    "waterPHRange": "6.0 - 7.5",
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
   },
   {
     "name": "Black Ruby Barb",
@@ -560,7 +560,7 @@
   },
   {
     "name": "Banjo Catfish",
-    "description": "The Banjo Catfish, scientifically known as Bunocephalus coracoideus, is a unique freshwater catfish species native to South America. It is named for its banjo-shaped body and flattened appearance. \n\nBanjo Catfish are peaceful and can be kept in community aquariums, but they may hide during the day and become more active at night. These fascinating fish are relatively small, reaching up to 5 inches (13 cm) in length. They prefer soft, acidic water with a pH range of 6.5 to 7.5 and a temperature range of 72°F to 79°F (22°C to 26°C). Banjo Catfish are best suited for intermediate aquarists due to their specific care requirements.",
+    "description": "The Banjo Catfish, scientifically known as Bunocephalus coracoideus, is a unique freshwater catfish species native to South America. It is named for its banjo-shaped body and flattened appearance. \n\nBanjo Catfish are peaceful and can be kept in community aquariums, but they may hide during the day and become more active at night. These fascinating fish are relatively small, reaching up to 5 inches (13 cm) in length. They prefer soft, acidic water with a pH range of 6.5 to 7.5 and a temperature range of 72°F to 79°F (22°C to 26°C). Banjo Catfish are best suited for intermediate aquarists because of their specific care requirements.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 5 inches (13 cm)",
     "img": "https://example.com/banjo-catfish-image.jpg",
@@ -586,7 +586,7 @@
   },
   {
     "name": "Chinese Algae Eater",
-    "description": "The Chinese Algae Eater, scientifically known as Gyrinocheilus aymonieri, is a popular freshwater catfish species native to Southeast Asia. It is valued for its ability to consume algae in aquariums. However, it can become aggressive as it matures, especially towards other bottom-dwelling fish. Chinese Algae Eaters are best kept in large tanks with ample hiding spaces.",
+    "description": "The Chinese Algae Eater, scientifically known as Gyrinocheilus aymonieri, is a popular freshwater catfish species native to Southeast Asia. It is highly valued for its ability to consume algae in aquariums, making it a natural solution for algae control. Young Chinese Algae Eaters are usually peaceful and can be a helpful addition to a community tank. However, as they mature, they can become more territorial and aggressive, particularly towards other bottom-dwelling fish. This aggressive behavior makes it essential to provide them with ample space and hiding spots. These fish are known for their elongated bodies and sucker mouths, which they use to cling to surfaces and scrape off algae. They prefer aquariums with plenty of rocks, driftwood, and plants where they can find shelter and food. Despite their name, they should not be relied upon solely for algae control and need a varied diet, including algae wafers and vegetables. Chinese Algae Eaters can grow up to 6 inches (15 cm) in length and are best kept in larger tanks to accommodate their size and activity level. They are generally recommended for intermediate aquarists due to their specific care requirements.",
     "temperament": "Aggressive",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/chinese-algae-eater-image.jpg",
@@ -599,7 +599,7 @@
   },
   {
     "name": "Columbian Shark",
-    "description": "The Columbian Shark, also known as the Black Fin Shark or Jordan's Catfish, is a species of freshwater catfish native to South America. It is often kept in home aquariums due to its sleek appearance and active swimming behavior. However, it can grow quite large and requires a spacious tank with good water quality.",
+    "description": "The Columbian Shark, also known as the Black Fin Shark or Jordan's Catfish, is a striking species of freshwater catfish native to South America. Its sleek appearance and active swimming behavior make it a favorite among aquarium enthusiasts. This fish is notable for its silver body and distinctive black-tipped fins, which give it a shark-like appearance. Columbian Sharks are peaceful by nature but require a lot of space due to their potential size. They can grow up to 24 inches (61 cm), necessitating a large aquarium with excellent water quality. These fish are known to migrate between freshwater and brackish water in the wild, so they may require the addition of salt to their tank water as they mature. A spacious tank with strong filtration and regular water changes is essential to keep them healthy. Columbian Sharks are active swimmers and appreciate an environment with plenty of open swimming areas, as well as hiding spots. They thrive on a diet of high-quality pellets, frozen foods, and occasional live foods. Due to their size and specific care needs, Columbian Sharks are best suited for advanced aquarists who can provide a suitable habitat.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 24 inches (61 cm)",
     "img": "https://example.com/columbian-shark-image.jpg",
@@ -612,8 +612,7 @@
   },
   {
     "name": "Farlowella Catfish",
-    "description": "The Farlowella Catfish, scientifically known as Farlowella acus, is a slender freshwater catfish species native to South America. It is prized for its unique appearance, featuring an elongated body and twig-like protrusions that provide excellent camouflage among aquatic plants. Farlowella Catfish are peaceful and can be kept in community aquariums with other non-aggressive fish.",
-    "temperament": "Peaceful",
+    "description": "The Farlowella Catfish, scientifically known as Farlowella acus, is a unique and slender freshwater catfish species native to South America. Its appearance is quite distinctive, featuring an elongated body and twig-like protrusions that provide excellent camouflage among aquatic plants. This adaptation makes the Farlowella Catfish an intriguing addition to any aquarium. They are peaceful fish that can be kept with other non-aggressive species, making them ideal for community tanks. Farlowella Catfish prefer a well-planted aquarium with plenty of hiding places created by driftwood and dense vegetation. They thrive in clean, well-oxygenated water with a stable temperature range of 72°F - 79°F (22°C - 26°C). These fish are primarily herbivores and should be provided with a diet rich in plant matter, including algae wafers, blanched vegetables, and occasionally, fresh algae from the tank. Despite their peaceful nature, they can be sensitive to changes in water quality, so maintaining consistent water parameters is crucial. Farlowella Catfish can grow up to 6 inches (15 cm) and are generally recommended for intermediate aquarists due to their specific environmental needs.",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/farlowella-catfish-image.jpg",
     "size": "Medium",

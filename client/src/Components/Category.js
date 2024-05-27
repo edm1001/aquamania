@@ -16,13 +16,13 @@ const Category = () => {
     },
   };
   return (
-    <Container>
+    <Container className="background-container mb-4">
       <Row className="py-5 justify-content-center align-items-center">
         <Col xl={6} lg={6} md={6} sm={12} xs={12} className="text-center">
-          <div className="">
-            <h4 className="">Select your side of the Waters:</h4>
+          <div>
+            <h4>Select your side of the Waters:</h4>
           </div>
-          <div className="">
+          <div>
             <motion.button
               className="3d-button btn btn-success mx-1 p-2"
               variants={buttonVariants}
@@ -52,13 +52,6 @@ const Category = () => {
               </Link>
             </motion.button>
           </div>
-        </Col>
-        <Col xl={6} lg={6} md={6} className="col-6">
-          <img
-            src="https://via.placeholder.com/600x400"
-            alt=""
-            className="ctgry-img img-fluid"
-          />
         </Col>
       </Row>
     </Container>
