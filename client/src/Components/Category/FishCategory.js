@@ -6,7 +6,6 @@ import Button from "react-bootstrap/Button";
 import FreshwaterFishSpecies from "../../db/Fresh/FeshwaterFishData.json";
 import SaltwaterFishSpecies from "../../db/Salt/SaltwaterFishData.json";
 
-
 const FamilyDropdown = ({ family, species }) => {
   const [selectedSpecies, setSelectedSpecies] = useState(null);
 
@@ -20,16 +19,21 @@ const FamilyDropdown = ({ family, species }) => {
   };
 
   return (
-    <div>
-      <h2>{family}</h2>
-      <select className="form-control mb-3" onChange={handleOptionSelect}>
-        <option value="">Select Species</option>
-        {species.map((species) => (
-          <option key={species.name} value={JSON.stringify(species)}>
-            {species.name}
-          </option>
-        ))}
-      </select>
+    <div className="form-group">
+      <div className="form-row align-items-center">
+        <div className="col-auto">
+          <label className="col-form-label fw-semibold fs-5">{family}</label>
+        </div>
+        <div className="col">
+          <select className="form-control" onChange={handleOptionSelect}>
+            {species.map((species) => (
+              <option key={species.name} value={JSON.stringify(species)}>
+                {species.name}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
     </div>
   );
 };

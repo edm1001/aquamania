@@ -88,6 +88,14 @@ section {
 }
 
 /* CAT-Page */
+.background-container {
+  background-image: url('https://via.placeholder.com/600x400');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20vh; /* Adjust height as necessary */
+}
+
 .clickable-item {
   cursor: pointer;
   transition: var(--grey) 0.1s;
@@ -160,9 +168,6 @@ section {
 
 /* mobile query for tablets and phones */
 @media (max-width: 720px) {
-  .ctgry-img {
-    display: none;
-  }
   .about-page-info {
     font-size: 12px;
   }
