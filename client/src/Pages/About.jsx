@@ -1,31 +1,13 @@
 import React from "react";
 import Category from "../Components/Category";
-import { Row, Col } from "react-bootstrap";
+import AboutComp from "../Components/About";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function About() {
   return (
     <>
-      <Row>
-        <Col xl={6} lg={6} md={6} className="d-flex align-items-center justify-content-center">
-          <img
-            src="https://via.placeholder.com/600x400"
-            alt=""
-            className="img-fluid h-75 about-img"
-          />
-        </Col>
-        <Col className="text-center p-5 abt-section">
-          <h2 className="mb-3 abt-title">About Aquamania</h2>
-          <p className="px-1 about-page-info">
-            Welcome to Aquamania! We're all about sharing our love for fish and
-            ensuring you have reliable info for their care. From newbies to
-            pros, everyone deserves accurate advice. Our team of enthusiasts is
-            dedicated to covering everything from choosing fish to ecosystem
-            maintenance, all to prevent fish abuse. Whether you're starting out
-            or leveling up, Aquamania's got your back. Dive in and discover fish
-            care confidently, with our quality content and supportive community.
-          </p>
-        </Col>
-      </Row>
+      <AboutComp/>
       <Category />
       <Row>
         <Col xl={6} lg={6} md={6} className="d-flex align-items-center justify-content-center ">

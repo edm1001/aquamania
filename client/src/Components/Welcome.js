@@ -12,18 +12,18 @@ const Welcome = () => {
       label: "Freshwater",
       description:
         "Explore freshwater aquariums with a variety of fish and plants.",
-      background: "Freshwater",
+      background: "https://via.placeholder.com/600x400",
     },
     {
       label: "Saltwater",
       description:
         "Dive into stunning saltwater aquariums, coral reefs, and exotic fish",
-      background: "Saltwater",
+      background: "https://via.placeholder.com/600x400",
     },
     {
       label: "Products",
       description: "Learn essential fish care, from feeding to health.",
-      background: "Care",
+      background: "https://via.placeholder.com/600x400",
     },
   ];
 // add buttons to link to page
@@ -34,15 +34,11 @@ const Welcome = () => {
           <Carousel>
             {searchTopics.map((topic, index) => (
               <Carousel.Item key={index}>
-                <video
+                <img
                   src={topic.background}
-                  autoPlay
-                  loop
-                  muted
-                  text="First slide"
                   alt="welcome-img"
                   className="d-block w-100"
-                  style={{ height: "70%" }}
+                  style={{ height: "70%", objectFit: "contain" }}
                 />
                 <Carousel.Caption className="text-center align-center">
                   <h3>{topic.label}</h3>
