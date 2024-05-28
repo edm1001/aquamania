@@ -1105,8 +1105,21 @@
     "temperatureRange": "75°F - 82°F (24°C - 28°C)"
   },
   {
+    "name": "Bolivian Ram",
+    "description": "The Bolivian Ram, scientifically known as Mikrogeophagus altispinosus, originates from the rivers and streams of Bolivia, where it dazzles with its vibrant coloration and distinctive black markings on the dorsal fin. These peaceful cichlids grow up to 3 inches (8 cm), making them suitable for community aquariums with other peaceful fish species. They exhibit a calm demeanor, making them an excellent choice for beginner aquarists looking to add color and tranquility to their tanks. To ensure their well-being, maintain water parameters within a pH range of 6.0 to 7.5 and temperatures between 72°F to 78°F (22°C to 26°C). Bolivian Rams are relatively hardy and adaptable, thriving in a variety of aquatic environments with proper care and maintenance.",
+    "temperament": "Peaceful",
+    "maxGrowthSize": "Up to 3 inches (8 cm)",
+    "img": "https://example.com/bolivian-ram-image.jpg",
+    "size": "Small",
+    "species": "Mikrogeophagus altispinosus",
+    "family": "New World Cichlid",
+    "experienceLevel": "Beginner",
+    "waterPHRange": "6.0 - 7.5",
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+  },
+  {
     "name": "Cuckatoides Apistogramma",
-    "description": "The Cuckatoides Apistogramma, scientifically known as Apistogramma cacatuoides, is a colorful freshwater fish species native to South America, particularly in the Amazon Basin. It is highly sought after by aquarists for its striking appearance and interesting behavior. Cuckatoides Apistogrammas display vibrant colors, including shades of yellow, orange, and blue, especially during breeding. They are relatively peaceful but can be territorial, particularly when breeding.",
+    "description": "The Cuckatoides Apistogramma, scientifically known as Apistogramma cacatuoides, is a colorful freshwater fish species native to South America, particularly in the Amazon Basin. It is highly sought after by aquarists for its striking appearance and interesting behavior. Cuckatoides Apistogrammas display vibrant colors, including shades of yellow, orange, and blue, especially during breeding. They are relatively peaceful but can be territorial, particularly when breeding. These fish add vibrancy and dynamism to any aquarium setup, making them a favorite among hobbyists who enjoy observing their social interactions and colorful displays. Cuckatoides Apistogrammas prefer well-planted aquariums with plenty of hiding spots and areas to explore. Providing a diverse diet consisting of high-quality flakes, pellets, and occasional live or frozen foods will help maintain their health and vibrant colors. They are generally considered intermediate-level fish to care for due to their specific habitat requirements and occasional territorial behavior. Maintaining stable water parameters, including a pH range of 6.0 to 7.5 and a temperature range of 72°F to 80°F (22°C to 27°C), is crucial for their overall well-being and breeding success. With proper care and attention, Cuckatoides Apistogrammas can thrive and become a centerpiece in a well-maintained aquarium.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 3 inches (7.5 cm)",
     "img": "https://example.com/cuckatoides-apistogramma-image.jpg",
@@ -1119,7 +1132,7 @@
   },
   {
     "name": "Flame Red Agassizii Apistogramma",
-    "description": "The Flame Red Agassizii Apistogramma, scientifically known as Apistogramma agassizii, is a vibrant species of dwarf cichlid native to the Amazon Basin in South America. It is known for its fiery red and orange coloration, especially during breeding. Flame Red Agassizii Apistogrammas are relatively peaceful and can be kept in small to medium-sized aquariums.",
+    "description": "The Flame Red Agassizii Apistogramma, scientifically known as Apistogramma agassizii, is a vibrant species of dwarf cichlid native to the Amazon Basin in South America. It is known for its fiery red and orange coloration, especially during breeding, making it a stunning addition to any aquarium. Flame Red Agassizii Apistogrammas are relatively peaceful and can be kept in small to medium-sized aquariums, making them suitable for hobbyists with limited space. These fish exhibit fascinating behaviors, especially during courtship and spawning, where males display vibrant colors to attract females. Providing a well-planted aquarium with plenty of hiding spots and territories mimicking their natural habitat will help them feel secure and reduce stress. Flame Red Agassizii Apistogrammas are omnivorous and should be fed a varied diet consisting of high-quality flakes, pellets, and occasional live or frozen foods to ensure their nutritional needs are met. They are considered intermediate-level fish to care for due to their specific requirements and breeding behaviors. Maintaining stable water parameters, including a pH range of 6.0 to 7.5 and a temperature range of 72°F to 82°F (22°C to 28°C), is essential for their overall health and well-being. With their dazzling colors and intriguing behaviors, Flame Red Agassizii Apistogrammas are sure to captivate any aquarist's attention.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 3 inches (8 cm)",
     "img": "https://example.com/flame-red-agassizii-apistogramma-image.jpg",
@@ -1132,7 +1145,7 @@
   },
   {
     "name": "McMasteri Apistogramma",
-    "description": "The McMasteri Apistogramma, scientifically known as Apistogramma macmasteri, is a species of dwarf cichlid native to South America. It is known for its vibrant colors and distinct markings, especially during breeding. McMasteri Apistogrammas are relatively peaceful and can be kept in small community aquariums.",
+    "description": "The McMasteri Apistogramma, scientifically known as Apistogramma macmasteri, is a species of dwarf cichlid native to South America. It is known for its vibrant colors and distinct markings, especially during breeding, making it an attractive choice for aquarists. McMasteri Apistogrammas are relatively peaceful and can be kept in small community aquariums, adding color and personality to the tank. These fish exhibit interesting behaviors, including territorial displays and courtship rituals, making them fascinating to observe. Providing a well-decorated aquarium with plenty of hiding spots and territories will help create a suitable environment for McMasteri Apistogrammas to thrive. They are omnivorous and should be offered a varied diet consisting of high-quality flakes, pellets, and occasional live or frozen foods to ensure optimal health and coloration. McMasteri Apistogrammas are considered intermediate-level fish to care for, requiring stable water parameters and regular maintenance to thrive. Maintaining a pH range of 6.0 to 7.5 and a temperature range of 72°F to 82°F (22°C to 28°C) is crucial for their overall well-being. With their striking appearance and engaging behaviors, McMasteri Apistogrammas are sure to be a highlight in any aquarium setup.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 3 inches (8 cm)",
     "img": "https://example.com/mcmasteri-apistogramma-image.jpg",
@@ -1144,21 +1157,8 @@
     "temperatureRange": "72°F - 82°F (22°C - 28°C)"
   },
   {
-    "name": "Bolivian Ram",
-    "description": "The Bolivian Ram, scientifically known as Mikrogeophagus altispinosus, is a peaceful species of cichlid native to the rivers and streams of Bolivia. It is known for its beautiful coloration and distinctive black markings on its dorsal fin. Bolivian Rams are relatively small and can be kept in community aquariums with other peaceful fish.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 3 inches (8 cm)",
-    "img": "https://example.com/bolivian-ram-image.jpg",
-    "size": "Small",
-    "species": "Mikrogeophagus altispinosus",
-    "family": "New World Cichlid",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
-  },
-  {
     "name": "Chocolate Cichlid",
-    "description": "The Chocolate Cichlid, scientifically known as Hypselecara temporalis, is a species of cichlid native to South America. It is named for its rich brown coloration, resembling the color of chocolate. Chocolate Cichlids are relatively peaceful and can be kept in community aquariums with other medium to large-sized fish.",
+    "description": "The Chocolate Cichlid, scientifically known as Hypselecara temporalis, is native to South America, where it captivates with its rich brown coloration reminiscent of chocolate. Growing up to 10 inches (25 cm), these medium-sized cichlids add elegance to community aquariums with their peaceful temperament and striking appearance. Intermediate aquarists will appreciate their engaging behavior and manageable care requirements. To ensure their optimal health and vibrancy, maintain water parameters within a pH range of 6.0 to 7.5 and temperatures between 74°F to 82°F (23°C to 28°C). Chocolate Cichlids thrive in well-aerated aquariums with plenty of hiding spots and territories to explore, mimicking their natural habitat.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 10 inches (25 cm)",
     "img": "https://example.com/chocolate-cichlid-image.jpg",
@@ -1171,7 +1171,7 @@
   },
   {
     "name": "Convict Cichlid",
-    "description": "The Convict Cichlid, scientifically known as Amatitlania nigrofasciata, is a small and highly adaptable species of cichlid native to Central America. It is named for its distinctive black and white striped pattern, resembling a convict's uniform. Convict Cichlids are relatively aggressive and can be territorial, especially during breeding.",
+    "description": "Originating from Central America, the Convict Cichlid, scientifically known as Amatitlania nigrofasciata, boasts a distinctive black and white striped pattern resembling a convict's uniform. Despite their small size of up to 6 inches (15 cm), these cichlids exhibit a surprisingly aggressive temperament, especially during breeding periods. Beginner aquarists should be prepared to manage their territorial behavior and provide adequate space for them to establish territories. Convict Cichlids thrive in water with a pH range of 6.5 to 8.0 and temperatures between 72°F to 82°F (22°C to 28°C). Regular water changes and a balanced diet contribute to their overall health and well-being in captivity.",
     "temperament": "Aggressive",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/convict-cichlid-image.jpg",
@@ -1184,7 +1184,7 @@
   },
   {
     "name": "Electric Blue Acara",
-    "description": "The Electric Blue Acara, scientifically known as Andinoacara pulcher, is a popular freshwater fish species native to South America, particularly in the Amazon Basin. It is prized for its stunning electric blue coloration, which intensifies during breeding. Electric Blue Acaras are relatively peaceful and can be kept in community aquariums with other similarly sized fish.",
+    "description": "The Electric Blue Acara, scientifically known as Andinoacara pulcher, hails from South America, particularly the Amazon Basin, where it enchants with its stunning electric blue coloration. These medium-sized cichlids grow up to 6 inches (15 cm) and exhibit a peaceful temperament, making them suitable for community aquariums with similarly sized fish species. Intermediate aquarists seeking colorful additions will appreciate their vibrant appearance and engaging behavior. To ensure their optimal health, maintain water parameters within a pH range of 6.0 to 7.5 and temperatures between 72°F to 82°F (22°C to 28°C). Providing ample hiding spots and territories helps reduce aggression and stress in Electric Blue Acaras.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/electric-blue-acara-image.jpg",
@@ -1197,7 +1197,7 @@
   },
   {
     "name": "Electric Blue Ram",
-    "description": "The Electric Blue Ram, scientifically known as Mikrogeophagus ramirezi, is a colorful variant of the Bolivian Ram. It is known for its vibrant electric blue coloration and distinctive markings. Electric Blue Rams are relatively peaceful and can be kept in community aquariums with other peaceful fish.",
+    "description": "The Electric Blue Ram, a colorful variant of the Bolivian Ram, scientifically named Mikrogeophagus ramirezi, is prized for its vibrant electric blue coloration and distinctive markings. Despite their small size of up to 2 inches (5 cm), these cichlids exhibit a peaceful temperament, making them ideal for community aquariums with other peaceful fish species. Intermediate aquarists will delight in their striking appearance and relatively easy care requirements. To ensure their well-being, maintain water parameters within a pH range of 6.0 to 7.5 and temperatures between 78°F to 85°F (26°C to 29°C). Providing a well-aerated and properly decorated aquarium mimicking their natural habitat contributes to their overall health and lifespan.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2 inches (5 cm)",
     "img": "https://example.com/electric-blue-ram-image.jpg",
@@ -1210,7 +1210,7 @@
   },
   {
     "name": "Firemouth Cichlid",
-    "description": "The Firemouth Cichlid, scientifically known as Thorichthys meeki, is a species of cichlid native to Central America, particularly Mexico and Guatemala. It is named for the bright red coloration on its throat and chest, which it displays during courtship and territorial displays. Firemouth Cichlids are relatively peaceful and can be kept in community aquariums with other medium-sized fish.",
+    "description": "Originating from Central America, particularly Mexico and Guatemala, the Firemouth Cichlid, scientifically named Thorichthys meeki, stands out with its fiery red coloration displayed during courtship and territorial displays. Despite their semi-aggressive temperament, they coexist well with medium-sized fish in community aquariums. Beginner aquarists seeking engaging species will find them rewarding. With a pH range of 6.5 to 8.0 and temperatures between 75°F to 82°F (24°C to 28°C), they require stable water conditions for optimal health. Providing ample hiding spots and territories reduces stress and aggression in Firemouth Cichlids, ensuring a harmonious aquarium environment.",
     "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/firemouth-cichlid-image.jpg",
@@ -1223,7 +1223,7 @@
   },
   {
     "name": "Flowerhorn Cichlid",
-    "description": "The Flowerhorn Cichlid is a hybrid species of cichlid known for its distinctive appearance, including a protruding head and bright, vibrant colors. Originating from Malaysia, it has become popular among aquarists worldwide for its unique characteristics and bold personality. Flowerhorn Cichlids can be aggressive, so they are best kept in tanks with compatible tankmates or alone.",
+    "description": "The Flowerhorn Cichlid is a captivating hybrid species known for its unique appearance and vibrant colors. Originating from Malaysia, it has gained popularity worldwide among aquarists due to its bold personality and striking features. With its distinctive protruding head and bright hues, the Flowerhorn Cichlid adds a lively touch to any aquarium. However, it's important to note that Flowerhorns can exhibit aggressive behavior, particularly towards tankmates or during breeding periods. Therefore, they are best kept either alone or with compatible tankmates in spacious setups. As an advanced-level fishkeeping species, Flowerhorn Cichlids require careful attention to water quality and tank parameters. Keeping the pH between 6.5 to 8.0 and maintaining temperatures from 75°F to 82°F (24°C to 28°C) helps ensure their well-being and vibrant coloration..",
     "temperament": "Aggressive",
     "maxGrowthSize": "Up to 12 inches (30 cm)",
     "img": "https://example.com/flowerhorn-cichlid-image.jpg",
@@ -1236,7 +1236,7 @@
   },
   {
     "name": "German Blue Ram",
-    "description": "The German Blue Ram, scientifically known as Mikrogeophagus ramirezi, is a popular species of dwarf cichlid native to South America. It is known for its stunning blue coloration and distinctive black markings. German Blue Rams are relatively peaceful and can be kept in small community aquariums.",
+    "description": "The German Blue Ram, scientifically known as Mikrogeophagus ramirezi, is a popular dwarf cichlid native to South America. Renowned for its stunning blue coloration and distinctive black markings, this species adds elegance to any aquarium setting. With a peaceful temperament, German Blue Rams can thrive in small community tanks, making them a favorite among intermediate aquarists. They reach a maximum size of around 2 inches (5 cm), making them suitable for smaller setups. Maintaining water parameters within a pH range of 6.0 to 7.5 and temperatures between 78°F to 85°F (26°C to 29°C) is crucial for their health and well-being. Providing a well-aerated environment with plenty of hiding spots and natural décor mimicking their native habitat enhances their quality of life in captivity.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2 inches (5 cm)",
     "img": "https://example.com/german-blue-ram-image.jpg",
@@ -1249,7 +1249,7 @@
   },
   {
     "name": "Gold Severum",
-    "description": "The Gold Severum, scientifically known as Heros severus, is a species of cichlid native to the Amazon Basin in South America. It is known for its beautiful gold coloration and peaceful temperament. Gold Severums are relatively large and require spacious aquariums with plenty of hiding spots and territories.",
+    "description": "The Gold Severum, scientifically known as Heros severus, is a captivating species of cichlid native to the Amazon Basin in South America. Known for its stunning gold coloration and peaceful temperament, the Gold Severum is a popular choice among intermediate aquarists. These medium-sized cichlids can reach lengths of up to 8 inches (20 cm) and require spacious aquariums with ample hiding spots and territories to thrive. Maintaining water parameters within a pH range of 6.0 to 7.5 and temperatures between 75°F to 82°F (24°C to 28°C) is essential for their optimal health and vibrant coloration. While generally peaceful, Gold Severums may exhibit territorial behavior, especially during breeding periods. Providing a well-decorated aquarium with appropriate tankmates ensures a harmonious aquatic environment for these magnificent fish.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 8 inches (20 cm)",
     "img": "https://example.com/gold-severum-image.jpg",
@@ -1262,7 +1262,7 @@
   },
   {
     "name": "Green Terror",
-    "description": "The Green Terror, scientifically known as Andinoacara rivulatus, is a colorful and territorial species of cichlid native to South America. It is known for its greenish-blue coloration and distinctively spiky dorsal fin. Green Terrors are relatively aggressive and require a spacious aquarium with plenty of hiding spots and territories.",
+    "description": "The Green Terror, scientifically known as Andinoacara rivulatus, is a striking and territorial species of cichlid native to South America. Characterized by its greenish-blue coloration and spiky dorsal fin, the Green Terror commands attention in any aquarium setup. While they can be aggressive, especially towards smaller or more timid tankmates, they are favored by intermediate aquarists seeking vibrant and engaging species. Green Terrors reach sizes of up to 10 inches (25 cm) and require spacious aquariums with plenty of hiding spots and territories to establish dominance. Maintaining stable water parameters, including a pH range of 6.5 to 8.0 and temperatures between 72°F to 80°F (22°C to 27°C), is crucial for their well-being. Providing a varied diet and regular water changes contribute to their overall health and longevity in captivity.",
     "temperament": "Aggressive",
     "maxGrowthSize": "Up to 10 inches (25 cm)",
     "img": "https://example.com/green-terror-image.jpg",
@@ -1275,7 +1275,7 @@
   },
   {
     "name": "Jack Dempsey",
-    "description": "The Jack Dempsey, scientifically known as Rocio octofasciata, is a species of cichlid native to Central America, particularly Mexico and Honduras. It is named after the famous boxer Jack Dempsey due to its aggressive nature and powerful appearance. Jack Dempseys are relatively large and require spacious aquariums with plenty of hiding spots and territories.",
+    "description": "The Jack Dempsey, scientifically known as Rocio octofasciata, is a formidable species of cichlid native to Central America, particularly Mexico and Honduras. Named after the famous boxer Jack Dempsey, these cichlids are renowned for their aggressive nature and powerful appearance. Growing up to 10 inches (25 cm) in length, Jack Dempseys require spacious aquariums with plenty of hiding spots and territories to accommodate their territorial behavior. While they can be challenging to keep due to their aggression, experienced aquarists appreciate their striking appearance and engaging behavior. Maintaining water parameters within a pH range of 6.5 to 8.0 and temperatures between 72°F to 82°F (22°C to 28°C) is essential for their health and well-being. Providing a well-decorated aquarium with suitable tankmates helps mitigate aggression and creates a balanced aquatic ecosystem for these magnificent fish.",
     "temperament": "Aggressive",
     "maxGrowthSize": "Up to 10 inches (25 cm)",
     "img": "https://example.com/jack-dempsey-image.jpg",
@@ -1288,7 +1288,7 @@
   },
   {
     "name": "Albino Tiger Oscar",
-    "description": "The Albino Tiger Oscar, scientifically known as Astronotus ocellatus, is a popular and large species of cichlid native to South America. It is known for its vibrant colors and distinct patterns, including its characteristic tiger stripes. Albino Tiger Oscars are relatively aggressive and require a spacious aquarium with plenty of hiding spots and territories.",
+    "description": "The Albino Tiger Oscar, scientifically known as Astronotus ocellatus, is a popular and sizable species of cichlid native to South America. Renowned for its vibrant colors and distinct patterns, including characteristic tiger stripes, the Albino Tiger Oscar makes a striking addition to large aquariums. However, they can be aggressive and territorial, especially towards smaller or more passive tankmates. Therefore, they are best kept in spacious setups with ample hiding spots and territories to establish dominance. Albino Tiger Oscars can reach lengths of up to 16 inches (40 cm) and require stable water parameters, including a pH range of 6.5 to 7.5 and temperatures between 74°F to 81°F (23°C to 27°C), for optimal health. Providing a varied diet rich in protein and regular maintenance routines contribute to their overall well-being and vibrant coloration in captivity.",
     "temperament": "Aggressive",
     "maxGrowthSize": "Up to 16 inches (40 cm)",
     "img": "https://example.com/albino-tiger-oscar-image.jpg",
@@ -1301,7 +1301,7 @@
   },
   {
     "name": "Red Oscar",
-    "description": "The Red Oscar, scientifically known as Astronotus ocellatus, is a vibrant and popular freshwater fish species native to South America, particularly the Amazon Basin. It is characterized by its striking red coloration and distinctive black markings. Red Oscars are known for their large size and robust appearance, making them an impressive centerpiece in large aquariums. They have a somewhat aggressive temperament and may exhibit territorial behavior, especially during breeding.",
+    "description": "The Red Oscar, scientifically known as Astronotus ocellatus, is a captivating freshwater fish species originating from South America, particularly the Amazon Basin. With its striking red coloration and distinct black markings, the Red Oscar is a popular choice among aquarists worldwide. These fish are known for their large size, robust appearance, and impressive presence, often becoming the centerpiece of large aquarium setups. Despite their stunning appearance, Red Oscars possess a somewhat aggressive temperament, especially during breeding periods, and may exhibit territorial behavior. Therefore, it's essential to provide them with ample space and suitable tankmates to minimize conflicts in the aquarium. Red Oscars can grow up to 12 inches (30 cm) in length, requiring spacious tanks with stable water parameters to thrive. Maintaining a pH range of 6.0 to 7.5 and temperatures between 74°F to 81°F (23°C to 27°C) is crucial for their optimal health and vibrant coloration.",
     "temperament": "Aggressive",
     "maxGrowthSize": "Up to 12 inches (30 cm)",
     "img": "https://example.com/red-oscar-image.jpg",
@@ -1314,7 +1314,7 @@
   },
   {
     "name": "Tiger Oscar",
-    "description": "The Tiger Oscar, scientifically known as Astronotus ocellatus, is a striking freshwater fish species native to South America, particularly in the Amazon Basin. It is named for its tiger-like striped pattern and vibrant coloration, which can range from orange to red. Tiger Oscars are known for their large size, robust appearance, and aggressive temperament, making them popular among experienced aquarists who can provide adequate space and suitable tankmates.",
+    "description": "The Tiger Oscar, scientifically known as Astronotus ocellatus, is a remarkable freshwater fish species native to South America, particularly in the Amazon Basin. Its name is derived from its tiger-like striped pattern and vibrant coloration, ranging from orange to red, adding a captivating touch to any aquarium. Tiger Oscars are revered for their large size, robust appearance, and aggressive temperament, making them a sought-after species among experienced aquarists. To accommodate their needs, providing adequate space and suitable tankmates is essential to mitigate territorial conflicts. With a maximum growth size of up to 12 inches (30 cm), Tiger Oscars require spacious aquariums with stable water parameters, including a pH range of 6.0 to 7.5 and temperatures between 74°F to 81°F (23°C to 27°C). Offering a varied diet rich in protein and regular maintenance routines contribute to their overall well-being and longevity in captivity.",
     "temperament": "Aggressive",
     "maxGrowthSize": "Up to 12 inches (30 cm)",
     "img": "https://example.com/tiger-oscar-image.jpg",
@@ -1327,7 +1327,7 @@
   },
   {
     "name": "Parrot Cichlid",
-    "description": "The Parrot Cichlid, scientifically known as Hoplarchus psittacus, is a hybrid species of cichlid with disputed origins. It is known for its bright colors and distinctively shaped mouth, resembling that of a parrot. Parrot Cichlids are relatively peaceful and can be kept in community aquariums with other medium to large-sized fish.",
+    "description": "The Parrot Cichlid, scientifically known as Hoplarchus psittacus, is an intriguing hybrid species of cichlid with disputed origins, known for its vibrant colors and distinctively shaped mouth resembling that of a parrot. Despite their unique appearance, Parrot Cichlids are relatively peaceful and can coexist with other medium to large-sized fish in community aquariums. With a maximum growth size of up to 10 inches (25 cm), they require spacious tanks with stable water parameters to thrive. Maintaining a pH range of 6.5 to 7.5 and temperatures between 74°F to 82°F (23°C to 28°C) is crucial for their health and well-being. Providing ample hiding spots and natural decor mimicking their native habitat enhances their quality of life in captivity. Parrot Cichlids are suitable for intermediate-level aquarists seeking visually appealing and engaging fish species for their setups.",
     "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 10 inches (25 cm)",
     "img": "https://example.com/parrot-cichlid-image.jpg",
@@ -1340,7 +1340,7 @@
   },
   {
     "name": "Red Devil Cichlid",
-    "description": "The Red Devil Cichlid, scientifically known as Amphilophus labiatus, is a large and aggressive species of cichlid native to Central America, particularly Nicaragua and Costa Rica. It is known for its vibrant red coloration and territorial behavior. Red Devil Cichlids are relatively large and require spacious aquariums with plenty of hiding spots and territories.",
+    "description": "The Red Devil Cichlid, scientifically known as Amphilophus labiatus, is a large and aggressive species of cichlid native to Central America, particularly Nicaragua and Costa Rica. Renowned for its vibrant red coloration and territorial behavior, Red Devil Cichlids require spacious aquariums with plenty of hiding spots and territories to establish dominance. With a maximum growth size of up to 15 inches (38 cm), they command attention in large aquarium setups, often becoming the focal point due to their robust appearance and engaging behavior. Despite their aggressive nature, Red Devil Cichlids can coexist with suitable tankmates, provided there is enough space and hiding spots to minimize conflicts. Maintaining stable water parameters, including a pH range of 6.5 to 8.0 and temperatures between 75°F to 82°F (24°C to 28°C), is essential for their well-being and vibrant coloration. Offering a varied diet and regular maintenance routines contribute to their overall health and longevity in captivity..",
     "temperament": "Aggressive",
     "maxGrowthSize": "Up to 15 inches (38 cm)",
     "img": "https://example.com/red-devil-cichlid-image.jpg",
@@ -1353,7 +1353,7 @@
   },
   {
     "name": "Salvini Cichlid",
-    "description": "The Salvini Cichlid, scientifically known as Trichromis salvini, is a colorful and moderately aggressive species of cichlid native to Central America, particularly Mexico and Guatemala. It is known for its vibrant yellow and black coloration, especially during breeding. Salvini Cichlids are relatively large and require spacious aquariums with plenty of hiding spots and territories.",
+    "description": "The Salvini Cichlid, scientifically known as Trichromis salvini, is a colorful and moderately aggressive species of cichlid native to Central America, particularly Mexico and Guatemala. Recognized for its vibrant yellow and black coloration, especially during breeding periods, Salvini Cichlids add a lively touch to any aquarium setup. With a maximum growth size of up to 6 inches (15 cm), they are suitable for medium-sized aquariums with stable water parameters. Maintaining a pH range of 6.5 to 8.0 and temperatures between 75°F to 82°F (24°C to 28°C) is crucial for their optimal health and well-being. Salvini Cichlids require spacious tanks with plenty of hiding spots and territories to establish dominance and minimize aggression towards tankmates. Providing a varied diet rich in protein and regular water changes contribute to their overall vitality and vibrant coloration in captivity.",
     "temperament": "Semi-Aggressive",
     "maxGrowthSize": "Up to 6 inches (15 cm)",
     "img": "https://example.com/salvini-cichlid-image.jpg",
@@ -1366,7 +1366,7 @@
   },
   {
     "name": "Texas Cichlid",
-    "description": "The Texas Cichlid, scientifically known as Herichthys cyanoguttatus, is a species of cichlid native to North America, particularly Texas and northeastern Mexico. It is known for its vibrant colors and distinctively spiky dorsal fin. Texas Cichlids are relatively aggressive and require a spacious aquarium with plenty of hiding spots and territories.",
+    "description": "The Texas Cichlid, scientifically known as Herichthys cyanoguttatus, hails from North America, primarily found in the regions of Texas and northeastern Mexico. Its vibrant colors and distinctive spiky dorsal fin make it a standout species in any aquarium. Despite its medium size, the Texas Cichlid boasts an aggressive temperament, requiring a spacious tank with ample hiding spots and territories to thrive. With a maximum growth size of up to 12 inches (30 cm), these cichlids command attention with their bold presence. Intermediate-level aquarists are best suited for caring for Texas Cichlids due to their territorial behavior and specific tank requirements. Maintaining stable water parameters, including a pH range of 6.5 to 8.0 and temperatures between 72°F to 82°F (22°C to 28°C), is crucial for their well-being. Providing a varied diet and regular maintenance routines contribute to their overall health and vitality in captivity.",
     "temperament": "Aggressive",
     "maxGrowthSize": "Up to 12 inches (30 cm)",
     "img": "https://example.com/texas-cichlid-image.jpg",
@@ -1379,7 +1379,7 @@
   },
   {
     "name": "Threadfin Geophagus",
-    "description": "The Threadfin Geophagus, scientifically known as Satanoperca daemon, is a species of cichlid native to the Amazon Basin in South America. It is named for the filamentous extensions on its dorsal fin. Threadfin Geophagus are relatively peaceful and can be kept in community aquariums with other medium-sized fish.",
+    "description": "The Threadfin Geophagus, scientifically known as Satanoperca daemon, is a charming species of cichlid native to the Amazon Basin in South America. Its distinguishing feature is the filamentous extensions on its dorsal fin, adding an elegant touch to its appearance. Threadfin Geophagus are relatively peaceful fish, making them ideal candidates for community aquariums with other medium-sized fish species. With a maximum growth size of up to 8 inches (20 cm), they are well-suited for medium-sized tanks with stable water parameters. Intermediate-level aquarists will find Threadfin Geophagus easy to care for, given their peaceful temperament and straightforward tank requirements. Maintaining a pH range of 6.0 to 7.5 and temperatures between 74°F to 82°F (23°C to 28°C) is essential for their optimal health and well-being. Offering a diverse diet and providing suitable tank decor enhance their quality of life and natural behaviors in captivity.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 8 inches (20 cm)",
     "img": "https://example.com/threadfin-geophagus-image.jpg",
@@ -1392,7 +1392,7 @@
   },
   {
     "name": "Uaru Cichlid",
-    "description": "The Uaru Cichlid, scientifically known as Uaru amphiacanthoides, is a unique and colorful species of cichlid native to the Amazon Basin in South America. It is known for its vibrant coloration and distinctive facial markings. Uaru Cichlids are relatively peaceful and can be kept in community aquariums with other medium-sized fish.",
+    "description": "The Uaru Cichlid, scientifically known as Uaru amphiacanthoides, is a captivating and colorful species native to the Amazon Basin in South America. Renowned for its vibrant coloration and distinctive facial markings, the Uaru Cichlid adds a unique flair to any aquarium setup. With a peaceful temperament, they can coexist harmoniously with other medium-sized fish in community tanks. Their maximum growth size of up to 10 inches (25 cm) makes them suitable for medium-sized aquariums with stable water parameters. Intermediate-level aquarists will appreciate caring for Uaru Cichlids due to their relatively undemanding nature and straightforward tank requirements. Maintaining a pH range of 6.0 to 7.5 and temperatures between 75°F to 82°F (24°C to 28°C) is crucial for their overall health and vibrant coloration. Providing a varied diet rich in protein and regular water changes contribute to their well-being and longevity in captivity.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 10 inches (25 cm)",
     "img": "https://example.com/uaru-cichlid-image.jpg",
