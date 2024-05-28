@@ -74,7 +74,7 @@ const ProductCard = ({ product }) => {
                 style={{
                   maxHeight: "400px",
                   width: "100%",
-                  objectFit: "cover",
+                  objectFit: "contain",
                 }}
               />
               <p>{product.price}</p>
