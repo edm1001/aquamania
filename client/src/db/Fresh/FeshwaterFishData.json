@@ -1403,10 +1403,9 @@
     "waterPHRange": "6.0 - 7.5",
     "temperatureRange": "75°F - 82°F (24°C - 28°C)"
   },
-
   {
     "name": "Black-barred Danio",
-    "description": "The Black-barred Danio, scientifically known as Danio nigrofasciatus, is an active and peaceful freshwater fish species originating from Myanmar. It is characterized by its silver body adorned with prominent black vertical bars. Black-barred Danios are schooling fish that thrive in well-oxygenated aquariums with plenty of swimming space. They are adaptable and suitable for community tanks, provided tankmates are not overly aggressive.",
+    "description": "The Black-barred Danio, scientifically known as Danio nigrofasciatus, originates from Myanmar and is recognized for its silver body adorned with bold black vertical bars. These active and peaceful fish thrive in well-oxygenated aquariums with ample swimming space. Being schooling fish, they prefer the company of their own kind and should be kept in groups. Black-barred Danios are adaptable and can coexist with various tankmates, as long as they are not overly aggressive. With a maximum growth size of up to 2 inches (5 cm), they are ideal for small aquarium setups. Beginner aquarists will find them relatively easy to care for, given their hardy nature and minimal special requirements. Maintaining stable water parameters within a pH range of 6.5 to 7.5 and temperatures between 72°F to 79°F (22°C to 26°C) is essential for their well-being. Regular feeding and proper tank maintenance contribute to their overall health and vitality in captivity.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2 inches (5 cm)",
     "img": "https://example.com/black-barred-danio-image.jpg",
@@ -1419,7 +1418,7 @@
   },
   {
     "name": "Blue Danio",
-    "description": "The Blue Danio, scientifically known as Danio kerri, is an attractive and peaceful freshwater fish species native to Southeast Asia. It features a striking blue coloration with iridescent scales, making it a popular choice for community aquariums. Blue Danios are active swimmers and prefer aquariums with plenty of open space for swimming. They are relatively hardy and can adapt to various water conditions, making them suitable for beginner aquarists.",
+    "description": "The Blue Danio, scientifically known as Danio kerri, is a peaceful freshwater species native to Southeast Asia, prized for its striking blue coloration and iridescent scales. Active swimmers by nature, Blue Danios require aquariums with plenty of open space to accommodate their energetic behavior. They are relatively hardy and adaptable, making them suitable for beginner aquarists who are just starting in the hobby. These small-sized fish, reaching a maximum length of 2 inches (5 cm), are ideal for small to medium-sized tanks. Blue Danios thrive in groups and should be kept with their own kind or other peaceful tankmates. Maintaining stable water parameters, including a pH range of 6.5 to 7.5 and temperatures between 72°F to 79°F (22°C to 26°C), is crucial for their well-being. Regular water changes and a balanced diet contribute to their overall health and longevity in captivity.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2 inches (5 cm)",
     "img": "https://example.com/blue-danio-image.jpg",
@@ -1432,7 +1431,7 @@
   },
   {
     "name": "Celestial Pearl Danio",
-    "description": "The Celestial Pearl Danio, scientifically known as Danio margaritatus, is a stunning and peaceful freshwater fish species native to Myanmar. It is renowned for its vibrant coloration, featuring iridescent blue and orange hues on its body. Celestial Pearl Danios are relatively small and are ideal for planted aquariums. They are shoaling fish and should be kept in groups to thrive. Their tranquil nature and striking appearance make them a popular choice among aquarists.",
+    "description": "The Celestial Pearl Danio, scientifically known as Danio margaritatus, is a stunning and peaceful freshwater fish species native to Myanmar, celebrated for its vibrant coloration and small size. Sporting iridescent blue and orange hues on its body, it adds a touch of elegance to any aquarium, especially planted setups. Celestial Pearl Danios, with a maximum growth size of up to 1.2 inches (3 cm), are ideal for nano tanks and should be kept in groups to thrive. Despite their diminutive size, they are active swimmers and appreciate swimming space. Beginner aquarists will find them relatively easy to care for, given their hardy nature and minimal special requirements. Maintaining stable water parameters within a pH range of 6.0 to 7.5 and temperatures between 73°F to 79°F (23°C to 26°C) is essential for their optimal health. Providing a varied diet and suitable tank decor enhances their quality of life and natural behaviors in captivity.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 1.2 inches (3 cm)",
     "img": "https://example.com/celestial-pearl-danio-image.jpg",
@@ -1445,7 +1444,7 @@
   },
   {
     "name": "Dwarf Spotted Danio",
-    "description": "The Dwarf Spotted Danio, scientifically known as Danio erythromicron, is a diminutive and peaceful freshwater fish species originating from Myanmar. It is characterized by its golden body adorned with dark spots, creating an eye-catching pattern. Dwarf Spotted Danios are ideal for nano and planted aquariums due to their small size and peaceful nature. They thrive in groups and prefer densely planted tanks with plenty of hiding spots. Their small size and low-maintenance requirements make them suitable for beginner aquarists.",
+    "description": "The Dwarf Spotted Danio, scientifically known as Danio erythromicron, is a diminutive and peaceful freshwater fish species originating from Myanmar, distinguished by its golden body adorned with dark spots. With its eye-catching pattern, Dwarf Spotted Danios make charming additions to nano and planted aquariums. These small-sized fish, reaching a maximum length of 1 inch (2.5 cm), thrive in groups and prefer densely planted tanks with plenty of hiding spots. Beginner aquarists will appreciate their low-maintenance requirements and peaceful nature. Maintaining stable water parameters, including a pH range of 6.0 to 7.5 and temperatures between 72°F to 79°F (22°C to 26°C), is crucial for their well-being. Regular feeding and water changes contribute to their overall health and vitality in captivity.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 1 inch (2.5 cm)",
     "img": "https://example.com/dwarf-spotted-danio-image.jpg",
@@ -1458,7 +1457,7 @@
   },
   {
     "name": "Fireline Danio",
-    "description": "The Fireline Danio, scientifically known as Danio kyathit, is a vibrant and peaceful freshwater fish species native to Myanmar. It is named for the striking orange-red line that runs along its body, contrasting against its silver background. Fireline Danios are active swimmers and thrive in aquariums with plenty of open swimming space. They are compatible with a wide range of tankmates and are suitable for community setups.",
+    "description": "The Fireline Danio, scientifically known as Danio kyathit, is a vibrant and peaceful freshwater fish species native to Myanmar, distinguished by the striking orange-red line that runs along its silver body. These active swimmers prefer aquariums with plenty of open swimming space to showcase their vibrant colors. Fireline Danios are compatible with a wide range of tankmates and are suitable for community setups. With a maximum growth size of up to 2 inches (5 cm), they are ideal for small to medium-sized aquariums. Beginner aquarists will find them relatively easy to care for, given their hardy nature and adaptable behavior. Maintaining stable water parameters within a pH range of 6.5 to 7.5 and temperatures between 72°F to 79°F (22°C to 26°C) is essential for their well-being. Providing a balanced diet and suitable tank decor enhances their quality of life and natural behaviors in captivity.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2 inches (5 cm)",
     "img": "https://example.com/fireline-danio-image.jpg",
@@ -1471,7 +1470,7 @@
   },
   {
     "name": "Giant Danio",
-    "description": "The Giant Danio, scientifically known as Devario aequipinnatus, is a popular freshwater fish species known for its vibrant colors and active nature. It is a schooling fish that requires a spacious aquarium with plenty of swimming space. Giant Danios are best kept in groups and are compatible with a wide range of tankmates. They are relatively hardy and can adapt to various water conditions, making them suitable for beginner aquarists.",
+    "description": "The Giant Danio, scientifically known as Devario aequipinnatus, is a popular freshwater fish species recognized for its vibrant colors and active nature. These schooling fish require spacious aquariums with plenty of swimming space to accommodate their energetic behavior. Giant Danios thrive in groups and are compatible with a wide range of tankmates, making them suitable for community setups. They are relatively hardy and can adapt to various water conditions, making them ideal for beginner aquarists. With a maximum growth size of up to 4 inches (10 cm), they are best suited for medium-sized tanks. Maintaining stable water parameters within a pH range of 6.5 to 7.5 and temperatures between 72°F to 79°F (22°C to 26°C) is crucial for their well-being. Regular feeding and water changes contribute to their overall health and vitality in captivity.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 4 inches (10 cm)",
     "img": "https://example.com/giant-danio-image.jpg",
@@ -1484,7 +1483,7 @@
   },
   {
     "name": "Glowlight Danio",
-    "description": "The Glowlight Danio, scientifically known as Danio choprae, is an enchanting and peaceful freshwater fish species originating from Myanmar. It is named for its distinctive glow-like appearance, with shimmering golden scales and vibrant red fins. Glowlight Danios are ideal for planted aquariums and thrive in groups. They are relatively hardy and can adapt to various water conditions, making them suitable for beginner aquarists.",
+    "description": "The Glowlight Danio, scientifically known as Danio choprae, is an enchanting and peaceful freshwater fish species originating from Myanmar, known for its distinctive glow-like appearance. With shimmering golden scales and vibrant red fins, Glowlight Danios add a touch of elegance to any aquarium, particularly planted setups. These small-sized fish, reaching a maximum length of 1.5 inches (4 cm), thrive in groups and appreciate swimming space. Beginner aquarists will find them relatively easy to care for, given their hardy nature and minimal special requirements. Maintaining stable water parameters within a pH range of 6.0 to 7.5 and temperatures between 73°F to 79°F (23°C to 26°C) is essential for their well-being. Providing a varied diet and suitable tank decor enhances their quality of life and natural behaviors in captivity.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 1.5 inches (4 cm)",
     "img": "https://example.com/glowlight-danio-image.jpg",
@@ -1497,7 +1496,7 @@
   },
   {
     "name": "Gold Ring Danio",
-    "description": "The Gold Ring Danio, scientifically known as Danio tinwini, is an attractive and peaceful freshwater fish species native to Myanmar. It is named for the golden ring-like markings on its body, which contrast beautifully against its silver coloration. Gold Ring Danios are active swimmers and thrive in aquariums with plenty of open swimming space. They are compatible with a wide range of tankmates and are suitable for community setups.",
+    "description": "The Gold Ring Danio, scientifically known as Danio tinwini, hails from Myanmar and is prized for its attractive appearance. Its name is derived from the golden ring-like markings adorning its body, which create a stunning contrast against its silver coloration. Gold Ring Danios are lively swimmers that thrive in aquariums with ample space for swimming. They exhibit peaceful behavior and can coexist harmoniously with a diverse range of tankmates, making them ideal for community setups. Beginner aquarists will find them easy to care for due to their adaptability and low-maintenance requirements. Maintaining stable water parameters within a pH range of 6.5 to 7.5 and temperatures between 72°F to 79°F (22°C to 26°C) ensures their well-being. With a maximum growth size of up to 2 inches (5 cm), Gold Ring Danios contribute both beauty and activity to freshwater aquariums, making them a popular choice among hobbyists.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2 inches (5 cm)",
     "img": "https://example.com/gold-ring-danio-image.jpg",
@@ -1510,7 +1509,7 @@
   },
   {
     "name": "Leopard Danio",
-    "description": "The Leopard Danio, scientifically known as Danio rerio 'Leopard', is a striking and peaceful freshwater fish species that is a color morph of the Zebra Danio. It features a unique spotted pattern reminiscent of a leopard, making it a visually captivating addition to any aquarium. Leopard Danios are active swimmers and thrive in well-oxygenated aquariums with plenty of swimming space. They are adaptable and suitable for beginner aquarists.",
+    "description": "The Leopard Danio, scientifically known as Danio rerio 'Leopard', is a visually striking freshwater fish species that is a color morph of the Zebra Danio. Its unique spotted pattern, reminiscent of a leopard, adds an intriguing visual dimension to any aquarium. Leopard Danios are energetic swimmers that thrive in well-oxygenated tanks with plenty of space to explore. They are adaptable and well-suited for beginner aquarists due to their hardiness and ease of care. Maintaining stable water parameters, including a pH range of 6.5 to 7.5 and temperatures between 72°F to 79°F (22°C to 26°C), supports their overall health and vitality. With a maximum growth size of up to 2 inches (5 cm), Leopard Danios make captivating additions to community setups, where they can coexist peacefully with a variety of tankmates.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2 inches (5 cm)",
     "img": "https://example.com/leopard-danio-image.jpg",
@@ -1523,7 +1522,7 @@
   },
   {
     "name": "Moustached Danio",
-    "description": "The Moustached Danio, scientifically known as Danio dangila, is an attractive and peaceful freshwater fish species native to Myanmar. It is named for the prominent black stripe that resembles a mustache on its face. Moustached Danios are active swimmers and thrive in aquariums with plenty of open swimming space. They are compatible with a wide range of tankmates and are suitable for community setups.",
+    "description": "The Moustached Danio, scientifically known as Danio dangila, is an appealing freshwater fish species native to Myanmar. It earns its name from the prominent black stripe resembling a mustache on its face, adding character to its appearance. Moustached Danios are lively swimmers that thrive in aquariums with ample space for swimming. They exhibit peaceful behavior and can be housed with a wide range of tankmates, making them suitable for community setups. Beginner aquarists will appreciate their low-maintenance requirements and adaptability to various water conditions. Maintaining stable water parameters within a pH range of 6.5 to 7.5 and temperatures between 72°F to 79°F (22°C to 26°C) promotes their well-being. With a maximum growth size of up to 2 inches (5 cm), Moustached Danios bring both charm and activity to freshwater aquariums, making them a delightful addition for hobbyists of all levels.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2 inches (5 cm)",
     "img": "https://example.com/moustached-danio-image.jpg",
@@ -1536,7 +1535,7 @@
   },
   {
     "name": "Red Finned Danio",
-    "description": "The Red Finned Danio, scientifically known as Danio margaritatus 'Red', is a colorful and peaceful freshwater fish species that is a color morph of the Celestial Pearl Danio. It is named for its striking red fins, which contrast beautifully against its iridescent blue body. Red Finned Danios are ideal for planted aquariums and thrive in groups. They are relatively hardy and can adapt to various water conditions, making them suitable for beginner aquarists.",
+    "description": "The Red Finned Danio, scientifically known as Danio margaritatus 'Red', is a vibrant and peaceful freshwater fish species that is a color morph of the Celestial Pearl Danio. Its striking red fins contrast beautifully against its iridescent blue body, adding a burst of color to any aquarium. Red Finned Danios are ideal for planted tanks and thrive when kept in groups. They exhibit peaceful behavior and can adapt to various water conditions, making them suitable for beginner aquarists. Maintaining stable water parameters within a pH range of 6.0 to 7.5 and temperatures between 73°F to 79°F (23°C to 26°C) supports their overall health and vibrancy. With a maximum growth size of up to 1.2 inches (3 cm), Red Finned Danios make captivating additions to freshwater setups, where they can coexist harmoniously with a variety of tankmates.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 1.2 inches (3 cm)",
     "img": "https://example.com/red-finned-danio-image.jpg",
@@ -1549,7 +1548,7 @@
   },
   {
     "name": "Rose Danio",
-    "description": "The Rose Danio, scientifically known as Danio roseus, is a charming and peaceful freshwater fish species native to Myanmar. It is named for its delicate pink coloration, resembling a rose petal. Rose Danios are active swimmers and thrive in aquariums with plenty of open swimming space. They are compatible with a wide range of tankmates and are suitable for community setups.",
+    "description": "The Rose Danio, scientifically known as Danio roseus, is a charming freshwater fish species native to Myanmar. Its delicate pink coloration, reminiscent of a rose petal, adds elegance to any aquarium. Rose Danios are active swimmers that thrive in tanks with plenty of space for swimming. They exhibit peaceful behavior and can coexist harmoniously with a diverse range of tankmates, making them suitable for community setups. Beginner aquarists will find them easy to care for due to their adaptability and low-maintenance requirements. Maintaining stable water parameters within a pH range of 6.5 to 7.5 and temperatures between 72°F to 79°F (22°C to 26°C) ensures their well-being. With a maximum growth size of up to 2 inches (5 cm), Rose Danios add both beauty and activity to freshwater aquariums, making them a popular choice among hobbyists.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2 inches (5 cm)",
     "img": "https://example.com/rose-danio-image.jpg",
@@ -1562,7 +1561,7 @@
   },
   {
     "name": "Zebra Danio",
-    "description": "The Zebra Danio, scientifically known as Danio rerio, is a classic and peaceful freshwater fish species native to Southeast Asia. It is recognized for its distinct zebra-like stripes and active swimming behavior. Zebra Danios are hardy and adaptable, making them ideal for beginner aquarists. They thrive in schools and should be kept in groups to prevent stress. Zebra Danios are compatible with a wide range of tankmates and are suitable for community setups.",
+    "description": "The Zebra Danio, scientifically known as Danio rerio, is a classic and popular freshwater fish species originating from Southeast Asia. Its distinct zebra-like stripes and lively swimming behavior make it easily recognizable and a favorite among aquarists. Zebra Danios are incredibly hardy and adaptable, making them an excellent choice for beginner hobbyists. They thrive in schools and should be kept in groups to prevent stress and exhibit their natural shoaling behavior. These fish are peaceful and can coexist with a wide range of tankmates, adding vibrancy and activity to community aquariums. Maintaining stable water parameters within a pH range of 6.5 to 7.5 and temperatures between 72°F to 79°F (22°C to 26°C) is conducive to their well-being. With a maximum growth size of up to 2 inches (5 cm), Zebra Danios are relatively small, making them suitable for various tank sizes. Their resilience, adaptability, and striking appearance make them enduring favorites in the aquarium hobby, cherished by aquarists of all experience levels.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 2 inches (5 cm)",
     "img": "https://example.com/zebra-danio-image.jpg",
