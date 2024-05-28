@@ -38,7 +38,6 @@ const ProductCard = ({ product }) => {
   };
 
   return (
-    // card will have image, name, price,rating, cart icon
     <Container className="product-section">
       <Card className="mb-4" style={{ cursor: "pointer" }} onClick={handleShow}>
         <div className="card-image-container">
@@ -81,29 +80,31 @@ const ProductCard = ({ product }) => {
               <ProductRating rating={product.rating || 0} />
               <p>{product.description}</p>
             </div>
-            <div className="col-md-3 d-flex justify-content-end align-items-center mx-auto">
-              <Form.Group className="mb-3">
-                <Form.Label>Quantity</Form.Label>
-                <Form.Control
-                  type="number"
-                  value={quantity}
-                  min="1"
-                  onChange={(e) => setQuantity(parseInt(e.target.value))}
-                />
-              </Form.Group>
-              <div className="d-flex">
-                <FaLink
-                  title="Link to Product"
-                  style={{ color: "#007ea7", cursor: "pointer" }}
-                  size={30}
-                  className="me-2"
-                />
-                <FaCartPlus
-                  title="Make a Wishlist on Amazon!"
-                  style={{ color: "#007ea7", cursor: "pointer" }}
-                  size={30}
-                  onClick={handleAddToCart}
-                />
+            <div className="col-md-3 d-md-flex justify-content-md-end align-items-md-center">
+              <div className="d-flex flex-md-column flex-row">
+                <Form.Group className="mb-3 me-md-3">
+                  <Form.Label>Quantity</Form.Label>
+                  <Form.Control
+                    type="number"
+                    value={quantity}
+                    min="1"
+                    onChange={(e) => setQuantity(parseInt(e.target.value))}
+                  />
+                </Form.Group>
+                <div className="d-flex">
+                  <FaLink
+                    title="Link to Product"
+                    style={{ color: "#007ea7", cursor: "pointer" }}
+                    size={30}
+                    className="me-2"
+                  />
+                  <FaCartPlus
+                    title="Make a Wishlist on Amazon!"
+                    style={{ color: "#007ea7", cursor: "pointer" }}
+                    size={30}
+                    onClick={handleAddToCart}
+                  />
+                </div>
               </div>
             </div>
           </div>
