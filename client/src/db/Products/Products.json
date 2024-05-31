@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Filter",
-      "description": "Description of Product 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Cursus sit amet dictum sit amet justo donec. Diam quam nulla porttitor massa id neque aliquam vestibulum. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Et molestie ac feugiat sed. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Eget duis at tellus at urna. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Sed cras ornare arcu dui vivamus arcu felis bibendum ut. At lectus urna duis convallis convallis. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
       "price": "$19.99",
       "category": "Filters",
       "affiliateLink": "https://www.amazon.com/example-product-1-affiliate-link",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "name": "Heaters",
-      "description": "Description of Product 2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Cursus sit amet dictum sit amet justo donec. Diam quam nulla porttitor massa id neque aliquam vestibulum. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Et molestie ac feugiat sed. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Eget duis at tellus at urna. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Sed cras ornare arcu dui vivamus arcu felis bibendum ut. At lectus urna duis convallis convallis. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
       "price": "$29.99",
       "category": "Heaters",
       "affiliateLink": "https://www.amazon.com/example-product-2-affiliate-link",
@@ -22,7 +22,7 @@
     {
       "id": 3,
       "name": "Tanks",
-      "description": "Description of Product 3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Cursus sit amet dictum sit amet justo donec. Diam quam nulla porttitor massa id neque aliquam vestibulum. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Et molestie ac feugiat sed. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Eget duis at tellus at urna. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Sed cras ornare arcu dui vivamus arcu felis bibendum ut. At lectus urna duis convallis convallis. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
       "price": "$39.99",
       "category": "Tanks",
       "affiliateLink": "https://www.amazon.com/example-product-3-affiliate-link",
@@ -32,7 +32,7 @@
     {
       "id": 4,
       "name": "Filters",
-      "description": "Description of Product 4",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Cursus sit amet dictum sit amet justo donec. Diam quam nulla porttitor massa id neque aliquam vestibulum. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Et molestie ac feugiat sed. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Eget duis at tellus at urna. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Sed cras ornare arcu dui vivamus arcu felis bibendum ut. At lectus urna duis convallis convallis. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
       "price": "$49.99",
       "category": "Filters",
       "affiliateLink": "https://m.media-amazon.com/images/I/71BGQwDi8UL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
@@ -42,7 +42,7 @@
     {
       "id": 5,
       "name": "Heaters",
-      "description": "Description of Product 5",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Cursus sit amet dictum sit amet justo donec. Diam quam nulla porttitor massa id neque aliquam vestibulum. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Et molestie ac feugiat sed. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Eget duis at tellus at urna. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Sed cras ornare arcu dui vivamus arcu felis bibendum ut. At lectus urna duis convallis convallis. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
       "price": "$59.99",
       "category": "Heaters",
       "affiliateLink": "https://www.amazon.com/example-product-5-affiliate-link",
@@ -52,7 +52,7 @@
     {
       "id": 6,
       "name": "Lights",
-      "description": "Description of Product 6",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Cursus sit amet dictum sit amet justo donec. Diam quam nulla porttitor massa id neque aliquam vestibulum. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Et molestie ac feugiat sed. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Eget duis at tellus at urna. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Sed cras ornare arcu dui vivamus arcu felis bibendum ut. At lectus urna duis convallis convallis. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
       "price": "$69.99",
       "category": "Lights",
       "affiliateLink": "https://www.amazon.com/example-product-6-affiliate-link",
@@ -62,7 +62,7 @@
     {
       "id": 7,
       "name": "Skimmers",
-      "description": "Description of Product 7",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Cursus sit amet dictum sit amet justo donec. Diam quam nulla porttitor massa id neque aliquam vestibulum. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Et molestie ac feugiat sed. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Eget duis at tellus at urna. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Sed cras ornare arcu dui vivamus arcu felis bibendum ut. At lectus urna duis convallis convallis. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
       "price": "$79.99",
       "category": "Skimmers",
       "affiliateLink": "https://www.amazon.com/example-product-7-affiliate-link",
@@ -72,7 +72,7 @@
     {
       "id": 8,
       "name": "Acessories",
-      "description": "Description of Product 8",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra convallis posuere morbi leo urna molestie at. Cursus sit amet dictum sit amet justo donec. Diam quam nulla porttitor massa id neque aliquam vestibulum. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Et molestie ac feugiat sed. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Eget duis at tellus at urna. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Sed cras ornare arcu dui vivamus arcu felis bibendum ut. At lectus urna duis convallis convallis. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
       "price": "$9.99",
       "category": "Accessories",
       "affiliateLink": "https://www.amazon.com/example-product-8-affiliate-link",
