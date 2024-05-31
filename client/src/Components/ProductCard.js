@@ -38,6 +38,7 @@ const ProductCard = ({ product }) => {
   };
 
   return (
+    <>
     <Container className="product-section">
       <Card className="mb-4" style={{ cursor: "pointer" }} onClick={handleShow}>
         <div className="card-image-container">
@@ -51,7 +52,7 @@ const ProductCard = ({ product }) => {
             <Card.Body className="p-3">
               <Card.Title>{product.name}</Card.Title>
               <Card.Text className="font-weight-bold mb-0">
-                <ProductRating rating={product.rating || 0} />
+                <p><ProductRating rating={product.rating || 0} /> </p>
                 <span>{product.price}</span>
               </Card.Text>
             </Card.Body>
@@ -60,10 +61,8 @@ const ProductCard = ({ product }) => {
       </Card>
 
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>{product.name}</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
+        <Modal.Header closeButton />
+        <Modal.Body closeButton>
           <div className="row">
             <div className="col-md-9">
               <img
@@ -76,9 +75,10 @@ const ProductCard = ({ product }) => {
                   objectFit: "contain",
                 }}
               />
+              <p className="mt-2 fs-4 fw-semibold">{product.name}</p>
               <p>{product.price}</p>
               <ProductRating rating={product.rating || 0} />
-              <p>{product.description}</p>
+              <p className="mt-4">{product.description}</p>
             </div>
             <div className="col-md-3 d-md-flex justify-content-md-end align-items-md-center">
               <div className="d-flex flex-md-column flex-row">
@@ -111,6 +111,7 @@ const ProductCard = ({ product }) => {
         </Modal.Body>
       </Modal>
     </Container>
+    </>
   );
 };
 
