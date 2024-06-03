@@ -26,6 +26,7 @@ const FamilyDropdown = ({ family, species }) => {
         </div>
         <div className="col">
           <select className="form-control" onChange={handleOptionSelect}>
+          <option value="" >Select Fish</option>
             {species.map((species) => (
               <option key={species.name} value={JSON.stringify(species)}>
                 {species.name}
