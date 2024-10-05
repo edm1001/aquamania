@@ -1,36 +1,74 @@
+import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/row";
+import Col from "react-bootstrap/col";
 import Carousel from "react-bootstrap/carousel";
-// import Freshwater from '../assets/videos/fresh/koi.mp4';
-// import Saltwater from '../assets/videos/salt/clownfish1.mp4';
-// import Care from '../assets/videos/fresh/fresh-sm-community.mp4';
-// import Placeholder from '../assets/photos/placeholder.png'
+import { Link } from "react-router-dom";
 
 const Welcome = () => {
+  const [hoveredTopic, setHoveredTopic] = useState(null);
+
   const searchTopics = [
     {
       label: "Freshwater",
       description:
         "Explore freshwater aquariums with a variety of fish and plants.",
       background: "https://via.placeholder.com/600x400",
+      page: "/freshpage",
     },
     {
       label: "Saltwater",
       description:
         "Dive into stunning saltwater aquariums, coral reefs, and exotic fish",
       background: "https://via.placeholder.com/600x400",
+      page: "/saltpage",
     },
-    {
-      label: "Products",
-      description: "Learn essential fish care, from feeding to health.",
-      background: "https://via.placeholder.com/600x400",
-    },
+    // {
+    //   label: "Products",
+    //   description: "Learn essential fish care, from feeding to health.",
+    //   background: "https://via.placeholder.com/600x400",
+    // },
   ];
-// add buttons to link to page
+  // add buttons to link to page
   return (
     <Container fluid>
-      <Row>
-        <div className="">
+      {/* Button Section */}
+      <Row className="welcome-buttons">
+        {searchTopics.map((topic, index) => (
+          <Col
+            key={index}
+            xs={12}
+            sm={6}
+            className="welcome-col"
+            onMouseEnter={() => setHoveredTopic(index)}
+            onMouseLeave={() => setHoveredTopic(null)}
+          >
+            <div
+              className={`welcome-button ${
+                hoveredTopic === index ? "hovered" : ""
+              }`}
+              style={{
+                backgroundImage:
+                  hoveredTopic === index ? `url(${topic.background})` : "none",
+              }}
+            >
+              <div className="description">
+                <p>{topic.description}</p>
+              </div>
+              <Link to={`/${topic.page}`}>
+              <div className="button-content">
+                {topic.label}
+              </div>
+              </Link>
+              
+            </div>
+          </Col>
+        ))}
+      </Row>
+
+      {/* Carousel Section */}
+      <Row className="welcome-carousel">
+        <Col>
           <Carousel>
             {searchTopics.map((topic, index) => (
               <Carousel.Item key={index}>
@@ -38,7 +76,7 @@ const Welcome = () => {
                   src={topic.background}
                   alt="welcome-img"
                   className="d-block w-100"
-                  style={{ height: "70%", objectFit: "contain" }}
+                  style={{ height: "300px", objectFit: "cover" }} // Set a fixed height
                 />
                 <Carousel.Caption className="text-center align-center">
                   <h3>{topic.label}</h3>
@@ -47,7 +85,7 @@ const Welcome = () => {
               </Carousel.Item>
             ))}
           </Carousel>
-        </div>
+        </Col>
       </Row>
     </Container>
   );

@@ -51,7 +51,7 @@ const SpeciesDetail = () => {
               pH Range: {selectedSpecies.waterPHRange}
             </p>
           </Row>
-          <p className="mt-1 text-start text-sm">
+          <p className="mt-1 text-start ">
             {selectedSpecies.description}
           </p>
         </Col>
