@@ -37,8 +37,7 @@ const Welcome = () => {
         {searchTopics.map((topic, index) => (
           <Col
             key={index}
-            xs={12}
-            sm={6}
+            xs={6}
             className="welcome-col"
             onMouseEnter={() => setHoveredTopic(index)}
             onMouseLeave={() => setHoveredTopic(null)}
@@ -52,10 +51,10 @@ const Welcome = () => {
                   hoveredTopic === index ? `url(${topic.background})` : "none",
               }}
             >
-              <div className="description">
+              <div className="description text-center">
                 <p>{topic.description}</p>
               </div>
-              <Link to={`/${topic.page}`}>
+              <Link to={topic.page} className="link-button">
               <div className="button-content">
                 {topic.label}
               </div>

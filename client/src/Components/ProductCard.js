@@ -40,7 +40,7 @@ const ProductCard = ({ product }) => {
   return (
     <>
     <Container className="product-section">
-      <Card className="mb-4" style={{ cursor: "pointer" }} onClick={handleShow}>
+      <Card className="mb-4 product-card"  style={{ cursor: "pointer" }} onClick={handleShow}>
         <div className="card-image-container">
           <Card.Img
             className="card-image"

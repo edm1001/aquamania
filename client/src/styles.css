@@ -252,8 +252,9 @@ section {
   transition: transform 0.3s ease;
 }
 
-.card-image-container:hover .card-image {
+.product-card:hover {
   transform: scale(1.1);
+  box-shadow: #333333 0px 0px 1px;
 }
 .product-category > a{
   text-decoration: none;
