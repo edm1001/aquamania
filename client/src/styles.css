@@ -234,6 +234,10 @@ section {
   color: var(--deep-blue);
 }
 
+.category-text:hover {
+  text-decoration: underline;
+}
+
 /* Species Detail  */
 .species-info {
   font-size: 12px;

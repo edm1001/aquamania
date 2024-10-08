@@ -26,7 +26,7 @@ const FamilyDropdown = ({ family, species }) => {
         </div>
         <div className="col">
           <select className="form-control" onChange={handleOptionSelect}>
-          <option value="" >Select Fish</option>
+            <option value="">Select Fish</option>
             {species.map((species) => (
               <option key={species.name} value={JSON.stringify(species)}>
                 {species.name}
@@ -108,23 +108,18 @@ const FishCategory = ({ isFreshwater }) => {
       <Row className="justify-content-center text-center">
         {categoryOptions.map((item) => (
           <Col
-            xl={2}
-            lg={2}
-            md={2}
-            sm={2}
             xs={2}
             key={item.id}
             className="my-2"
           >
-            {/* make a button that transforms when clicked so user knows the current category */}
-            <Button
-              className={`btn clickable-item text-white category-text h-100 font-weight-bold ${
+            <div
+              className={`clickable-item category-text font-weight-bold ${
                 selectedFilter === item.text ? "category-selected" : ""
               }`}
               onClick={() => filterFishSpecies(item.text)}
             >
               {item.text}
-            </Button>
+            </div>
           </Col>
         ))}
       </Row>
