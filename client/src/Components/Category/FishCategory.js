@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 import FreshwaterFishSpecies from "../../db/Fresh/FeshwaterFishData.json";
 import SaltwaterFishSpecies from "../../db/Salt/SaltwaterFishData.json";
+import { IoMdArrowDropdown } from "react-icons/io";
 
 const FamilyDropdown = ({ family, species }) => {
   const [selectedSpecies, setSelectedSpecies] = useState(null);
@@ -21,17 +21,27 @@ const FamilyDropdown = ({ family, species }) => {
   return (
     <div className="form-group">
       <div className="form-row align-items-center">
-        <div className="col-auto">
-          <label className="col-form-label fw-semibold fs-5">{family}</label>
-        </div>
+        {/* Select Dropdown */}
         <div className="col">
-          <select className="form-control" onChange={handleOptionSelect}>
-            <option value="">Select Fish</option>
-            {species.map((species) => (
-              <option key={species.name} value={JSON.stringify(species)}>
-                {species.name}
-              </option>
-            ))}
+          <select
+            id="species-select"
+            className="form-control"
+            onChange={handleOptionSelect}
+            aria-label={`Select a fish from the ${family} family`}
+          >
+            <option value="" className="fw-bold">
+              {family} 
+              <IoMdArrowDropdown color="black" />
+            </option>
+            {species.length > 0 ? (
+              species.map(({ name, id }) => (
+                <option key={id} value={JSON.stringify({ name, id })}>
+                  {name}
+                </option>
+              ))
+            ) : (
+              <option disabled>No species available</option>
+            )}
           </select>
         </div>
       </div>
@@ -107,11 +117,7 @@ const FishCategory = ({ isFreshwater }) => {
       {/* category options */}
       <Row className="justify-content-center text-center">
         {categoryOptions.map((item) => (
-          <Col
-            xs={2}
-            key={item.id}
-            className="my-2"
-          >
+          <Col xs={2} key={item.id} className="my-2">
             <div
               className={`clickable-item category-text font-weight-bold ${
                 selectedFilter === item.text ? "category-selected" : ""
@@ -125,7 +131,7 @@ const FishCategory = ({ isFreshwater }) => {
       </Row>
 
       {/* category results */}
-      <Row className="mt-5">
+      <Row className="mt-1">
         {Object.keys(groupedSpecies).map((family) => (
           <Col xl={3} lg={3} md={4} sm={6} xs={6} key={family}>
             <FamilyDropdown family={family} species={groupedSpecies[family]} />

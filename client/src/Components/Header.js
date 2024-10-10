@@ -12,7 +12,7 @@ import { IoIosCart } from "react-icons/io";
 
 const Header = ({ cartItems }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const totalQuantity = cartItems.reduce((acc, item) => acc + item.quantity,0);
+  const totalQuantity = cartItems.reduce((acc, item) => acc + item.quantity, 0);
 
   const handleToggleClick = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -42,9 +42,11 @@ const Header = ({ cartItems }) => {
         expand="lg"
       >
         <Container>
-          <Navbar.Brand href="/">
+          {/* Brand Logo */}
+          <Navbar.Brand href="/" className="">
             <img src={Logo} width="80" height="80" alt="brand-logo" />
           </Navbar.Brand>
+          {/* Mobile Toggle */}
           <Navbar.Toggle
             className={`custom-menu ${isMenuOpen ? "menu-open" : ""} ms-auto`}
             aria-controls="responsive-navbar-nav"
