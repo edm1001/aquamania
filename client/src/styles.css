@@ -60,11 +60,10 @@ section {
   justify-content: center;
 }
 .navbar-brand {
-  position: absolute;
   left: 20px; 
 }
 .navbar-toggler {
-  position: absolute;
+  position: relative;
   right: 20px; 
 }
 .custom-menu {

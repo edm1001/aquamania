@@ -48,14 +48,14 @@ const Header = ({ cartItems }) => {
           </Navbar.Brand>
           {/* Mobile Toggle */}
           <Navbar.Toggle
-            className={`custom-menu ${isMenuOpen ? "menu-open" : ""} ms-auto`}
+            className={`custom-menu ${isMenuOpen ? "menu-open" : ""}`}
             aria-controls="responsive-navbar-nav"
             onClick={handleToggleClick}
           >
             {isMenuOpen ? <IoFishOutline size={38} /> : <IoFish size={30} />}
           </Navbar.Toggle>
           <Navbar.Collapse className="justify-content-center">
-            <Nav>
+            <Nav className="">
               <NavDropdown title="Fish" className="text-center">
                 <Link to="/freshpage" className="dropdown-item text-center">
                   Freshwater Fish
