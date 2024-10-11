@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FreshwaterFishSpecies from "../../db/Fresh/FeshwaterFishData.json";
 import SaltwaterFishSpecies from "../../db/Salt/SaltwaterFishData.json";
-import { IoMdArrowDropdown } from "react-icons/io";
+import { IoIosArrowDown } from "react-icons/io";
 
 const FamilyDropdown = ({ family, species }) => {
   const [selectedSpecies, setSelectedSpecies] = useState(null);
@@ -25,13 +25,13 @@ const FamilyDropdown = ({ family, species }) => {
         <div className="col">
           <select
             id="species-select"
-            className="form-control"
+            className="form-control m-1"
             onChange={handleOptionSelect}
             aria-label={`Select a fish from the ${family} family`}
           >
-            <option value="" className="fw-bold">
+            <option value="" className="fw-bold text-center cursor-pointer ">
               {family} 
-              <IoMdArrowDropdown color="black" />
+            {/* <IoIosArrowDown className="position-absolute top-50 end-0 me-3" /> */}
             </option>
             {species.length > 0 ? (
               species.map(({ name, id }) => (
@@ -43,6 +43,7 @@ const FamilyDropdown = ({ family, species }) => {
               <option disabled>No species available</option>
             )}
           </select>
+  
         </div>
       </div>
     </div>

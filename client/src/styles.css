@@ -227,11 +227,11 @@ section {
 }
 
 .category-text {
-  font-size: xx-small;
+  font-size: x-small;
 }
 .category-selected {
   background-color: var(--deep-blue);
-  color: var(--deep-blue);
+  color: white;
 }
 
 .category-text:hover {

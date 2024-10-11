@@ -41,7 +41,7 @@ const ProductsPage = () => {
     : products;
 
   return (
-    <Container className="mx-1 product-section pt-3 pb-5">
+    <Container fluid className="mx-1 product-section pt-3 pb-5">
       <div className="">
         <div className="text-center">
           <h1 className="mt-5 mb-2 ">Featured Products</h1>
