@@ -29,7 +29,7 @@ const About = () => {
               className="img-fluid h-75 about-img"
             />
           </Col>
-          <Col className="text-center p-5 abt-section">
+          <Col className="text-start p-4 abt-section">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1, transition: 1 }}
@@ -41,7 +41,7 @@ const About = () => {
                 <br />
                 Whether starting out or a seasoned pro, we're here to share the passion and knowledge with all.
               </p>
-              <span className="badge abt-badge">
+              <span className="badge abt-badge d-flex justify-content-center">
                 Get in touch with us to be featured!
               </span>
             </motion.div>

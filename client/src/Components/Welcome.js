@@ -66,7 +66,7 @@ const Welcome = () => {
       </Row>
 
       {/* Carousel Section */}
-      <Row className="welcome-carousel">
+      {/* <Row className="welcome-carousel">
         <Col>
           <Carousel>
             {searchTopics.map((topic, index) => (
@@ -85,7 +85,7 @@ const Welcome = () => {
             ))}
           </Carousel>
         </Col>
-      </Row>
+      </Row> */}
     </Container>
   );
 };
