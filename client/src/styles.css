@@ -77,16 +77,8 @@ section {
 }
 
 /* WELCOME PAGE */
-.welcome-page {
-  background-color: var(--grey);
-  height: 700px;
-}
 .section-title {
   color: var(--dark-blue);
-}
-.welcome-container {
-  padding: 50px 0;
-  text-align: center;
 }
 
 .welcome-col {
@@ -95,12 +87,12 @@ section {
   align-items: center;
   padding: 10px;
   transition: all 0.3s ease;
+  height: 100%;
 }
 .welcome-buttons {
   padding: 50px 0;
   text-align: center;
   z-index: 10; 
-  position: relative;
   cursor: pointer;
 }
 
@@ -112,9 +104,12 @@ section {
   transition: all 0.3s ease;
 }
 .welcome-button {
-  position: relative;
+  display: flex;
+  height: 100%;
   width: 100%;
-  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   transition: transform 0.5s ease, box-shadow 0.3s ease;
 }
@@ -274,7 +269,7 @@ section {
   padding: 20px;
 }
 .logo {
-  max-width: 100px;
+  max-width: 50px;
 
 }
 
@@ -292,7 +287,7 @@ section {
   text-decoration: underline;
 }
 .link-column {
-  font-size: x-small;
+  font-size: xx-small;
 }
 
 /* mobile query for tablets and phones */

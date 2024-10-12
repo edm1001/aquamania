@@ -54,9 +54,15 @@ const Header = ({ cartItems }) => {
           >
             {isMenuOpen ? <IoFishOutline size={38} /> : <IoFish size={30} />}
           </Navbar.Toggle>
-          <Navbar.Collapse className="justify-content-center">
-            <Nav className="">
-              <NavDropdown title="Fish" className="text-center">
+          <Navbar.Collapse className="">
+            <Nav className="d-flex justify-content-end">
+              <Nav.Link href="/products" className="text-center">
+                Products
+              </Nav.Link>
+              <Nav.Link href="/about" className="text-center">
+                About Us
+              </Nav.Link>
+              <NavDropdown title="Fish " className="text-center">
                 <Link to="/freshpage" className="dropdown-item text-center">
                   Freshwater Fish
                 </Link>
@@ -64,12 +70,6 @@ const Header = ({ cartItems }) => {
                   Saltwater Fish
                 </Link>
               </NavDropdown>
-              <Nav.Link href="/products" className="text-center">
-                Products
-              </Nav.Link>
-              <Nav.Link href="/about" className="text-center">
-                About Us
-              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
