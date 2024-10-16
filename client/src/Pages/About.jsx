@@ -3,12 +3,13 @@ import Category from "../Components/Category";
 import AboutComp from "../Components/About";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Contact from "../Components/Contact";
 
 function About() {
   return (
     <>
       <AboutComp/>
-      <Category />
+      {/* <Category /> */}
       <Row>
         <Col xl={6} lg={6} md={6} className="d-flex align-items-center justify-content-center ">
           <div className="bg-success">
@@ -40,6 +41,7 @@ function About() {
           </p>
         </Col>
       </Row>
+      <Contact/>
     </>
   );
 }
