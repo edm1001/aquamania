@@ -70,6 +70,7 @@ const Header = ({ cartItems }) => {
                   Saltwater Fish
                 </Link>
               </NavDropdown>
+              
             </Nav>
           </Navbar.Collapse>
         </Container>
