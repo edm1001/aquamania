@@ -9,14 +9,12 @@ import { Container } from "react-bootstrap";
 function About() {
   return (
     <>
-      {/* <AboutComp /> */}
-      {/* <Category /> */}
       <Container>
         <div className="text-start mx-1 care-section">
           <h1 className="text-center mb-4">Care Tips</h1>
           <Row className="row h-100">
             {/* Freshwater Fish Care */}
-            <Col className="">
+            <Col xs={12} md={6} className="">
               <h5>Freshwater Fish Care Tips</h5>
               <ul>
                 <li>Maintain temperature between 72-82°F</li>
@@ -26,7 +24,7 @@ function About() {
               </ul>
             </Col>
             {/* Freshwater Plants Care */}
-            <Col className="">
+            <Col xs={12} md={6} className="">
               <h5 className="">Freshwater Plants</h5>
               <ul>
                 <li>Provide adequate lighting (8-10 hours/day)</li>
@@ -39,7 +37,7 @@ function About() {
 
           <Row className="row">
             {/* Saltwater Fish Care */}
-            <Col className="">
+            <Col xs={12} md={6} className="">
               <h5>Saltwater Fish Care Tips</h5>
               <ul>
                 <li>Maintain temperature between 75-80°F</li>
@@ -50,7 +48,7 @@ function About() {
             </Col>
 
             {/* Saltwater Corals Care */}
-            <Col className="">
+            <Col xs={12} md={6} className="">
               <h5>Saltwater Corals Care Tips</h5>
               <ul>
                 <li>Ensure proper lighting (LED, T5)</li>
@@ -62,6 +60,7 @@ function About() {
           </Row>
         </div>
       </Container>
+      <AboutComp/>
       <Contact />
     </>
   );
