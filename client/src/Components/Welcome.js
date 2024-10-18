@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/row";
 import Col from "react-bootstrap/col";
-import Carousel from "react-bootstrap/carousel";
 import { Link } from "react-router-dom";
+// import Carousel from "react-bootstrap/carousel";
 
 const Welcome = () => {
   const [hoveredTopic, setHoveredTopic] = useState(null);

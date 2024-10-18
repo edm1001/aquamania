@@ -7,7 +7,7 @@ const Contact = () => {
     <Container className="my-4">
       <h2 className="text-center">Contact Us</h2>
       <p className="text-center">
-        Sign up to get the updates and future deals!
+        Sign up to get updates and future deals!
       </p>
       <div className="row">
         <form className="d-flex justify-content-center">
