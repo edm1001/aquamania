@@ -14,7 +14,8 @@ const About = () => {
         variants={fadeIn}
         initial="hidden"
         animate="visible"
-        className="text-center h-100 w-100 py-5 px-3 abt-section"
+        className="text-center h-100 w-100 py-5 px-3 abt-section" 
+        id="about"
       >
         <Row>
           <Col
@@ -29,7 +30,7 @@ const About = () => {
               className="img-fluid h-75 about-img"
             />
           </Col>
-          <Col className="text-start p-4 abt-section">
+          <Col className="text-start p-4 abt-section" >
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1, transition: 1 }}

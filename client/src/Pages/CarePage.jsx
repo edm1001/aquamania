@@ -11,7 +11,8 @@ function About() {
     <>
       <Container>
         <div className="text-start mx-1 care-section">
-          <h1 className="text-center mb-4">Care Tips</h1>
+          <h1 className="text-center">Care Tips</h1>
+          <p className="text-center mb-4"> Sign up to our newsletter to get the free comprehensive tips</p>
           <Row className="row h-100">
             {/* Freshwater Fish Care */}
             <Col xs={12} md={6} className="">
@@ -40,10 +41,12 @@ function About() {
             <Col xs={12} md={6} className="">
               <h5>Saltwater Fish Care Tips</h5>
               <ul>
+                <li>Important Parameters: pH, salinity</li>
                 <li>Maintain temperature between 75-80°F</li>
-                <li>Perform regular water changes (10% biweekly)</li>
+                <li>Perform regular water changes (20-25% weekly)</li>
                 <li>Monitor pH (8.1-8.4) and salinity</li>
-                <li>Feed a balanced diet (flakes, frozen food)</li>
+                <li>Feed a balanced & varied diet (flakes, frozen food)</li>
+                {/* <li>Recommended Products: </li> */}
               </ul>
             </Col>
 
@@ -60,8 +63,8 @@ function About() {
           </Row>
         </div>
       </Container>
-      <AboutComp/>
       <Contact />
+      <AboutComp/>
     </>
   );
 }
