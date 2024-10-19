@@ -3,7 +3,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/row";
 import Col from "react-bootstrap/col";
 import { Link } from "react-router-dom";
-// import Carousel from "react-bootstrap/carousel";
+import image from "../assets/photos/placeholder.png";
+
 
 const Welcome = () => {
   const [hoveredTopic, setHoveredTopic] = useState(null);
@@ -13,7 +14,7 @@ const Welcome = () => {
       label: "Freshwater",
       description:
         "Explore freshwater aquariums with a variety of fish and plants.",
-      background: "https://via.placeholder.com/600x400",
+      background: image,
       page: "/freshpage",
     },
     {
@@ -29,7 +30,6 @@ const Welcome = () => {
     //   background: "https://via.placeholder.com/600x400",
     // },
   ];
-  // add buttons to link to page
   return (
     <Container fluid>
       {/* Button Section */}
@@ -37,55 +37,37 @@ const Welcome = () => {
         {searchTopics.map((topic, index) => (
           <Col
             key={index}
-
             className="welcome-col p-5"
+            style={{ height: "100%" }}
             onMouseEnter={() => setHoveredTopic(index)}
             onMouseLeave={() => setHoveredTopic(null)}
           >
             <div
-              className={`welcome-button ${
+              className={`welcome-button p-5 ${
                 hoveredTopic === index ? "hovered" : ""
               }`}
               style={{
+                height: "100%",
+                width: "100%",
                 backgroundImage:
                   hoveredTopic === index ? `url(${topic.background})` : "none",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
               }}
             >
               <div className="description text-center">
                 <p>{topic.description}</p>
               </div>
-              <Link to={topic.page} className="link-button">
-              <div className="button-content">
-                {topic.label}
-              </div>
+              <Link
+                to={topic.page}
+                className="link-button text-decoration-none"
+              >
+                <div className="button-content">{topic.label}</div>
               </Link>
-              
             </div>
           </Col>
         ))}
       </Row>
-
-      {/* Carousel Section */}
-      {/* <Row className="welcome-carousel">
-        <Col>
-          <Carousel>
-            {searchTopics.map((topic, index) => (
-              <Carousel.Item key={index}>
-                <img
-                  src={topic.background}
-                  alt="welcome-img"
-                  className="d-block w-100"
-                  style={{ height: "300px", objectFit: "cover" }} // Set a fixed height
-                />
-                <Carousel.Caption className="text-center align-center">
-                  <h3>{topic.label}</h3>
-                  <p>{topic.description}</p>
-                </Carousel.Caption>
-              </Carousel.Item>
-            ))}
-          </Carousel>
-        </Col>
-      </Row> */}
     </Container>
   );
 };

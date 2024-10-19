@@ -1,16 +1,15 @@
 import React from "react";
-// import FreshCategory from "../Components/Category/FreshCategory";
-import Category from "../Components/Category";
 import Searchbar from "../Components/Searchbar";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FishCategory from "../Components/Category/FishCategory";
+import Welcome from "../Components/Welcome";
 
 function FreshPage() {
   return (
     <Container>
-      <Category />
+      <Welcome />
       <Row>
         <Col className="">
           <h1 className="text-center">Freshwater</h1>
