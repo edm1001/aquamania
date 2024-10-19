@@ -37,8 +37,8 @@ const Welcome = () => {
         {searchTopics.map((topic, index) => (
           <Col
             key={index}
-            xs={6}
-            className="welcome-col"
+
+            className="welcome-col p-5"
             onMouseEnter={() => setHoveredTopic(index)}
             onMouseLeave={() => setHoveredTopic(null)}
           >
