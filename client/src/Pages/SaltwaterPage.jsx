@@ -1,7 +1,7 @@
 import React from "react";
 import FishCategory from "../Components/Category/FishCategory";
-import Category from "../Components/Category";
 import Searchbar from "../Components/Searchbar";
+import Welcome from "../Components/Welcome";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -9,7 +9,7 @@ import Col from "react-bootstrap/Col";
 function SaltPage() {
   return (
     <Container>
-      <Category />
+      <Welcome/>
       <Row>
         <Col className="">
           <h1 className="text-center">Saltwater</h1>

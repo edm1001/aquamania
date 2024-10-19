@@ -30,7 +30,7 @@ const About = () => {
               className="img-fluid h-75 about-img"
             />
           </Col>
-          <Col className="text-start p-4 abt-section" >
+          <Col className="text-start p-4 abt-section" id="about">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1, transition: 1 }}
