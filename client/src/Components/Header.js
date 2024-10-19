@@ -35,9 +35,8 @@ const Header = ({ cartItems }) => {
         </Link>
       </div>
       <Navbar
-        className="mb-5 mt-3"
+        className="mt-3"
         sticky="top"
-        bg="white"
         data-bs-theme="light"
         expand="lg"
       >

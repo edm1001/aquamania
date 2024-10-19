@@ -186,10 +186,7 @@ section {
 .abt-badge {
   background-color: var(--button-color);
 }
-
-.care-title {
-  color: var(--yellow);
-}
+                                                                                                  
 /* Search Bar */
 .search-icon {
   display:none;
