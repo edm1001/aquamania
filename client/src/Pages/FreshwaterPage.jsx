@@ -12,7 +12,7 @@ function FreshPage() {
       <Welcome />
       <Row>
         <Col className="">
-          <h1 className="text-center">Freshwater</h1>
+          <h1 className="">Freshwater</h1>
         </Col>
         <Col>
           <Searchbar isFreshwaterPage={true} />

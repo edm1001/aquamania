@@ -193,11 +193,13 @@ section {
 }
 
 .category-text {
-  font-size: x-small;
+  font-size: small;
 }
 .category-selected {
   background-color: var(--deep-blue);
   color: white;
+  padding: 12px;
+  border-radius: 50px;
 }
 
 .category-text:hover {

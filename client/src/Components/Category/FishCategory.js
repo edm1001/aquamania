@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FreshwaterFishSpecies from "../../db/Fresh/FeshwaterFishData.json";
 import SaltwaterFishSpecies from "../../db/Salt/SaltwaterFishData.json";
-import { IoIosArrowDown } from "react-icons/io";
 
 const FamilyDropdown = ({ family, species }) => {
   const [selectedSpecies, setSelectedSpecies] = useState(null);
@@ -31,7 +30,6 @@ const FamilyDropdown = ({ family, species }) => {
           >
             <option value="" className="fw-bold text-center cursor-pointer ">
               {family} 
-            {/* <IoIosArrowDown className="position-absolute top-50 end-0 me-3" /> */}
             </option>
             {species.length > 0 ? (
               species.map(({ name, id }) => (
@@ -120,7 +118,7 @@ const FishCategory = ({ isFreshwater }) => {
         {categoryOptions.map((item) => (
           <Col xs={2} key={item.id} className="my-2">
             <div
-              className={`clickable-item category-text font-weight-bold ${
+              className={`clickable-item category-text text-center font-weight-bold mb-4 ${
                 selectedFilter === item.text ? "category-selected" : ""
               }`}
               onClick={() => filterFishSpecies(item.text)}
@@ -132,9 +130,9 @@ const FishCategory = ({ isFreshwater }) => {
       </Row>
 
       {/* category results */}
-      <Row className="mt-1">
+      <Row  className="mt-1">
         {Object.keys(groupedSpecies).map((family) => (
-          <Col xl={3} lg={3} md={4} sm={6} xs={6} key={family}>
+          <Col xl={3} lg={3} md={4} sm={6} xs={6} key={family} >
             <FamilyDropdown family={family} species={groupedSpecies[family]} />
           </Col>
         ))}

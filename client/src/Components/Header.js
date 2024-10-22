@@ -40,9 +40,8 @@ const Header = ({ cartItems }) => {
         data-bs-theme="light"
         expand="lg"
       >
-        <Container>
           {/* Brand Logo */}
-          <Navbar.Brand href="/" className="">
+          <Navbar.Brand href="/" className="ms-4">
             <img src={Logo} width="80" height="80" alt="brand-logo" />
           </Navbar.Brand>
           {/* Mobile Toggle */}
@@ -74,7 +73,6 @@ const Header = ({ cartItems }) => {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Container>
       </Navbar>
     </motion.div>
   );
