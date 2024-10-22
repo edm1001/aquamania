@@ -13,9 +13,9 @@ function About() {
         <div className="mx-1 care-section">
           <h1 className="text-center">Care Tips</h1>
           <p className="text-center mb-5"> Sign up to our newsletter to get the free comprehensive tips</p>
-          <Row className="row h-100">
+          <Row className="row h-100" >
             {/* Freshwater Fish Care */}
-            <Col  className="m-5">
+            <Col  className="p-5" xs={12} sm={12} md={6}>
               <h5>Freshwater Fish Care Tips</h5>
               <ul>
                 <li>Maintain temperature between 72-82°F</li>
@@ -26,7 +26,7 @@ function About() {
               </ul>
             </Col>
             {/* Freshwater Plants Care */}
-            <Col className="m-5">
+            <Col className="p-5 bg-success text-white" xs={12} sm={12} md={6}>
               <h5 className="">Freshwater Plants</h5>
               <ul>
                 <li>Provide adequate lighting (8-10 hours/day)</li>
@@ -40,7 +40,7 @@ function About() {
 
           <Row>
             {/* Saltwater Fish Care */}
-            <Col className="m-5">
+            <Col className="p-5 " xs={12} sm={12} md={6}>
               <h5>Saltwater Fish Care Tips</h5>
               <ul>
                 <li>Maintain temperature between 75-80°F</li>
@@ -53,7 +53,7 @@ function About() {
             </Col>
 
             {/* Saltwater Corals Care */}
-            <Col className="m-5">
+            <Col className="p-5 bg-primary text-white" xs={12} sm={12} md={6}>
               <h5>Corals Care Tips</h5>
               <ul>
                 <li>Ensure proper lighting (LED, T5)</li>

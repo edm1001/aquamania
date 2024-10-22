@@ -38,16 +38,17 @@ export default function Searchbar({ isFreshwaterPage }) {
     <div>
       <input
         type="text"
+        className="form-control mt-2"
         placeholder="Search a fish..."
         value={searchTerm}
         onChange={handleSearch}
       />
       {showList && (
-        <ul className="position-absolute bg-white opacity-100">
-          {filteredFish.map((fish, index) => (
-            <li className="list-unstyled search-result" key={index}>
+           <ul className="list-group position-absolute">
+           {filteredFish.map((fish, index) => (
+             <li className="list-group-item d-flex justify-content-between align-items-center" key={index}>
               <Link
-                className="text-decoration-none"
+                className="text-decoration-none text-dark"
                 to={`/species/${encodeURIComponent(fish.name)}`}
               >
                 {fish.name}
