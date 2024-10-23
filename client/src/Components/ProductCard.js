@@ -39,78 +39,89 @@ const ProductCard = ({ product }) => {
 
   return (
     <>
-    <Container className="product-section">
-      <Card className="mb-4 product-card"  style={{ cursor: "pointer" }} onClick={handleShow}>
-        <div className="card-image-container">
-          <Card.Img
-            className="card-image"
-            variant="top"
-            src={product.imageUrl}
-            style={{ maxHeight: "100px", objectFit: "cover" }}
-          />
-          <div className="card-details">
-            <Card.Body className="p-3">
-              <Card.Title>{product.name}</Card.Title>
-              <Card.Text className="font-weight-bold mb-0">
-                <p><ProductRating rating={product.rating || 0} /> </p>
-                <span>{product.price}</span>
-              </Card.Text>
-            </Card.Body>
-          </div>
-        </div>
-      </Card>
-
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton />
-        <Modal.Body closeButton>
-          <div className="row">
-            <div className="col-md-9">
-              <img
-                src={product.imageUrl}
-                alt={product.name}
-                className="img-fluid"
-                style={{
-                  maxHeight: "400px",
-                  width: "100%",
-                  objectFit: "contain",
-                }}
-              />
-              <p className="mt-2 fs-4 fw-semibold">{product.name}</p>
-              <p>{product.price}</p>
-              <ProductRating rating={product.rating || 0} />
-              <p className="mt-4">{product.description}</p>
+      <Container className="product-section">
+        {/* Product Card */}
+        <Card
+          className="mb-4 product-card"
+          style={{ cursor: "pointer" }}
+          onClick={handleShow}
+        >
+          <div className="card-image-container">
+            <Card.Img
+              className="card-image"
+              variant="top"
+              src={product.imageUrl}
+              style={{ maxHeight: "100px", objectFit: "cover" }}
+            />
+            <div className="card-details">
+              <Card.Body className="p-3">
+                <div className="d-flex justify-content-between">
+                  <Card.Title className="fs-4">{product.name}</Card.Title>
+                  <span className="text-decoration-underline text-secondary">
+                    {product.company}
+                  </span>
+                </div>
+                <div className="d-flex justify-content-between align-items-center mt-2">
+                  <ProductRating rating={product.rating || 0} />
+                  <span className="fw-bold fs-4">{product.price}</span>
+                </div>
+              </Card.Body>
             </div>
-            <div className="col-md-3 d-md-flex justify-content-md-end align-items-md-center">
-              <div className="d-flex flex-md-column flex-row">
-                <Form.Group className="mb-3 me-md-3">
-                  <Form.Label>Quantity</Form.Label>
-                  <Form.Control
-                    type="number"
-                    value={quantity}
-                    min="1"
-                    onChange={(e) => setQuantity(parseInt(e.target.value))}
-                  />
-                </Form.Group>
-                <div className="d-flex">
-                  <FaLink
-                    title="Link to Product"
-                    style={{ color: "#007ea7", cursor: "pointer" }}
-                    size={30}
-                    className="me-2"
-                  />
-                  <FaCartPlus
-                    title="Make a Wishlist on Amazon!"
-                    style={{ color: "#007ea7", cursor: "pointer" }}
-                    size={30}
-                    onClick={handleAddToCart}
-                  />
+          </div>
+        </Card>
+
+        <Modal show={show} onHide={handleClose}>
+          <Modal.Header closeButton />
+          <Modal.Body closeButton>
+            <div className="row">
+              <div className="col-md-9">
+                <img
+                  src={product.imageUrl}
+                  alt={product.name}
+                  className="img-fluid"
+                  style={{
+                    maxHeight: "400px",
+                    width: "100%",
+                    objectFit: "contain",
+                  }}
+                />
+                <p className="mt-2 fs-4 fw-semibold">{product.name}</p>
+                <p>{product.company}</p>
+                <p>{product.price}</p>
+                <ProductRating rating={product.rating || 0} />
+                <p className="mt-4">{product.description}</p>
+              </div>
+              <div className="col-md-3 d-md-flex justify-content-md-end align-items-md-center">
+                <div className="d-flex flex-md-column flex-row">
+                  <Form.Group className="mb-3 me-md-3">
+                    <Form.Label>Quantity</Form.Label>
+                    <Form.Control
+                      type="number"
+                      value={quantity}
+                      min="1"
+                      onChange={(e) => setQuantity(parseInt(e.target.value))}
+                    />
+                  </Form.Group>
+                  <div className="d-flex">
+                    <FaLink
+                      title="Link to Product"
+                      style={{ color: "#007ea7", cursor: "pointer" }}
+                      size={30}
+                      className="me-2"
+                    />
+                    <FaCartPlus
+                      title="Make a Wishlist on Amazon!"
+                      style={{ color: "#007ea7", cursor: "pointer" }}
+                      size={30}
+                      onClick={handleAddToCart}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </Modal.Body>
-      </Modal>
-    </Container>
+          </Modal.Body>
+        </Modal>
+      </Container>
     </>
   );
 };
