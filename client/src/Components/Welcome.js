@@ -3,8 +3,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/row";
 import Col from "react-bootstrap/col";
 import { Link } from "react-router-dom";
-import image from "../assets/photos/placeholder.png";
-
 
 const Welcome = () => {
   const [hoveredTopic, setHoveredTopic] = useState(null);
@@ -14,14 +12,15 @@ const Welcome = () => {
       label: "Freshwater",
       description:
         "Explore freshwater aquariums with a variety of fish and plants.",
-      background: image,
+      background:
+        "https://images.unsplash.com/photo-1665853463786-6a2e2a540446?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       page: "/freshpage",
     },
     {
       label: "Saltwater",
       description:
         "Dive into stunning saltwater aquariums, coral reefs, and exotic fish",
-      background: "https://via.placeholder.com/600x400",
+      background: "https://images.unsplash.com/photo-1524096613842-71a8c45f08a2?q=80&w=2260&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       page: "/saltpage",
     },
     // {
@@ -31,19 +30,19 @@ const Welcome = () => {
     // },
   ];
   return (
-    <Container fluid>
+    <>
       {/* Button Section */}
-      <Row className="welcome-buttons">
+      <Row className="welcome-buttons my-2">
         {searchTopics.map((topic, index) => (
           <Col
             key={index}
-            className="welcome-col p-5"
+            className="welcome-col text-white my-3"
             style={{ height: "100%" }}
             onMouseEnter={() => setHoveredTopic(index)}
             onMouseLeave={() => setHoveredTopic(null)}
           >
             <div
-              className={`welcome-button p-5 ${
+              className={`welcome-button p-5 m-1 ${
                 hoveredTopic === index ? "hovered" : ""
               }`}
               style={{
@@ -68,7 +67,7 @@ const Welcome = () => {
           </Col>
         ))}
       </Row>
-    </Container>
+    </>
   );
 };
 export default Welcome;

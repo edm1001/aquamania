@@ -70,6 +70,7 @@ const ProductCard = ({ product }) => {
           </div>
         </Card>
 
+        {/* Modal */} 
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton />
           <Modal.Body closeButton>
@@ -87,7 +88,7 @@ const ProductCard = ({ product }) => {
                 />
                 <div className="d-flex justify-content-between align-items-center mt-2 p-1">
                   <div>
-                    <p className="fs-4 fw-semibold">{product.name}</p>
+                    <p className="fs-2 fw-bold">{product.name}</p>
                     <ProductRating rating={product.rating || 0} />
                   </div>
                   <div>

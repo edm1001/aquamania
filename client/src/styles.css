@@ -98,7 +98,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   height: 100%;
 }
 .welcome-button {
@@ -111,7 +111,7 @@ section {
 }
 
 .welcome-button.hovered {
-  transform: scale(1.1); 
+  transform: scale(1.2); 
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -120,8 +120,9 @@ section {
   border: none;
 }
 
-.button-content:hover {
+.welcome-button:hover .button-content {
   text-decoration: underline;
+  color: white;
 }
 
 .description {
@@ -236,6 +237,15 @@ section {
 .product-category > a :hover {
   text-decoration: underline;
 }
+/* Care Page */
+/* green bg on the freshwater plants */
+/* photo bg on fish */
+/* blue bg on fish, photo on corals */
+/* coral: */
+/* https://images.unsplash.com/photo-1694661641480-d4e76d6bead3?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
+/* https://images.unsplash.com/photo-1514907283155-ea5f4094c70c?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
+/* fresh */
+
 
 /* Footer */
 .footer-row {
