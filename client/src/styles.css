@@ -238,14 +238,37 @@ section {
   text-decoration: underline;
 }
 /* Care Page */
-/* green bg on the freshwater plants */
-/* photo bg on fish */
-/* blue bg on fish, photo on corals */
-/* coral: */
-/* https://images.unsplash.com/photo-1694661641480-d4e76d6bead3?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
-/* https://images.unsplash.com/photo-1514907283155-ea5f4094c70c?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
-/* fresh */
+.care-section > p {
+  font-size: 12px;
+}
 
+.care-row {
+  font-size: small;
+}
+.fresh-care {
+  background-image: url('https://images.pexels.com/photos/9408370/pexels-photo-9408370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--grey);
+  opacity: 0.9;
+}
+
+.plants-care {
+  background-color: var(--button-color);
+}
+.salt-care {
+  background-color: var(--deep-blue);
+}
+.corals-care {
+  background: url('https://images.unsplash.com/photo-1514907283155-ea5f4094c70c?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--grey);
+  opacity: 0.9;
+  background-color: var(--deep-blue);
+}
 
 /* Footer */
 .footer-row {
