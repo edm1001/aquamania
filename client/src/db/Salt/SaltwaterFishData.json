@@ -10,7 +10,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400"
   },
   {
     "name": "Half Black Angelfish",
@@ -23,7 +24,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Tibicen Angelfish",
@@ -36,7 +38,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Coral Beauty Angelfish",
@@ -49,7 +52,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Flame Angelfish",
@@ -62,7 +66,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Red Stripe Angelfish",
@@ -75,7 +80,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Flameback Angelfish",
@@ -88,7 +94,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Lemonpeel Angelfish",
@@ -101,7 +108,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Pygmy Angelfish",
@@ -114,7 +122,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "True Shepards Angelfish",
@@ -127,7 +136,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Rusty Angelfish",
@@ -140,7 +150,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Multibar Angelfish",
@@ -153,7 +164,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Ocellaris Clownfish",
@@ -166,7 +178,8 @@
     "family": "Clownfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Annularis Angelfish",
@@ -179,7 +192,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Asfur Angelfish",
@@ -192,7 +206,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Bellus Angelfish",
@@ -205,7 +220,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blue Angelfish",
@@ -218,7 +234,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blue Girdled Angelfish",
@@ -231,7 +248,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blueface Angelfish",
@@ -244,7 +262,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Cortez Angelfish",
@@ -257,7 +276,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Emperor Angelfish",
@@ -270,7 +290,8 @@
     "family": "Angelfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "False Personifer Angelfish",
@@ -283,7 +304,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Flagfin Angelfish",
@@ -296,7 +318,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "French Angelfish",
@@ -309,7 +332,8 @@
     "family": "Angelfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Goldflake Angelfish",
@@ -322,7 +346,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Black Angelfish",
@@ -335,7 +360,8 @@
     "family": "Angelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Koran Angelfish",
@@ -348,7 +374,8 @@
     "family": "Angelfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Regal Angelfish",
@@ -361,7 +388,8 @@
     "family": "Angelfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Queen Angelfish",
@@ -374,7 +402,8 @@
     "family": "Angelfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Maculosus Angelfish",
@@ -387,7 +416,8 @@
     "family": "Angelfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Barlett's Anthias",
@@ -400,7 +430,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Bimaculatus Anthias",
@@ -413,7 +444,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blotched Anthias",
@@ -426,7 +458,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blood Spot Anthias",
@@ -439,7 +472,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Carberryi Anthias",
@@ -452,7 +486,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Dispar Anthias",
@@ -465,7 +500,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Evansi Anthias",
@@ -478,7 +514,8 @@
     "family": "Anthias",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Fathead Sunburst Anthias",
@@ -491,7 +528,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Huchtii Anthias",
@@ -504,7 +542,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Indian Ocean Lyretail Anthias",
@@ -517,7 +556,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Lyretail Anthias",
@@ -530,7 +570,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Princess Anthias",
@@ -543,7 +584,8 @@
     "family": "Anthias",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Red Fairy Anthias",
@@ -556,7 +598,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Red-Bar Anthias",
@@ -569,7 +612,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Red Saddled Anthias",
@@ -582,7 +626,8 @@
     "family": "Anthias",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Resplendent Anthias",
@@ -595,7 +640,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Red Belted Anthias",
@@ -608,7 +654,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Squareback Anthias",
@@ -621,7 +668,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Stocky Anthias",
@@ -634,7 +682,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Sunset Anthias",
@@ -647,7 +696,8 @@
     "family": "Anthias",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Waitei Anthias",
@@ -660,7 +710,8 @@
     "family": "Anthias",
     "experienceLevel": "d",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Black Cap Basslet",
@@ -673,7 +724,8 @@
     "family": "Basslet",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Candy Basslet",
@@ -686,7 +738,8 @@
     "family": "Basslet",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Chalk Bass",
@@ -699,7 +752,8 @@
     "family": "Basslet",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "75°F - 80°F (24°C - 27°C)"
+    "temperatureRange": "75°F - 80°F (24°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Harlequin Bass",
@@ -712,7 +766,8 @@
     "family": "Basslet",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "75°F - 80°F (24°C - 27°C)"
+    "temperatureRange": "75°F - 80°F (24°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Lantern Bass",
@@ -725,7 +780,8 @@
     "family": "Basslet",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "75°F - 80°F (24°C - 27°C)"
+    "temperatureRange": "75°F - 80°F (24°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Randall's Assessor Basslet",
@@ -738,7 +794,8 @@
     "family": "Basslet",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 80°F (24°C - 27°C)"
+    "temperatureRange": "75°F - 80°F (24°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Royal Gramma Basslet",
@@ -751,7 +808,8 @@
     "family": "Basslet",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Swissguard Basslet",
@@ -764,7 +822,8 @@
     "family": "Basslet",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "75°F - 80°F (24°C - 27°C)"
+    "temperatureRange": "75°F - 80°F (24°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Tobacco Basslet",
@@ -777,7 +836,8 @@
     "family": "Basslet",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "75°F - 80°F (24°C - 27°C)"
+    "temperatureRange": "75°F - 80°F (24°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Orbicular Batfish",
@@ -790,7 +850,8 @@
     "family": "Batfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Pinnate Batfish",
@@ -803,7 +864,8 @@
     "family": "Batfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Teira Batfish",
@@ -816,7 +878,8 @@
     "family": "Batfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Bicolor Blenny",
@@ -829,7 +892,8 @@
     "family": "Blenny",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Black Combtooth Blenny",
@@ -842,7 +906,8 @@
     "family": "Blenny",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Bundoon Blenny",
@@ -855,7 +920,8 @@
     "family": "Blenny",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Canary Blenny",
@@ -868,7 +934,8 @@
     "family": "Blenny",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Chalk Bass",
@@ -881,7 +948,8 @@
     "family": "Blenny",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Harptail Blenny",
@@ -894,7 +962,8 @@
     "family": "Blenny",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Leopard Blenny",
@@ -907,7 +976,8 @@
     "family": "Blenny",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Linear Blenny",
@@ -920,7 +990,8 @@
     "family": "Blenny",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Midas Blenny",
@@ -933,7 +1004,8 @@
     "family": "Blenny",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "One Spot Blenny",
@@ -946,7 +1018,8 @@
     "family": "Blenny",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Orange Spotted Blenny",
@@ -959,7 +1032,8 @@
     "family": "Blenny",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Smith's Blenny",
@@ -972,7 +1046,8 @@
     "family": "Blenny",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Starry Blenny",
@@ -985,7 +1060,8 @@
     "family": "Blenny",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Striped Blenny",
@@ -998,7 +1074,8 @@
     "family": "Blenny",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Tail Spot Blenny",
@@ -1011,7 +1088,8 @@
     "family": "Blenny",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Five Lined Cardinalfish",
@@ -1024,7 +1102,8 @@
     "family": "Cardinalfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Flame Cardinalfish",
@@ -1037,7 +1116,8 @@
     "family": "Cardinalfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Kaudern Cardinalfish",
@@ -1050,7 +1130,8 @@
     "family": "Cardinalfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Longspine Cardinalfish",
@@ -1063,7 +1144,8 @@
     "family": "Cardinalfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Ochrestriped Cardinalfish",
@@ -1076,7 +1158,8 @@
     "family": "Cardinalfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Pajama Cardinalfish",
@@ -1089,7 +1172,8 @@
     "family": "Cardinalfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Red Belted Cardinalfish",
@@ -1102,7 +1186,8 @@
     "family": "Cardinalfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Yellow Cardinalfish",
@@ -1115,7 +1200,8 @@
     "family": "Cardinalfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blue Spot Cowfish",
@@ -1128,7 +1214,8 @@
     "family": "Boxfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 25°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 25°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Cubicus Boxfish",
@@ -1141,7 +1228,8 @@
     "family": "Boxfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Island Cowfish",
@@ -1154,7 +1242,8 @@
     "family": "Boxfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Longhorn Cowfish",
@@ -1167,7 +1256,8 @@
     "family": "Boxfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Auriga Butterflyfish",
@@ -1180,7 +1270,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Banded Butterflyfish",
@@ -1193,7 +1284,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Black Back Butterflyfish",
@@ -1206,7 +1298,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Double Saddle Butterflyfish",
@@ -1219,7 +1312,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Eight-banded Butterflyfish",
@@ -1232,7 +1326,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Falcula Butterflyfish",
@@ -1245,7 +1340,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Four Eyed Butterflyfish",
@@ -1258,7 +1354,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Golden Similarvatus Butterflyfish",
@@ -1271,7 +1368,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Hooded Butterflyfish",
@@ -1284,7 +1382,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Indian Vagabond Butterflyfish",
@@ -1297,7 +1396,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Latticed Butterflyfish",
@@ -1310,7 +1410,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Mertensii Butterflyfish",
@@ -1323,7 +1424,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Mirror Butterflyfish",
@@ -1336,7 +1438,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Moorish Idol Butterflyfish",
@@ -1349,7 +1452,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Pakistan Butterflyfish",
@@ -1362,7 +1466,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Pearlscale Butterflyfish",
@@ -1375,7 +1480,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Raccoon Butterflyfish",
@@ -1388,7 +1494,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Red Sea Butterflyfish",
@@ -1401,7 +1508,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Saddleback Butterflyfish",
@@ -1414,7 +1522,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Senset Butterflyfish",
@@ -1427,7 +1536,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Spotfin Butterflyfish",
@@ -1440,7 +1550,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Tahitian Butterflyfish",
@@ -1453,7 +1564,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Tear Drop Butterflyfish",
@@ -1466,7 +1578,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Vagabond Butterflyfish",
@@ -1479,7 +1592,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "White Faced Butterflyfish",
@@ -1492,7 +1606,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Yellow Longnose Butterflyfish",
@@ -1505,7 +1620,8 @@
     "family": "Butterflyfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Agile Chromis",
@@ -1518,7 +1634,8 @@
     "family": "Chromis",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Barrier Reef Chromis",
@@ -1531,7 +1648,8 @@
     "family": "Chromis",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Black & White Chromis",
@@ -1544,7 +1662,8 @@
     "family": "Chromis",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blue Chromis",
@@ -1557,7 +1676,8 @@
     "family": "Chromis",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Green Chromis",
@@ -1570,7 +1690,8 @@
     "family": "Chromis",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Sunshine Chromis",
@@ -1583,7 +1704,8 @@
     "family": "Chromis",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Vanderbilt Chromis",
@@ -1596,7 +1718,8 @@
     "family": "Chromis",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Webers Chromis",
@@ -1609,7 +1732,8 @@
     "family": "Chromis",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Maroon Clownfish",
@@ -1622,7 +1746,8 @@
     "family": "Clownfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 79°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 79°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Tomato Clownfish",
@@ -1635,7 +1760,8 @@
     "family": "Clownfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 79°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 79°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Picasso Clownfish",
@@ -1648,7 +1774,8 @@
     "family": "Clownfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 79°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 79°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "True Percula Clownfish",
@@ -1661,7 +1788,8 @@
     "family": "Clownfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 79°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 79°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Clarkii Clownfish",
@@ -1674,7 +1802,8 @@
     "family": "Clownfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 79°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 79°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Cinnamon Clownfish",
@@ -1687,7 +1816,8 @@
     "family": "Clownfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 79°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 79°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Skunk Clownfish",
@@ -1700,7 +1830,8 @@
     "family": "Clownfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 79°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 79°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Mcculochi Clownfish",
@@ -1713,7 +1844,8 @@
     "family": "Clownfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 79°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 79°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Sebae Clownfish",
@@ -1726,7 +1858,8 @@
     "family": "Clownfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 79°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 79°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Oman Clownfish",
@@ -1739,7 +1872,8 @@
     "family": "Clownfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 79°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 79°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blue Gudgeon Dartfish",
@@ -1752,7 +1886,8 @@
     "family": "Dartfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Exquisite Firefish",
@@ -1765,7 +1900,8 @@
     "family": "Dartfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Firefish",
@@ -1778,7 +1914,8 @@
     "family": "Dartfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Helfrichi Firefish",
@@ -1791,7 +1928,8 @@
     "family": "Dartfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Oreni Firefish",
@@ -1804,7 +1942,8 @@
     "family": "Dartfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Purple Firefish",
@@ -1817,7 +1956,8 @@
     "family": "Dartfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Scissortail Dartfish",
@@ -1830,7 +1970,8 @@
     "family": "Dartfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Zebra Barred Dartfish",
@@ -1843,7 +1984,8 @@
     "family": "Dartfish",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Bicolor Dottyback",
@@ -1856,7 +1998,8 @@
     "family": "Dottyback",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Black Neon Dottyback",
@@ -1869,7 +2012,8 @@
     "family": "Dottyback",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Electric Indigo Dottyback",
@@ -1882,7 +2026,8 @@
     "family": "Dottyback",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Neon Dottyback",
@@ -1895,7 +2040,8 @@
     "family": "Dottyback",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Orchid Dottyback",
@@ -1908,7 +2054,8 @@
     "family": "Dottyback",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Purple Dottyback",
@@ -1921,7 +2068,8 @@
     "family": "Dottyback",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Red Belted Dottyback",
@@ -1934,7 +2082,8 @@
     "family": "Dottyback",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Ring Eyed Dottyback",
@@ -1947,7 +2096,8 @@
     "family": "Dottyback",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Splendid Dottyback",
@@ -1960,7 +2110,8 @@
     "family": "Dottyback",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Springeri Dottyback",
@@ -1973,7 +2124,8 @@
     "family": "Dottyback",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Striped Dottyback",
@@ -1986,7 +2138,8 @@
     "family": "Dottyback",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Yellow Dottyback",
@@ -1999,7 +2152,8 @@
     "family": "Dottyback",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blue Mandarin",
@@ -2012,7 +2166,8 @@
     "family": "Dragonet",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Green Mandarin",
@@ -2025,7 +2180,8 @@
     "family": "Dragonet",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Red Mandarin",
@@ -2038,7 +2194,8 @@
     "family": "Dragonet",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Red Scooter Dragonet",
@@ -2051,7 +2208,8 @@
     "family": "Dragonet",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Ruby Red Dragonet",
@@ -2064,7 +2222,8 @@
     "family": "Dragonet",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Spotted Mandarin Dragonet",
@@ -2077,7 +2236,8 @@
     "family": "Dragonet",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Red Lionfish",
@@ -2090,7 +2250,8 @@
     "family": "Lionfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blue Ribbon Eel",
@@ -2103,7 +2264,8 @@
     "family": "Eels",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Garden Eel",
@@ -2116,7 +2278,8 @@
     "family": "Eels",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Golden Banana Moray",
@@ -2129,7 +2292,8 @@
     "family": "Eels",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Golden Dwarf Moray",
@@ -2142,7 +2306,8 @@
     "family": "Eels",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Jeweled Moray Eel",
@@ -2155,7 +2320,8 @@
     "family": "Eels",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Moray Eel",
@@ -2181,7 +2347,8 @@
     "family": "Eels",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Tessalata Moray Eel",
@@ -2194,7 +2361,8 @@
     "family": "Eels",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Wolf Eel",
@@ -2207,7 +2375,8 @@
     "family": "Eels",
     "experienceLevel": "Advanced",
     "waterPHRange": "7.8 - 8.4",
-    "temperatureRange": "45°F - 54°F (7°C - 12°C)"
+    "temperatureRange": "45°F - 54°F (7°C - 12°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Yellow-edged Moray Eel",
@@ -2220,7 +2389,8 @@
     "family": "Eels",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Zebra Moray Eel",
@@ -2233,7 +2403,8 @@
     "family": "Eels",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Aiptasia Eating Filefish",
@@ -2246,7 +2417,8 @@
     "family": "Filefish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Colored Filefish",
@@ -2272,7 +2444,8 @@
     "family": "Filefish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Tassle Filefish",
@@ -2285,7 +2458,8 @@
     "family": "Filefish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Radial Filefish",
@@ -2298,7 +2472,8 @@
     "family": "Filefish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Foxface Rabbitfish",
@@ -2311,7 +2486,8 @@
     "family": "Rabbitfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Two Barred Rabbitfish",
@@ -2324,7 +2500,8 @@
     "family": "Rabbitfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Magnificent Rabbitfish",
@@ -2337,7 +2514,8 @@
     "family": "Rabbitfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "One Spot Rabbitfish",
@@ -2350,7 +2528,8 @@
     "family": "Rabbitfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Yellow Blotch Rabbitfish",
@@ -2363,7 +2542,8 @@
     "family": "Rabbitfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blue Spotch Rabbitfish",
@@ -2376,7 +2556,8 @@
     "family": "Rabbitfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blue Spotted Rabbitfish",
@@ -2389,7 +2570,8 @@
     "family": "Rabbitfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Bicolor Rabbitfish",
@@ -2402,7 +2584,8 @@
     "family": "Rabbitfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Black Barred Convict Goby",
@@ -2415,7 +2598,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Clown Goby",
@@ -2428,7 +2612,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Court Jester Goby",
@@ -2441,7 +2626,8 @@
     "family": "Goby",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Diamond Watchman Goby",
@@ -2454,7 +2640,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Dracula Goby",
@@ -2467,7 +2654,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Engineer Goby",
@@ -2480,7 +2668,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Flagtail Shrimp Goby",
@@ -2493,7 +2682,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Hector's Goby",
@@ -2506,7 +2696,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Hi Fin Red Banded Goby",
@@ -2519,7 +2710,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Lagoon Shrimp Goby",
@@ -2532,7 +2724,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Orange Stripe Prawn Goby",
@@ -2545,7 +2738,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Pinkbar Goby",
@@ -2558,7 +2752,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Pink Spotted Watchman Goby",
@@ -2571,7 +2766,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Pinkbar Goby",
@@ -2584,7 +2780,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Red Head Goby",
@@ -2597,7 +2794,8 @@
     "family": "Goby",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Sleeper Gold Head Goby",
@@ -2610,7 +2808,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Spotted Watchman Goby",
@@ -2623,7 +2822,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Tangaroa Goby",
@@ -2636,7 +2836,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Tiger Watchman Goby",
@@ -2649,7 +2850,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Wheelers Shrimp Goby",
@@ -2662,7 +2864,8 @@
     "family": "Goby",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blue Dot Grouper",
@@ -2675,7 +2878,8 @@
     "family": "Grouper",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blue Line Grouper",
@@ -2688,7 +2892,8 @@
     "family": "Grouper",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Bumblebee Grouper",
@@ -2701,7 +2906,8 @@
     "family": "Grouper",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Miniatus Grouper",
@@ -2714,7 +2920,8 @@
     "family": "Grouper",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Panther Grouper",
@@ -2727,7 +2934,8 @@
     "family": "Grouper",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Pollenei Grouper",
@@ -2740,7 +2948,8 @@
     "family": "Grouper",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blood Red Hawkfish",
@@ -2753,7 +2962,8 @@
     "family": "Hawkfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Falco Hawkfish",
@@ -2766,7 +2976,8 @@
     "family": "Hawkfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Flame Hawkfish",
@@ -2779,7 +2990,8 @@
     "family": "Hawkfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Freckled Hawkfish",
@@ -2792,7 +3004,8 @@
     "family": "Hawkfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Longnose Hawkfish",
@@ -2805,7 +3018,8 @@
     "family": "Hawkfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Pixy / Spotted Hawkfish",
@@ -2818,7 +3032,8 @@
     "family": "Hawkfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Red Hawkfish",
@@ -2831,7 +3046,8 @@
     "family": "Hawkfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)"
+    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Axilspot Hogfish",
@@ -2844,7 +3060,8 @@
     "family": "Hogfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blackbar Hogfish",
@@ -2857,7 +3074,8 @@
     "family": "Hogfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Coral Hogfish",
@@ -2870,7 +3088,8 @@
     "family": "Hogfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Cuban Hogfish",
@@ -2883,7 +3102,8 @@
     "family": "Hogfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Red Diana Hogfish",
@@ -2896,7 +3116,8 @@
     "family": "Hogfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Spanish Hogfish",
@@ -2909,7 +3130,8 @@
     "family": "Hogfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Yellow Candy Hogfish",
@@ -2922,7 +3144,8 @@
     "family": "Hogfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Black Cap Jawfish",
@@ -2935,7 +3158,8 @@
     "family": "Jawfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blue Dot Jawfish",
@@ -2948,7 +3172,8 @@
     "family": "Jawfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Chinstrap Jawfish",
@@ -2961,7 +3186,8 @@
     "family": "Jawfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Dusky Jawfish",
@@ -2974,7 +3200,8 @@
     "family": "Jawfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Yellowhead Jawfish",
@@ -2987,7 +3214,8 @@
     "family": "Jawfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)"
+    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   
   {
@@ -3001,7 +3229,8 @@
     "family": "Lionfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Dwarf Lionfish",
@@ -3014,7 +3243,8 @@
     "family": "Lionfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Miles Lionfish",
@@ -3027,7 +3257,8 @@
     "family": "Lionfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Antennata Lionfish",
@@ -3040,7 +3271,8 @@
     "family": "Lionfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Clearfin Lionfish",
@@ -3053,7 +3285,8 @@
     "family": "Lionfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Mombasa Lionfish",
@@ -3066,7 +3299,8 @@
     "family": "Lionfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Arothron Dog Face Puffer",
@@ -3079,7 +3313,8 @@
     "family": "Puffer",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Bennet's Sharpnose Puffer",
@@ -3092,7 +3327,8 @@
     "family": "Puffer",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blue Spotted Puffer",
@@ -3105,7 +3341,8 @@
     "family": "Puffer",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Immaculatus Puffer",
@@ -3118,7 +3355,8 @@
     "family": "Puffer",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Milk Spotted Puffer",
@@ -3131,7 +3369,8 @@
     "family": "Puffer",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Porcupine Puffer",
@@ -3144,7 +3383,8 @@
     "family": "Puffer",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Reticulated Puffer",
@@ -3157,7 +3397,8 @@
     "family": "Puffer",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Saddle Valentini Puffer",
@@ -3170,7 +3411,8 @@
     "family": "Puffer",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Scribbled Arothron Puffer",
@@ -3183,7 +3425,8 @@
     "family": "Puffer",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Spiny Box Puffer",
@@ -3196,7 +3439,8 @@
     "family": "Puffer",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Stars & Stripes Puffer",
@@ -3209,7 +3453,8 @@
     "family": "Puffer",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   
 {
@@ -3223,7 +3468,8 @@
   "family": "Rays",
   "experienceLevel": "Advanced",
   "waterPHRange": "8.1 - 8.4",
-  "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+  "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+  "image": "https://via.placeholder.com/600x400" 
   },
   {
   "name": "Cowtail Stingray",
@@ -3236,7 +3482,8 @@
   "family": "Rays",
   "experienceLevel": "Advanced",
   "waterPHRange": "8.0 - 8.4",
-  "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+  "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+  "image": "https://via.placeholder.com/600x400" 
   },
   {
   "name": "Leopard Whipray",
@@ -3249,7 +3496,8 @@
   "family": "Rays",
   "experienceLevel": "Advanced",
   "waterPHRange": "8.1 - 8.4",
-  "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+  "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+  "image": "https://via.placeholder.com/600x400" 
   },
   {
   "name": "Marble Ray",
@@ -3262,7 +3510,8 @@
   "family": "Rays",
   "experienceLevel": "Advanced",
   "waterPHRange": "8.1 - 8.4",
-  "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+  "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+  "image": "https://via.placeholder.com/600x400" 
   },
   {
   "name": "Porcupine Ray",
@@ -3275,7 +3524,8 @@
   "family": "Rays",
   "experienceLevel": "Advanced",
   "waterPHRange": "8.1 - 8.4",
-  "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+  "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+  "image": "https://via.placeholder.com/600x400" 
   },
   {
   "name": "Round Ribbontail Ray",
@@ -3288,7 +3538,8 @@
   "family": "Rays",
   "experienceLevel": "Advanced",
   "waterPHRange": "8.1 - 8.4",
-  "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+  "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+  "image": "https://via.placeholder.com/600x400" 
   },
   
 {
@@ -3302,7 +3553,8 @@
   "family": "Scorpions",
   "experienceLevel": "Intermediate",
   "waterPHRange": "8.1 - 8.4",
-  "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+  "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+  "image": "https://via.placeholder.com/600x400" 
   },
   {
   "name": "Orange Banded Stingfish",
@@ -3315,7 +3567,8 @@
   "family": "Scorpions",
   "experienceLevel": "Intermediate",
   "waterPHRange": "8.1 - 8.4",
-  "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+  "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+  "image": "https://via.placeholder.com/600x400" 
   },
   {
   "name": "Rhinopias Scorpionfish",
@@ -3328,7 +3581,8 @@
   "family": "Scorpions",
   "experienceLevel": "Advanced",
   "waterPHRange": "8.1 - 8.4",
-  "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+  "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+  "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Barbour's Seahorse",
@@ -3341,7 +3595,8 @@
     "family": "Seahorse and Pipefish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Ingen's Seahorse",
@@ -3354,7 +3609,8 @@
     "family": "Seahorse and Pipefish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Kuda Seahorse",
@@ -3367,7 +3623,8 @@
     "family": "Seahorse and Pipefish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Lined Seahorse",
@@ -3380,7 +3637,8 @@
     "family": "Seahorse and Pipefish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Mustang Seahorse",
@@ -3393,7 +3651,8 @@
     "family": "Seahorse and Pipefish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Reidi Seahorse",
@@ -3406,7 +3665,8 @@
     "family": "Seahorse and Pipefish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Tiger-Tail Seahorse",
@@ -3419,7 +3679,8 @@
     "family": "Seahorse and Pipefish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Banded Pipefish",
@@ -3432,7 +3693,8 @@
     "family": "Seahorse and Pipefish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Dragonface Pipefish",
@@ -3445,7 +3707,8 @@
     "family": "Seahorse and Pipefish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Jann's Pipefish",
@@ -3458,7 +3721,8 @@
     "family": "Seahorse and Pipefish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Yellow Multiband Pipefish",
@@ -3471,7 +3735,8 @@
     "family": "Seahorse and Pipefish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)"
+    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Australian Epaulette Shark",
@@ -3484,7 +3749,8 @@
     "family": "Sharks",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Bamboo Shark",
@@ -3497,7 +3763,8 @@
     "family": "Sharks",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Banded Cat Shark",
@@ -3510,7 +3777,8 @@
     "family": "Sharks",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Cat Shark",
@@ -3523,7 +3791,8 @@
     "family": "Sharks",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Horn Shark",
@@ -3536,7 +3805,8 @@
     "family": "Sharks",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Marbled Bamboo Cat Shark",
@@ -3549,7 +3819,8 @@
     "family": "Sharks",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Big Eye Squirrelfish",
@@ -3562,7 +3833,8 @@
     "family": "Squirrelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Black Bar Squirrelfish",
@@ -3575,7 +3847,8 @@
     "family": "Squirrelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Striped Squirrelfish",
@@ -3588,7 +3861,8 @@
     "family": "Squirrelfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Achilles Tang",
@@ -3601,7 +3875,8 @@
     "family": "Tangs",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blue Tang",
@@ -3614,7 +3889,8 @@
     "family": "Tangs",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Chevron Tang",
@@ -3627,7 +3903,8 @@
     "family": "Tangs",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Clown Tang",
@@ -3640,7 +3917,8 @@
     "family": "Tangs",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Convict Tang",
@@ -3653,7 +3931,8 @@
     "family": "Tangs",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Gemmatum Tang",
@@ -3666,7 +3945,8 @@
     "family": "Tangs",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Lavender Tang",
@@ -3679,7 +3959,8 @@
     "family": "Tangs",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Lemon Peel Tang",
@@ -3692,7 +3973,8 @@
     "family": "Tangs",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Naso Tang",
@@ -3705,7 +3987,8 @@
     "family": "Tangs",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Powder Blue Tang",
@@ -3718,7 +4001,8 @@
     "family": "Tangs",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Powder Brown Tang",
@@ -3731,7 +4015,8 @@
     "family": "Tangs",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Purple Tang",
@@ -3744,7 +4029,8 @@
     "family": "Tangs",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Sailfin Tang",
@@ -3757,7 +4043,8 @@
     "family": "Tangs",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Unicorn Tang",
@@ -3770,7 +4057,8 @@
     "family": "Tangs",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Yellow Tang",
@@ -3783,7 +4071,8 @@
     "family": "Tangs",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)"
+    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Blue Throat Triggerfish",
@@ -3796,7 +4085,8 @@
     "family": "Triggerfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Bursa Triggerfish",
@@ -3809,7 +4099,8 @@
     "family": "Triggerfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Clown Triggerfish",
@@ -3822,7 +4113,8 @@
     "family": "Triggerfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Humu Rectangle Triggerfish",
@@ -3835,7 +4127,8 @@
     "family": "Triggerfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Picasso Triggerfish",
@@ -3848,7 +4141,8 @@
     "family": "Triggerfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Red Tail Triggerfish",
@@ -3861,7 +4155,8 @@
     "family": "Triggerfish",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Titan Triggerfish",
@@ -3874,7 +4169,8 @@
     "family": "Triggerfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Undulate Triggerfish",
@@ -3887,7 +4183,8 @@
     "family": "Triggerfish",
     "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)"
+    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Bird Wrasse",
@@ -3900,7 +4197,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Bluehead Fairy Wrasse",
@@ -3913,7 +4211,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Candy Cane Wrasse",
@@ -3926,7 +4225,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Carpenters Flashy Wrasse",
@@ -3939,7 +4239,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Darwins Glow Fairy Wrasse",
@@ -3952,7 +4253,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Dragon Wrasse",
@@ -3965,7 +4267,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Eight Lined Wrasse",
@@ -3978,7 +4281,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Exquisite Wrasse",
@@ -3991,7 +4295,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Hooded Fairy Wrasse",
@@ -4004,7 +4309,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Katherine's Fairy Wrasse",
@@ -4017,7 +4323,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Lubbock's Fairy Wrasse",
@@ -4030,7 +4337,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Linespot Flasher Wrasse",
@@ -4043,7 +4351,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "McKosker's Flasher Wrasse",
@@ -4056,7 +4365,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Melanurus Wrasse",
@@ -4069,7 +4379,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Newton's Wrasse",
@@ -4082,7 +4393,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Nebulus Wrasse",
@@ -4095,7 +4407,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Ornate Leopard Wrasse",
@@ -4108,7 +4421,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Pinkface Wrasse",
@@ -4121,7 +4435,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Red Head Solon Fairy Wrasse",
@@ -4134,7 +4449,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Redfin Wrasse",
@@ -4147,7 +4463,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Ruby Head Fairy Wrasse",
@@ -4160,7 +4477,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Scotts Fairy Wrasse",
@@ -4173,7 +4491,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Splended Fintail Fairy Wrasse",
@@ -4186,7 +4505,8 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   },
   {
     "name": "Yellow Banded Possum Wrasse",
@@ -4199,6 +4519,7 @@
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)"
+    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
+    "image": "https://via.placeholder.com/600x400" 
   }
 ]
