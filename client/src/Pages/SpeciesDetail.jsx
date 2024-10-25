@@ -15,28 +15,34 @@ const SpeciesDetail = () => {
     return <div>Species not found</div>;
   }
   return (
-    <Container className="p-5 my-5">
-      <Row>
-        <div className="d-flex">
+    <Container className="p-5 my-5 bg-light">
+      <Row className="mb-4">
+        <div className="d-flex align-items-center">
           <button
-            className="btn btn-success rounded-circle me-2"
+            className="btn btn-success btn-rounded me-3"
             style={{ height: "50px", width: "50px" }}
             onClick={() => window.history.back()}
           >
             <FaArrowLeft />
           </button>
-          <h1>{selectedSpecies.name}</h1>
-          <p className="ms-3 species-info">{selectedSpecies.species}</p>
+          <div>
+            <h1 className="mb-0">{selectedSpecies.name}</h1>
+            <p className="ms-3 mb-0 species-info">{selectedSpecies.species}</p>
+          </div>
         </div>
-        <Col xl={6} lg={6} md={6} sm={12} xs={12} className="">
+      </Row>
+
+      <Row>
+        <Col xl={6} lg={6} md={6} sm={12} xs={12} className="mb-4">
           <img
-            src={selectedSpecies.img}
+            src={selectedSpecies.image}
             alt={selectedSpecies.name}
-            className="img-fluid align-center"
+            className="img-fluid"
             style={{ maxWidth: "100%", height: "auto" }}
           />
         </Col>
-        <Col xl={6} lg={6} md={6} sm={12} xs={12} className=" pt-3">
+
+        <Col xl={6} lg={6} md={6} sm={12} xs={12} className="pt-3">
           <Row>
             <p className="col-6 fw-semibold species-info">
               Temperament: {selectedSpecies.temperament}
@@ -51,9 +57,7 @@ const SpeciesDetail = () => {
               pH Range: {selectedSpecies.waterPHRange}
             </p>
           </Row>
-          <p className="mt-1 text-start ">
-            {selectedSpecies.description}
-          </p>
+          <p className="mt-3 text-start">{selectedSpecies.description}</p>
         </Col>
       </Row>
     </Container>

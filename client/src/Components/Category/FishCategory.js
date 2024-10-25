@@ -25,7 +25,7 @@ const FamilyDropdown = ({ family, species }) => {
           <select
             id="species-select"
             className="form-control m-1"
-            onChange={handleOptionSelect}
+            onChange={handleOptionSelect}   
             aria-label={`Select a fish from the ${family} family`}
           >
             <option value="" className="fw-bold text-center cursor-pointer ">
