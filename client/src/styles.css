@@ -140,20 +140,7 @@ section {
 .welcome-button.hovered .hover-image {
   opacity: 1;
 }
-/* Ensure side-by-side layout for small screens */
-@media (max-width: 576px) {
-  .welcome-col {
-    padding: 5px;
-  }
 
-  .welcome-button {
-    padding: 10px;
-  }
-
-  .button-content {
-    font-size: 18px;
-  }
-}
 /* About Page */
 .abt-title {
   color: var(--grey);
@@ -304,5 +291,19 @@ section {
   }
   .about-img {
     display: none;
+  }
+}
+/* layout for small screens */
+@media (max-width: 576px) {
+  .welcome-col {
+    padding: 5px;
+  }
+
+  .welcome-button {
+    padding: 10px;
+  }
+
+  .button-content {
+    font-size: 18px;
   }
 }
