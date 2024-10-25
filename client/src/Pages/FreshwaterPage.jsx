@@ -8,18 +8,22 @@ import WaterCategory from "../Components/Category/WaterCategory";
 
 function FreshPage() {
   return (
-    <Container>
+    <div className="freshpage p-5 my-5">
       <WaterCategory />
-      <Row>
-        <Col className="">
-          <h1 className="">Freshwater</h1>
-        </Col>
-        <Col>
-          <Searchbar isFreshwaterPage={true} />
-        </Col>
-      </Row>
-      <FishCategory isFreshwater={true} />
-    </Container>
+      <div className="bg-white p-4 border rounded">
+        <Container>
+          <Row>
+            <Col className="">
+              <h1 className="text-center">Freshwater</h1>
+            </Col>
+            <Col>
+              <Searchbar isFreshwaterPage={true} />
+            </Col>
+          </Row>
+          <FishCategory isFreshwater={true} />
+        </Container>
+      </div>
+    </div>
   );
 }
 

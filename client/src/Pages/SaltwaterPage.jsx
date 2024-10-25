@@ -8,18 +8,23 @@ import Col from "react-bootstrap/Col";
 
 function SaltPage() {
   return (
-    <Container>
-      <WaterCategory/>
-      <Row>
-        <Col className="">
-          <h1 className="text-center">Saltwater</h1>
-        </Col>
-        <Col>
-          <SearchBar isFreshwaterPage={false} />
-        </Col>
-      </Row>
-      <FishCategory isFreshwater={false} />
-    </Container>
+    <div className="saltpage p-5 my-5">
+      <WaterCategory />
+      <div className="bg-white p-4 border rounded">
+        <Container>
+
+        <Row>
+          <Col className="">
+            <h1 className="text-center">Saltwater</h1>
+          </Col>
+          <Col>
+            <SearchBar isFreshwaterPage={false} />
+          </Col>
+        </Row>
+        <FishCategory isFreshwater={false} />
+        </Container>
+      </div>
+    </div>
   );
 }
 
