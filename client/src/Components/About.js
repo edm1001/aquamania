@@ -17,17 +17,17 @@ const About = () => {
         className="text-center h-100 w-100 py-5 px-3 abt-section" 
         id="about"
       >
-        <Row>
+        <Row className="my-5">
           <Col
             xl={6}
             lg={6}
             md={6}
-            className="d-flex align-items-center justify-content-center"
+            className="d-flex align-items-center justify-content-center h-100"
           >
             <img
-              src="https://via.placeholder.com/500x500"
+              src="https://images.pexels.com/photos/8434624/pexels-photo-8434624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt=""
-              className="img-fluid h-75 about-img"
+              className="img-fluid about-img"
             />
           </Col>
           <Col className="text-start p-4 abt-section" id="about">

@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <Container className="my-5">
+    <div className="py-2 bg-light">
       <h2 className="text-center">Contact Us</h2>
       <p className="text-center">
         Sign up to get updates and future deals!
@@ -26,7 +26,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
-    </Container>
+    </div>
   );
 };
 

@@ -39,7 +39,6 @@ function WaterCategory() {
                 hoveredTopic === index ? "hovered" : ""
               }`}
               style={{
-                height: "100%",
                 width: "100%",
                 backgroundImage:
                   hoveredTopic === index ? `url(${topic.background})` : "none",
@@ -54,7 +53,7 @@ function WaterCategory() {
                 to={topic.page}
                 className="link-button text-decoration-none"
               >
-                <div className="button-content">{topic.label}</div>
+                <div className="button-content text-white fw-bold fs-3">{topic.label}</div>
               </Link>
             </div>
           </Col>

@@ -193,7 +193,17 @@ section {
 .category-text:hover {
   text-decoration: underline;
 }
+/* Freshwater Page */
+.freshpage {
+  background: url('https://images.pexels.com/photos/27575589/pexels-photo-27575589/free-photo-of-waterfall-in-iceland.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 ');
+  background-size: cover;
+}
+/* Saltwater Page */
+.saltpage {
+  background: url('https://images.pexels.com/photos/3689659/pexels-photo-3689659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
 
+};
 /* Species Detail  */
 .species-info {
   font-size: 12px;
