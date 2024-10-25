@@ -4,12 +4,12 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FishCategory from "../Components/Category/FishCategory";
-import Welcome from "../Components/Welcome";
+import WaterCategory from "../Components/Category/WaterCategory";
 
 function FreshPage() {
   return (
     <Container>
-      <Welcome />
+      <WaterCategory />
       <Row>
         <Col className="">
           <h1 className="">Freshwater</h1>

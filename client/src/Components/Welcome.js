@@ -1,11 +1,9 @@
 import React from "react";
 import Row from "react-bootstrap/row";
-import Col from "react-bootstrap/col";
 import Carousel from "react-bootstrap/carousel";
 import WaterCategory from "./Category/WaterCategory";
 
 const Welcome = () => {
-  const [currentIndex, setCurrentIndex] = React.useState(0);
   const coasterSlide = [
     {
       title: "Freshwater",
@@ -42,8 +40,7 @@ const Welcome = () => {
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   height: "450px",
-                  width: "100%",
-                  borderRadius: "10px",
+                  width: "100%"
                 }}
               >
                 <div
