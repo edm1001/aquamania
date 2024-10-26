@@ -25,7 +25,7 @@ function WaterCategory() {
   return (
     <>
           {/* Button Section */}
-          <Row className="welcome-buttons my-2">
+          <Row className="water-category py-2">
         {searchTopics.map((topic, index) => (
           <Col
             key={index}

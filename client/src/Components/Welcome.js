@@ -27,7 +27,7 @@ const Welcome = () => {
     {
       title: "Products",
       description: "Find the best products for your aquarium",
-      img: "https://images.pexels.com/photos/10127372/pexels-photo-10127372.jpeg",
+      img: "https://images.pexels.com/photos/8527495/pexels-photo-8527495.jpeg?auto=compress&cs=tinysrgb&w=1200",
       link: "/products",
     },
   ];

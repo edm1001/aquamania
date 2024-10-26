@@ -8,7 +8,7 @@ import SaltPage from "./Pages/SaltwaterPage.jsx";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import SpeciesDetail from "./Pages/SpeciesDetail.jsx";
 import CarePage from "./Pages/CarePage.jsx"; 
-import CartPage from "./Pages/CartPage.jsx";
+// import CartPage from "./Pages/CartPage.jsx";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -42,7 +42,7 @@ function App() {
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/carepage" element={<CarePage />} />
           <Route path="/species/:name" element={<SpeciesDetail />} />
-          <Route path="/cartpage" element ={<CartPage cartItems={cartItems} setCartItems={setCartItems} />} />
+          {/* <Route path="/cartpage" element ={<CartPage cartItems={cartItems} setCartItems={setCartItems} />} /> */}
         </Routes>
         </div>
         <Footer className="footer" />

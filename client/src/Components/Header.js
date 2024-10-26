@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <motion.div initial={{ opacity: 1 }}>
-      <Navbar className="mt-3" sticky="top" data-bs-theme="light" expand="lg">
+      <Navbar className="bg-dark" sticky="top" data-bs-theme="dark" expand="lg">
         {/* Brand Logo */}
         <Navbar.Brand href="/" className="ms-4">
           <img src={Logo} width="80" height="80" alt="brand-logo" />
@@ -27,7 +27,7 @@ const Header = () => {
           aria-controls="responsive-navbar-nav"
           onClick={handleToggleClick}
         >
-          {isMenuOpen ? <IoFishOutline size={38} /> : <IoFish size={30} />}
+          {isMenuOpen ? <IoFishOutline size={38} color="white"/> : <IoFish size={30} color="lightgrey" />}
         </Navbar.Toggle>
         <Navbar.Collapse className="">
           <Nav className="d-flex justify-content-end">

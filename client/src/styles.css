@@ -71,6 +71,12 @@ section {
   background-color: transparent;
   outline: none;
 }
+
+.custom-menu:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .cart-badge {
   font-size: 0.7rem;
   padding: 0.2rem 0.4rem;
@@ -88,7 +94,7 @@ section {
   transition: all 0.3s ease;
   height: 100%;
 }
-.welcome-buttons {
+.water-category {
   text-align: center;
   z-index: 10; 
   cursor: pointer;
@@ -195,14 +201,13 @@ section {
 }
 /* Freshwater Page */
 .freshpage {
-  background: url('https://images.pexels.com/photos/27575589/pexels-photo-27575589/free-photo-of-waterfall-in-iceland.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 ');
+  background: url('https://images.pexels.com/photos/19744767/pexels-photo-19744767/free-photo-of-a-river-in-the-forest-with-misty-clouds.jpeg?auto=compress&cs=tinysrgb&w=1200');
   background-size: cover;
 }
 /* Saltwater Page */
 .saltpage {
   background: url('https://images.pexels.com/photos/3689659/pexels-photo-3689659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
   background-size: cover;
-
 };
 /* Species Detail  */
 .species-info {
