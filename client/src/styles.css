@@ -249,8 +249,10 @@ section {
 .care-section > p {
   font-size: 12px;
 }
-.care-row .col {
+.care-row{
   font-size: small;
+}
+.care-row .col {
   min-height: 300px;
 }
 .fresh-care {

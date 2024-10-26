@@ -1,14 +1,11 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const Contact = () => {
   return (
     <div className="py-5 bg-light">
       <h2 className="text-center">Contact Us</h2>
-      <p className="text-center">
-        Sign up to get updates and future deals!
-      </p>
-      <div className="row">
+      <p className="text-center">Sign up to get updates and future deals!</p>
+      <div className="row mx-4">
         <form className="d-flex justify-content-center">
           <div className=" col-9">
             <input

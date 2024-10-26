@@ -18,7 +18,12 @@ function CarePage() {
         </p>
         <Row className="care-row ">
           {/* Freshwater Fish Care */}
-          <Col className="p-5 text-white fresh-care my-1" xs={12} sm={12} md={6}>
+          <Col
+            className="p-5 text-white fresh-care mb-1"
+            xs={12}
+            sm={12}
+            md={6}
+          >
             <h5>Freshwater Fish Care Tips</h5>
             <ul>
               <li>Maintain temperature between 72-82°F</li>
@@ -29,7 +34,12 @@ function CarePage() {
             </ul>
           </Col>
           {/* Freshwater Plants Care */}
-          <Col className="p-5 text-white plants-care mb-1" xs={12} sm={12} md={6}>
+          <Col
+            className="p-5 text-white plants-care mb-1"
+            xs={12}
+            sm={12}
+            md={6}
+          >
             <h5 className="">Freshwater Plants</h5>
             <ul>
               <li>Provide adequate lighting (8-10 hours/day)</li>
@@ -56,7 +66,12 @@ function CarePage() {
           </Col>
 
           {/* Saltwater Corals Care */}
-          <Col className="p-5 text-white corals-care mb-1" xs={12} sm={12} md={6}>
+          <Col
+            className="p-5 text-white corals-care mb-1"
+            xs={12}
+            sm={12}
+            md={6}
+          >
             <h5>Corals Care Tips</h5>
             <ul>
               <li>Ensure proper lighting (LED, T5)</li>
