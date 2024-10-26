@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* font-family: */
 }
 html, body {
   height:100%;
@@ -151,9 +150,11 @@ section {
 .abt-title {
   color: var(--grey);
 }
+
 .abt-section {
   background-color: var(--deep-blue)
 }
+
 .abt-badge {
   background-color: var(--button-color);
 }
@@ -162,12 +163,15 @@ section {
 .search-icon {
   display:none;
 }
+
 .search-result {
   font-size: x-small;
 }
+
 .search-result:hover {
   text-decoration: underline;;
 }
+
 .search-icon:hover .search-icon{
   display: block;
 }
@@ -201,13 +205,15 @@ section {
 }
 /* Freshwater Page */
 .freshpage {
-  background: url('https://images.pexels.com/photos/19744767/pexels-photo-19744767/free-photo-of-a-river-in-the-forest-with-misty-clouds.jpeg?auto=compress&cs=tinysrgb&w=1200');
+  background: url('https://images.pexels.com/photos/1315891/pexels-photo-1315891.jpeg');
   background-size: cover;
+  opacity: 0.9;
 }
 /* Saltwater Page */
 .saltpage {
   background: url('https://images.pexels.com/photos/3689659/pexels-photo-3689659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
   background-size: cover;
+  opacity: 0.9;
 };
 /* Species Detail  */
 .species-info {
@@ -243,9 +249,9 @@ section {
 .care-section > p {
   font-size: 12px;
 }
-
-.care-row {
+.care-row .col {
   font-size: small;
+  min-height: 300px;
 }
 .fresh-care {
   background-image: url('https://images.pexels.com/photos/9408370/pexels-photo-9408370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
@@ -263,7 +269,7 @@ section {
   background-color: var(--deep-blue);
 }
 .corals-care {
-  background: url('https://images.unsplash.com/photo-1514907283155-ea5f4094c70c?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-image: url('https://images.unsplash.com/photo-1514907283155-ea5f4094c70c?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

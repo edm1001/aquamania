@@ -6,19 +6,19 @@ import Col from "react-bootstrap/Col";
 import Contact from "../Components/Contact";
 // import { Container } from "react-bootstrap";
 
-function About() {
+function CarePage() {
   return (
     <>
-      <div className="mx-1 care-section">
+      <div className="m-2 care-section">
         <h1 className="text-center">Care Tips</h1>
         <p className="text-center mb-4">
           For essential care of your fish, plants, and corals, we recommend
           conducting thorough research on your specific species to ensure the
           best results.
         </p>
-        <Row className="care-row h-100">
+        <Row className="care-row ">
           {/* Freshwater Fish Care */}
-          <Col className="p-5 text-white fresh-care" xs={12} sm={12} md={6}>
+          <Col className="p-5 text-white fresh-care my-1" xs={12} sm={12} md={6}>
             <h5>Freshwater Fish Care Tips</h5>
             <ul>
               <li>Maintain temperature between 72-82°F</li>
@@ -29,7 +29,7 @@ function About() {
             </ul>
           </Col>
           {/* Freshwater Plants Care */}
-          <Col className="p-5 text-white plants-care" xs={12} sm={12} md={6}>
+          <Col className="p-5 text-white plants-care mb-1" xs={12} sm={12} md={6}>
             <h5 className="">Freshwater Plants</h5>
             <ul>
               <li>Provide adequate lighting (8-10 hours/day)</li>
@@ -41,9 +41,9 @@ function About() {
           </Col>
         </Row>
 
-        <Row className="care-row h-100">
+        <Row className="care-row">
           {/* Saltwater Fish Care */}
-          <Col className="p-5 salt-care text-white" xs={12} sm={12} md={6}>
+          <Col className="p-5 salt-care text-white mb-1" xs={12} sm={12} md={6}>
             <h5>Saltwater Fish Care Tips</h5>
             <ul>
               <li>Maintain temperature between 75-80°F</li>
@@ -56,7 +56,7 @@ function About() {
           </Col>
 
           {/* Saltwater Corals Care */}
-          <Col className="p-5 text-white corals-care" xs={12} sm={12} md={6}>
+          <Col className="p-5 text-white corals-care mb-1" xs={12} sm={12} md={6}>
             <h5>Corals Care Tips</h5>
             <ul>
               <li>Ensure proper lighting (LED, T5)</li>
@@ -74,4 +74,4 @@ function About() {
   );
 }
 
-export default About;
+export default CarePage;
