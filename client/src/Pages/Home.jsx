@@ -4,10 +4,10 @@ import Welcome from '../Components/Welcome.js';
 
 function Home() {
   return (
-    <div style={{backgroundColor: "#007ea7"}}>
+    <div className='bg-dark'>
     <Welcome/>
-    <About/>
     <Contact/>
+    <About/>
     </div>
   );
 }

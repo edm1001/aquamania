@@ -4,14 +4,14 @@ import { Container } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <div className="py-2 bg-light">
+    <div className="py-5 bg-light">
       <h2 className="text-center">Contact Us</h2>
       <p className="text-center">
         Sign up to get updates and future deals!
       </p>
       <div className="row">
         <form className="d-flex justify-content-center">
-          <div className="mb-1 col-9">
+          <div className=" col-9">
             <input
               type="email"
               className="form-control"
