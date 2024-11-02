@@ -16,9 +16,9 @@ const Header = () => {
 
   return (
     <motion.div initial={{ opacity: 1 }}>
-      <Navbar className="bg-dark" sticky="top" data-bs-theme="dark" expand="lg">
+      <Navbar className="navbar" sticky="top" data-bs-theme="dark" expand="lg">
         {/* Brand Logo */}
-        <Navbar.Brand href="/" className="ms-4">
+        <Navbar.Brand href="/" className="ms-2">
           <img src={Logo} width="80" height="80" alt="brand-logo" />
         </Navbar.Brand>
         {/* Mobile Toggle */}
@@ -45,7 +45,7 @@ const Header = () => {
             <Nav.Link href="/carepage" className="text-center">
               Care
             </Nav.Link>
-            <Nav.Link href="#about" className="text-center">
+            <Nav.Link href="/#about" className="text-center">
               About
             </Nav.Link>
           </Nav>

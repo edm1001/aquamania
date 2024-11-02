@@ -8,13 +8,13 @@ const Welcome = () => {
   const coasterSlide = [
     {
       title: "Freshwater",
-      description: "Find the best tropical fish!",
+      description: "Explore the variety of freshwater fish",
       img: "https://images.pexels.com/photos/17801533/pexels-photo-17801533/free-photo-of-close-up-of-a-texas-cichlid-fish.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       link: "/freshpage",
     },
     {
       title: "Saltwater",
-      description: "Find the best marine fish!",
+      description: "Dive into stunning saltwater fish!",
       img: "https://images.pexels.com/photos/1112007/pexels-photo-1112007.jpeg?auto=compress&cs=tinysrgb&w=1200",
       link: "/saltpage",
     },
@@ -43,20 +43,22 @@ const Welcome = () => {
                 style={{
                   backgroundImage: `url(${slide.img})`,
                   backgroundSize: "cover",
-                  backgroundPosition: "center",
-                  height: "70vh",
-                  width: "100%"
+                  backgroundPosition:"center",
+                  height: "75vh",
+                  width: "100%",
                 }}
               >
-                <div
-                  className="text-light p-3 "
-                  style={{
-                    backgroundColor: "rgba(0, 0, 0, 0.6)",
-                  }}
-                >
-                  <h2 className="mb-2">{slide.title}</h2>
-                  <p>{slide.description}</p>
-                </div>
+                <Link to={slide.link} className="text-decoration-none welcome-link">
+                  <div
+                    className="text-light p-3"
+                    style={{
+                      backgroundColor: "rgba(0, 0, 0, 0.6)",
+                    }}
+                  >
+                    <h2 className="mb-2">{slide.title}</h2>
+                    <p>{slide.description}</p>
+                  </div>
+                </Link>
               </div>
             </Carousel.Item>
           ))}

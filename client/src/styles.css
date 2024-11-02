@@ -54,6 +54,9 @@ section {
   color:var(--deep-blue);
   font-size: 1.2rem; 
 }
+.navbar {
+  background-color: var(--deep-blue);
+}
 .navbar-nav {
   flex: 1;
   justify-content: center;
@@ -145,14 +148,14 @@ section {
 .welcome-button.hovered .hover-image {
   opacity: 1;
 }
+.welcome-link:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
 
 /* About Page */
 .abt-title {
   color: var(--grey);
-}
-
-.abt-section {
-  background-color: var(--deep-blue)
 }
 
 .abt-badge {
@@ -257,11 +260,12 @@ section {
 }
 .fresh-care {
   background-image: url('https://images.pexels.com/photos/9408370/pexels-photo-9408370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: var(--grey);
-  opacity: 0.9;
 }
 
 .plants-care {
@@ -272,12 +276,12 @@ section {
 }
 .corals-care {
   background-image: url('https://images.unsplash.com/photo-1514907283155-ea5f4094c70c?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: var(--grey);
-  opacity: 0.9;
-  background-color: var(--deep-blue);
 }
 
 /* Footer */
@@ -297,7 +301,7 @@ section {
 
 .footer-link {
   text-decoration: none;
-  color: #333;
+  color: var(--textcolor);
 }
 
 .footer-link:hover {

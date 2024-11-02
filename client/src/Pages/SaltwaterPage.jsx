@@ -8,7 +8,7 @@ import Col from "react-bootstrap/Col";
 
 function SaltPage() {
   return (
-    <div className="saltpage p-5 my-5">
+    <div className="saltpage p-5">
       <WaterCategory />
       <div className="bg-white p-4 border rounded">
         <Container>
