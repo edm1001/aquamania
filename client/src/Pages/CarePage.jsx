@@ -4,12 +4,12 @@ import AboutComp from "../Components/About";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Contact from "../Components/Contact";
-// import { Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 function CarePage() {
   return (
     <>
-      <div className="m-2 care-section">
+      <div className="care-section bg-dark text-light py-5">
         <h1 className="text-center">Care Tips</h1>
         <p className="text-center mb-4">
           For essential care of your fish, plants, and corals, we recommend

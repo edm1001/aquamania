@@ -14,10 +14,10 @@ const About = () => {
         variants={fadeIn}
         initial="hidden"
         animate="visible"
-        className="text-center h-100 w-100 py-5 px-3 abt-section" 
+        className="text-center h-100 w-100 py-5 bg-dark" 
         id="about"
       >
-        <Row className="my-5">
+        <Row className="my-5 text-white">
           <Col
             xl={6}
             lg={6}
