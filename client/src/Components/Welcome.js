@@ -44,8 +44,8 @@ const Welcome = () => {
                   backgroundImage: `url(${slide.img})`,
                   backgroundSize: "cover",
                   backgroundPosition:"center",
-                  height: "75vh",
-                  width: "100%",
+                  height: "360px",
+                  width: "auto",
                 }}
               >
                 <Link to={slide.link} className="text-decoration-none welcome-link">

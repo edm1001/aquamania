@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import gif from "../assets/aquamania-logo.gif";
 
 const About = () => {
   const fadeIn = {
@@ -14,10 +15,10 @@ const About = () => {
         variants={fadeIn}
         initial="hidden"
         animate="visible"
-        className="text-center h-100 w-100 py-5 bg-dark" 
+        className="text-center h-100 w-100 py-5" 
         id="about"
       >
-        <Row className="my-5 text-white">
+        <Row className="my-2 text-white">
           <Col
             xl={6}
             lg={6}
@@ -25,9 +26,11 @@ const About = () => {
             className="d-flex align-items-center justify-content-center h-100"
           >
             <img
-              src="https://images.pexels.com/photos/8434624/pexels-photo-8434624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              src={gif}
+              height={"3600px"}
+              width={"360px"}
               alt=""
-              className="img-fluid about-img"
+              className="img-fluid about-img ms-2 rounded"
             />
           </Col>
           <Col className="text-start p-4 abt-section" id="about">

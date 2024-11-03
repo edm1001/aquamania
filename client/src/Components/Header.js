@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Logo from "../assets/aquamania-logo.gif";
+import Logo from "../assets/bluelogo.png";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -9,7 +9,6 @@ import { IoFish, IoFishOutline } from "react-icons/io5";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   const handleToggleClick = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -18,8 +17,8 @@ const Header = () => {
     <motion.div initial={{ opacity: 1 }}>
       <Navbar className="navbar" sticky="top" data-bs-theme="dark" expand="lg">
         {/* Brand Logo */}
-        <Navbar.Brand href="/" className="ms-2">
-          <img src={Logo} width="80" height="80" alt="brand-logo" />
+        <Navbar.Brand href="/" className="ms-3">
+          <img src={Logo} width="100" height="100" alt="brand-logo" className="img-fluid brand-logo" />
         </Navbar.Brand>
         {/* Mobile Toggle */}
         <Navbar.Toggle

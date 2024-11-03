@@ -1,11 +1,11 @@
 import { Row, Col } from "react-bootstrap";
-import Logo from "../assets/aquamania-logo.gif";
+import Logo from "../assets/whitelogo.png";
 
 const Footer = () => {
   return (
     <Row className="footer-row bg-dark text-white">
       <Col xl={4} lg={4} md={4} sm={4} xs={4} className="">
-        <img src={Logo} alt="logo" className="logo"></img>
+        <img src={Logo} alt="logo" height="100" width="100" className="img-fluid footer-logo"></img>
       </Col>
       <Col xl={8} lg={8} md={8} sm={8} xs={8} className="mt-1 footer-links">
         <div className="link-column text-white">
