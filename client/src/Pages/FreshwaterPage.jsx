@@ -10,7 +10,7 @@ function FreshPage() {
   return (
     <div className="freshpage p-5">
       <WaterCategory />
-      <div className="bg-white p-4 border rounded">
+      <div className="p-4 border rounded fresh-comp">
         <Container>
           <Row>
             <Col className="">

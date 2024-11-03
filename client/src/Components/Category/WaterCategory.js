@@ -25,21 +25,22 @@ function WaterCategory() {
   return (
     <>
           {/* Button Section */}
-          <Row className="water-category py-2">
+          <Row className="water-category">
         {searchTopics.map((topic, index) => (
           <Col
             key={index}
-            className="welcome-col text-white my-3"
+            className="welcome-col text-white"
             style={{ height: "100%" }}
             onMouseEnter={() => setHoveredTopic(index)}
             onMouseLeave={() => setHoveredTopic(null)}
           >
             <div
-              className={`welcome-button p-5 m-1 ${
+              className={`welcome-button p-5 ${
                 hoveredTopic === index ? "hovered" : ""
               }`}
               style={{
                 width: "100%",
+                height: "200px",
                 backgroundImage:
                   hoveredTopic === index ? `url(${topic.background})` : "none",
                 backgroundSize: "cover",

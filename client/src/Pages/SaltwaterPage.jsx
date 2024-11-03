@@ -10,9 +10,8 @@ function SaltPage() {
   return (
     <div className="saltpage p-5">
       <WaterCategory />
-      <div className="bg-white p-4 border rounded">
+      <div className="p-4 border rounded salt-comp">
         <Container>
-
         <Row>
           <Col className="">
             <h1 className="text-center">Saltwater</h1>

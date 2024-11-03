@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +7,8 @@
 html, body {
   height:100%;
   scroll-behavior: smooth;
+  background-color: var(--textcolor);
+  font-family: 'Roboto', sans-serif;
 }
 :root {
   --deep-blue: #007ea7;
@@ -12,7 +16,7 @@ html, body {
   --button-color: #4caf50;
   --grey: #f5f5f5;
   --textcolor: #333333;
-  --highlight: #ff5722;
+  --darkblue: #1b233f;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -24,18 +28,6 @@ section {
   color: var(--deep-blue); 
   cursor: pointer;
 }
-/* fading title */
-.fading-title {
-  font-size: 48px;
-  font-weight: bold;
-  background: linear-gradient(90deg, #ff0000, #ffff00, #00ff00, #0000ff, #ff00ff);
-  background-size: 400%;
-  background-clip: text; 
-  -webkit-background-clip: text; 
-  -webkit-text-fill-color: transparent;
-  animation: gradient-animation 5s infinite;
-}
-
 
 @keyframes gradient-animation {
   0% { background-position: 0% 50%; };
@@ -43,20 +35,6 @@ section {
 }
 
 /* Header */
-.cart-banner {
-  width: 100%;
-  background-color:var(--grey); 
-  text-align: right;
-  padding: 5px 10px;
-}
-
-.cart-banner a {
-  color:var(--deep-blue);
-  font-size: 1.2rem; 
-}
-.navbar {
-  background-color: var(--deep-blue);
-}
 .navbar-nav {
   flex: 1;
   justify-content: center;
@@ -100,6 +78,7 @@ section {
   text-align: center;
   z-index: 10; 
   cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .welcome-col {
@@ -153,15 +132,17 @@ section {
   transition: all 0.3s ease;
 }
 
-/* About Page */
+/* About Component */
 .abt-title {
-  color: var(--grey);
+  color: var(--deep-blue);
 }
-
 .abt-badge {
-  background-color: var(--button-color);
+  background-color: var(--deep-blue);
 }
-                                                                                                  
+/* Contact Component */
+.contact-section {
+  background-color: var(--deep-blue);
+}                                                                                                 
 /* Search Bar */
 .search-icon {
   display:none;
@@ -212,12 +193,17 @@ section {
   background-size: cover;
   opacity: 0.9;
 }
+.fresh-comp {
+  background-color: rgba(255, 255, 255, 0.7);
+}
 /* Saltwater Page */
 .saltpage {
   background: url('https://images.pexels.com/photos/3689659/pexels-photo-3689659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
   background-size: cover;
-  opacity: 0.9;
-};
+}
+.salt-comp {
+  background-color: rgba(255, 255, 255, 0.7);
+}
 /* Species Detail  */
 .species-info {
   font-size: 12px;
@@ -289,10 +275,7 @@ section {
   background-color: #f8f9fa;
   padding: 20px;
 }
-.logo {
-  max-width: 50px;
 
-}
 
 .footer-links {
   display: flex;

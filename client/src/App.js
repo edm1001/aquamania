@@ -8,7 +8,6 @@ import SaltPage from "./Pages/SaltwaterPage.jsx";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import SpeciesDetail from "./Pages/SpeciesDetail.jsx";
 import CarePage from "./Pages/CarePage.jsx"; 
-// import CartPage from "./Pages/CartPage.jsx";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
