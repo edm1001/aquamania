@@ -234,6 +234,15 @@ section {
 .product-category > a :hover {
   text-decoration: underline;
 }
+.product-section {
+  background-image: url('https://images.pexels.com/photos/9408370/pexels-photo-9408370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--grey);
+}
 /* Care Page */
 .care-section > p {
   font-size: 12px;

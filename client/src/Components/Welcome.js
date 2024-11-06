@@ -44,7 +44,7 @@ const Welcome = () => {
                   backgroundImage: `url(${slide.img})`,
                   backgroundSize: "cover",
                   backgroundPosition:"center",
-                  height: "360px",
+                  height: "400px",
                   width: "auto",
                 }}
               >

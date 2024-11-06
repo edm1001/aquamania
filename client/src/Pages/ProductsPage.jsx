@@ -10,19 +10,6 @@ const ProductsPage = () => {
   const [products, setProducts] = useState(productsData);
   const [selectedCategory, setSelectedCategory] = useState("");
 
-  // useEffect(() => {
-  //   fetchProducts();
-  // }, []);
-
-  // const fetchProducts = async () => {
-  //   try {
-  //     const response = await fetch("/products");
-  //     const data = await response.json();
-  //     setProducts(data);
-  //   } catch (error) {
-  //     console.error("Trouble fetching products:", error);
-  //   }
-  // };
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
   };
@@ -41,16 +28,21 @@ const ProductsPage = () => {
     : products;
 
   return (
-    <Container fluid className="mx-1 product-section pt-3 pb-5">
-      <div className="">
+    <div fluid className="product-section pt-3 pb-5 bg-dark">
+      <Container fluid className="bg-secondary py-2">
         <div className="text-center">
           <h1 className="mt-5 mb-2 ">Featured Products</h1>
           <p className="text-sm ">
             These are hobbyist trusted products that sponsor the maintenance of
             the website.
           </p>
-          <p style={{ fontSize: "0.60rem" }} ><FaCartPlus color="#007ea7" size={16}/> - Add to cart to make a wishlist on Amazon!</p>
-          <p style={{ fontSize: "0.6rem" }}><FaLink color="#007ea7" size={16}/>- Buy Now</p>
+          <p style={{ fontSize: "0.60rem" }}>
+            <FaCartPlus color="#007ea7" size={16} /> - Add to cart to make a
+            wishlist on Amazon!
+          </p>
+          <p style={{ fontSize: "0.6rem" }}>
+            <FaLink color="#007ea7" size={16} />- Buy Now
+          </p>
         </div>
         <div className="text-center mb-4 product-category">
           {/* Render category buttons */}
@@ -78,15 +70,15 @@ const ProductsPage = () => {
             Show All
           </button>
         </div>
-      </div>
-      <Row>
-        {filteredProducts.map((product) => (
-          <Col lg={4} md={4} sm={6} xs={6} key={product.id}>
-            <ProductCard product={product} />
-          </Col>
-        ))}
-      </Row>
-    </Container>
+        <Row>
+          {filteredProducts.map((product) => (
+            <Col lg={4} md={4} sm={6} xs={6} key={product.id}>
+              <ProductCard product={product} />
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </div>
   );
 };
 
