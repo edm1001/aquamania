@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ProductCard from "../Components/ProductCard";
 import productsData from "../db/Products/Products.json";
-import { FaCartPlus, FaLink } from "react-icons/fa";
 import Container from "react-bootstrap/esm/Container";
 
 const ProductsPage = () => {
@@ -15,8 +14,8 @@ const ProductsPage = () => {
   };
 
   const categories = [
-    "Filters",
     "Tanks",
+    "Filters",
     "Heaters",
     "Lights",
     "Skimmers",
@@ -28,20 +27,13 @@ const ProductsPage = () => {
     : products;
 
   return (
-    <div fluid className="product-section pt-3 pb-5 bg-dark">
-      <Container fluid className="bg-secondary py-2">
-        <div className="text-center">
-          <h1 className="mt-5 mb-2 ">Featured Products</h1>
-          <p className="text-sm ">
+    <div fluid className="product-section p-4">
+      <Container fluid className="py-2 rounded product-container">
+        <div className="text-center text-dark">
+          <h1 className="mt-4">Featured Products</h1>
+          <p className="text-sm">
             These are hobbyist trusted products that sponsor the maintenance of
             the website.
-          </p>
-          <p style={{ fontSize: "0.60rem" }}>
-            <FaCartPlus color="#007ea7" size={16} /> - Add to cart to make a
-            wishlist on Amazon!
-          </p>
-          <p style={{ fontSize: "0.6rem" }}>
-            <FaLink color="#007ea7" size={16} />- Buy Now
           </p>
         </div>
         <div className="text-center mb-4 product-category">
