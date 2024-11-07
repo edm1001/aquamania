@@ -18,7 +18,7 @@ const ProductCard = ({ product }) => {
 
   return (
     <>
-      <Container className="product-section">
+      <Container className="">
         {/* Product Card */}
         <Card
           className="mb-4 product-card"
