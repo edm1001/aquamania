@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/aquamania/static/css/main.9d5eb6c3.css",
+    "main.js": "/aquamania/static/js/main.f0f49043.js",
+    "static/js/787.30c197d9.chunk.js": "/aquamania/static/js/787.30c197d9.chunk.js",
+    "static/media/aquamania-logo.gif": "/aquamania/static/media/aquamania-logo.56b007e49ed2c54c589e.gif",
+    "static/media/whitelogo.png": "/aquamania/static/media/whitelogo.a327a10fbdb5769a77d3.png",
+    "static/media/bluelogo.png": "/aquamania/static/media/bluelogo.499eaf07a94cb245c8d1.png",
+    "index.html": "/aquamania/index.html",
+    "main.9d5eb6c3.css.map": "/aquamania/static/css/main.9d5eb6c3.css.map",
+    "main.f0f49043.js.map": "/aquamania/static/js/main.f0f49043.js.map",
+    "787.30c197d9.chunk.js.map": "/aquamania/static/js/787.30c197d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d5eb6c3.css",
+    "static/js/main.f0f49043.js"
+  ]
+}
