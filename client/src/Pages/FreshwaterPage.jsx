@@ -8,9 +8,9 @@ import WaterCategory from "../Components/Category/WaterCategory";
 
 function FreshPage() {
   return (
-    <div className="freshpage p-5">
+    <div className="freshpage p-4">
       <WaterCategory />
-      <div className="p-4 border rounded fresh-comp">
+      <div className="p-2 border rounded fresh-comp">
         <Container>
           <Row>
             <Col className="">

@@ -200,11 +200,20 @@ section {
 .saltpage {
   background: url('https://images.pexels.com/photos/3689659/pexels-photo-3689659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
   background-size: cover;
+  opacity: 0.9;
 }
 .salt-comp {
   background-color: rgba(255, 255, 255, 0.7);
 }
 /* Species Detail  */
+.species-section {
+  background: url('https://images.pexels.com/photos/27196867/pexels-photo-27196867/free-photo-of-undulating-turquoise-ocean-surface.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  opacity: 0.9;
+}
+.species-card {
+  background-color: rgba(255, 255, 255, 0.8);
+}
 .species-info {
   font-size: 12px;
 }
