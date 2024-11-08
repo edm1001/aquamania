@@ -8,9 +8,9 @@ import Col from "react-bootstrap/Col";
 
 function SaltPage() {
   return (
-    <div className="saltpage p-5">
+    <div className="saltpage p-4">
       <WaterCategory />
-      <div className="p-4 border rounded salt-comp">
+      <div className="p-2 border rounded salt-comp">
         <Container>
         <Row>
           <Col className="">

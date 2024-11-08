@@ -15,14 +15,15 @@ const SpeciesDetail = () => {
     return <div>Species not found</div>;
   }
   return (
-    <Container className="p-5 my-5 bg-light">
+    <Container className="p-5 species-section">
+      <div className="species-card p-4 rounded">
       <Row className="mb-4">
         <div className="d-flex align-items-center">
           <button
             className="btn btn-success btn-rounded me-3"
             style={{ height: "50px", width: "50px" }}
             onClick={() => window.history.back()}
-          >
+            >
             <FaArrowLeft />
           </button>
           <div>
@@ -39,7 +40,7 @@ const SpeciesDetail = () => {
             alt={selectedSpecies.name}
             className="img-fluid"
             style={{ maxWidth: "100%", height: "auto" }}
-          />
+            />
         </Col>
 
         <Col xl={6} lg={6} md={6} sm={12} xs={12} className="pt-3">
@@ -60,6 +61,7 @@ const SpeciesDetail = () => {
           <p className="mt-3 text-start">{selectedSpecies.description}</p>
         </Col>
       </Row>
+            </div>
     </Container>
   );
 };

@@ -114,7 +114,7 @@ const FishCategory = ({ isFreshwater }) => {
   return (
     <Container className="my-5">
       {/* category options */}
-      <Row className="justify-content-center text-center">
+      <Row className="justify-content-center">
         {categoryOptions.map((item) => (
           <Col xs={2} key={item.id} className="my-2">
             <div
