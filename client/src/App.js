@@ -5,35 +5,26 @@ import ProductsPage from "./Pages/ProductsPage.jsx";
 import Footer from "./Components/Footer.js";
 import FreshPage from "./Pages/FreshwaterPage.jsx";
 import SaltPage from "./Pages/SaltwaterPage.jsx";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Route,Routes, useLocation } from "react-router-dom";
 import SpeciesDetail from "./Pages/SpeciesDetail.jsx";
-import CarePage from "./Pages/CarePage.jsx"; 
+import CarePage from "./Pages/CarePage.jsx";
+import LoadingSpinner from "./Components/LoadingSpinner.js";
 
 function App() {
-  const [cartItems, setCartItems] = useState([]);
+  const location = useLocation();
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    fetchCartItems();
-  }, []);
-
-  const fetchCartItems = async () => {
-    try {
-      const response = await fetch("http://localhost:5000/api/cart");
-      const data = await response.json();
-      setCartItems(Array.isArray(data) ? data : []);
-    } catch (err) {
-      console.log("Trouble fetching cart items", err);
-      setCartItems([]);
-    }
-  };
-
-
+    setLoading(true);
+    const timer = setTimeout(() => setLoading(false), 1000);
+    return () => clearTimeout(timer);
+  }, [location]);
 
   return (
     <>
-      <Router>
-        <Header cartItems={cartItems} />
-        <div className="main-content">
+      <Header />
+      {loading && <LoadingSpinner />}
+      <div className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/freshpage" element={<FreshPage />} />
@@ -41,11 +32,9 @@ function App() {
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/carepage" element={<CarePage />} />
           <Route path="/species/:name" element={<SpeciesDetail />} />
-          {/* <Route path="/cartpage" element ={<CartPage cartItems={cartItems} setCartItems={setCartItems} />} /> */}
         </Routes>
-        </div>
-        <Footer className="footer" />
-      </Router>
+      </div>
+      <Footer className="footer" />
     </>
   );
 }
