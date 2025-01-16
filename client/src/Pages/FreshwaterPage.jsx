@@ -5,16 +5,19 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FishCategory from "../Components/Category/FishCategory";
 import WaterCategory from "../Components/Category/WaterCategory";
+import About from "../Components/About";
+import Contact from "../Components/Contact";
 
 function FreshPage() {
   return (
-    <div className="p-4 freshpage">
+    <>
+    <div className="freshpage">
       <WaterCategory />
       <div className="p-2 border rounded fresh-comp my-2">
         <Container >
           <Row className="my-5">
             <Col className="">
-              <h1 className="text-center text-primary">Freshwater</h1>
+              <h1 className="text-center text-primary font-bold">Freshwater</h1>
             </Col>
             <Col>
               <Searchbar isFreshwaterPage={true} />
@@ -23,7 +26,10 @@ function FreshPage() {
           <FishCategory isFreshwater={true} />
         </Container>
       </div>
+      <About />
+      <Contact/>
     </div>
+    </>
   );
 }
 

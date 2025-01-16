@@ -16,7 +16,7 @@ function CarePage() {
           best results.
         </p>
         <Container>
-        <Row className="care-row">
+        <Row className="care-row" id="care-comp">
           {/* Freshwater Fish Care */}
           <Col
             className="p-5 text-white fresh-care mb-1"

@@ -15,10 +15,16 @@ const Header = () => {
 
   return (
     <motion.div initial={{ opacity: 1 }}>
-      <Navbar className="navbar" sticky="top" data-bs-theme="dark" expand="lg">
+      <Navbar className="navbar bg-" sticky="top" expand="lg">
         {/* Brand Logo */}
         <Navbar.Brand href="/" className="ms-3">
-          <img src={Logo} width="100" height="100" alt="brand-logo" className="img-fluid brand-logo" />
+          <img
+            src={Logo}
+            width="100"
+            height="100"
+            alt="brand-logo"
+            className="img-fluid brand-logo"
+          />
         </Navbar.Brand>
         {/* Mobile Toggle */}
         <Navbar.Toggle
@@ -26,10 +32,14 @@ const Header = () => {
           aria-controls="responsive-navbar-nav"
           onClick={handleToggleClick}
         >
-          {isMenuOpen ? <IoFishOutline size={38} color="white"/> : <IoFish size={30} color="lightgrey" />}
+          {isMenuOpen ? (
+            <IoFishOutline size={38} color="lightblue" />
+          ) : (
+            <IoFish size={30} color="lightgrey" />
+          )}
         </Navbar.Toggle>
         <Navbar.Collapse className="">
-          <Nav className="d-flex justify-content-end">
+          <Nav className="d-flex justify-content-end font-bold">
             <NavDropdown title="Fish " className="text-center">
               <Link to="/freshpage" className="dropdown-item text-center">
                 Freshwater Fish
@@ -43,6 +53,9 @@ const Header = () => {
             </Nav.Link> */}
             <Nav.Link href="/carepage" className="text-center">
               Care
+            </Nav.Link>
+            <Nav.Link href="/#contact" className="text-center">
+              Contact
             </Nav.Link>
             <Nav.Link href="/#about" className="text-center">
               About

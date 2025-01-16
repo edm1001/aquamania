@@ -31,13 +31,13 @@ const Footer = () => {
           <h6>Care Tips</h6>
           <p>
             {" "}
-            <a href="/products" className="footer-link text-white">
+            <a href="/carepage" className="footer-link text-white">
               Freshwater Care
             </a>
           </p>
           <p>
             {" "}
-            <a href="/products" className="footer-link text-white">
+            <a href="/carepage" className="footer-link text-white">
               Saltwater Care
             </a>
           </p>
