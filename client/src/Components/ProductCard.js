@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import Modal from "react-bootstrap/Modal";
-import Form from "react-bootstrap/Form";
 import { FaLink } from "react-icons/fa";
 import ProductRating from "./ProductRating";
 
