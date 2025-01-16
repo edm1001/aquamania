@@ -38,33 +38,7 @@
     "temperatureRange": "75°F - 82°F (24°C - 28°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  {
-    "name": "Bulgarian Seal Point Angelfish",
-    "description": "The Bulgarian Seal Point Angelfish is a unique and visually striking variant of Pterophyllum scalare, characterized by its distinctive black coloration around the gill plates, dorsal fin, and anal fin, resembling the appearance of a seal's markings. This variety of angelfish shares the same graceful swimming behavior and peaceful temperament as its wild-type counterparts.\n\nBulgarian Seal Point Angelfish are favored by aquarists for their striking contrast in coloration, which makes them stand out in any aquarium. They are peaceful and can be housed with other non-aggressive fish. These angelfish thrive in a water temperature range of 75°F to 82°F and prefer slightly acidic to neutral pH levels. They grow up to 6 inches in length and require a well-maintained tank with regular water changes.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 6 inches (15 cm)",
-    "size": "Medium",
-    "species": "Pterophyllum scalare",
-    "family": "Angelfish",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.5 - 7.5",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Koi Angelfish",
-    "description": "The Koi Angelfish, a variant of Pterophyllum scalare, is known for its stunning and intricate color patterns resembling those of traditional Japanese koi fish. This variety of angelfish possesses the same graceful swimming behavior and peaceful temperament as its wild-type counterparts, making it a popular choice for community aquariums.\n\nKoi Angelfish are admired for their vibrant and varied colorations, which can include shades of orange, white, and black. They thrive in aquariums with a temperature range of 75°F to 82°F and a pH between 6.5 and 7.5. These fish are relatively easy to care for and can grow up to 6 inches in length. They enjoy a planted tank environment with plenty of hiding spaces and a stable water quality.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 6 inches (15 cm)",
-    "size": "Medium",
-    "species": "Pterophyllum scalare",
-    "family": "Angelfish",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.5 - 7.5",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
- 
+
   {
     "name": "African Arowana",
     "description": "The African Arowana, scientifically known as Heterotis niloticus, is a unique freshwater fish native to Africa. It is recognized for its distinctive appearance and is well-suited for large aquariums.\n\nAfrican Arowanas are characterized by their elongated bodies and unique coloration, making them a standout in any aquarium. They are native to the rivers and lakes of West and Central Africa and require large tanks with plenty of swimming space. These fish can be territorial and may exhibit aggression towards smaller tankmates, so careful consideration must be given to tankmate selection. African Arowanas are omnivorous and will accept a variety of live and prepared foods. Due to their size and territorial nature, they are best suited for intermediate to experienced aquarists with large aquarium setups.",
@@ -104,19 +78,7 @@
     "temperatureRange": "78°F - 86°F (25°C - 30°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  {
-    "name": "Silver Arowana",
-    "description": "The Silver Arowana, scientifically known as Osteoglossum bicirrhosum, is a majestic fish known for its sleek silver body and distinctive elongated shape. It is a popular choice among aquarium enthusiasts. Silver Arowanas are iconic freshwater predators, known for their impressive size and striking appearance. They are native to the Amazon Basin and prefer large, spacious aquariums with plenty of swimming room.\n\nThese fish are highly territorial and can be aggressive towards tankmates, so they are best kept alone or with large, robust species. Silver Arowanas require a diet rich in protein, consisting of live or frozen foods such as fish, shrimp, and insects. Due to their large size and predatory nature, they are recommended for advanced aquarists with experience in maintaining large aquariums.",
-    "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 36 inches (91 cm)",
-    "size": "Large",
-    "species": "Osteoglossum bicirrhosum",
-    "family": "Arowana",
-    "experienceLevel": "Advanced",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
+
   {
     "name": "Black Ruby Barb",
     "description": "The Black Ruby Barb, scientifically known as Pethia nigrofasciata, is a striking freshwater fish species characterized by its deep black and red coloration. It is a peaceful and active fish that adds visual appeal to community aquariums.\n\nBlack Ruby Barbs are prized for their striking coloration and peaceful temperament, making them ideal for community aquariums. They are native to the rivers and streams of Southeast Asia and prefer well-planted tanks with plenty of swimming space. These fish are best kept in groups and thrive in environments with moderate water flow. Black Ruby Barbs are omnivorous and will accept a variety of live, frozen, and prepared foods. Due to their peaceful nature and striking appearance, they are suitable for beginner aquarists.",
@@ -156,33 +118,7 @@
     "temperatureRange": "73°F - 81°F (23°C - 27°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  {
-    "name": "Denison Barb",
-    "description": "The Denison Barb, scientifically known as Sahyadria denisonii, is an active and colorful freshwater fish species. It is named after an aquarium fish exporter in the 1990s.\n\nDenison Barbs, also known as Roseline Sharks, are highly active and social fish known for their vibrant coloration and playful behavior. They are native to the fast-flowing rivers of southern India and require spacious tanks with plenty of swimming room. Denison Barbs are shoaling fish and should be kept in groups of six or more to thrive. They have a hearty appetite and will accept a variety of live and prepared foods. Due to their active nature and social behavior, they are best suited for intermediate aquarists.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 6 inches (15 cm)",
-    "size": "Medium",
-    "species": "Sahyadria denisonii",
-    "family": "Barb",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "68°F - 77°F (20°C - 25°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Filament Barb",
-    "description": "The Filament Barb, scientifically known as Dawkinsia filamentosus, is an active and attractive freshwater fish species. It is named for the filament-like extensions on its fins and is known for its schooling behavior.\n\nFilament Barbs are schooling fish known for their striking appearance and active swimming behavior. They are native to the rivers and streams of South and Southeast Asia and prefer well-oxygenated waters with moderate to strong water flow. Filament Barbs are best kept in groups of six or more to exhibit their natural schooling behavior. They have a diverse diet, accepting a variety of live, frozen, and prepared foods. Due to their schooling nature and active behavior, they are suitable for beginner aquarists.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 3 inches (7.6 cm)",
-    "size": "Small",
-    "species": "Dawkinsia filamentosus",
-    "family": "Barb",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "72°F - 79°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  
+
   {
     "name": "Adolfoi Corydoras",
     "description": "The Adolfoi Corydoras, scientifically known as Corydoras adolfoi, is a charming freshwater catfish species native to the Amazon basin in South America. It is prized for its striking appearance, featuring a bright orange body with black markings. Adolfoi Corydoras are peaceful and social fish, making them excellent additions to community aquariums.\n\nThese fish thrive in well-planted tanks with plenty of hiding spots and soft substrate. They are schooling fish and should be kept in groups of at least five to exhibit natural behavior and reduce stress. Adolfoi Corydoras are bottom dwellers that enjoy scavenging for food, and their diet should include high-quality sinking pellets, flakes, and occasional live or frozen foods. Their peaceful temperament makes them compatible with a wide variety of tankmates.",
@@ -207,32 +143,6 @@
     "experienceLevel": "Beginner",
     "waterPHRange": "6.0 - 7.5",
     "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Emerald Green Corydoras",
-    "description": "The Emerald Green Corydoras, scientifically known as Corydoras splendens, is a vibrant freshwater catfish species native to the Amazon River basin in South America. It is named for its beautiful emerald green coloration, which adds visual appeal to any aquarium. Emerald Green Corydoras are peaceful and can thrive in community setups.\n\nThese fish prefer a tank with soft substrate and plenty of plants or decorations to provide hiding spots. Emerald Green Corydoras are schooling fish and should be kept in groups of at least five to reduce stress and promote natural behavior. They are bottom dwellers that feed on sinking pellets, flakes, and occasional live or frozen foods. Their peaceful temperament makes them suitable for community aquariums with other non-aggressive species.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 2.5 inches (6 cm)",
-    "size": "Small",
-    "species": "Corydoras splendens",
-    "family": "Corydoras",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "72°F - 79°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "False Julii Corydoras",
-    "description": "The False Julii Corydoras, scientifically known as Corydoras trilineatus, is a popular freshwater catfish species native to South America. It is known for its striking appearance, featuring a pattern of black spots and lines on a silver body. \n\nFalse Julii Corydoras are peaceful and can be kept in community aquariums. They thrive in tanks with a soft substrate and plenty of hiding places. These social fish prefer to be kept in groups, which helps reduce stress and promotes natural behavior. Their distinctive markings and calm temperament make them a delightful addition to any aquarium.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 2.5 inches (6 cm)",
-    "size": "Small",
-    "species": "Corydoras trilineatus",
-    "family": "Corydoras",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "72°F - 79°F (22°C - 26°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
@@ -301,19 +211,7 @@
     "temperatureRange": "75°F - 80°F (24°C - 27°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  {
-    "name": "Farlowella Catfish",
-    "description": "The Farlowella Catfish, scientifically known as Farlowella acus, is a unique and slender freshwater catfish species native to South America. Its appearance is quite distinctive, featuring an elongated body and twig-like protrusions that provide excellent camouflage among aquatic plants. This adaptation makes the Farlowella Catfish an intriguing addition to any aquarium. They are peaceful fish that can be kept with other non-aggressive species, making them ideal for community tanks. Farlowella Catfish prefer a well-planted aquarium with plenty of hiding places created by driftwood and dense vegetation. They thrive in clean, well-oxygenated water with a stable temperature range of 72°F - 79°F (22°C - 26°C). These fish are primarily herbivores and should be provided with a diet rich in plant matter, including algae wafers, blanched vegetables, and occasionally, fresh algae from the tank. Despite their peaceful nature, they can be sensitive to changes in water quality, so maintaining consistent water parameters is crucial. Farlowella Catfish can grow up to 6 inches (15 cm) and are generally recommended for intermediate aquarists due to their specific environmental needs.",
-    "maxGrowthSize": "Up to 6 inches (15 cm)",
-    "size": "Medium",
-    "species": "Farlowella acus",
-    "family": "Catfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "72°F - 79°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
- 
+
   {
     "name": "Acei Cichlid",
     "description": "The Acei Cichlid, scientifically known as Pseudotropheus acei, is a striking freshwater fish species native to Lake Malawi in Africa. These cichlids are renowned for their vibrant blue bodies adorned with vertical black stripes, making them a colorful addition to any aquarium. They are relatively peaceful, which makes them suitable for community tanks housing other African Cichlid species. In their natural habitat, Acei Cichlids are found in well-oxygenated waters with abundant rock formations and hiding spots, preferences that should be mirrored in captivity. These fish thrive in well-aerated tanks, requiring water temperatures between 74°F to 82°F (23°C to 28°C) and a pH range of 7.8 to 8.6. Growing up to 6 inches (15 cm) in length, they are medium-sized cichlids that require a moderate level of care, making them ideal for aquarists with intermediate experience. Providing a varied diet of high-quality pellets and occasional live or frozen foods ensures their health and vibrant coloration. The Acei Cichlid’s peaceful nature, coupled with its stunning appearance, makes it a favorite among cichlid enthusiasts.",
@@ -353,33 +251,7 @@
     "temperatureRange": "74°F - 80°F (23°C - 27°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  {
-    "name": "Bumblebee Cichlid",
-    "description": "The Bumblebee Cichlid, scientifically known as Pseudotropheus crabro, is a vibrant freshwater fish species native to Lake Malawi in Africa. This striking species features bold black and yellow stripes, resembling the colors of a bumblebee, which gives it its common name. Bumblebee Cichlids are known for their energetic and sometimes aggressive behavior, especially towards conspecifics and other tank mates with similar coloration, so careful consideration should be given when selecting tank mates. They require spacious aquariums with plenty of hiding spots and territories to establish their dominance hierarchy, which helps to reduce aggression. In the wild, Bumblebee Cichlids have a unique feeding behavior where they follow larger fish to feed on the parasites they carry, a behavior that can be mimicked in captivity by offering a varied diet. Their diet should include high-quality cichlid pellets, live, and frozen foods to ensure they receive all necessary nutrients. These cichlids can grow up to 5 inches (12.5 cm) in length and prefer water temperatures between 74°F to 82°F (23°C to 28°C) with a pH range of 7.8 to 8.6. Regular water changes and proper filtration are crucial for maintaining water quality and the health of Bumblebee Cichlids. Their bold appearance and dynamic behavior make them a popular choice for experienced aquarists looking to add a visually striking and active species to their aquarium.",
-    "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 5 inches (12.5 cm)",
-    "size": "Medium",
-    "species": "Pseudotropheus crabro",
-    "family": "African Cichlid",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "7.8 - 8.6",
-    "temperatureRange": "74°F - 82°F (23°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Buffalo Head Cichlid",
-    "description": "The Buffalo Head Cichlid, scientifically known as Steatocranus casuarius, is an intriguing freshwater fish species native to the Congo River basin in Africa. This cichlid is named for its distinctive appearance, featuring a prominent hump on its forehead that resembles a buffalo’s head. Buffalo Head Cichlids are relatively peaceful but can exhibit territorial behavior, especially during breeding. They thrive in aquariums with plenty of hiding spots, caves, and soft, sandy substrates, which replicate their natural habitat. Growing up to 5 inches (12.5 cm) in length, these cichlids prefer water temperatures between 72°F to 79°F (22°C to 26°C) and a pH range of 6.5 to 7.5. Buffalo Head Cichlids are omnivores and should be fed a varied diet of quality cichlid pellets, live, and frozen foods to ensure their health. Their unique appearance and relatively peaceful nature make them an interesting choice for intermediate aquarists looking to add diversity to their tank. With proper care and a suitable environment, Buffalo Head Cichlids can thrive and become a standout feature in any aquarium.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 5 inches (12.5 cm)",
-    "size": "Small",
-    "species": "Steatocranus casuarius",
-    "family": "African Cichlid",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "6.5 - 7.5",
-    "temperatureRange": "72°F - 79°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
- 
+
   {
     "name": "Bolivian Ram",
     "description": "The Bolivian Ram, scientifically known as Mikrogeophagus altispinosus, originates from the rivers and streams of Bolivia, where it dazzles with its vibrant coloration and distinctive black markings on the dorsal fin. These peaceful cichlids grow up to 3 inches (8 cm), making them suitable for community aquariums with other peaceful fish species. They exhibit a calm demeanor, making them an excellent choice for beginner aquarists looking to add color and tranquility to their tanks. To ensure their well-being, maintain water parameters within a pH range of 6.0 to 7.5 and temperatures between 72°F to 78°F (22°C to 26°C). Bolivian Rams are relatively hardy and adaptable, thriving in a variety of aquatic environments with proper care and maintenance.",
@@ -419,7 +291,7 @@
     "temperatureRange": "72°F - 82°F (22°C - 28°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
- 
+
   {
     "name": "Black-barred Danio",
     "description": "The Black-barred Danio, scientifically known as Danio nigrofasciatus, originates from Myanmar and is recognized for its silver body adorned with bold black vertical bars. These active and peaceful fish thrive in well-oxygenated aquariums with ample swimming space. Being schooling fish, they prefer the company of their own kind and should be kept in groups. Black-barred Danios are adaptable and can coexist with various tankmates, as long as they are not overly aggressive. With a maximum growth size of up to 2 inches (5 cm), they are ideal for small aquarium setups. Beginner aquarists will find them relatively easy to care for, given their hardy nature and minimal special requirements. Maintaining stable water parameters within a pH range of 6.5 to 7.5 and temperatures between 72°F to 79°F (22°C to 26°C) is essential for their well-being. Regular feeding and proper tank maintenance contribute to their overall health and vitality in captivity.",
@@ -459,33 +331,7 @@
     "temperatureRange": "73°F - 79°F (23°C - 26°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  {
-    "name": "Dwarf Spotted Danio",
-    "description": "The Dwarf Spotted Danio, scientifically known as Danio erythromicron, is a diminutive and peaceful freshwater fish species originating from Myanmar, distinguished by its golden body adorned with dark spots. With its eye-catching pattern, Dwarf Spotted Danios make charming additions to nano and planted aquariums. These small-sized fish, reaching a maximum length of 1 inch (2.5 cm), thrive in groups and prefer densely planted tanks with plenty of hiding spots. Beginner aquarists will appreciate their low-maintenance requirements and peaceful nature. Maintaining stable water parameters, including a pH range of 6.0 to 7.5 and temperatures between 72°F to 79°F (22°C to 26°C), is crucial for their well-being. Regular feeding and water changes contribute to their overall health and vitality in captivity.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 1 inch (2.5 cm)",
-    "size": "Tiny",
-    "species": "Danio erythromicron",
-    "family": "Danio",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "72°F - 79°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Fireline Danio",
-    "description": "The Fireline Danio, scientifically known as Danio kyathit, is a vibrant and peaceful freshwater fish species native to Myanmar, distinguished by the striking orange-red line that runs along its silver body. These active swimmers prefer aquariums with plenty of open swimming space to showcase their vibrant colors. Fireline Danios are compatible with a wide range of tankmates and are suitable for community setups. With a maximum growth size of up to 2 inches (5 cm), they are ideal for small to medium-sized aquariums. Beginner aquarists will find them relatively easy to care for, given their hardy nature and adaptable behavior. Maintaining stable water parameters within a pH range of 6.5 to 7.5 and temperatures between 72°F to 79°F (22°C to 26°C) is essential for their well-being. Providing a balanced diet and suitable tank decor enhances their quality of life and natural behaviors in captivity.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 2 inches (5 cm)",
-    "size": "Small",
-    "species": "Danio kyathit",
-    "family": "Danio",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.5 - 7.5",
-    "temperatureRange": "72°F - 79°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  
+
   {
     "name": "Fire Eel",
     "description": "The Fire Eel, scientifically known as Mastacembelus erythrotaenia, hails from the freshwater habitats of Southeast Asia, predominantly found in the rivers and streams of Thailand and Indonesia. Its name derives from the striking reddish-orange hue that adorns its elongated body, making it an eye-catching addition to any aquarium. Fire Eels, characterized by their nocturnal behavior, are most active during the night, displaying their graceful movements in tanks with sandy substrates and ample hiding spots. Despite their large size, reaching up to 39 inches (100 cm), they are generally peaceful and can coexist with suitable tankmates in a spacious aquarium setup. Maintaining stable water parameters within a pH range of 6.0 to 7.5 and temperatures between 75°F to 82°F (24°C to 28°C) is essential for their well-being. Due to their intermediate care requirements, Fire Eels are best suited for aquarists with some prior experience in managing large freshwater species.",
@@ -512,20 +358,7 @@
     "temperatureRange": "75°F - 82°F (24°C - 28°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  {
-    "name": "Half Banded Spiny Eel",
-    "description": "The Half Banded Spiny Eel, scientifically known as Macrognathus circumcinctus, originates from the freshwater habitats of Southeast Asia, particularly prevalent in the rivers and streams of Thailand and Malaysia. Its name derives from the distinct half-banded pattern that adorns its slender body, adding to its allure. Half Banded Spiny Eels are nocturnal creatures that prefer densely planted aquariums with ample hiding spots, where they can retreat during the day. With a maximum growth size of up to 12 inches (30 cm), they are suitable for medium-sized tanks and can coexist peacefully with compatible tankmates. Maintaining stable water conditions within a pH range of 6.0 to 7.5 and temperatures between 75°F to 82°F (24°C to 28°C) is essential for their optimal health and well-being. Given their intermediate care requirements, they are well-suited for aquarists with some prior experience in managing freshwater species.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 12 inches (30 cm)",
-    "size": "Medium",
-    "species": "Macrognathus circumcinctus",
-    "family": "Eels",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
- 
+
   {
     "name": "Alligator Gar",
     "description": "The Alligator Gar, scientifically known as Atractosteus spatula, is one of the largest and most impressive freshwater fish, known for its alligator-like appearance. Native to North America, it is typically found in slow-moving rivers, lakes, and swamps. This species can grow up to an astounding 120 inches, making it one of the largest freshwater fish in the world. Due to its size and predatory nature, the Alligator Gar requires an exceptionally large and well-maintained aquarium, ideally mimicking its natural habitat. It has a broad, powerful snout and sharp teeth, used to catch prey such as fish, amphibians, and even small mammals. This aggressive species is best suited for advanced aquarists who can meet its demanding care requirements. Its diet in captivity should include live or frozen fish and other meaty foods. Despite its intimidating appearance, the Alligator Gar is a fascinating and ancient species, often admired for its prehistoric look and behavior.",
@@ -552,20 +385,7 @@
     "temperatureRange": "72°F - 80°F (22°C - 27°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  {
-    "name": "Florida Gar",
-    "description": "The Florida Gar, scientifically known as Lepisosteus platyrhincus, is a smaller gar species distinguished by its slender body and attractive greenish coloration. Native to the southeastern United States, this fish thrives in freshwater habitats such as rivers, lakes, and swamps. Florida Gars are hardy and adapt well to captivity, making them a popular choice among intermediate-level aquarists. They exhibit fascinating predatory behavior, often lying in wait before darting forward to catch prey. Their diet consists mainly of live fish and crustaceans, which should be replicated in the aquarium setting. Reaching up to 36 inches in length, they require a large tank with ample swimming space and a secure lid to prevent jumping. Their aggressive nature means they should be housed with similarly sized, robust fish to avoid conflicts. The Florida Gar is a captivating species, offering a glimpse into the ancient lineage of gars with its distinctive appearance and behaviors.",
-    "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 36 inches (91 cm)",
-    "size": "Large",
-    "species": "Lepisosteus platyrhincus",
-    "family": "Gar",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "6.0 - 8.0",
-    "temperatureRange": "70°F - 82°F (21°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  
+
   {
     "name": "Blue Gourami",
     "description": "The Blue Gourami (Trichogaster trichopterus), also known as the Three-spot Gourami, is a popular freshwater fish species native to Southeast Asia. It is named for its striking blue coloration, which varies depending on its mood and environment. Blue Gouramis are labyrinth fish, meaning they can breathe atmospheric air, allowing them to survive in poorly oxygenated waters. They are generally peaceful and can be kept in community aquariums with other non-aggressive fish species. Blue Gouramis are omnivores and will readily accept a varied diet consisting of flakes, pellets, and live or frozen foods.",
@@ -592,46 +412,6 @@
     "temperatureRange": "72°F - 82°F (22°C - 28°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  {
-    "name": "Honey Dwarf Gourami",
-    "description": "The Honey Dwarf Gourami (Trichogaster chuna), also known as the Sunset Gourami, is a small and peaceful freshwater fish species native to South Asia. It is named for its honey-like coloration, with shades of gold and orange. The Honey Dwarf Gourami is an ideal choice for smaller aquarium setups due to its manageable size and peaceful temperament. It is a labyrinth fish, capable of breathing atmospheric air, and appreciates densely planted aquariums with subdued lighting. This gourami species is omnivorous, feeding on both plant matter and small insects or crustaceans.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 2.5 inches (6.4 cm)",
-    "size": "Small",
-    "species": "Trichogaster chuna",
-    "family": "Gourami",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Pearl Gourami",
-    "description": "The Pearl Gourami (Trichopodus leerii) is a graceful and attractive freshwater fish species native to Southeast Asia. It is known for its pearlescent scales and distinctive black markings on its body. The Pearl Gourami is a peaceful fish, making it an excellent choice for community aquariums with other peaceful species. It prefers densely planted aquariums with plenty of hiding spots and floating vegetation. This gourami species is omnivorous, feeding on a varied diet that includes flakes, pellets, live, and frozen foods. It is relatively hardy and can adapt to a wide range of water conditions.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 5 inches (13 cm)",
-    "size": "Medium",
-    "species": "Trichopodus leerii",
-    "family": "Gourami",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Sparkling Gourami",
-    "description": "The Sparkling Gourami (Trichopsis pumila) is a charming and diminutive freshwater fish species native to Southeast Asia. It is named for the iridescent, sparkly appearance of its scales. Sparkling Gouramis are peaceful and can be kept in small groups or community aquariums. They prefer heavily planted tanks with gentle water flow and subdued lighting. This gourami species is labyrinth fish and can gulp air from the water's surface. Sparkling Gouramis are omnivores, consuming small insects, algae, and commercial fish foods.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 1.5 inches (4 cm)",
-    "size": "Small",
-    "species": "Trichopsis pumila",
-    "family": "Gourami",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
- 
   {
     "name": "Daisys Blue Rice Killifish",
     "description": "The Daisys Blue Rice Killifish, scientifically known as Oryzias woworae, is a vibrant and charming freshwater fish species native to Indonesia. It showcases stunning blue and red coloration, making it a visually striking addition to planted aquariums. Daisys Blue Rice Killifish are relatively peaceful and can be kept in community setups with other small, non-aggressive fish species. They prefer densely planted aquariums with plenty of hiding spots and subdued lighting. Offering a varied diet consisting of high-quality flakes, pellets, and occasional live or frozen foods is essential for their health and coloration.",
@@ -671,7 +451,7 @@
     "temperatureRange": "72°F - 79°F (22°C - 26°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
- 
+
   {
     "name": "Black Ghost Knifefish",
     "description": "The Black Ghost Knifefish, scientifically known as Apteronotus albifrons, is a species of freshwater knifefish native to South America, particularly in the Amazon and Orinoco River basins. It is named for its dark coloration and elongated body. Black Ghost Knifefish are nocturnal and prefer large aquariums with plenty of hiding spots.",
@@ -698,7 +478,7 @@
     "temperatureRange": "75°F - 82°F (24°C - 28°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  
+
   {
     "name": "Kubotai Loach",
     "description": "The Kubotai Loach, scientifically known as Botia kubotai, is a captivating freshwater fish species native to Southeast Asia. It boasts striking coloration with vibrant yellow and blue hues adorning its slender body. These loaches are social creatures, often seen in groups scavenging for food and exploring their surroundings. With their peaceful nature, they make excellent additions to community aquariums, although they may display occasional territorial behavior towards conspecifics. Kubotai Loaches thrive in well-established tanks with plenty of hiding spots and gentle water flow, mimicking their natural habitat.",
@@ -739,19 +519,6 @@
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
-    "name": "Dojo Loach",
-    "description": "The Dojo Loach, also known as Misgurnus anguillicaudatus, is a freshwater fish species native to East Asia. It is recognizable by its long, slender body and smooth, scaleless skin. Dojo Loaches are peaceful and sociable, often found in groups in their natural habitat. They are known for their playful behavior and can be observed darting around the tank and burrowing into substrate. Dojo Loaches are hardy and adaptable, making them suitable for beginner aquarists. They prefer well-oxygenated water with plenty of hiding spots and soft substrates for burrowing and scavenging.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 12 inches (30 cm)",
-    "size": "Medium",
-    "species": "Misgurnus anguillicaudatus",
-    "family": "Loach",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 8.0",
-    "temperatureRange": "65°F - 77°F (18°C - 25°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
     "name": "Reticulated Hillstream Loach",
     "description": "The Reticulated Hillstream Loach, scientifically known as Sewellia lineolata, is a fascinating freshwater fish species native to fast-flowing streams in Southeast Asia. It features a flattened body and specialized adaptations for clinging to rocks in swift currents. Reticulated Hillstream Loaches are prized for their unique appearance, with intricate reticulated patterns adorning their bodies. These loaches require well-oxygenated water and strong water flow in the aquarium, mimicking their natural habitat. They are peaceful and do well in community tanks with similarly sized, non-aggressive species.",
     "temperament": "Peaceful",
@@ -777,7 +544,7 @@
     "temperatureRange": "75°F-86°F (24°C-30°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  
+
   {
     "name": "Amazon Puffer",
     "description": "The Amazon Puffer, scientifically known as Colomesus asellus, is a species of pufferfish native to the Amazon River basin in South America. It is characterized by its distinctively round body and ability to inflate when threatened. Amazon Puffers are known for their curious and active nature.",
@@ -818,59 +585,6 @@
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
-    "name": "Fahaka Puffer",
-    "description": "The Fahaka Puffer, scientifically known as Tetraodon lineatus, is a species of pufferfish native to the Nile River and other freshwater habitats in Africa. It is one of the largest freshwater puffers and is known for its impressive size and aggressive behavior. Fahaka Puffers require a large tank with plenty of space and hiding spots.",
-    "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 17 inches (43 cm)",
-    "size": "Large",
-    "species": "Tetraodon lineatus",
-    "family": "Puffers",
-    "experienceLevel": "Advanced",
-    "waterPHRange": "7.0 - 8.5",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Hairy Puffer",
-    "description": "The Hairy Puffer, scientifically known as Tetraodon baileyi, is a species of pufferfish native to freshwater habitats in Southeast Asia, particularly in Thailand and Malaysia. It is named for the fine hair-like projections covering its body. Hairy Puffers are known for their unique appearance and can be kept in a species-only tank.",
-    "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 4 inches (10 cm)",
-    "size": "Small",
-    "species": "Tetraodon baileyi",
-    "family": "Puffers",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "6.5 - 7.5",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Imitator Puffer",
-    "description": "The Imitator Puffer, scientifically known as Carinotetraodon imitator, is a species of pufferfish native to freshwater habitats in Southeast Asia, particularly in Thailand and Indonesia. It is known for its ability to change color and mimic the appearance of other fish species. Imitator Puffers are relatively small and can be kept in community tanks.",
-    "temperament": "Semi-Aggressive",
-    "maxGrowthSize": "Up to 2.5 inches (6 cm)",
-    "size": "Small",
-    "species": "Carinotetraodon imitator",
-    "family": "Puffers",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Mbu Puffer",
-    "description": "The Mbu Puffer, scientifically known as Tetraodon mbu, is a species of pufferfish native to freshwater habitats in central and eastern Africa, particularly in the Congo River basin. It is one of the largest freshwater puffers and is known for its impressive size and distinctive appearance. Mbu Puffers require a large aquarium with plenty of space and a varied diet.",
-    "temperament": "Semi-Aggressive",
-    "maxGrowthSize": "Up to 26 inches (66 cm)",
-    "size": "Large",
-    "species": "Tetraodon mbu",
-    "family": "Puffers",
-    "experienceLevel": "Advanced",
-    "waterPHRange": "7.0 - 8.5",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-
-  {
     "name": "Bala Shark",
     "description": "The Bala Shark, scientifically known as Balantiocheilos melanopterus, is a sleek and active freshwater fish species native to Southeast Asia. It features a silver body with black margins on its fins, resembling a miniature shark. Although often mistaken for a shark, it is a schooling fish suitable for larger community aquariums.",
     "temperament": "Semi-Aggressive",
@@ -896,33 +610,7 @@
     "temperatureRange": "72°F - 79°F (22°C - 26°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  {
-    "name": "Siamese Algae Eater",
-    "description": "The Siamese Algae Eater, scientifically known as Crossocheilus siamensis, is a popular freshwater fish species valued for its algae-eating habits. It has a slender, elongated body with a distinctive black stripe running from its head to tail. This peaceful and hardy fish is an excellent addition to community aquariums for controlling algae growth.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 6 inches (15 cm)",
-    "size": "Medium",
-    "species": "Crossocheilus siamensis",
-    "family": "Shark",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.5 - 7.5",
-    "temperatureRange": "75°F - 79°F (24°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Rainbow Shark",
-    "description": "The Rainbow Shark, scientifically known as Epalzeorhynchos frenatum, is a colorful and territorial freshwater fish species. It exhibits a striking red or orange coloration on its fins and a dark body. Despite its name, it is not a true shark but belongs to the Cyprinidae family. Due to its territorial nature, it should be kept in larger aquariums with ample hiding spots.",
-    "temperament": "Semi-Aggressive",
-    "maxGrowthSize": "Up to 6 inches (15 cm)",
-    "size": "Medium",
-    "species": "Epalzeorhynchos frenatum",
-    "family": "Shark",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "6.5 - 7.5",
-    "temperatureRange": "72°F - 79°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  
+
   {
     "name": "Neon Tetra",
     "description": "Neon Tetras are among the most popular tetras due to their striking iridescent blue and red colors.",
@@ -949,98 +637,7 @@
     "temperatureRange": "73°F - 81°F (23°C - 27°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  {
-    "name": "Ember Tetra",
-    "description": "Ember Tetras have a beautiful fiery orange coloration that adds warmth to any aquarium.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Around 1 inch (2.5 cm)",
-    "size": "Small",
-    "species": "Hyphessobrycon amandae",
-    "family": "Tetra",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 7.0",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Black Neon Tetra",
-    "description": "Black Neon Tetras feature a combination of black and silver colors, creating a striking appearance.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Around 1.5 inches (4 cm)",
-    "size": "Small",
-    "species": "Hyphessobrycon herbertaxelrodi",
-    "family": "Tetra",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "73°F - 81°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Vampire Tetra",
-    "description": "Vampire Tetras are known for their iconic sharp teeth and predatory behavior, requiring a larger tank.",
-    "temperament": "Aggressive",
-    "maxGrowthSize": "Around 14 inches (35 cm)",
-    "size": "Large",
-    "species": "Hydrolycus scomberoides",
-    "family": "Tetra",
-    "experienceLevel": "Advanced",
-    "waterPHRange": "5.5 - 7.5",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Congo Tetra",
-    "description": "Congo Tetras are large, peaceful tetras known for their distinctive coloration and fin extensions.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Around 3 inches (8 cm)",
-    "size": "Medium",
-    "species": "Phenacogrammus interruptus",
-    "family": "Tetra",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "73°F - 82°F (23°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Bleeding Heart Tetra",
-    "description": "Bleeding Heart Tetras are named for the heart-shaped red marking on their silver bodies.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Around 2.5 inches (6 cm)",
-    "size": "Small",
-    "species": "Hyphessobrycon erythrostigma",
-    "family": "Tetra",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "6.0 - 7.0",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Black Skirt Tetra",
-    "description": "Black Skirt Tetras are known for their distinctive black markings on their fins and bodies.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Around 2 inches (5 cm)",
-    "size": "Small",
-    "species": "Gymnocorymbus ternetzi",
-    "family": "Tetra",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Serpae Tetra",
-    "description": "Serpae Tetras are known for their vibrant red coloration and schooling behavior.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Around 1.5 inches (4 cm)",
-    "size": "Small",
-    "species": "Hyphessobrycon eques",
-    "family": "Tetra",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "5.5 - 7.5",
-    "temperatureRange": "72°F - 79°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  
+
   {
     "name": "Common Black Molly",
     "description": "The Common Black Molly is a popular freshwater fish known for its sleek black coloration.",
@@ -1080,20 +677,7 @@
     "temperatureRange": "75°F - 82°F (24°C - 28°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  {
-    "name": "Sailfin Molly",
-    "description": "Sailfin Mollies have an impressive sail-like dorsal fin, making them stand out in aquariums.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Around 4 to 5 inches (10 to 12.5 cm)",
-    "size": "Medium",
-    "species": "Poecilia latipinna",
-    "family": "Molly",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "7.0 - 8.5",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
- 
+
   {
     "name": "Green Swordtail",
     "description": "The Green Swordtail is a vibrant freshwater fish known for its green coloration and distinctive sword-like tail.",
@@ -1120,58 +704,7 @@
     "temperatureRange": "72°F - 82°F (22°C - 28°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  {
-    "name": "Red Swordtail",
-    "description": "The Red Swordtail is a striking fish with vibrant red coloration and a distinctive sword-like tail.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Around 4 inches (10 cm)",
-    "size": "Small",
-    "species": "Xiphophorus hellerii",
-    "family": "Swordtail",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "7.0 - 8.5",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Kohaku Swordtail",
-    "description": "The Kohaku Swordtail features a beautiful pattern of red and white colors, reminiscent of traditional Japanese aesthetics.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Around 4 inches (10 cm)",
-    "size": "Small",
-    "species": "Xiphophorus hellerii",
-    "family": "Swordtail",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "7.0 - 8.5",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Pygmy Swordtail",
-    "description": "The Pygmy Swordtail is a smaller species with a distinct sword-like tail, suitable for smaller aquariums.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Around 2 inches (5 cm)",
-    "size": "Small",
-    "species": "Xiphophorus pygmaeus",
-    "family": "Swordtail",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "7.0 - 8.5",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Mickey Mouse Swordtail",
-    "description": "The Mickey Mouse Swordtail is recognized for its unique coloration and markings, resembling Mickey Mouse ears.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Around 3 inches (7.5 cm)",
-    "size": "Small",
-    "species": "Xiphophorus maculatus",
-    "family": "Swordtail",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "7.0 - 8.5",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
+
   {
     "name": "Veiltail Goldfish",
     "description": "The Veiltail Goldfish is known for its long, flowing double tail that gives it an elegant appearance.",
@@ -1211,20 +744,6 @@
     "temperatureRange": "60°F - 75°F (15°C - 24°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  {
-    "name": "Bubble Eye Goldfish",
-    "description": "The Bubble Eye Goldfish is characterized by its fluid-filled sacs or bubbles underneath its eyes, creating a distinctive appearance.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 6 inches (15 cm)",
-    "size": "Medium",
-    "species": "Carassius auratus",
-    "family": "Goldfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "6.0 - 8.0",
-    "temperatureRange": "68°F - 74°F (20°C - 23°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
- 
 
   {
     "name": "Gold Nugget Pleco",
@@ -1265,46 +784,7 @@
     "temperatureRange": "72°F - 78°F (22°C - 26°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  {
-    "name": "Common Pleco",
-    "description": "The Common Pleco, or Hypostomus plecostomus, is a widely recognized and often large catfish species. It is known for its ability to help control algae in aquariums.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 24 inches (60 cm) or more",
-    "size": "Large",
-    "species": "Hypostomus plecostomus",
-    "family": "Pleco",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "6.5 - 7.5",
-    "temperatureRange": "73°F - 82°F (23°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Sailfin Pleco",
-    "description": "The Sailfin Pleco, scientifically known as Pterygoplichthys gibbiceps, is named for its large sail-like dorsal fin. It is a robust and adaptable species with distinctive markings.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 18 inches (45 cm)",
-    "size": "Large",
-    "species": "Pterygoplichthys gibbiceps",
-    "family": "Pleco",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "6.5 - 7.5",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Royal Pleco",
-    "description": "The Royal Pleco, or Panaque nigrolineatus, is known for its striking appearance, featuring a black body with white or yellowish spots. It is a captivating and sought-after species.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 15 inches (38 cm)",
-    "size": "Medium",
-    "species": "Panaque nigrolineatus",
-    "family": "Pleco",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "76°F - 86°F (24°C - 30°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  
+
   {
     "name": "Australian Rainbowfish",
     "description": "The Australian Rainbowfish, scientifically known as Melanotaenia fluviatilis, is a vibrant and peaceful freshwater fish species native to Australia. It is characterized by its shimmering iridescent scales, which display a wide range of colors including blue, green, and yellow. Australian Rainbowfish are social and thrive in groups, displaying fascinating shoaling behaviors. They prefer densely planted aquariums with plenty of open swimming space and subdued lighting. Offering a varied diet consisting of high-quality flakes, pellets, and occasional live or frozen foods is essential for their health and coloration.",
@@ -1331,32 +811,6 @@
     "temperatureRange": "72°F - 79°F (22°C - 26°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
-  {
-    "name": "Celebes Rainbowfish",
-    "description": "The Celebes Rainbowfish, scientifically known as Marosatherina ladigesi, is a charming and peaceful freshwater fish species native to Indonesia. It is admired for its shimmering iridescent scales and striking colors, which range from blue-green to golden-yellow. Celebes Rainbowfish are social and thrive in groups, displaying fascinating shoaling behaviors. They prefer densely planted aquariums with plenty of open swimming space and subdued lighting. Offering a varied diet consisting of high-quality flakes, pellets, and occasional live or frozen foods is essential for their health and coloration.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 2 inches (5 cm)",
-    "size": "Small",
-    "species": "Marosatherina ladigesi",
-    "family": "Rainbowfish",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "7.0 - 8.0",
-    "temperatureRange": "72°F - 79°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Praecox Rainbowfish",
-    "description": "The Praecox Rainbowfish, scientifically known as Melanotaenia praecox, is a delightful and peaceful freshwater fish species native to New Guinea. It is cherished for its vibrant colors, which include shades of blue, green, and yellow. Praecox Rainbowfish are social and thrive in groups, displaying fascinating shoaling behaviors. They prefer densely planted aquariums with plenty of open swimming space and subdued lighting. Offering a varied diet consisting of high-quality flakes, pellets, and occasional live or frozen foods is essential for their health and coloration.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 3 inches (8 cm)",
-    "size": "Small",
-    "species": "Melanotaenia praecox",
-    "family": "Rainbowfish",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "7.0 - 8.0",
-    "temperatureRange": "72°F - 79°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
 
   {
     "name": "Axelrod Rasbora",
@@ -1378,32 +832,6 @@
     "maxGrowthSize": "Up to 2 inches (5 cm)",
     "size": "Small",
     "species": "Trigonostigma heteromorpha",
-    "family": "Rasbora",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "72°F - 79°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Emerald Eye Rasbora",
-    "description": "The Emerald Eye Rasbora, scientifically known as Rasbora dorsiocellata, is a peaceful and visually striking freshwater fish species native to Southeast Asia. It is recognized for its emerald-green eyes and subtle iridescent coloration, adding an elegant touch to planted aquariums. Emerald Eye Rasboras are social and thrive in groups, displaying interesting shoaling behaviors. They prefer densely planted aquariums with plenty of open swimming space and subdued lighting. Offering a varied diet consisting of high-quality flakes, pellets, and occasional live or frozen foods is essential for their health and coloration.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 2 inches (5 cm)",
-    "size": "Small",
-    "species": "Rasbora dorsiocellata",
-    "family": "Rasbora",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "6.0 - 7.5",
-    "temperatureRange": "72°F - 79°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "name": "Green Kubotai Rasbora",
-    "description": "The Green Kubotai Rasbora, scientifically known as Rasbora kubotai, is a beautiful and peaceful freshwater fish species native to Southeast Asia. It showcases stunning green and yellow coloration, making it a visually striking addition to planted aquariums. Green Kubotai Rasboras are social and thrive in groups, displaying fascinating shoaling behaviors. They prefer densely planted aquariums with plenty of open swimming space and subdued lighting. Offering a varied diet consisting of high-quality flakes, pellets, and occasional live or frozen foods is essential for their health and coloration.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 2 inches (5 cm)",
-    "size": "Small",
-    "species": "Rasbora kubotai",
     "family": "Rasbora",
     "experienceLevel": "Beginner",
     "waterPHRange": "6.0 - 7.5",
