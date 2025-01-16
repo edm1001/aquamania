@@ -38,9 +38,9 @@ const Header = () => {
                 Saltwater Fish
               </Link>
             </NavDropdown>
-            <Nav.Link href="/products" className="text-center">
+            {/* <Nav.Link href="/products" className="text-center">
               Products
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link href="/carepage" className="text-center">
               Care
             </Nav.Link>
