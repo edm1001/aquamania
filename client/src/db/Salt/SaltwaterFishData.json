@@ -38,32 +38,6 @@
     "temperatureRange": "72°F - 78°F (22°C - 26°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Coral Beauty Angelfish",
-    "description": "The Coral Beauty Angelfish, scientifically known as Centropyge bispinosa, is a popular marine fish species prized for its vibrant coloration and relatively peaceful temperament. Native to the Indo-Pacific region, this species is commonly found in reef aquariums.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 4 inches (10 cm)",
-    "size": "Small",
-    "species": "Centropyge bispinosa",
-    "family": "Angelfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Flame Angelfish",
-    "description": "The Flame Angelfish, also known as Centropyge loriculus, is a vibrant marine fish species prized for its fiery red-orange coloration. Native to the Indo-Pacific region, this species is relatively peaceful and adds a stunning pop of color to reef aquariums.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 4 inches (10 cm)",
-    "size": "Small",
-    "species": "Centropyge loriculus",
-    "family": "Angelfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
   
   {
     "name": "Barlett's Anthias",
@@ -104,33 +78,7 @@
     "temperatureRange": "72°F - 78°F (22°C - 26°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Blood Spot Anthias",
-    "description": "Blood Spot Anthias, scientifically known as Pseudanthias parvirostris, is a striking marine fish species belonging to the Anthias family. It is named for the distinctive red spot on its head, which contrasts with its vibrant pink and orange coloration. Blood Spot Anthias are native to the Indo-Pacific region, where they inhabit coral reef environments. They are typically found in large schools, adding movement and color to underwater landscapes. These fish require a well-maintained aquarium with plenty of live rock formations and hiding spots.",
-    "temperament": "Semi-Aggressive",
-    "maxGrowthSize": "Up to 5 inches (12.5 cm)",
-    "size": "Medium",
-    "species": "Pseudanthias parvirostris",
-    "family": "Anthias",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Carberryi Anthias",
-    "description": "Carberryi Anthias, scientifically known as Pseudanthias carberryi, is a colorful marine fish species belonging to the Anthias family. It is characterized by its vibrant pink and yellow coloration, with subtle orange accents on the fins. Carberryi Anthias are native to the Western Pacific Ocean, where they inhabit coral reef environments. They are typically found in large schools, adding movement and color to underwater landscapes. These fish require a well-maintained aquarium with plenty of live rock formations and hiding spots.",
-    "temperament": "Semi-Aggressive",
-    "maxGrowthSize": "Up to 4 inches (10 cm)",
-    "size": "Small",
-    "species": "Pseudanthias carberryi",
-    "family": "Anthias",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
- 
+  
   {
     "name": "Black Cap Basslet",
     "description": "The Black Cap Basslet, scientifically known as Gramma melacara, is a captivating marine fish species belonging to the Basslet family. It is characterized by its striking coloration, featuring a purple body with a distinctive black cap on its head. This fish is native to the Caribbean Sea and is often found inhabiting coral reefs and rocky crevices. Black Cap Basslets are relatively peaceful but can be territorial, especially towards similar-looking species. They thrive in well-established aquariums with plenty of live rock structures for hiding and grazing.",
@@ -170,72 +118,7 @@
     "temperatureRange": "75°F - 80°F (24°C - 27°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Harlequin Bass",
-    "description": "The Harlequin Bass, scientifically known as Serranus tigrinus, is a striking marine fish species belonging to the Basslet family. It is admired for its vibrant coloration, featuring a mix of yellow, orange, and black markings. Harlequin Bass are native to the western Atlantic Ocean, where they inhabit rocky reefs and ledges. They are relatively peaceful but can be territorial towards similar species. These fish require a well-established aquarium with plenty of hiding spots and live rock formations.",
-    "temperament": "Semi-Aggressive",
-    "maxGrowthSize": "Up to 12 inches (7.6 cm)",
-    "size": "Large",
-    "species": "Serranus tigrinus",
-    "family": "Basslet",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "75°F - 80°F (24°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Lantern Bass",
-    "description": "The Lantern Bass, scientifically known as Serranus baldwini, is an attractive marine fish species belonging to the Basslet family. It is named for its lantern-like appearance, with bright orange and yellow coloration. Lantern Bass are native to the western Atlantic Ocean, where they inhabit coral reefs and rocky areas. They are relatively peaceful and can be kept in small groups in aquariums with appropriate tankmates. These fish require a well-oxygenated tank with plenty of hiding spots and live rock structures.",
-    "temperament": "Semi-Aggressive",
-    "maxGrowthSize": "Up to 5 inches (10 cm)",
-    "size": "Medium",
-    "species": "Serranus baldwini",
-    "family": "Basslet",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "75°F - 80°F (24°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
   
-  {
-    "name": "Orbicular Batfish",
-    "description": "The Orbicular Batfish, also known as the Orbic Batfish, is a fascinating marine fish species belonging to the Batfish family. Scientifically named Platax orbicularis, it is recognized for its distinctive round body shape and graceful swimming movements. Orbicular Batfish are found in tropical Indo-Pacific waters, often inhabiting coral reefs and lagoons. They are peaceful and sociable creatures that thrive in groups. However, they require a large tank with plenty of swimming space and hiding spots. Due to their delicate nature, they are best suited for experienced aquarists.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 20 inches (40 cm)",
-    "size": "Large",
-    "species": "Platax orbicularis",
-    "family": "Batfish",
-    "experienceLevel": "Advanced",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Pinnate Batfish",
-    "description": "The Pinnate Batfish, scientifically known as Platax pinnatus, is an elegant marine fish species belonging to the Batfish family. It is admired for its striking appearance, characterized by long fins and a disc-shaped body. Pinnate Batfish are native to the Indo-Pacific region, where they inhabit shallow coastal waters and coral reefs. They are peaceful by nature but require a large aquarium with plenty of space to swim and explore. These fish can be challenging to care for due to their specific dietary needs and susceptibility to diseases.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 18 inches (45 cm)",
-    "size": "Large",
-    "species": "Platax pinnatus",
-    "family": "Batfish",
-    "experienceLevel": "Advanced",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Teira Batfish",
-    "description": "The Teira Batfish, scientifically known as Platax teira, is a captivating marine fish species belonging to the Batfish family. It is characterized by its circular body shape, elongated fins, and vibrant coloration. Teira Batfish are found in the Indo-Pacific region, often inhabiting shallow coastal areas and coral reefs. They are peaceful creatures that prefer to swim in schools, adding beauty to any aquarium setting. However, they require a spacious tank with plenty of hiding spots and a well-balanced diet. Due to their size and care requirements, they are best suited for experienced aquarists.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 24 inches (45 cm)",
-    "size": "Large",
-    "species": "Platax teira",
-    "family": "Batfish",
-    "experienceLevel": "Advanced",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
   {
     "name": "Bicolor Blenny",
     "description": "The Bicolor Blenny, also known as the Two-colored Blenny, is a colorful and lively marine fish species belonging to the Blenny family. Scientifically named Ecsenius bicolor, it is recognized for its distinctive two-tone body, with a vibrant blue front half and a yellow rear half. Bicolor Blennies are native to the Indo-Pacific region, where they inhabit coral reefs and rocky areas. They are peaceful by nature and can be kept in community tanks with other non-aggressive species. These blennies are relatively hardy and easy to care for, making them suitable for both beginner and experienced aquarists.",
@@ -269,19 +152,6 @@
     "maxGrowthSize": "Up to 4 inches (10 cm)",
     "size": "Small",
     "species": "Ecsenius stictus",
-    "family": "Blenny",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Canary Blenny",
-    "description": "The Canary Blenny, scientifically known as Meiacanthus oualanensis, is a vibrant marine fish species belonging to the Blenny family. It is native to the Western Pacific Ocean, where it inhabits coral reefs and rocky shores. The Canary Blenny is named for its bright yellow coloration, which adds a pop of color to marine aquariums. It is a peaceful and hardy fish that can be kept in reef tanks with other compatible species. However, it possesses venomous fangs that it uses for self-defense, so caution should be exercised when handling or housing this blenny.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 4 inches (10 cm)",
-    "size": "Small",
-    "species": "Meiacanthus oualanensis",
     "family": "Blenny",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
@@ -328,32 +198,6 @@
     "temperatureRange": "74°F - 80°F (23°C - 27°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Longspine Cardinalfish",
-    "description": "The Longspine Cardinalfish, scientifically known as Zoramia leptacantha, is a small marine fish species found in the Indo-Pacific region. It is recognized by its elongated spines and peaceful demeanor. Longspine Cardinalfish are suitable for community aquariums and can be kept with a variety of tankmates. They prefer well-oxygenated water with plenty of hiding spots.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 3 inches (7.6 cm)",
-    "size": "Small",
-    "species": "Zoramia leptacantha",
-    "family": "Cardinalfish",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Ochrestriped Cardinalfish",
-    "description": "The Ochrestriped Cardinalfish, scientifically known as Apogon compressus, is a colorful marine fish species found in the Western Pacific Ocean. It is characterized by its yellowish-orange body with vertical stripes and peaceful demeanor. Ochrestriped Cardinalfish are suitable for community aquariums and can be kept with a variety of tankmates. They prefer well-oxygenated water with plenty of hiding spots.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 3 inches (7.6 cm)",
-    "size": "Small",
-    "species": "Apogon compressus",
-    "family": "Cardinalfish",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
   
   {
     "name": "Blue Spot Cowfish",
@@ -381,19 +225,7 @@
     "temperatureRange": "72°F - 78°F (22°C - 26°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Island Cowfish",
-    "description": "The Island Cowfish, scientifically known as Lactoria koh, is an intriguing marine fish species belonging to the Boxfish family. It is native to the Indo-Pacific region, where it can be found in coral reefs and coastal areas. The Island Cowfish is characterized by its unique appearance, featuring a box-shaped body and horn-like projections. It is a peaceful and hardy fish but may release toxins if stressed, making it incompatible with some tankmates. This boxfish requires a well-established aquarium with ample swimming space and live rock to thrive.",
-    "temperament": "Semi-Aggressive",
-    "maxGrowthSize": "Up to 20 inches (50 cm)",
-    "size": "Large",
-    "species": "Lactoria koh",
-    "family": "Boxfish",
-    "experienceLevel": "Advanced",
-    "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
+  
   {
     "name": "Longhorn Cowfish",
     "description": "The Longhorn Cowfish, scientifically known as Lactoria cornuta, is a fascinating marine fish species belonging to the Boxfish family. It is native to the Indo-Pacific region, where it inhabits coral reefs and rocky areas. The Longhorn Cowfish is named for its elongated horns, which are used for defense and territorial display. It is a peaceful but territorial fish and may release toxins if stressed, making it incompatible with some tankmates. This boxfish requires a well-established aquarium with ample swimming space and live rock to thrive.",
@@ -420,19 +252,7 @@
     "temperatureRange": "74°F - 80°F (23°C - 27°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Banded Butterflyfish",
-    "description": "The Banded Butterflyfish, scientifically known as Chaetodon striatus, is a colorful marine fish found in tropical waters of the Atlantic Ocean. It is characterized by its distinctive bands of yellow and black along the body. This species prefers coral reefs and rocky areas with abundant hiding spots. Banded Butterflyfish are peaceful and can be kept in community reef aquariums with other compatible species.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 8 inches (20 cm)",
-    "size": "Medium",
-    "species": "Chaetodon striatus",
-    "family": "Butterflyfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
+  
   {
     "name": "Black Back Butterflyfish",
     "description": "The Black Back Butterflyfish, scientifically known as Chaetodon melannotus, is a striking marine fish found in the waters of the Indo-Pacific region. It is named for the prominent black coloration on its back and dorsal fin. This species inhabits coral reefs and lagoons, where it feeds on small invertebrates and algae. The Black Back Butterflyfish is relatively peaceful and can be kept in community aquariums with other compatible species.",
@@ -472,20 +292,7 @@
     "temperatureRange": "74°F - 80°F (23°C - 27°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Falcula Butterflyfish",
-    "description": "The Falcula Butterflyfish, scientifically known as Chaetodon falcula, is a striking marine fish found in the waters of the Indo-Pacific region. It is recognized by its elongated body and distinctive coloration, featuring shades of yellow, black, and white. This species inhabits coral reefs and rocky areas, where it feeds on coral polyps and small invertebrates. The Falcula Butterflyfish is relatively peaceful and can be kept in community aquariums with other non-aggressive species.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 8 inches (20 cm)",
-    "size": "Medium",
-    "species": "Chaetodon falcula",
-    "family": "Butterflyfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
- 
+  
   {
     "name": "Agile Chromis",
     "description": "The Agile Chromis is a lively and colorful marine fish found in coral reefs across the Indo-Pacific region. It is known for its vibrant coloration and active swimming behavior, making it a popular choice for reef aquariums. Agile Chromis are generally peaceful and can be kept in groups, adding a dynamic element to the aquarium. They prefer well-oxygenated water with plenty of hiding spots and live rock for exploration.",
@@ -519,32 +326,6 @@
     "maxGrowthSize": "Up to 3 inches (7.6 cm)",
     "size": "Small",
     "species": "Chromis spp.",
-    "family": "Chromis",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Blue Chromis",
-    "description": "The Blue Chromis, scientifically known as Chromis viridis, is a beautiful marine fish species found in coral reefs throughout the Indo-Pacific region. It is recognized for its vibrant blue coloration and peaceful demeanor. Blue Chromis are social fish, often forming large shoals in the wild. They are suitable for community aquariums and can be kept with a variety of tankmates.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 3 inches (7.6 cm)",
-    "size": "Small",
-    "species": "Chromis viridis",
-    "family": "Chromis",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Green Chromis",
-    "description": "The Green Chromis, scientifically known as Chromis viridis, is a popular marine fish species native to the Indo-Pacific region. It is recognized for its vibrant green coloration and peaceful demeanor. Green Chromis are social fish, often forming large shoals in the wild. They are suitable for community aquariums and can be kept with a variety of tankmates.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 3 inches (7.6 cm)",
-    "size": "Small",
-    "species": "Chromis viridis",
     "family": "Chromis",
     "experienceLevel": "Beginner",
     "waterPHRange": "8.1 - 8.4",
@@ -591,46 +372,8 @@
     "temperatureRange": "74°F - 79°F (23°C - 26°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "True Percula Clownfish",
-    "description": "The True Percula Clownfish, also known as the Clown Anemonefish, is a vibrant and popular marine fish species. It is known for its bright orange coloration with three distinctive white stripes.",
-    "temperament": "Semi-Aggressive",
-    "maxGrowthSize": "Up to 4 inches (10 cm)",
-    "size": "Small",
-    "species": "Amphiprion percula",
-    "family": "Clownfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 79°F (23°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Clarkii Clownfish",
-    "description": "The Clarkii Clownfish, also known as the Yellowtail Clownfish, is a colorful and hardy marine fish species. It is known for its striking coloration, which includes bright orange bodies with white stripes and yellow tails.",
-    "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 6 inches (15 cm)",
-    "size": "Medium",
-    "species": "Amphiprion clarkii",
-    "family": "Clownfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 79°F (23°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-
-  {
-    "name": "Blue Gudgeon Dartfish",
-    "description": "The Blue Gudgeon Dartfish, scientifically known as Ptereleotris heteroptera, is a colorful and peaceful marine fish species found in the Indo-Pacific region. It is recognized for its elongated body and vibrant blue coloration, making it a popular choice for reef aquariums. Blue Gudgeon Dartfish are social fish and often form pairs or small groups in the wild. They are suitable for community aquariums and can be kept with a variety of tankmates.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 4 inches (10 cm)",
-    "size": "Small",
-    "species": "Ptereleotris heteroptera",
-    "family": "Dartfish",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
+  
+  
   {
     "name": "Exquisite Firefish",
     "description": "The Exquisite Firefish, scientifically known as Nemateleotris exquisita, is a stunning marine fish species native to the Indo-Pacific region. It is recognized for its vibrant coloration and graceful swimming behavior, making it a prized addition to reef aquariums. Exquisite Firefish are peaceful and social fish, often forming pairs or small groups in the wild. They are suitable for community aquariums and can be kept with a variety of tankmates.",
@@ -657,19 +400,7 @@
     "temperatureRange": "74°F - 80°F (23°C - 27°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Helfrichi Firefish",
-    "description": "The Helfrichi Firefish, scientifically known as Nemateleotris helfrichi, is a stunning marine fish species native to the Indo-Pacific region. It is recognized for its vibrant coloration and elegant swimming behavior, making it a prized addition to reef aquariums. Helfrichi Firefish are peaceful and social fish, often forming pairs or small groups in the wild. They are suitable for community aquariums and can be kept with a variety of tankmates.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 4 inches (10 cm)",
-    "size": "Small",
-    "species": "Nemateleotris helfrichi",
-    "family": "Dartfish",
-    "experienceLevel": "Beginner",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
+  
   {
     "name": "Oreni Firefish",
     "description": "The Oreni Firefish, scientifically known as Nemateleotris decora, is a colorful and peaceful marine fish species found in the Indo-Pacific region. It is recognized for its vibrant coloration and graceful swimming behavior, making it a popular choice for reef aquariums. Oreni Firefish are social fish, often forming pairs or small groups in the wild. They are suitable for community aquariums and can be kept with a variety of tankmates.",
@@ -710,45 +441,6 @@
     "temperatureRange": "74°F - 78°F (23°C - 26°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Red Mandarin",
-    "description": "The Red Mandarin Dragonet, scientifically known as Synchiropus splendidus, is a small and colorful marine fish species native to the Western Pacific Ocean. It is recognized for its vibrant red and orange coloration, making it a popular choice for reef aquariums. Red Mandarin Dragonets are known for their unique feeding behavior, primarily consuming copepods and other small crustaceans. They require well-established aquariums with plenty of live rock and hiding places to thrive.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 3 inches (7.6 cm)",
-    "size": "Small",
-    "species": "Synchiropus splendidus",
-    "family": "Dragonet",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Red Scooter Dragonet",
-    "description": "The Red Scooter Dragonet, scientifically known as Synchiropus stellatus, is a small and colorful marine fish species native to the Western Pacific Ocean. It is recognized for its vibrant red and orange coloration, making it a popular choice for reef aquariums. Red Scooter Dragonets are known for their unique feeding behavior, primarily consuming copepods and other small crustaceans. They require well-established aquariums with plenty of live rock and hiding places to thrive.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 3 inches (7.6 cm)",
-    "size": "Small",
-    "species": "Synchiropus stellatus",
-    "family": "Dragonet",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Ruby Red Dragonet",
-    "description": "The Ruby Red Dragonet, scientifically known as Synchiropus sycorax, is a small and colorful marine fish species native to the Western Pacific Ocean. It is recognized for its vibrant red and orange coloration, making it a popular choice for reef aquariums. Ruby Red Dragonets are known for their unique feeding behavior, primarily consuming copepods and other small crustaceans. They require well-established aquariums with plenty of live rock and hiding places to thrive.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 3 inches (7.6 cm)",
-    "size": "Small",
-    "species": "Synchiropus sycorax",
-    "family": "Dragonet",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
   
   {
     "name": "Red Lionfish",
@@ -776,72 +468,8 @@
     "temperatureRange": "75°F - 82°F (24°C - 28°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Garden Eel",
-    "description": "The Garden Eel, scientifically known as Heteroconger hassi, is a fascinating marine eel species found in tropical waters of the Indo-Pacific region. It is named for its habit of burrowing into sandy substrates and creating colonies resembling a garden. Garden Eels are peaceful and social creatures, often forming large groups in the wild. They feed on planktonic organisms drifting in the water column. Garden Eels require a well-established aquarium with a sandy substrate and moderate to strong water flow.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 16 inches (40 cm)",
-    "size": "Medium",
-    "species": "Heteroconger hassi",
-    "family": "Eels",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Golden Banana Moray",
-    "description": "The Golden Banana Moray, scientifically known as Gymnothorax miliaris, is a striking marine eel species with a bright yellow coloration and elongated body. It is native to the tropical waters of the Indo-Pacific region, where it inhabits coral reefs and rocky crevices. Golden Banana Morays are carnivorous and feed on small fish, crustaceans, and mollusks. They require a spacious aquarium with plenty of hiding places and a secure lid, as they are known to be escape artists.",
-    "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 24 inches (60 cm)",
-    "size": "Large",
-    "species": "Gymnothorax miliaris",
-    "family": "Eels",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Golden Dwarf Moray",
-    "description": "The Golden Dwarf Moray, scientifically known as Gymnothorax melatremus, is a small and colorful marine eel species found in the Western Pacific Ocean. It is recognized by its bright yellow body with dark brown markings, making it a visually striking addition to a reef aquarium. Golden Dwarf Morays are carnivorous and feed on small fish and crustaceans. They require a well-established aquarium with plenty of hiding places and live rock to thrive.",
-    "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 12 inches (30 cm)",
-    "size": "Small",
-    "species": "Gymnothorax melatremus",
-    "family": "Eels",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Jeweled Moray Eel",
-    "description": "The Jeweled Moray Eel, scientifically known as Muraena lentiginosa, is a stunning marine eel species found in tropical reefs of the Indo-Pacific region. It is characterized by its intricate pattern of black spots and vibrant coloration, resembling jewels. Jeweled Moray Eels are carnivorous and primarily feed on small fish and crustaceans. They require a large aquarium with plenty of hiding places, live rock, and a secure lid, as they are known to be escape artists.",
-    "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 36 inches (90 cm)",
-    "size": "Large",
-    "species": "Muraena lentiginosa",
-    "family": "Eels",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
   
-  {
-    "name": "Aiptasia Eating Filefish",
-    "description": "The Aiptasia Eating Filefish, scientifically known as Acreichthys tomentosus, is a specialized marine fish species known for its ability to control Aiptasia anemone populations in reef aquariums. It has a unique appearance with a slender body and a pointed snout, enabling it to reach into crevices and feed on small invertebrates. Aiptasia Eating Filefish are generally peaceful and can be kept in reef tanks with caution, as they may nip at corals and other sessile invertebrates. They require a well-established aquarium with plenty of hiding places and live rock for grazing.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 5 inches (12.5 cm)",
-    "size": "Small",
-    "species": "Acreichthys tomentosus",
-    "family": "Filefish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
+  
   {
     "name": "Colored Filefish",
     "description": "The Colored Filefish is a general term used to describe various species of filefish known for their vibrant coloration and unique patterns. These marine fish are found in tropical waters worldwide and are popular among aquarium enthusiasts for their striking appearance. Colored Filefish are generally peaceful and can be kept in reef tanks with caution, as they may nip at corals and other sessile invertebrates. They require a well-established aquarium with plenty of hiding places and live rock for grazing.",
@@ -867,32 +495,7 @@
     "temperatureRange": "74°F - 80°F (23°C - 27°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Tassle Filefish",
-    "description": "The Tassle Filefish, scientifically known as Chaetodermis penicilligerus, is a marine fish species found in coral reefs of the Indo-Pacific region. It is recognized by its elongated body and distinctive tassel-like appendages protruding from its dorsal fin. Tassle Filefish are generally peaceful and can be kept in reef tanks with caution, as they may nip at corals and other sessile invertebrates. They require a well-established aquarium with plenty of hiding places and live rock for grazing.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 10 inches (25 cm)",
-    "size": "Medium",
-    "species": "Chaetodermis penicilligerus",
-    "family": "Filefish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Radial Filefish",
-    "description": "The Radial Filefish, scientifically known as Pervagor spilosoma, is a marine fish species found in coral reefs of the Indo-Pacific region. It is characterized by its disc-shaped body and unique radial markings, which provide effective camouflage among coral branches. Radial Filefish are generally peaceful and can be kept in reef tanks with caution, as they may nip at corals and other sessile invertebrates. They require a well-established aquarium with plenty of hiding places and live rock for grazing.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 4 inches (10 cm)",
-    "size": "Small",
-    "species": "Pervagor spilosoma",
-    "family": "Filefish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
+  
   {
     "name": "Foxface Rabbitfish",
     "description": "The Foxface Rabbitfish, scientifically known as Siganus vulpinus, is a marine fish species found in coral reefs of the Indo-Pacific region. It is characterized by its elongated body and unique coloration, with a yellow-orange body and black facial markings resembling a fox's face. Foxface Rabbitfish are generally peaceful and can be kept in reef tanks, although caution is advised due to their venomous spines. They require a well-established aquarium with plenty of hiding places and a varied diet.",
@@ -919,47 +522,7 @@
     "temperatureRange": "74°F - 80°F (23°C - 27°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Magnificent Rabbitfish",
-    "description": "The Magnificent Rabbitfish, scientifically known as Siganus magnificus, is a marine fish species found in coral reefs of the Indo-Pacific region. It is admired for its striking coloration, featuring vibrant shades of yellow and blue. Magnificent Rabbitfish are generally peaceful and can be kept in reef tanks, although caution is advised due to their venomous spines. They require a well-established aquarium with plenty of hiding places and a varied diet.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 8 inches (20 cm)",
-    "size": "Medium",
-    "species": "Siganus magnificus",
-    "family": "Rabbitfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "One Spot Rabbitfish",
-    "description": "The One Spot Rabbitfish, scientifically known as Siganus unimaculatus, is a marine fish species found in coral reefs of the Indo-Pacific region. It is named for the prominent black spot on its body. One Spot Rabbitfish are generally peaceful and can be kept in reef tanks, although caution is advised due to their venomous spines. They require a well-established aquarium with plenty of hiding places and a varied diet.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 8 inches (20 cm)",
-    "size": "Medium",
-    "species": "Siganus unimaculatus",
-    "family": "Rabbitfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Yellow Blotch Rabbitfish",
-    "description": "The Yellow Blotch Rabbitfish, scientifically known as Siganus corallinus, is a marine fish species found in coral reefs of the Indo-Pacific region. It is characterized by its yellow body with blotches of black. Yellow Blotch Rabbitfish are generally peaceful and can be kept in reef tanks, although caution is advised due to their venomous spines. They require a well-established aquarium with plenty of hiding places and a varied diet.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 8 inches (20 cm)",
-    "size": "Medium",
-    "species": "Siganus corallinus",
-    "family": "Rabbitfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  
-  {
+    {
     "name": "Black Barred Convict Goby",
     "description": "The Black Barred Convict Goby, scientifically known as Amblygobius bynoensis, is a small and fascinating marine fish species belonging to the goby family. It showcases a unique color pattern with dark vertical bars on a light background, adding to its visual appeal in aquariums. This species is relatively peaceful and can be kept in community tanks with other compatible fish species.",
     "temperament": "Peaceful",
@@ -994,32 +557,6 @@
     "species": "Amblygobius rainfordi",
     "family": "Goby",
     "experienceLevel": "Beginner",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Diamond Watchman Goby",
-    "description": "The Diamond Watchman Goby, scientifically known as Valenciennea puellaris, is a charming and fascinating fish species belonging to the goby family. It is recognized for its distinctive diamond-shaped markings and playful behavior, making it a popular choice among marine aquarium enthusiasts. This goby species is relatively peaceful and can be kept with a variety of tankmates in suitable aquarium setups.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 6 inches (15 cm)",
-    "size": "Medium",
-    "species": "Valenciennea puellaris",
-    "family": "Goby",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Dracula Goby",
-    "description": "The Dracula Goby, scientifically known as Stonogobiops dracula, is a captivating marine fish species known for its unique appearance and interesting behavior. It features striking black and white coloration, resembling the iconic vampire Dracula, hence its name. This goby species is relatively peaceful but may exhibit territorial behavior towards similar-looking fish species.",
-    "temperament": "Semi-Aggressive",
-    "maxGrowthSize": "Up to 2.5 inches (6.5 cm)",
-    "size": "Small",
-    "species": "Stonogobiops dracula",
-    "family": "Goby",
-    "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
     "temperatureRange": "72°F - 80°F (22°C - 27°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
@@ -1064,33 +601,7 @@
     "temperatureRange": "72°F - 80°F (22°C - 27°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Miniatus Grouper",
-    "description": "The Miniatus Grouper, scientifically known as Cephalopholis miniata, is a vibrant marine fish species appreciated for its striking coloration and impressive size. It is native to the Indo-Pacific region and is popular among marine aquarium enthusiasts for its unique appearance. This grouper species is relatively peaceful but may become territorial as it grows larger, requiring a spacious aquarium with plenty of swimming space.",
-    "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 24 inches (60 cm)",
-    "size": "Large",
-    "species": "Cephalopholis miniata",
-    "family": "Grouper",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Panther Grouper",
-    "description": "The Panther Grouper, scientifically known as Cromileptes altivelis, is a stunning marine fish species appreciated for its unique appearance and impressive size. It is native to the Indo-Pacific region and is popular among marine aquarium enthusiasts for its striking coloration and bold patterns. This grouper species is relatively peaceful but may become aggressive towards smaller tankmates as it grows larger.",
-    "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 24 inches (60 cm)",
-    "size": "Large",
-    "species": "Cromileptes altivelis",
-    "family": "Grouper",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
- 
+  
   {
     "name": "Blood Red Hawkfish",
     "description": "The Blood Red Hawkfish, scientifically known as Cirrhitops fasciatus, is a captivating marine fish species admired for its vibrant red coloration and distinctive appearance. It is native to the Indo-Pacific region and is popular among marine aquarium enthusiasts for its bold personality and striking coloration. This hawkfish species is relatively peaceful but may exhibit territorial behavior, especially towards smaller tankmates. It requires a well-established aquarium with plenty of hiding spots and perches to thrive.",
@@ -1130,33 +641,7 @@
     "temperatureRange": "74°F - 78°F (23°C - 26°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Freckled Hawkfish",
-    "description": "The Freckled Hawkfish, scientifically known as Paracirrhites forsteri, is a captivating marine fish species admired for its unique appearance and bold personality. It is native to the Indo-Pacific region and is popular among marine aquarium enthusiasts for its striking coloration and interesting behaviors. This hawkfish species is relatively peaceful but may exhibit territorial behavior, especially towards smaller tankmates. It requires a well-established aquarium with plenty of hiding spots and perches to thrive.",
-    "temperament": "Semi-Aggressive",
-    "maxGrowthSize": "Up to 5 inches (13 cm)",
-    "size": "Small",
-    "species": "Paracirrhites forsteri",
-    "family": "Hawkfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Longnose Hawkfish",
-    "description": "The Longnose Hawkfish, scientifically known as Oxycirrhites typus, is a captivating marine fish species admired for its elongated snout and unique appearance. It is native to the Indo-Pacific region and is popular among marine aquarium enthusiasts for its striking coloration and interesting behaviors. This hawkfish species is relatively peaceful but may exhibit territorial behavior, especially towards smaller tankmates. It requires a well-established aquarium with plenty of hiding spots and perches to thrive.",
-    "temperament": "Semi-Aggressive",
-    "maxGrowthSize": "Up to 5 inches (13 cm)",
-    "size": "Small",
-    "species": "Oxycirrhites typus",
-    "family": "Hawkfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 78°F (23°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
- 
+  
   {
     "name": "Blackbar Hogfish",
     "description": "The Blackbar Hogfish, scientifically known as Bodianus opercularis, is a vibrant marine fish species belonging to the family Hogfish. It is admired for its striking coloration and bold personality, making it a popular choice among marine aquarium enthusiasts. This hogfish species is relatively peaceful but can become territorial, especially towards similar-looking species. It thrives in well-established aquariums with plenty of hiding spots and rock formations to explore.",
@@ -1196,20 +681,7 @@
     "temperatureRange": "72°F - 78°F (22°C - 26°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Red Diana Hogfish",
-    "description": "The Red Diana Hogfish, scientifically known as Bodianus diana, is a colorful marine fish species belonging to the family Hogfish. It is admired for its vibrant coloration and unique markings, making it a sought-after addition to marine aquariums. This hogfish species is relatively peaceful but can become territorial, especially towards similar-looking species. It thrives in well-established aquariums with plenty of hiding spots and rock formations to explore.",
-    "temperament": "Semi-Aggressive",
-    "maxGrowthSize": "Up to 12 inches (30 cm)",
-    "size": "Medium",
-    "species": "Bodianus diana",
-    "family": "Hogfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-
+  
   {
     "name": "Black Cap Jawfish",
     "description": "The Black Cap Jawfish, scientifically known as Opistognathus randalli, is a fascinating marine fish species belonging to the family Jawfish. It is distinguished by its striking coloration, with a black cap on its head contrasting against its lighter body. This jawfish species is known for its burrowing behavior, often creating complex burrows in sandy substrates. It prefers aquariums with plenty of sand and rock formations to mimic its natural habitat.",
@@ -1249,32 +721,6 @@
     "temperatureRange": "74°F - 80°F (23°C - 27°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Dusky Jawfish",
-    "description": "The Dusky Jawfish, scientifically known as Opistognathus whitehursti, is an intriguing marine fish species belonging to the family Jawfish. It is named for its dusky coloration, which ranges from brown to gray. This jawfish species is known for its burrowing behavior, often creating complex burrows in sandy substrates. It prefers aquariums with plenty of sand and rock formations to mimic its natural habitat.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 4 inches (10 cm)",
-    "size": "Small",
-    "species": "Opistognathus whitehursti",
-    "family": "Jawfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Yellowhead Jawfish",
-    "description": "The Yellowhead Jawfish, scientifically known as Opistognathus aurifrons, is a captivating marine fish species belonging to the family Jawfish. It is characterized by its vibrant yellow head and elongated body. This jawfish species is known for its burrowing behavior, often creating complex burrows in sandy substrates. It prefers aquariums with plenty of sand and rock formations to mimic its natural habitat.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 4 inches (10 cm)",
-    "size": "Small",
-    "species": "Opistognathus aurifrons",
-    "family": "Jawfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "74°F - 80°F (23°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
   
   {
     "name": "Zebra Lionfish",
@@ -1298,45 +744,6 @@
     "species": "Dendrochirus brachypterus",
     "family": "Lionfish",
     "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Miles Lionfish",
-    "description": "The Miles Lionfish, also known as Pterois miles, is a close relative of the Red Lionfish (Pterois volitans) and shares many similar characteristics. It features a vibrant red coloration with white stripes and long, venomous spines. Native to the Indo-Pacific region, the Miles Lionfish is a popular choice for marine aquarium enthusiasts.",
-    "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 15 inches (38 cm)",
-    "size": "Large",
-    "species": "Pterois miles",
-    "family": "Lionfish",
-    "experienceLevel": "Advanced",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Antennata Lionfish",
-    "description": "The Antennata Lionfish, also known as Pterois antennata, is a mesmerizing marine fish species characterized by its long, filamentous dorsal fins and striking coloration. Native to the Indo-Pacific region, this species is a popular choice for marine aquarium enthusiasts who appreciate its unique appearance and relatively peaceful temperament.",
-    "temperament": "Semi-Aggressive",
-    "maxGrowthSize": "Up to 8 inches (20 cm)",
-    "size": "Medium",
-    "species": "Pterois antennata",
-    "family": "Lionfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Clearfin Lionfish",
-    "description": "The Clearfin Lionfish, scientifically known as Pterois radiata, is a stunning marine fish species characterized by its translucent fins and distinctive markings. Native to the Indo-Pacific region, this species is prized for its graceful swimming behavior and is a popular choice for experienced marine aquarium enthusiasts.",
-    "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 10 inches (25 cm)",
-    "size": "Medium",
-    "species": "Pterois radiata",
-    "family": "Lionfish",
-    "experienceLevel": "Advanced",
     "waterPHRange": "8.1 - 8.4",
     "temperatureRange": "72°F - 80°F (22°C - 27°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
@@ -1381,20 +788,6 @@
     "temperatureRange": "72°F - 78°F (22°C - 26°C)",
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-    "name": "Immaculatus Puffer",
-    "description": "The Immaculatus Puffer, scientifically known as Arothron immaculatus, is a stunning marine fish species belonging to the family Puffer. It is named for its immaculate coloration and distinctive appearance. Immaculatus Puffers are typically found in tropical coral reef environments, where they feed on a diet of crustaceans, mollusks, and small fish. They have a peaceful temperament and make an eye-catching addition to a marine aquarium.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 8 inches (20 cm)",
-    "size": "Medium",
-    "species": "Tetraodontidae",
-    "family": "Puffer",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-
   
 {
   "name": "Bluespotted Stingray",
@@ -1422,46 +815,6 @@
   "temperatureRange": "75°F - 82°F (24°C - 28°C)",
   "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
-  {
-  "name": "Leopard Whipray",
-  "description": "The Leopard Whipray (Himantura leoparda) is a captivating saltwater stingray species prized for its striking leopard-like pattern and graceful swimming behavior. Found in the Indo-Pacific region, this ray inhabits shallow coastal waters and coral reefs. It requires a large aquarium with plenty of open space to swim and soft substrate to bury itself. The Leopard Whipray is carnivorous and primarily feeds on crustaceans, mollusks, and small fish.",
-  "temperament": "Peaceful",
-  "maxGrowthSize": "Up to 5 feet (150 cm)",
-  "size": "Large",
-  "species": "Himantura leoparda",
-  "family": "Rays",
-  "experienceLevel": "Advanced",
-  "waterPHRange": "8.1 - 8.4",
-  "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-  "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-  "name": "Marble Ray",
-  "description": "The Marble Ray (Taeniura meyeni) is a stunning saltwater stingray species known for its intricate marbled pattern and elegant swimming motion. Native to the Indo-Pacific region, this ray requires a large aquarium with ample swimming space and soft substrate. While generally peaceful, the Marble Ray may consume small fish and invertebrates. It is essential to provide proper hiding spots and maintain excellent water quality to ensure its well-being in captivity.",
-  "temperament": "Peaceful",
-  "maxGrowthSize": "Up to 18 inches (45 cm)",
-  "size": "Large",
-  "species": "Taeniura meyeni",
-  "family": "Rays",
-  "experienceLevel": "Advanced",
-  "waterPHRange": "8.1 - 8.4",
-  "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-  "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-  "name": "Porcupine Ray",
-  "description": "The Porcupine Ray (Urogymnus asperrimus) is an intriguing saltwater stingray species characterized by its unique appearance, featuring numerous thorny protrusions on its body. Found in the Indo-Pacific region, this ray prefers sandy or muddy substrate and requires a large aquarium with plenty of space to swim and hide. While generally peaceful, the Porcupine Ray may consume small fish and invertebrates that can fit into its mouth.",
-  "temperament": "Peaceful",
-  "maxGrowthSize": "Up to 3 feet (90 cm)",
-  "size": "Large",
-  "species": "Urogymnus asperrimus",
-  "family": "Rays",
-  "experienceLevel": "Advanced",
-  "waterPHRange": "8.1 - 8.4",
-  "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-  "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-
   
 {
   "name": "Leaf Scorpionfish",
@@ -1485,19 +838,6 @@
   "species": "Scorpaenopsis ornatissimus",
   "family": "Scorpions",
   "experienceLevel": "Intermediate",
-  "waterPHRange": "8.1 - 8.4",
-  "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-  "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-  "name": "Rhinopias Scorpionfish",
-  "description": "The Rhinopias Scorpionfish (Rhinopias frondosa) is a captivating marine fish species known for its ornate appearance and unusual hunting techniques. Found in the Indo-Pacific region, this scorpionfish inhabits deep reef slopes and rocky areas, where it camouflages itself among corals and sponges to ambush prey. Rhinopias Scorpionfish require a mature aquarium with ample hiding spots and live rock. They are carnivorous and feed on small fish and crustaceans.",
-  "temperament": "Semi-Aggressive",
-  "maxGrowthSize": "Up to 10 inches (25 cm)",
-  "size": "Medium",
-  "species": "Rhinopias frondosa",
-  "family": "Scorpions",
-  "experienceLevel": "Advanced",
   "waterPHRange": "8.1 - 8.4",
   "temperatureRange": "75°F - 82°F (24°C - 28°C)",
   "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
@@ -1529,46 +869,6 @@
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
   {
-    "name": "Kuda Seahorse",
-    "description": "The Kuda Seahorse, also known as the Common Seahorse or Yellow Seahorse, is a species of seahorse found in the Indo-Pacific region. It is characterized by its distinctive horse-like head and upright posture. Kuda Seahorses come in various colors, including yellow, orange, and brown, often with dark spots or bands. They are relatively hardy and can adapt well to aquarium environments.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 7 inches (18 cm)",
-    "size": "Small",
-    "species": "Hippocampus kuda",
-    "family": "Seahorse and Pipefish",
-    "experienceLevel": "Advanced",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Lined Seahorse",
-    "description": "The Lined Seahorse is a species of seahorse found in the Indo-Pacific region. It is characterized by its slender body and distinctive line patterns along its trunk. Lined Seahorses are typically found in shallow coastal waters, where they anchor themselves to seagrass beds and other substrates using their prehensile tails.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 7 inches (18 cm)",
-    "size": "Small",
-    "species": "Hippocampus erectus",
-    "family": "Seahorse and Pipefish",
-    "experienceLevel": "Advanced",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Mustang Seahorse",
-    "description": "The Mustang Seahorse is a species of seahorse found in the Western Atlantic Ocean. It is characterized by its slender body and distinctive coloration, which varies from brown to black with white markings. Like other seahorses, the Mustang Seahorse has a prehensile tail that it uses to anchor itself to seagrass and other substrates.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 7 inches (18 cm)",
-    "size": "Small",
-    "species": "Hippocampus zosterae",
-    "family": "Seahorse and Pipefish",
-    "experienceLevel": "Advanced",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  
-  {
     "name": "Dragonface Pipefish",
     "description": "The Dragonface Pipefish is an enchanting marine fish species belonging to the family Pipefish. It is named for its unique facial features resembling that of a dragon. Dragonface Pipefish are typically found in tropical coral reef environments, where they feed on small crustaceans and zooplankton. They have a peaceful temperament and make a fascinating addition to a marine aquarium.",
     "temperament": "Peaceful",
@@ -1584,19 +884,6 @@
   {
     "name": "Jann's Pipefish",
     "description": "Jann's Pipefish is a graceful and slender marine fish species belonging to the family Pipefish. It is native to tropical and subtropical coastal waters, where it is often found in seagrass beds and sheltered reefs. Jann's Pipefish has a peaceful temperament and prefers aquariums with plenty of live rock and hiding places. It makes a captivating addition to a marine aquarium.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 8 inches (20 cm)",
-    "size": "Medium",
-    "species": "Syngnathidae",
-    "family": "Seahorse and Pipefish",
-    "experienceLevel": "Advanced",
-    "waterPHRange": "8.0 - 8.4",
-    "temperatureRange": "72°F - 78°F (22°C - 26°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Yellow Multiband Pipefish",
-    "description": "The Yellow Multiband Pipefish is a stunning marine fish species belonging to the family Pipefish. It is characterized by its vibrant yellow coloration and multiple bands along its body. Yellow Multiband Pipefish are typically found in tropical coral reef environments, where they feed on small crustaceans and zooplankton. They have a peaceful temperament and make an attractive addition to a marine aquarium.",
     "temperament": "Peaceful",
     "maxGrowthSize": "Up to 8 inches (20 cm)",
     "size": "Medium",
@@ -1648,45 +935,6 @@
   },
   
   {
-    "name": "Big Eye Squirrelfish",
-    "description": "The Big Eye Squirrelfish, scientifically known as Neoniphon sammara, is a species of squirrelfish found in the tropical waters of the Indo-Pacific region. It is characterized by its large eyes and vibrant red coloration, which make it a popular choice for marine aquariums. Big Eye Squirrelfish are nocturnal hunters, feeding on small fish and invertebrates at night.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 6 inches (15 cm)",
-    "size": "Medium",
-    "species": "Neoniphon sammara",
-    "family": "Squirrelfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Black Bar Squirrelfish",
-    "description": "The Black Bar Squirrelfish, scientifically known as Neoniphon opercularis, is a species of squirrelfish found in the tropical waters of the Indo-Pacific region. It is characterized by its black vertical bars on a reddish body. Black Bar Squirrelfish are nocturnal hunters, feeding on small fish and invertebrates at night.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 8 inches (20 cm)",
-    "size": "Medium",
-    "species": "Neoniphon opercularis",
-    "family": "Squirrelfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Striped Squirrelfish",
-    "description": "The Striped Squirrelfish, scientifically known as Sargocentron diadema, is a species of squirrelfish found in the tropical waters of the Indo-Pacific region. It is characterized by its bright red body with horizontal blue stripes. Striped Squirrelfish are nocturnal hunters, feeding on small fish and invertebrates at night.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 10 inches (25 cm)",
-    "size": "Medium",
-    "species": "Sargocentron diadema",
-    "family": "Squirrelfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
     "name": "Achilles Tang",
     "description": "The Achilles Tang, scientifically known as Acanthurus achilles, is a striking marine fish species prized for its vibrant colors and graceful swimming. It features a dark body with a distinctive orange patch near its tail, adding to its visual appeal. Achilles Tangs require a spacious aquarium with plenty of swimming space and live rock for grazing.",
     "temperament": "Peaceful",
@@ -1706,45 +954,6 @@
     "maxGrowthSize": "Up to 12 inches (30 cm)",
     "size": "Medium",
     "species": "Paracanthurus hepatus",
-    "family": "Tangs",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Chevron Tang",
-    "description": "The Chevron Tang, scientifically known as Ctenochaetus hawaiiensis, is a species of tang native to the tropical reefs of the Pacific Ocean. It is named for the chevron-like markings on its body. Chevron Tangs are herbivores and play a vital role in controlling algae growth in aquariums.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 6 inches (15 cm)",
-    "size": "Small",
-    "species": "Ctenochaetus hawaiiensis",
-    "family": "Tangs",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Clown Tang",
-    "description": "The Clown Tang, scientifically known as Acanthurus lineatus, is a species of tang found in the Indo-Pacific region. It is named for its vibrant coloration and bold stripes, reminiscent of a clown's outfit. Clown Tangs are herbivores and should be provided with a diet rich in algae and plant matter.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 15 inches (38 cm)",
-    "size": "Large",
-    "species": "Acanthurus lineatus",
-    "family": "Tangs",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 82°F (22°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Convict Tang",
-    "description": "The Convict Tang, scientifically known as Acanthurus triostegus, is a species of tang found in the Indo-Pacific region. It is named for the bold black bars across its body. Convict Tangs are herbivores and should be provided with a diet rich in algae and plant matter to thrive in aquariums.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 8 inches (20 cm)",
-    "size": "Medium",
-    "species": "Acanthurus triostegus",
     "family": "Tangs",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
@@ -1792,19 +1001,6 @@
     "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
   },
   {
-    "name": "Humu Rectangle Triggerfish",
-    "description": "The Humu Rectangle Triggerfish, scientifically known as Rhinecanthus rectangulus, is a species of triggerfish found in the Indo-Pacific region. It is recognized for its distinctive rectangular shape and vibrant coloration. Humu Rectangle Triggerfish are known for their bold personalities and can be aggressive towards tankmates, so they are best kept in larger aquariums with suitable companions.",
-    "temperament": "Aggressive",
-    "maxGrowthSize": "Up to 10 inches (25 cm)",
-    "size": "Medium",
-    "species": "Rhinecanthus rectangulus",
-    "family": "Triggerfish",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "75°F - 82°F (24°C - 28°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
     "name": "Picasso Triggerfish",
     "description": "The Picasso Triggerfish, scientifically known as Rhinecanthus aculeatus, is a species of triggerfish found in the tropical waters of the Indo-Pacific region. It is named for its vibrant and intricate pattern, reminiscent of a piece of abstract art. Picasso Triggerfish are known for their bold personalities and can be aggressive towards tankmates, so they are best kept in larger aquariums with suitable companions.",
     "temperament": "Aggressive",
@@ -1838,45 +1034,6 @@
     "maxGrowthSize": "Up to 4 inches (10 cm)",
     "size": "Small",
     "species": "Cirrhilabrus cyanopleura",
-    "family": "Wrasse",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Candy Cane Wrasse",
-    "description": "The Candy Cane Wrasse, scientifically known as Cirrhilabrus cf. solorensis, is a species of wrasse found in the coral reefs of the Indo-Pacific region. It is named for its candy cane-like stripes and vibrant coloration. Candy Cane Wrasse are relatively peaceful and can be kept in reef aquariums.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 4 inches (10 cm)",
-    "size": "Small",
-    "species": "Cirrhilabrus cf. solorensis",
-    "family": "Wrasse",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Carpenters Flashy Wrasse",
-    "description": "The Carpenters Flashy Wrasse, scientifically known as Paracheilinus carpenteri, is a species of wrasse found in the coral reefs of the Indo-Pacific region. It is known for its vibrant coloration and active swimming behavior. Carpenters Flashy Wrasse are relatively peaceful and can be kept in reef aquariums.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 3 inches (8 cm)",
-    "size": "Small",
-    "species": "Paracheilinus carpenteri",
-    "family": "Wrasse",
-    "experienceLevel": "Intermediate",
-    "waterPHRange": "8.1 - 8.4",
-    "temperatureRange": "72°F - 80°F (22°C - 27°C)",
-    "image": "https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-  },
-  {
-    "name": "Darwins Glow Fairy Wrasse",
-    "description": "The Darwins Glow Fairy Wrasse, scientifically known as Cirrhilabrus cf. cyanopleura, is a species of wrasse found in the coral reefs of the Indo-Pacific region. It is known for its vibrant coloration and striking appearance. Darwins Glow Fairy Wrasse are relatively peaceful and can be kept in reef aquariums.",
-    "temperament": "Peaceful",
-    "maxGrowthSize": "Up to 4 inches (10 cm)",
-    "size": "Small",
-    "species": "Cirrhilabrus cf. cyanopleura",
     "family": "Wrasse",
     "experienceLevel": "Intermediate",
     "waterPHRange": "8.1 - 8.4",
