@@ -260,9 +260,7 @@ section {
 }
 .care-row{
   font-size: small;
-}
-.care-row .col {
-  min-height: 300px;
+  
 }
 .fresh-care {
   background-image: url('https://images.pexels.com/photos/9408370/pexels-photo-9408370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
