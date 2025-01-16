@@ -13,9 +13,9 @@ function SaltPage() {
     <>
     <div className="saltpage">
       <WaterCategory />
-      <div className="p-2 border rounded salt-comp my-2">
+      <div className="m-5 border rounded salt-comp">
         <Container>
-        <Row>
+        <Row className="p-5">
           <Col className="">
             <h1 className="text-center text-primary font-bold">Saltwater</h1>
           </Col>

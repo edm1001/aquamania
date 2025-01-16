@@ -11,24 +11,26 @@ import Contact from "../Components/Contact";
 function FreshPage() {
   return (
     <>
-    <div className="freshpage">
-      <WaterCategory />
-      <div className="p-2 border rounded fresh-comp my-2">
-        <Container >
-          <Row className="my-5">
-            <Col className="">
-              <h1 className="text-center text-primary font-bold">Freshwater</h1>
-            </Col>
-            <Col>
-              <Searchbar isFreshwaterPage={true} />
-            </Col>
-          </Row>
-          <FishCategory isFreshwater={true} />
-        </Container>
+      <div className="freshpage">
+        <WaterCategory />
+        <div className="m-5 border rounded fresh-comp">
+          <Container>
+            <Row className="p-5">
+              <Col className="">
+                <h1 className="text-center text-primary font-bold">
+                  Freshwater
+                </h1>
+              </Col>
+              <Col>
+                <Searchbar isFreshwaterPage={true} />
+              </Col>
+            </Row>
+            <FishCategory isFreshwater={true} />
+          </Container>
+        </div>
+        <About />
+        <Contact />
       </div>
-      <About />
-      <Contact/>
-    </div>
     </>
   );
 }
