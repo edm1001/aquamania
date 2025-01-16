@@ -3,18 +3,20 @@ import AboutComp from "../Components/About";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Contact from "../Components/Contact";
+import Container from "react-bootstrap/Container";
 
 function CarePage() {
   return (
     <>
       <div className="care-section bg-dark text-light py-5">
         <h1 className="text-center">Care Tips</h1>
-        <p className="text-center mb-4">
+        <p className="text-center mb-5">
           For essential care of your fish, plants, and corals, we recommend
           conducting thorough research on your specific species to ensure the
           best results.
         </p>
-        <Row className="care-row ">
+        <Container>
+        <Row className="care-row">
           {/* Freshwater Fish Care */}
           <Col
             className="p-5 text-white fresh-care mb-1"
@@ -80,6 +82,7 @@ function CarePage() {
             </ul>
           </Col>
         </Row>
+        </Container>
       </div>
       <Contact />
       <AboutComp />
