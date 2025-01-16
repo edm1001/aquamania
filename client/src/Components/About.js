@@ -15,7 +15,7 @@ const About = () => {
         variants={fadeIn}
         initial="hidden"
         animate="visible"
-        className="text-center h-100 w-100 py-5" 
+        className="text-center h-100 w-100 py-5 bg-light" 
         id="about"
       >
         <Row className="my-2 text-white">
@@ -40,7 +40,7 @@ const About = () => {
               className="py-2"
             >
               <h1 className="fw-semibold abt-title">About Aquamania</h1>
-              <p className="text-white">
+              <p className="text-secondary abt-text">
                 I created Aquamania as a go-to source for most fish in the aquatic hobby. Whether you are into freshwater or marine aquariums, this site is dedicated to provide the information & tips for your fish or inspire you to find something new.
                 <br />
                 Whether starting out or a seasoned pro, we're here to share the passion and knowledge with all.

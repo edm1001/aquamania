@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="py-5 text-light contact-section">
-      <h2 className="text-center">Contact Us</h2>
+    <div className="py-5 text-light contact-section" id="contact">
+      <h2 className="text-center font-bold">Contact Us</h2>
       <p className="text-center">Sign up to get updates and future deals!</p>
       <div className="row mx-4">
         <form className="d-flex justify-content-center">

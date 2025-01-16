@@ -4,7 +4,7 @@ import Welcome from '../Components/Welcome.js';
 
 function Home() {
   return (
-    <div className='bg-dark'>
+    <div className='bg-light'>
     <Welcome/>
     <Contact/>
     <About/>

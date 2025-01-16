@@ -7,7 +7,7 @@
 html, body {
   height:100%;
   scroll-behavior: smooth;
-  background-color: var(--textcolor);
+
   font-family: 'Roboto', sans-serif;
 }
 :root {
@@ -51,7 +51,9 @@ section {
   background-color: transparent;
   outline: none;
 }
-
+.nav-link{
+  text-decoration: none;
+}
 .custom-menu:focus {
   outline: none;
   box-shadow: none;
