@@ -1,6 +1,6 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
-import Carousel from "react-bootstrap/carousel";
+import Carousel from "react-bootstrap/Carousel";
 import WaterCategory from "./Category/WaterCategory";
 import { Link } from "react-router-dom";
 
