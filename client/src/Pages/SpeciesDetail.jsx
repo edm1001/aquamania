@@ -3,6 +3,8 @@ import { Col, Row, Container } from "react-bootstrap";
 import freshwaterFishSpecies from "../db/Fresh/FeshwaterFishData.json";
 import saltwaterFishSpecies from "../db/Salt/SaltwaterFishData.json";
 import { FaArrowLeft } from "react-icons/fa";
+import Contact from "../Components/Contact";
+import About from "../Components/About";
 
 const SpeciesDetail = () => {
   const { name } = useParams();
@@ -15,6 +17,7 @@ const SpeciesDetail = () => {
     return <div>Species not found</div>;
   }
   return (
+    <>
     <Container className="p-5 species-section">
       <div className="species-card p-4 rounded">
       <Row className="mb-4">
@@ -63,6 +66,9 @@ const SpeciesDetail = () => {
       </Row>
             </div>
     </Container>
+    <Contact/>
+    <About/>
+    </>
   );
 };
 export default SpeciesDetail;

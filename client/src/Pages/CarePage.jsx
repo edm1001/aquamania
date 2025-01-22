@@ -8,9 +8,9 @@ import Container from "react-bootstrap/Container";
 function CarePage() {
   return (
     <>
-      <div className="care-section bg-dark text-light py-5">
+      <div className="care-section bg-success text-light py-5">
         <h1 className="text-center">Care Tips</h1>
-        <p className="text-center mb-5">
+        <p className="text-center p-2 mb-3">
           For essential care of your fish, plants, and corals, we recommend
           conducting thorough research on your specific species to ensure the
           best results.
@@ -84,8 +84,8 @@ function CarePage() {
         </Row>
         </Container>
       </div>
-      <Contact />
       <AboutComp />
+      <Contact />
     </>
   );
 }

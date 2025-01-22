@@ -40,7 +40,10 @@ const Header = () => {
         </Navbar.Toggle>
         <Navbar.Collapse className="">
           <Nav className="d-flex justify-content-end font-bold">
-            <NavDropdown title="Fish " className="text-center">
+            <Nav.Link href="/" className="text-center">
+              Home
+            </Nav.Link>
+            <NavDropdown title="Fish" className="text-center">
               <Link to="/freshpage" className="dropdown-item text-center">
                 Freshwater Fish
               </Link>
